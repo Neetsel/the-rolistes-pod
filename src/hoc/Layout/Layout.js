@@ -9,7 +9,16 @@ const Layout = props => {
 
     return (
         <Aux>
-            
+            <Toolbar>
+
+            </Toolbar>
+            <SideDrawer>
+
+            </SideDrawer>
+{/* 
+            <main>
+                {props.children}
+            </main> */}
         </Aux>
     )
 }
