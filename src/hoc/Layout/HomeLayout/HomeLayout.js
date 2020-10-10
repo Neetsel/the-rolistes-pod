@@ -5,8 +5,7 @@ import classes from './HomeLayout.module.css';
 
 const HomeLayout = (props) => (
     <Aux>
-        <ComingSoon/>
-        zeretry
+        <ComingSoon/>        
     </Aux>
 )
 

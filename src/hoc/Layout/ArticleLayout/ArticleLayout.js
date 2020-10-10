@@ -5,8 +5,7 @@ import classes from './ArticleLayout.module.css';
 
 const ArticleLayout = (props) => (
     <Aux>
-        <Article/>
-        fsdfdsf
+        <Article/>        
     </Aux>
 )
 
