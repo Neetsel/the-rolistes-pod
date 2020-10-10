@@ -4,7 +4,7 @@ import classes from './Layout.module.css';
 
 import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
-import { Container } from 'react-bootstrap';
+
 
 const Layout = props => {
 
@@ -23,10 +23,8 @@ const Layout = props => {
             <Toolbar drawerToggleClicked = {sideDrawerToggleHandler}/>
             <SideDrawer open={sideDrawerIsVisible} closed={sideDrawerClosedHandler}/>
 
-            <main>
-                <Container>
-                    {props.children}
-                </Container>
+            <main>                
+                {props.children}           
             </main>  
         </Aux>
     )
