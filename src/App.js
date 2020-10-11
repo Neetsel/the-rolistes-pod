@@ -1,7 +1,6 @@
 import React, { Suspense } from 'react';
 import Layout from './hoc/Layout/Layout';
-import HomeLayout from './hoc/Layout/HomeLayout/HomeLayout';
-import ArticleLayout from './hoc/Layout/ArticleLayout/ArticleLayout';
+
 
 import { Redirect, Route, Switch, withRouter } from 'react-router-dom';
 import './App.css';
@@ -14,13 +13,25 @@ const Article = React.lazy(()=>{
   return import ('./hoc/Layout/ArticleLayout/ArticleLayout');
 });
 
+const News = React.lazy(()=>{
+  return import ('./hoc/Layout/NewsLayout/NewsLayout');
+});
+
+const Podcast = React.lazy(()=>{
+  return import ('./hoc/Layout/PodcastLayout/PodcastLayout');
+});
+
+const AboutUs = React.lazy(()=>{
+  return import ('./hoc/Layout/AboutUsLayout/AboutUsLayout');
+});
+
 function App() {
   let routes = (
     <Switch>
-      <Route path="/news" render={(props) =>  <Article {...props}/>}/>
-      <Route path="/podcast" render={(props) =>  <Article {...props}/>}/>
+      <Route path="/news" render={(props) =>  <News {...props}/>}/>
+      <Route path="/podcast" render={(props) =>  <Podcast {...props}/>}/>
       <Route path="/paris_gondo" render={(props) =>  <Article {...props}/>}/>
-      <Route path="/about_us" render={(props) =>  <Article {...props}/>}/>
+      <Route path="/about_us" render={(props) =>  <AboutUs {...props}/>}/>
       <Route path="/" exact render={(props) =>  <Home {...props}/>}/>            
     </Switch>
   );
