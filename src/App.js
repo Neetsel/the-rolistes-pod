@@ -45,10 +45,23 @@ function App() {
  
   axios.get(xmlData, {
     "Content-Type": "application/xml; charset=utf-8"
-  })
-  .then((response) => {
+    })
+    .then((response) => {
       console.log('Your xml file as string', response.data);
-  });
+
+      let xml2js = require('xml2js');
+      let parser = new xml2js.Parser();
+              parser.parseString(
+                  response.data,
+                  (err,result) => {
+                      console.log(result);
+                  }
+              )
+
+    })
+    .catch(error => {
+      console.log(error);
+    });
 
 
 
