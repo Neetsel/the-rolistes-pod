@@ -1,9 +1,11 @@
 import React, { Suspense } from 'react';
 import Layout from './hoc/Layout/Layout';
-
+import axios from 'axios';
 
 import { Redirect, Route, Switch, withRouter } from 'react-router-dom';
 import './App.css';
+
+import data from './assets/therolistespodcast.post.xml'
 
 const Home = React.lazy(()=>{
   return import ('./hoc/Layout/HomeLayout/HomeLayout');
@@ -35,6 +37,10 @@ function App() {
       <Route path="/" exact render={(props) =>  <Home {...props}/>}/>            
     </Switch>
   );
+
+  if(data){
+    console.log(data);
+  }
 
   return (
       <Layout>
