@@ -1,11 +1,15 @@
 import React, { Suspense } from 'react';
 import Layout from './hoc/Layout/Layout';
-import axios from 'axios';
+
+import xmlData from './assets/therolistespodcast.post.xml'
+
+
 
 import { Redirect, Route, Switch, withRouter } from 'react-router-dom';
 import './App.css';
+import axios from 'axios';
 
-import data from './assets/therolistespodcast.post.xml'
+
 
 const Home = React.lazy(()=>{
   return import ('./hoc/Layout/HomeLayout/HomeLayout');
@@ -38,9 +42,15 @@ function App() {
     </Switch>
   );
 
-  if(data){
-    console.log(data);
-  }
+ 
+  axios.get(xmlData, {
+    "Content-Type": "application/xml; charset=utf-8"
+  })
+  .then((response) => {
+      console.log('Your xml file as string', response.data);
+  });
+
+
 
   return (
       <Layout>
