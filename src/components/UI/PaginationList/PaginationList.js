@@ -1,7 +1,7 @@
 
 import React from 'react';
 import classes from './PaginationList.module.css';
-import Pagination from 'react-bootstrap/Pagination';
+import { Pagination } from 'react-bootstrap';
 
 
 const PaginationList = () => {
@@ -30,7 +30,7 @@ const PaginationList = () => {
         </div>
     );
 
-    render(paginationBasic);
+    return(paginationBasic);
 };
 
 export default PaginationList;
