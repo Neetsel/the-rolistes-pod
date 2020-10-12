@@ -55,6 +55,11 @@ function App() {
                   response.data,
                   (err,result) => {
                       console.log(result);
+                      const fetchedPosts = result["rss"]["channel"][0]["item"];
+                      
+                      console.log(fetchedPosts);
+                      console.log(fetchedPosts.length);
+                      // for (let )
                   }
               )
 
