@@ -59,6 +59,9 @@ function App() {
                       
                       console.log(fetchedPosts);
                       console.log(fetchedPosts.length);
+                      console.log(fetchedPosts[1]);
+                      console.log(fetchedPosts[1]["content:encoded"]);
+                      
                       // for (let )
                   }
               )
