@@ -1,23 +1,24 @@
 import * as actionTypes from './actionTypes';
-import xmlData from '../../../assets/therolistespodcast.post.xml';
+import axios from 'axios';
+import xmlData from '../../assets/therolistespodcast.xml';
 
 
-export const fetchPostStart = () => {
+export const fetchPostsStart = () => {
     return {
-        type: actionTypes.FETCH_POST_START,
+        type: actionTypes.FETCH_POSTS_START,
     }
 };
 
-export const fetchPostSuccess = (posts) => {
+export const fetchPostsSuccess = (posts) => {
     return {
-        type: actionTypes.FETCH_POST_SUCCESS,
+        type: actionTypes.FETCH_POSTS_SUCCESS,
         posts: posts
     }
 };
 
-export const fetchPostFailed = (error) => {
+export const fetchPostsFailed = (error) => {
     return {
-        type: actionTypes.FETCH_POST_FAILED,
+        type: actionTypes.FETCH_POSTS_FAILED,
         error: error
     }
 };
@@ -25,7 +26,7 @@ export const fetchPostFailed = (error) => {
 export const fetchPosts = () => {
 
     return dispatch => {
-        dispatch(fetchPostStart());
+        dispatch(fetchPostsStart());
           
         
         axios.get(xmlData, {
@@ -47,7 +48,7 @@ export const fetchPosts = () => {
                                     ...result["rss"]["channel"][0]["item"][key],
                                     id:key
                                 });
-                                console.log(fetchedPosts[key]);
+                                console.log(fetchedPosts[key].title);
                             }
                             
                             // console.log(fetchedPosts);
@@ -58,12 +59,12 @@ export const fetchPosts = () => {
                        
                         }
                     )
-            dispatch(fetchPostSuccess(posts));
+            dispatch(fetchPostsSuccess());
     
         })
         .catch(error => {
             console.log(error);
-            dispatch(fetchPostFailed(error));
+            dispatch(fetchPostsFailed(error));
         });
 
 

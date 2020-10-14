@@ -7,18 +7,18 @@ const initialState = {
     loading: false,
 };
 
-const fetchOrdersStart = (state, action) => {
+const fetchPostsStart = (state, action) => {
     return updateObject(state, {loading: true}) 
 };
 
-const fetchOrdersSuccess = (state, action) => {
+const fetchPostsSuccess = (state, action) => {
     return updateObject(state,{
         posts: action.posts,
         loading: false
     });
 };
 
-const fetchOrdersFail = (state, action) => {
+const fetchPostsFailed = (state, action) => {
     return updateObject(state, {loading: false})  
 };
 
@@ -26,14 +26,14 @@ const reducer = (state =initialState, action) => {
     
     switch (action.type){           
 
-        case actionTypes.FETCH_ORDERS_START:
-            return fetchOrdersStart(state, action); 
+        case actionTypes.FETCH_POSTS_START:
+            return fetchPostsStart(state, action); 
 
-        case actionTypes.FETCH_ORDERS_SUCCESS:      
-            return fetchOrdersSuccess(state, action); 
+        case actionTypes.FETCH_POSTS_SUCCESS:      
+            return fetchPostsSuccess(state, action); 
 
-        case actionTypes.FETCH_ORDERS_FAIL:
-            return fetchOrdersFail(state, action); 
+        case actionTypes.FETCH_POSTS_FAILED:
+            return fetchPostsFailed(state, action); 
 
         default:
             return state;

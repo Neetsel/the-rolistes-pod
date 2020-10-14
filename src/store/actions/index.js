@@ -1,3 +1,3 @@
 export {
     fetchPosts
-} from './post';
+} from './posts';
