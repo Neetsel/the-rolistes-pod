@@ -19,11 +19,9 @@ const Posts = props => {
     
     let posts = <Spinner />;
     if(!props.loading){
-        orders =props.orders.map(order => (
+        posts =props.posts.map(post => (
             <Post 
-                key={order.id}
-                ingredients={order.ingredients}
-                price={order.price} />
+                />
         ))
     }
     return (
@@ -47,4 +45,4 @@ const mapDispatchToProps = dispatch => {
     };
 };
 
-export default connect(mapStateToProps,mapDispatchToProps)(withErrorHandler(Posts, axios));
+export default connect(mapStateToProps,mapDispatchToProps)(Posts);

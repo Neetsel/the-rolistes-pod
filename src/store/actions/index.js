@@ -1,3 +1,3 @@
-// export {
-
-// } from './post';
+export {
+    fetchPosts
+} from './post';

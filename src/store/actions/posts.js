@@ -22,7 +22,7 @@ export const fetchPostFailed = (error) => {
     }
 };
 
-export const fetchPosts = (token) => {
+export const fetchPosts = () => {
 
     return dispatch => {
         dispatch(fetchPostStart());
