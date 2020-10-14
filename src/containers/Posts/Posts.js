@@ -20,8 +20,8 @@ const Posts = props => {
     let posts = <Spinner />;
     if(!props.loading){
         posts =props.posts.map(post => (
-            <Post 
-                />
+            <Post/>
+            
         ))
     }
     return (
@@ -34,8 +34,8 @@ const Posts = props => {
 
 const mapStateToProps = state => {
     return {
-        posts: state.post.posts,
-        loading: state.post.loading,
+        posts: state.posts.posts,
+        loading: state.posts.loading,
     };
 };
 

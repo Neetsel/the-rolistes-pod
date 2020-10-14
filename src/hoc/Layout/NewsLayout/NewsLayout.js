@@ -3,15 +3,18 @@ import Aux from '../../Auxiliary/Auxiliary';
 import Posts from '../../../containers/Posts/Posts';
 import classes from './NewsLayout.module.css';
 import PaginationList from '../../../components/UI/PaginationList/PaginationList';
+import { connect } from 'react-redux';
 
 
 
 const NewsLayout = (props) => (
     <Aux>
-        <Posts/>
+        <Posts {...props} />
         <PaginationList/>
          
     </Aux>
 )
 
-export default NewsLayout;
+
+
+export default connect()(NewsLayout);

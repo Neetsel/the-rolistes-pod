@@ -1,13 +1,9 @@
 import React, { Suspense } from 'react';
 import Layout from './hoc/Layout/Layout';
 
-import xmlData from './assets/therolistespodcast.xml'
-
-
-
 import { Redirect, Route, Switch, withRouter } from 'react-router-dom';
 import './App.css';
-import axios from 'axios';
+
 
 
 

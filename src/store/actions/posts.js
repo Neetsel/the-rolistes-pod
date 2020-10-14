@@ -37,21 +37,28 @@ export const fetchPosts = () => {
     
             let xml2js = require('xml2js');
             let parser = new xml2js.Parser();
+            const fetchedPosts = [];
                     parser.parseString(
                         response.data,
                         (err,result) => {
                             console.log(result);
-                            const fetchedPosts = [];
+                            console.log(result["rss"]["channel"][0]["item"][0]["wp:status"]);
 
                             for (let key in result["rss"]["channel"][0]["item"]) {
-                                fetchedPosts.push({
-                                    ...result["rss"]["channel"][0]["item"][key],
-                                    id:key
-                                });
-                                console.log(fetchedPosts[key].title);
+                                
+                                switch(result["rss"]["channel"][0]["item"][key]["wp:status"][0]){
+
+                                    case "publish": fetchedPosts.push({
+                                        ...result["rss"]["channel"][0]["item"][key],
+                                        id:key
+                                    });
+
+                                    // console.log(fetchedPosts[key].title[0]);
+
+                                }                               
                             }
                             
-                            // console.log(fetchedPosts);
+                            console.log(fetchedPosts);
                             // console.log(fetchedPosts.length);
                             // console.log(fetchedPosts[1]);
                             // console.log(fetchedPosts[2]["content:encoded"]);
@@ -59,7 +66,7 @@ export const fetchPosts = () => {
                        
                         }
                     )
-            dispatch(fetchPostsSuccess());
+            dispatch(fetchPostsSuccess(fetchedPosts));
     
         })
         .catch(error => {
