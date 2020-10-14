@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import Layout from './hoc/Layout/Layout';
 
-import xmlData from './assets/therolistespodcast.post.xml'
+import xmlData from './assets/therolistespodcast.xml'
 
 
 
@@ -60,7 +60,7 @@ function App() {
                       console.log(fetchedPosts);
                       console.log(fetchedPosts.length);
                       console.log(fetchedPosts[1]);
-                      console.log(fetchedPosts[1]["content:encoded"]);
+                      console.log(fetchedPosts[2]["content:encoded"]);
                       
                       // for (let )
                   }
