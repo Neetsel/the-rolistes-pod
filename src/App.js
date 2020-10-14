@@ -42,41 +42,11 @@ function App() {
     </Switch>
   );
 
- 
-  axios.get(xmlData, {
-    "Content-Type": "application/xml; charset=utf-8"
-    })
-    .then((response) => {
-      console.log('Your xml file as string', response.data);
-
-      let xml2js = require('xml2js');
-      let parser = new xml2js.Parser();
-              parser.parseString(
-                  response.data,
-                  (err,result) => {
-                      console.log(result);
-                      const fetchedPosts = result["rss"]["channel"][0]["item"];
-                      
-                      console.log(fetchedPosts);
-                      console.log(fetchedPosts.length);
-                      console.log(fetchedPosts[1]);
-                      console.log(fetchedPosts[2]["content:encoded"]);
-                      
-                      // for (let )
-                  }
-              )
-
-    })
-    .catch(error => {
-      console.log(error);
-    });
-
-
-
   return (
       <Layout>
         <Suspense fallback={<p>Loading...</p>}>
           {routes}
+
         </Suspense>        
       </Layout>
   );

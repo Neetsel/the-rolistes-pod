@@ -1,11 +1,11 @@
 import React from 'react'
 import Aux from '../../hoc/Auxiliary/Auxiliary';
-import classes from './Article.module.css';
+import classes from './Post.module.css';
 
-const Article = (props) => (
+const Post = (props) => (
     <Aux>
         Article
     </Aux>
 )
 
-export default Article;
+export default Post;
