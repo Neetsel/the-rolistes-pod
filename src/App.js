@@ -11,8 +11,8 @@ const Home = React.lazy(()=>{
   return import ('./hoc/Layout/HomeLayout/HomeLayout');
 });
 
-const Article = React.lazy(()=>{
-  return import ('./hoc/Layout/ArticleLayout/ArticleLayout');
+const Post = React.lazy(()=>{
+  return import ('./hoc/Layout/PostLayout/PostLayout');
 });
 
 const News = React.lazy(()=>{
@@ -32,7 +32,7 @@ function App() {
     <Switch>
       <Route path="/news" render={(props) =>  <News {...props}/>}/>
       <Route path="/podcast" render={(props) =>  <Podcast {...props}/>}/>
-      <Route path="/paris_gondo" render={(props) =>  <Article {...props}/>}/>
+      <Route path="/paris_gondo" render={(props) =>  <Post {...props}/>}/>
       <Route path="/about_us" render={(props) =>  <AboutUs {...props}/>}/>
       <Route path="/" exact render={(props) =>  <Home {...props}/>}/>            
     </Switch>

@@ -1,12 +1,12 @@
 import React from 'react';
 import Aux from '../../Auxiliary/Auxiliary';
 import Article from '../../../components/Post/Post';
-import classes from './ArticleLayout.module.css';
+import classes from './PostLayout.module.css';
 
-const ArticleLayout = (props) => (
+const PostLayout = (props) => (
     <Aux>
         <Article/>        
     </Aux>
 )
 
-export default ArticleLayout;
+export default PostLayout;
