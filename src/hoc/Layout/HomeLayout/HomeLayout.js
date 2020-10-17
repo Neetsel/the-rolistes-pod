@@ -2,10 +2,13 @@ import React from 'react';
 import Aux from '../../Auxiliary/Auxiliary';
 import ComingSoon from '../../../components/ComingSoon/ComingSoon';
 import classes from './HomeLayout.module.css';
+import Footer from '../../../components/Footer/Footer';
 
 const HomeLayout = (props) => (
     <Aux>
-        <ComingSoon/>        
+        <ComingSoon/>
+        
+        <Footer/>        
     </Aux>
 )
 

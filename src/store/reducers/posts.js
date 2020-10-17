@@ -4,6 +4,8 @@ import { updateObject } from '../../shared/utility';
 
 const initialState = {
     posts:[],
+    news:[],
+    podcast:[],
     loading: false,
 };
 
@@ -14,6 +16,9 @@ const fetchPostsStart = (state, action) => {
 const fetchPostsSuccess = (state, action) => {
     return updateObject(state,{
         posts: action.posts,
+        news: action.news,
+        podcast: action.podcast,
+        gondo: action.gondo,
         loading: false
     });
 };

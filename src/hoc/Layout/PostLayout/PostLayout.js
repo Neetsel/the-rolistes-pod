@@ -8,6 +8,7 @@ import Contact from '../../../components/side/Contact/Contact';
 import Support from '../../../components/side/Support/Support';
 import RecommendedPosts from '../../../components/side/Recommended/RecommendedPosts';
 import PaginationList from '../../../components/UI/PaginationList/PaginationList';
+import Footer from '../../../components/Footer/Footer';
 
 const PostLayout = (props) => (
     <Aux>
@@ -27,7 +28,10 @@ const PostLayout = (props) => (
 
                 </Col>
             </Row>
-        </Container>          
+        </Container>    
+        
+        <Footer/>  
+            
     </Aux>
 )
 

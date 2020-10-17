@@ -8,6 +8,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Follow from '../../../components/side/Follow/Follow';
 import Contact from '../../../components/side/Contact/Contact';
 import Support from '../../../components/side/Support/Support';
+import Footer from '../../../components/Footer/Footer';
 
 
 
@@ -25,7 +26,8 @@ const NewsLayout = (props) => (
                     <Support />
                 </Col>
             </Row>
-        </Container>             
+        </Container>  
+        <Footer/>           
     </Aux>
 )
 
