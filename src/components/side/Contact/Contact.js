@@ -4,6 +4,7 @@ import Aux from '../../../hoc/Auxiliary/Auxiliary';
 const Contact = (props) => {
     return (
         <Aux>
+            Contact
             {/* <section>							
                 <div class="row no-padding">
                     <div class="col-12 ">

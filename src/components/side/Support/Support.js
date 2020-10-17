@@ -4,6 +4,7 @@ import Aux from '../../../hoc/Auxiliary/Auxiliary';
 const Support = (props) => {
     return (
         <Aux>  
+            Support
             {/* <section>
                 <h2 class="section-title-side"><span class="text-title-side">Support Us</span></h2>
                 <div class="row no-padding">

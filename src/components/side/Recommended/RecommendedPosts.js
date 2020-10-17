@@ -4,6 +4,7 @@ import Aux from '../../../hoc/Auxiliary/Auxiliary';
 const RecommendedPosts = (props) => {
     return (
         <Aux>
+            Recommended
             
         </Aux>
     )

@@ -4,6 +4,7 @@ import Aux from '../../../hoc/Auxiliary/Auxiliary';
 const Follow = (props) => {
     return (
         <Aux>
+            Follow
             {/* <section>
                     <div class="row no-padding">
                         <div class="col-12">

@@ -15,11 +15,11 @@ const NewsLayout = (props) => (
     <Aux>
         <Container>
             <Row>
-                <Col xs={12} lg={8}>
+                <Col lg={8} xs={12} >
                     <Posts {...props} />
                     <PaginationList/>
                 </Col>
-                <Col xs={12} lg={8}>
+                <Col  lg={4} xs={12}>
                     <Follow />                    
                     <Contact />
                     <Support />
