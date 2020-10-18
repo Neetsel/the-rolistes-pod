@@ -98,7 +98,7 @@ export const fetchPosts = () => {
                     console.log(fetchedPosts);
                     console.log(fetchedNews);
                     console.log(fetchedPodcast);
-                    console.log(fetchedGondo);                                
+                    console.log(fetchedGondo);                       
                 }
             )
             

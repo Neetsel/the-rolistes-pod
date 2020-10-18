@@ -21,9 +21,17 @@ const NewsLayout = (props) => (
                     <PaginationList/>
                 </Col>
                 <Col  lg={4} xs={12}>
-                    <Follow />                    
-                    <Contact />
-                    <Support />
+                    <Row>  
+                        <Col xs={12}>
+                            <Follow /> 
+                        </Col>                  
+                        <Col xs={12}>
+                            <Contact />
+                        </Col>  
+                        <Col xs={12}>
+                            <Support />
+                        </Col>                                         
+                    </Row>    
                 </Col>
             </Row>
         </Container>  

@@ -5,7 +5,7 @@ const PodcastTile = (props) => {
 
     return (
         <Aux>
-
+            Tile
         </Aux>
     )
 }
