@@ -48,76 +48,57 @@ export const fetchPosts = () => {
             parser.parseString(
                 response.data,
                 (err,result) => {
-                    // console.log(result);
-                    // console.log(result["rss"]["channel"][0]["item"][1]["category"].length);
-                    // console.log(result["rss"]["channel"][0]["item"][1]["category"][0]["$"]);
-                    // console.log(result["rss"]["channel"][0]["item"][1]["category"][0]["$"]["domain"]);
-                    // console.log(result["rss"]["channel"][0]["item"][1]["category"][0]["$"]["nicename"]);
 
-                    for (let key in result["rss"]["channel"][0]["item"]) {
+                    for (let key in result["rss"]["channel"][0]["item"]) {                           
                         
-                        switch(result["rss"]["channel"][0]["item"][key]["wp:status"][0]){
+                        fetchedPosts.push({
+                            ...result["rss"]["channel"][0]["item"][key],
+                            id:key
+                        });
+                                                
+                        const currentDate = new Date();
+                        const publishDate = new Date(fetchedPosts[key]["pubDate"][0]);                        
 
-                            case "publish": 
-                                fetchedPosts.push({
-                                ...result["rss"]["channel"][0]["item"][key],
-                                id:key
-                            });
+                        if(fetchedPosts[key]["category"] && (
+                            fetchedPosts[key]["wp:status"][0] === "publish" || (
+                                fetchedPosts[key]["wp:status"][0] === "draft" && currentDate.getTime() > publishDate.getTime()
+                                )
+                            )
+                        ){
 
-                            // console.log(fetchedPosts[key].title[0]);
-
-                        }                
-                        
-                        // console.log(result["rss"]["channel"][0]["item"][key]["category"]);
-
-                        if(result["rss"]["channel"][0]["item"][key]["category"]){
-
-                        
-                            for (let i=0; i < result["rss"]["channel"][0]["item"][key]["category"].length; i++) {
-
+                            for (let i=0; i < fetchedPosts[key]["category"].length; i++) {
                                 
-                                switch(result["rss"]["channel"][0]["item"][key]["category"][i]["$"]["nicename"]){
+                                switch(fetchedPosts[key]["category"][i]["$"]["nicename"]){
 
                                     case "news": 
                                         fetchedNews.push({
-                                        ...result["rss"]["channel"][0]["item"][key],
+                                        ...fetchedPosts[key],
                                         id:key                                                
                                         });
                                         break;
 
                                     case "podcast": 
                                         fetchedPodcast.push({
-                                        ...result["rss"]["channel"][0]["item"][key],
+                                        ...fetchedPosts[key],
                                         id:key                                                
                                         });
                                         break;
 
                                     case "paris-gondo": 
                                         fetchedGondo.push({
-                                        ...result["rss"]["channel"][0]["item"][key],
+                                        ...fetchedPosts[key],
                                         id:key                                                
                                         });
                                         break;
-
-                                    // console.log(fetchedPosts[key].title[0]);
-
                                 }
-
-                            }
-                                    
-                        }
-                            
+                            }                                    
+                        }                            
                     }
                     
                     console.log(fetchedPosts);
                     console.log(fetchedNews);
                     console.log(fetchedPodcast);
-                    console.log(fetchedGondo);
-                    // console.log(fetchedPosts.length);
-                    // console.log(fetchedPosts[1]);
-                    //console.log(fetchedPosts[2]["content:encoded"][0]);
-                
-                
+                    console.log(fetchedGondo);                                
                 }
             )
             
