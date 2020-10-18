@@ -6,6 +6,7 @@ const initialState = {
     posts:[],
     news:[],
     podcast:[],
+    gondo:[],
     loading: false,
 };
 

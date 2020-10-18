@@ -36,10 +36,10 @@ export const fetchPosts = () => {
             "Content-Type": "application/xml; charset=utf-8"
             })
         .then((response) => {
-            console.log('Your xml file as string', response.data);
-    
+                
             let xml2js = require('xml2js');
             let parser = new xml2js.Parser();
+            
             const fetchedPosts = [];
             const fetchedNews = [];
             const fetchedPodcast = [];

@@ -3,7 +3,6 @@ import Aux from '../../Auxiliary/Auxiliary';
 import Posts from '../../../containers/Posts/Posts';
 import classes from './NewsLayout.module.css';
 import PaginationList from '../../../components/UI/PaginationList/PaginationList';
-import { connect } from 'react-redux';
 import { Col, Container, Row } from 'react-bootstrap';
 import Follow from '../../../components/side/Follow/Follow';
 import Contact from '../../../components/side/Contact/Contact';
@@ -41,4 +40,4 @@ const NewsLayout = (props) => (
 
 
 
-export default connect()(NewsLayout);
+export default NewsLayout;

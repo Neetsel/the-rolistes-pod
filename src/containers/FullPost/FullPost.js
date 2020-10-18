@@ -1,6 +1,4 @@
 import React, { useEffect } from 'react';
-
-
 import Post from '../../components/Post/Post';
 import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
 import * as actions from '../../store/actions/index';
@@ -15,21 +13,23 @@ const FullPosts = props => {
     useEffect(()=> {
         onFetchPosts(props.token, props.userId);
     }, [onFetchPosts]);
-
     
     let posts = <Spinner />;
-    if(!props.loading){
-        posts =props.posts.map(post => (
-            <Post/>
-            
-        ))
-    }
+    // if(!props.loading){
+    //     posts =props.posts.map(post => (
+    //         <Post
+    //             key= {post.id}
+    //             author= {post.id}
+    //             title= {post.id}
+    //             article= {post.id}/>            
+    //     ))
+    // }
+
     return (
         <div>
             {posts}
         </div>
     );
-
 }
 
 const mapStateToProps = state => {
