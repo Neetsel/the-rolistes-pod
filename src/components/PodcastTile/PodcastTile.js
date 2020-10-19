@@ -14,6 +14,8 @@ const PodcastTile = (props) => {
                         <div>
                              {/* Overlay-text */}
                             <p>{props.date}</p>
+                            {/* <div dangerouslySetInnerHTML={{ __html: props.content }} /> */}
+                            
                             <h1>{props.title}</h1>
                         </div>
                     </div>

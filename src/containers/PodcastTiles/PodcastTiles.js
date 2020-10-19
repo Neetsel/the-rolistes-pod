@@ -21,7 +21,8 @@ const PodcastTiles = (props) => {
             <PodcastTile 
                 key= {podcast.id}
                 date= {podcast["pubDate"][0]}
-                title= {podcast["title"]}/>    
+                title= {podcast["title"]}
+                content= {podcast["content:encoded"][0]}/>    
         ))
     }   
 

@@ -34,14 +34,14 @@ function App() {
       <Route path="/podcast" render={(props) =>  <Podcast {...props}/>}/>
       <Route path="/paris_gondo" render={(props) =>  <Post {...props}/>}/>
       <Route path="/about_us" render={(props) =>  <AboutUs {...props}/>}/>
-      <Route path="/" exact render={(props) =>  <Home {...props}/>}/>            
+      <Route path="/" render={(props) =>  <Home {...props}/>}/>            
     </Switch>
   );
 
   return (
       <Layout>
         <Suspense fallback={<p>Loading...</p>}>
-          {routes}
+          {routes}          
         </Suspense>        
       </Layout>
   );
