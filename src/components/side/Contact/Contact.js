@@ -7,7 +7,7 @@ const Contact = (props) => {
         <Aux>
             <Row>
                 <Col xs={12}>
-                    <h2 class="section-title-side"><span class="text-title-side">Contact Us</span></h2>
+                    <h2><span>Contact Us</span></h2>
                     <p>Email: rolistespod@gmail.com</p>
                     <p>Twitter: @rolistespod</p>
                     <p>Facebook: @rolistespod</p>

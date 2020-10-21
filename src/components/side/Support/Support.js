@@ -10,15 +10,15 @@ const Support = (props) => {
         <Aux>
             <Row>
                 <Col xs={12}>
-                    <h2 class="section-title-side"><span class="text-title-side">Support Us</span></h2>
+                    <h2><span>Support Us</span></h2>
                 </Col>
                 
                 <Col xs={12}>
-                    <a href="https://www.patreon.com/RolistesPod" class="support-link-side"><img src={patreonButton} alt="Support me on Patreon" aria-hidden="true"/></a>
+                    <a href="https://www.patreon.com/RolistesPod"><img src={patreonButton} alt="Support me on Patreon" aria-hidden="true"/></a>
                 </Col>
 
                 <Col xs={12}>
-                    <a href="https://www.paypal.com/paypalme/rolistespod/" class="support-link-side"><img src={paypalButton}  alt="Donate with Paypal" aria-hidden="true"/></a>
+                    <a href="https://www.paypal.com/paypalme/rolistespod/"><img src={paypalButton}  alt="Donate with Paypal" aria-hidden="true"/></a>
                 </Col>                    
             </Row>    
         </Aux>

@@ -26,6 +26,8 @@ const Posts = props => {
         ))
     }
 
+    
+
     return (
         <div>
             {posts}

@@ -12,7 +12,7 @@ const Follow = (props) => {
         <Aux>           
             <Row>
                 <Col xs={12}>
-                    <h2 class="section-title-side"><span class="text-title-side">Stay Connected</span></h2>
+                    <h2><span>Stay Connected</span></h2>
                 </Col>
             </Row>
             <Row>

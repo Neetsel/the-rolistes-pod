@@ -75,6 +75,9 @@ export const fetchPosts = () => {
                                         ...fetchedPosts[key],
                                         id:key                                                
                                         });
+                                        let str= fetchedPosts[3]["content:encoded"][0];
+                                        let newStr= str.replace(/I/g,'TEST REMPLACEMENT');
+                                        console.log(newStr);
                                         break;
 
                                     case "podcast": 
