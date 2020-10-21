@@ -1,0 +1,28 @@
+.SideLink, .SideLink:hover{
+	display:inline-block;
+	box-sizing: border-box;
+	transition: background-color 0.4s ease;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 5px;
+}
+
+.SideLink>span{
+	padding-top: 2px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px 0;
+    font-size: 1.6em;
+}
+
+.SideLink{
+	background-color: #FFFFFF;
+	color:#000000;
+}
+
+.SideLink:hover{
+	background-color: #000000;
+    color:#FFFFFF;
+}
