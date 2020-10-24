@@ -22,7 +22,7 @@ const PostLayout = (props) => {
             <Container>
                 <Row>
                     <Col lg={8} xs={12} >
-                        <Posts type={props.type}/>                    
+                        <Posts type={props.type} pageTitle={pageId}/>                    
                         ref page: {pageId}
                         <PaginationList/>
                     </Col>

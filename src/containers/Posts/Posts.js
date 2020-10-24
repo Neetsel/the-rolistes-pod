@@ -8,7 +8,6 @@ import { connect } from 'react-redux';
 import Spinner from '../../components/UI/Spinner/Spinner';
 import { Row } from 'react-bootstrap';
 
-
 const Posts = props => {
 
     const { onFetchPosts } = props;
@@ -16,8 +15,14 @@ const Posts = props => {
     useEffect(()=> {
         onFetchPosts(props.token, props.userId);
     }, [onFetchPosts]);
+
+    const searchPost = ( posts, pageTitle) => {
+        return 0;
+    }
     
     let posts = <Spinner />;
+    let key = 0;
+    console.log(props.loading);
     if(!props.loading){
         
         switch (props.type){
@@ -43,29 +48,32 @@ const Posts = props => {
                 break;
             
             case "FULLNEWS":
-                posts = props.news.map(news => (                              
+                key = searchPost(props.news, props.pageTitle);
+                const news= props.news;
+                posts =                          
                     <FullPost 
-                        key= {news.id}
-                        author= {news["dc:creator"][0]}
-                        title= {news["title"]}
-                        article= {news["content:encoded"][0]}
-                        date= {news["pubDate"][0]}/>              
-                    ));
+                        key= {news[key].id}
+                        author= {news[key]["dc:creator"][0]}
+                        title= {news[key]["title"]}
+                        article= {news[key]["content:encoded"][0]}
+                        date= {news[key]["pubDate"][0]}/>;
                 break;
 
             case "FULLPODCAST":
-                posts =props.podcast.map ( podcast => (                               
+                key = searchPost(props.podcast, props.pageTitle);
+                const podcast= props.podcast;
+                console.log(podcast);
+                if(podcast.length>0){
+                    posts =                          
                     <FullPost 
-                        key= {podcast.id}
-                        date= {podcast["pubDate"][0]}
-                        title= {podcast["title"]}
-                        content= {podcast["content:encoded"][0]}/>           
-                    ));
+                        key= {podcast[key].id}
+                        date= {podcast[key]["pubDate"][0]}
+                        title= {podcast[key]["title"]}
+                        content= {podcast[key]["content:encoded"][0]}/>;
+                }                
                 break;
         }        
     }
-
-    
 
     return (
         <Row>
