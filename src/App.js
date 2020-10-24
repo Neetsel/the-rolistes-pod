@@ -30,8 +30,10 @@ const AboutUs = React.lazy(()=>{
 function App() {
   let routes = (
     <Switch>
-      <Route path="/news" render={(props) =>  <News {...props}/>}/>
-      <Route path="/podcast" render={(props) =>  <Podcast {...props}/>}/>
+      <Route path="/news" exact render={(props) =>  <News {...props}/>}/>
+      <Route path="/news/:id" render={(props) =>  <Post {...props}/>}/>   
+      <Route path="/podcast" exact render={(props) =>  <Podcast {...props}/>}/>
+      <Route path="/podcast/:id" render={(props) =>  <Post {...props}/>}/>     
       <Route path="/paris_gondo" render={(props) =>  <Post {...props}/>}/>
       <Route path="/about_us" render={(props) =>  <AboutUs {...props}/>}/>
       <Route path="/" render={(props) =>  <Home {...props}/>}/>            

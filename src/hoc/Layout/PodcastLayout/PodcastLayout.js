@@ -3,7 +3,7 @@ import Aux from '../../Auxiliary/Auxiliary';
 
 import classes from './PodcastLayout.module.css';
 import { Col, Container, Row } from 'react-bootstrap';
-import PodcastTiles from '../../../containers/PodcastTiles/PodcastTiles';
+import Posts from '../../../containers/Posts/Posts';
 import Footer from '../../../components/Footer/Footer';
 import PaginationList from '../../../components/UI/PaginationList/PaginationList';
 
@@ -12,7 +12,7 @@ const PodcastLayout = (props) => (
         <Container>
             <Row>
                 <Col xs={12} >
-                    <PodcastTiles {...props} />
+                    <Posts {...props} type="PODCAST"/>
                     <PaginationList/>
                 </Col>
             </Row>

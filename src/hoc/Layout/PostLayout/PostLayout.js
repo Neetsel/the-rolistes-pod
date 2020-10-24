@@ -17,7 +17,7 @@ const PostLayout = (props) => (
         <Container>
             <Row>
                 <Col lg={8} xs={12} >
-                    <Post/>
+                    <Post/>                    
                     <PaginationList/>
                 </Col>
                 <Col  lg={4} xs={12}>

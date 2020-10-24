@@ -6,7 +6,7 @@ const PodcastTile = (props) => {
 
     return (
         <Aux>
-            <Col lg={4} md={6} xs={12} >
+            <Col xs={12} md={6} lg={4} >
                 <a href="">
                     <img src="" alt=""/>
                     <div> 

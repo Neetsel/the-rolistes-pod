@@ -57,8 +57,19 @@ export const fetchPosts = () => {
                         });
                                                 
                         const currentDate = new Date();
-                        const publishDate = new Date(fetchedPosts[key]["pubDate"][0]);                        
+                        const publishDate = new Date(fetchedPosts[key]["pubDate"][0]);       
+                        
+                        // need to convert date
 
+                        fetchedPosts[key]["pubDate"][0] = publishDate.toDateString();;
+
+                        // need to remove 
+                        let str= fetchedPosts[key]["content:encoded"][0];
+                        let newStr= str.replace(/\[audio/g,'<audio controls');
+                        newStr= newStr.replace(/\]/g,'>');
+                        
+                        fetchedPosts[key]["content:encoded"][0] = newStr;                        
+                        
                         if(fetchedPosts[key]["category"] && (
                             fetchedPosts[key]["wp:status"][0] === "publish" || (
                                 fetchedPosts[key]["wp:status"][0] === "draft" && currentDate.getTime() > publishDate.getTime()
@@ -75,9 +86,8 @@ export const fetchPosts = () => {
                                         ...fetchedPosts[key],
                                         id:key                                                
                                         });
-                                        let str= fetchedPosts[3]["content:encoded"][0];
-                                        let newStr= str.replace(/I/g,'TEST REMPLACEMENT');
-                                        console.log(newStr);
+                                        
+                                        
                                         break;
 
                                     case "podcast": 
@@ -85,6 +95,7 @@ export const fetchPosts = () => {
                                         ...fetchedPosts[key],
                                         id:key                                                
                                         });
+
                                         break;
 
                                     case "paris-gondo": 
@@ -97,6 +108,11 @@ export const fetchPosts = () => {
                             }                                    
                         }                            
                     }
+
+                    fetchedPosts.reverse();
+                    fetchedNews.reverse();
+                    fetchedPodcast.reverse();
+                    fetchedGondo.reverse();
                     
                     console.log(fetchedPosts);
                     console.log(fetchedNews);
@@ -104,6 +120,8 @@ export const fetchPosts = () => {
                     console.log(fetchedGondo);                       
                 }
             )
+
+            
             
             dispatch(fetchPostsSuccess(fetchedPosts, fetchedNews, fetchedPodcast, fetchedGondo));
     
