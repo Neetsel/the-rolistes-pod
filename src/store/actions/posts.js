@@ -59,15 +59,12 @@ export const fetchPosts = () => {
                                                 
                         const currentDate = new Date();
                         const publishDate = new Date(fetchedPosts[key]["pubDate"][0]);       
-                        
-                        // need to convert date
 
                         fetchedPosts[key]["pubDate"][0] = publishDate.toDateString();;
 
-                        // need to remove 
                         let str= fetchedPosts[key]["content:encoded"][0];
-                        let newStr= str.replace(/\[audio/g,'<audio controls');
-                        newStr= newStr.replace(/\]/g,'>');
+                        let newStr= str.replace(/\[audio/,'<audio controls');
+                        newStr= newStr.replace(/mp3\"\]/,'mp3"></audio><br>');
                         
                         fetchedPosts[key]["content:encoded"][0] = newStr;                        
                         

@@ -19,13 +19,23 @@ const Posts = props => {
     }, []);   
 
     const searchPost = ( posts, pageTitle) => {
-        return 0;
+
+        console.log("Start Test");
+        for (let i = 0; i < posts.length; i++){
+            console.log(posts[i]["wp:post_name"][0]);
+            if(posts[i]["wp:post_name"][0]===pageTitle){
+                console.log("Found in: ", i);
+                return i;
+            }
+        }
+        
+        
     }
     
     let posts = <Spinner />;
     let key = 0;
 
-    if(!props.loading){
+    if(!props.loading & props.loaded){
         
         switch (props.type){
             case "NEWS":
@@ -57,22 +67,22 @@ const Posts = props => {
                         key= {news[key].id}
                         author= {news[key]["dc:creator"][0]}
                         title= {news[key]["title"]}
-                        article= {news[key]["content:encoded"][0]}
+                        content= {news[key]["content:encoded"][0]}
                         date= {news[key]["pubDate"][0]}/>;
                 break;
 
             case "FULLPODCAST":
+                console.log(props.pageTitle);
                 key = searchPost(props.podcast, props.pageTitle);
-                const podcast= props.podcast;
-                console.log(podcast);
-                if(podcast.length>0){
-                    posts =                          
-                    <FullPost 
-                        key= {podcast[key].id}
-                        date= {podcast[key]["pubDate"][0]}
-                        title= {podcast[key]["title"]}
-                        content= {podcast[key]["content:encoded"][0]}/>;
-                }                
+                const podcast= props.podcast;    
+                // if()                            
+                posts =                          
+                <FullPost 
+                    key= {podcast[key].id}
+                    author= {podcast[key]["dc:creator"][0]}
+                    date= {podcast[key]["pubDate"][0]}
+                    title= {podcast[key]["title"]}
+                    content= {podcast[key]["content:encoded"][0]}/>;             
                 break;
         }        
     }

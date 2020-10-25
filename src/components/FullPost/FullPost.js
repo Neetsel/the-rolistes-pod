@@ -10,8 +10,8 @@ const Post = (props) => {
         <Col xs={12} >
             <h1>{props.title}</h1>
             <p>{props.author}</p>
-            <p>{props.date}</p>            
-            <div dangerouslySetInnerHTML={{ __html: props.article }} />
+            <p>{props.date}</p> 
+            <div dangerouslySetInnerHTML={{ __html: props.content }}/>                            
         </Col>
     );
 }
