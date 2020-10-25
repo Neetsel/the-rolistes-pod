@@ -34,7 +34,7 @@ function App() {
       <Route path="/news" exact render={(props) =>  <News {...props}/>}/>
       <Route path="/news/:pageId" render={(props) =>  <Post {...props} type="FULLNEWS"/>}/>    
       <Route path="/podcast" exact render={(props) =>  <Podcast {...props}/>}/>
-      <Route path="/podcast/:pageId" render={(props) =>  <Post {...props} type="FULLPODCAST"/>}/>     
+      <Route path="/:year/:month/:day/:pageId" render={(props) =>  <Post {...props} type="FULLPODCAST"/>}/>     
       <Route path="/paris_gondo" render={(props) =>  <Post {...props}/>}/>
       <Route path="/about_us" render={(props) =>  <AboutUs {...props}/>}/>
       <Route path="/" render={(props) =>  <Home {...props}/>}/>            

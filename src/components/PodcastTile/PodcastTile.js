@@ -8,7 +8,8 @@ const PodcastTile = (props) => {
     return (
         <Aux>
             <Col xs={12} md={6} lg={4} >
-                <Link to={props.location + '/'  + props.postName}>
+                {/* <Link to={props.location + '/'  + props.postName}> */}
+                <Link to={'/2020/15/16/'  + props.postName}>
                     <img src="" alt=""/>
                     <div> 
                         {/* Overlay */}

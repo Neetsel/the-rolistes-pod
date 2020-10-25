@@ -118,11 +118,8 @@ export const fetchPosts = () => {
                     console.log(fetchedGondo);                       
                 }
             )
-
             
-            
-            dispatch(fetchPostsSuccess(fetchedPosts, fetchedNews, fetchedPodcast, fetchedGondo));
-    
+            dispatch(fetchPostsSuccess(fetchedPosts, fetchedNews, fetchedPodcast, fetchedGondo));    
         })
         .catch(error => {
             console.log(error);
