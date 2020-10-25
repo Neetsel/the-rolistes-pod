@@ -15,7 +15,8 @@ export const fetchPostsSuccess = (posts, news, podcast, gondo) => {
         posts: posts,
         news: news,
         podcast: podcast,
-        gondo: gondo
+        gondo: gondo,
+        loaded: true
     }
 };
 

@@ -13,8 +13,10 @@ const Posts = props => {
     const { onFetchPosts } = props;
 
     useEffect(()=> {
-        onFetchPosts(props.token, props.userId);
-    }, [onFetchPosts]);
+        if(!props.loaded){
+            onFetchPosts();
+        }        
+    }, []);   
 
     const searchPost = ( posts, pageTitle) => {
         return 0;
@@ -22,7 +24,7 @@ const Posts = props => {
     
     let posts = <Spinner />;
     let key = 0;
-    console.log(props.loading);
+
     if(!props.loading){
         
         switch (props.type){
@@ -87,6 +89,7 @@ const mapStateToProps = state => {
         news: state.posts.news,
         podcast: state.posts.podcast,
         loading: state.posts.loading,
+        loaded: state.posts.loaded
     };
 };
 

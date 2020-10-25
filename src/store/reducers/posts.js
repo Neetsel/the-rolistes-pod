@@ -8,6 +8,7 @@ const initialState = {
     podcast:[],
     gondo:[],
     loading: false,
+    loaded: false
 };
 
 const fetchPostsStart = (state, action) => {
@@ -20,7 +21,8 @@ const fetchPostsSuccess = (state, action) => {
         news: action.news,
         podcast: action.podcast,
         gondo: action.gondo,
-        loading: false
+        loading: false,
+        loaded: true
     });
 };
 
