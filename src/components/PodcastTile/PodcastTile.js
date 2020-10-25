@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Aux from '../../hoc/Auxiliary/Auxiliary';
 
 const PodcastTile = (props) => {
@@ -7,7 +8,7 @@ const PodcastTile = (props) => {
     return (
         <Aux>
             <Col xs={12} md={6} lg={4} >
-                <a href="">
+                <Link to={props.location + '/'  + props.postName}>
                     <img src="" alt=""/>
                     <div> 
                         {/* Overlay */}
@@ -20,7 +21,7 @@ const PodcastTile = (props) => {
                         </div>
                     </div>
                     
-                </a>                
+                </Link>               
             </Col>
         </Aux>
     )

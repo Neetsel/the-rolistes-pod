@@ -7,6 +7,7 @@ import * as actions from '../../store/actions/index';
 import { connect } from 'react-redux';
 import Spinner from '../../components/UI/Spinner/Spinner';
 import { Row } from 'react-bootstrap';
+import { useLocation } from 'react-router-dom';
 
 const Posts = props => {
 
@@ -18,7 +19,7 @@ const Posts = props => {
         }        
     }, []);   
 
-    const searchPost = ( posts, pageTitle) => {
+    const searchPost = ( posts, pageTitle ) => {
 
         console.log("Start Test");
         for (let i = 0; i < posts.length; i++){
@@ -34,6 +35,8 @@ const Posts = props => {
     
     let posts = <Spinner />;
     let key = 0;
+    let location = useLocation();
+    console.log(location);
 
     if(!props.loading & props.loaded){
         
@@ -45,7 +48,9 @@ const Posts = props => {
                         author= {news["dc:creator"][0]}
                         title= {news["title"]}
                         article= {news["content:encoded"][0]}
-                        date= {news["pubDate"][0]}/>            
+                        date= {news["pubDate"][0]}
+                        postName={news["wp:post_name"][0]}
+                        location = {location["pathname"]}/>            
                     ));
                 break;
             
@@ -55,7 +60,9 @@ const Posts = props => {
                         key= {podcast.id}
                         date= {podcast["pubDate"][0]}
                         title= {podcast["title"]}
-                        content= {podcast["content:encoded"][0]}/>           
+                        content= {podcast["content:encoded"][0]}
+                        postName={podcast["wp:post_name"][0]}
+                        location = {location["pathname"]}/>           
                     ));
                 break;
             
@@ -72,17 +79,15 @@ const Posts = props => {
                 break;
 
             case "FULLPODCAST":
-                console.log(props.pageTitle);
                 key = searchPost(props.podcast, props.pageTitle);
-                const podcast= props.podcast;    
-                // if()                            
+                const podcast= props.podcast;                               
                 posts =                          
                 <FullPost 
                     key= {podcast[key].id}
                     author= {podcast[key]["dc:creator"][0]}
                     date= {podcast[key]["pubDate"][0]}
                     title= {podcast[key]["title"]}
-                    content= {podcast[key]["content:encoded"][0]}/>;             
+                    content= {podcast[key]["content:encoded"][0]}/>;                    ;             
                 break;
         }        
     }
