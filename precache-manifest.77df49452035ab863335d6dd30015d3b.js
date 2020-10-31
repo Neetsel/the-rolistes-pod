@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f316eaea689d59236be93329d5365e3",
+    "revision": "44cf64209d4c6acabcd4d8349b30ea52",
     "url": "/the-rolistes-pod/index.html"
   },
   {
