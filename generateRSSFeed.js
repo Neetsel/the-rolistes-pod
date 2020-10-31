@@ -1,3 +1,5 @@
+const { faSadCry } = require("@fortawesome/free-solid-svg-icons");
+
 function toRssXML(posts) {
     const latestPostDate = moment(posts[0].metadata.date, "MM/DD/YYYY");
     let postXml = "";
@@ -33,4 +35,6 @@ function toRssXML(posts) {
 // const posts = getPosts();
 // const xml = toRssXML(posts);
 const xml = 'test';
+const fs = require ('fs');
+console.log('test');
 fs.writeFileSync("./public/rss.xml", xml);

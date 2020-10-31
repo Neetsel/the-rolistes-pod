@@ -31,7 +31,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "rss": "node -r esm generateRssFeed.js"
+    "rss": "node generateRSSFeed.js"
   },
   "eslintConfig": {
     "extends": "react-app"
