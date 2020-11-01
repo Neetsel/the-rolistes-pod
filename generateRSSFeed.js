@@ -6,33 +6,108 @@ var axios = require('axios');
 function toRssXML(posts) {    
     // console.log(posts); 
 
-    const latestPostDate = new Date(posts[0]["pubDate"], "MM/DD/YYYY"); 
+    const latestPostDate = posts[0]["pubDate"]; 
     let postXml = "";
 
     posts.forEach((post) => {
-        const date = new Date(post.pubDate, "MM/DD/YYYY");
+
         // const href = `https://www.slashproto.com/posts/${post.slug}`;
-        const href = `https://www.slashproto.com/posts/`;
+        // const href = `https://www.slashproto.com/posts/`;
+
+        const postCategories = `<category>${post.categories}</category>`;
+
         postXml += `
         <item>
-            <title>${post.title}</title>
-            <link>${href}</link>
+            <title><![CDATA[${post.title}]]></title>
+            <link>${post.link}</link>
             <pubDate>${post.pubDate}</pubDate>
-            <guid>${href}</guid>
+            ${postCategories}
+            <guid>${post.link}</guid>
             <description>
             &lt;![CDATA[ ${post.description} ]]&gt;
             </description>
+
+            <enclosure url="${post.enclosure}" length="0" type="audio/mpeg" />
+
+            <itunes:author>${post.itunesAuthor}</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:image href="${post.itunesImage}" />
+            <itunes:summary>${post.itunesSummary}</itunes:summary>
+            <itunes:subtitle>${post.itunesSubtitle}</itunes:subtitle>
+
+		    <media:thumbnail url="${post.mediaThumbnail}" />
+		        <media:content url="${post.mediaThumbnailContent}" medium="image">
+			<media:title type="html">${post.mediaThumbnailTitle}</media:title>
+		    </media:content>
+
+		    <media:content url="${post.mediaAuthorContent}" medium="image">
+			    <media:title type="html">${post.mediaAuthorTitle}</media:title>
+		    </media:content>
+
+		<media:content url="${post.mediaAudioContent}" medium="audio" />
+
         </item>`;
     });
 
-    return `<?xml version="1.0" ?>
-    <rss version="2.0">
+    return `<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" 
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+    xmlns:media="http://search.yahoo.com/mrss/"
+    >
+    
         <channel>
-            <title>/proto - Protocol7's Blog</title>
-            <link>https://www.slashproto.com/</link>
-            <description>kjioji</description>
+            <title>The Rolistes Podcast</title>
+            <atom:link href="https://rolistespod.com/category/podcast/feed/" rel="self" type="application/rss+xml" />
+            <link>https://rolistespod.com</link>
+            <description>Welcome among The Rolistes…
+
+We are the proudly London-based producers of Tabletop RPG podcasts showcasing fans across the Channel, the Pond and beyond.
+
+We cross borders, languages, fandoms, game systems and settings with unique discoveries in each episode. 
+
+Join us for a mix of discussions, RPG actual plays, travel-diaries, vox-populi, movie reviews, and even music by amazing Creative Commons artists. 
+
+Meet independent game designers, popular British publishers, immigrants, travellers visiting London or other random encounters made during our travels.
+
+Our content is for YOU, no matter if you are a seasoned grognard or wannabe players who are about to take their first steps in The Hobby. 
+
+We are for those curious about what and how tabletop roleplaying games are played across the World, how players can have wildly different walks of life and interests can be.</description>
             <language>en</language>
             <lastBuildDate>${latestPostDate}</lastBuildDate>
+            <itunes:subtitle>Your London-based tabletop RPG shows!</itunes:subtitle>
+<itunes:summary>Welcome among The Rolistes…
+
+We are the proudly London-based producers of Tabletop RPG podcasts showcasing fans across the Channel, the Pond and beyond.
+
+We cross borders, languages, fandoms, game systems and settings with unique discoveries in each episode. 
+
+Join us for a mix of discussions, RPG actual plays, travel-diaries, vox-populi, movie reviews, and even music by amazing Creative Commons artists. 
+
+Meet independent game designers, popular British publishers, immigrants, travellers visiting London or other random encounters made during our travels.
+
+Our content is for YOU, no matter if you are a seasoned grognard or wannabe players who are about to take their first steps in The Hobby. 
+
+We are for those curious about what and how tabletop roleplaying games are played across the World, how players can have wildly different walks of life and interests can be.</itunes:summary>
+<itunes:author>Kalum</itunes:author>
+<itunes:owner><itunes:email>rolistespod@gmail.com</itunes:email>
+</itunes:owner><copyright>The Rolistes Podcast by Kalum is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright>
+<itunes:explicit>no</itunes:explicit>
+<itunes:image href='https://rolistespod.files.wordpress.com/2019/12/cropped-the-rolistes_logo-2019_v1_logo-only_cropped85-e1573424020821.jpg?fit=3000%2C3000' />
+<itunes:category text='Leisure'>
+	<itunes:category text='Games' />
+</itunes:category>
+<itunes:category text='Leisure'>
+	<itunes:category text='Hobbies' />
+</itunes:category>
+<itunes:category text='Society &amp; Culture'>
+	<itunes:category text='Places &amp; Travel' />
+</itunes:category>
             ${postXml}
         </channel>
     </rss>`;
@@ -40,7 +115,6 @@ function toRssXML(posts) {
 
 function getPosts () {    
     
-    const fetchedPosts = [];
     const fetchedPodcast = [];
     
     fs.readFile('./src/assets/therolistespodcast.xml', function(err, data){
@@ -52,76 +126,78 @@ function getPosts () {
             (err,result) => {
 
                 for (let key in result["rss"]["channel"][0]["item"]) {                           
-                    
-                    fetchedPosts.push({
-                        ...result["rss"]["channel"][0]["item"][key],
-                        id:key
-                    });
-                                            
-                    const currentDate = new Date();
-                    const publishDate = new Date(fetchedPosts[key]["pubDate"][0]);       
 
-                    fetchedPosts[key]["pubDate"][0] = publishDate.toDateString();;
+                    const fetchedPost = result["rss"]["channel"][0]["item"][key];
 
-                    let str= fetchedPosts[key]["content:encoded"][0];
-                    let newStr= str.replace(/\[audio/,'<audio controls');
-                    newStr= newStr.replace(/mp3\"\]/,'mp3"></audio><br>');
-                    
-                    fetchedPosts[key]["content:encoded"][0] = newStr;                        
-                    
-                    if(fetchedPosts[key]["category"] && (
-                        fetchedPosts[key]["wp:status"][0] === "publish" || (
-                            fetchedPosts[key]["wp:status"][0] === "draft" && currentDate.getTime() > publishDate.getTime()
-                            )
-                        )
-                    ){
+                    if(fetchedPost["category"]){
 
-                        for (let i=0; i < fetchedPosts[key]["category"].length; i++) {
-                            
-                            console.log(i);
+                        for (let i=0; i < fetchedPost["category"].length; i++) {
 
-                            switch(fetchedPosts[key]["category"][i]["$"]["nicename"]){
-
+                            switch(fetchedPost["category"][i]["$"]["nicename"]){
+    
                                 case "podcast": 
+                                    //modifier les différences champs
+
+                                    // let str= fetchedPosts[key]["content:encoded"][0];
+                                    // let newStr= str.replace(/\[audio/,'<audio controls');
+                                    // newStr= newStr.replace(/mp3\"\]/,'mp3"></audio><br>');
+                                    // fetchedPosts[key]["content:encoded"][0] = newStr; 
+                                    // console.log(fetchedPost);
+    
+                                    const title = fetchedPost["title"];
+                                    const link = 'test';
+                                    const pubDate = new Date (fetchedPost["pubDate"][0]);
+                                    const categories = fetchedPost["category"];
+                                    const guid = 'test';
+                                    const description = 'test';
+                                    const enclosure = 'test';
+                                    const itunesAuthor = 'test';   
+                                    const itunesImage = 'test';
+                                    const itunesSummary = 'test';   
+                                    const itunesSubtitle = 'test';
+                                    const mediaThumbnail = 'test';   
+                                    const mediaThumbnailContent = 'test';
+                                    const mediaThumbnailTitle = 'test';
+                                    const mediaAuthorContent = 'test';
+                                    const mediaAuthorTitle = 'test';
+                                    const mediaAudioContent = 'test';
+    
                                     fetchedPodcast.push({
-                                    title:fetchedPosts[key]["title"],
-                                    link:fetchedPosts[key]["title"],
-                                    pubDate:fetchedPosts[key]["pubDate"][0],
-                                    guid:fetchedPosts[key]["title"],                                    
-                                    description:fetchedPosts[key]["title"],
+                                    title:title,
+                                    link:link,
+                                    pubDate: pubDate,
+                                    categories: categories,
+                                    guid:guid,                                    
+                                    description:description,
+                                    enclosure:enclosure,
+                                    itunesAuthor:itunesAuthor,
+                                    itunesImage:itunesImage,
+                                    itunesSummary:itunesSummary,
+                                    itunesSubtitle:itunesSubtitle,
+                                    mediaThumbnail:mediaThumbnail,
+                                    mediaThumbnailContent:mediaThumbnailContent,
+                                    mediaThumbnailTitle:mediaThumbnailTitle,
+                                    mediaAuthorContent:mediaAuthorContent,
+                                    mediaAuthorTitle:mediaAuthorTitle,
+                                    mediaAudioContent:mediaAudioContent,
                                     id:key                                                
                                     });
-
+    
                                     break;
                             }
-                        }                                    
-                    }                            
+                        }                             
+                    }                                                                                                 
                 }
 
-                fetchedPosts.reverse();
                 fetchedPodcast.reverse();
-                // console.log(fetchedPodcast); 
 
                 const xml = toRssXML(fetchedPodcast);
-                // const xml = 'test';
                 fs.writeFileSync("./public/rss.xml", xml);                                                                            
             }
            
         )
-    }) 
-    console.log(fetchedPodcast);
-
-    // console.log('test');
-    // console.log(posts);
-    
+    })  
  
 }
 
-const posts = getPosts();
-// console.log('test');
-// console.log(posts);
-// const xml = toRssXML(posts);
-// const xml = 'test';
-// fs.writeFileSync("./public/rss.xml", xml);
- 
-
+const posts = getPosts(); 
