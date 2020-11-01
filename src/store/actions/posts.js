@@ -27,6 +27,10 @@ export const fetchPostsFailed = (error) => {
     }
 };
 
+const sortPosts = () => {
+
+}
+
 export const fetchPosts = () => {
 
     return dispatch => {
@@ -56,9 +60,9 @@ export const fetchPosts = () => {
                             ...result["rss"]["channel"][0]["item"][key],
                             id:key
                         });
-                                                
+                        console.log('test') ;           
                         const currentDate = new Date();
-                        const publishDate = new Date(fetchedPosts[key]["pubDate"][0]);       
+                        const publishDate = new Date(fetchedPosts[key]["pubDate"][0]);                       
 
                         fetchedPosts[key]["pubDate"][0] = publishDate.toDateString();;
 
@@ -70,7 +74,7 @@ export const fetchPosts = () => {
                         
                         if(fetchedPosts[key]["category"] && (
                             fetchedPosts[key]["wp:status"][0] === "publish" || (
-                                fetchedPosts[key]["wp:status"][0] === "draft" && currentDate.getTime() > publishDate.getTime()
+                                fetchedPosts[key]["wp:status"][0] === "future" && currentDate.getTime() > publishDate.getTime()
                                 )
                             )
                         ){
@@ -124,10 +128,7 @@ export const fetchPosts = () => {
         .catch(error => {
             console.log(error);
             dispatch(fetchPostsFailed(error));
-        });
-
-
-        
+        });        
         
        
     }

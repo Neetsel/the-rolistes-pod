@@ -28,7 +28,7 @@ function toRssXML(posts) {
             <pubDate>${post.pubDate}</pubDate>${postCategories}
             <guid>${post.link}</guid>
             <description>
-            &lt;![CDATA[ ${post.description} ]]&gt;
+            <![CDATA[ ${post.description} ]]>
             </description>
 
             <enclosure url="${post.enclosure}" length="0" type="audio/mpeg" />
@@ -133,7 +133,7 @@ function getPosts () {
 
                     const fetchedPost = result["rss"]["channel"][0]["item"][key];
 
-                    if(fetchedPost["category"]){
+                    if(fetchedPost["category"] && fetchedPost["pubDate"][0]){
 
                         for (let i=0; i < fetchedPost["category"].length; i++) {
 
@@ -149,13 +149,14 @@ function getPosts () {
                                     // console.log(fetchedPost);
     
                                     const title = fetchedPost["title"];
-                                    const link = 'test';
-                                    const pubDate = new Date (fetchedPost["pubDate"][0]);
+                                    const link = 'https://neetsel.github.io/the-rolistes-pod/2020/15/16/'  + fetchedPost["wp:post_name"][0];
+                                    // const pubDate = new Date (fetchedPost["pubDate"][0]);
+                                    const pubDate = fetchedPost["pubDate"][0];
                                     const categories = fetchedPost["category"];
-                                    const guid = 'test';
+                                    const guid = link;
                                     const description = 'test';
                                     const enclosure = 'test';
-                                    const itunesAuthor = 'test';   
+                                    const itunesAuthor = fetchedPost["dc:creator"];   
                                     const itunesImage = 'test';
                                     const itunesSummary = 'test';   
                                     const itunesSubtitle = 'test';
