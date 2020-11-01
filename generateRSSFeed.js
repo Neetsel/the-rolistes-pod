@@ -14,14 +14,18 @@ function toRssXML(posts) {
         // const href = `https://www.slashproto.com/posts/${post.slug}`;
         // const href = `https://www.slashproto.com/posts/`;
 
-        const postCategories = `<category>${post.categories}</category>`;
+        let postCategories = "";
+        
+        post.categories.forEach((category)=>{
+            postCategories += `
+            <category><![CDATA[${category["_"]}]]></category>`;
+        });
 
         postXml += `
         <item>
             <title><![CDATA[${post.title}]]></title>
             <link>${post.link}</link>
-            <pubDate>${post.pubDate}</pubDate>
-            ${postCategories}
+            <pubDate>${post.pubDate}</pubDate>${postCategories}
             <guid>${post.link}</guid>
             <description>
             &lt;![CDATA[ ${post.description} ]]&gt;
