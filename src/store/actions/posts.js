@@ -110,11 +110,18 @@ export const fetchPosts = () => {
                             }                                    
                         }                            
                     }
+                
+                    fetchedPodcast.sort((a,b)=>{
+                        return new Date(b["pubDate"][0]) - new Date(a["pubDate"][0]) 
+                    });
 
-                    fetchedPosts.reverse();
-                    fetchedNews.reverse();
-                    fetchedPodcast.reverse();
-                    fetchedGondo.reverse();
+                    fetchedNews.sort((a,b)=>{
+                        return new Date(b["pubDate"][0]) - new Date(a["pubDate"][0]) 
+                    });
+
+                    fetchedGondo.sort((a,b)=>{
+                        return new Date(b["pubDate"][0]) - new Date(a["pubDate"][0]) 
+                    });
                     
                     console.log(fetchedPosts);
                     console.log(fetchedNews);

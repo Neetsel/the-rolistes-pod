@@ -82,8 +82,12 @@ Meet independent game designers, popular British publishers, immigrants, travell
 Our content is for YOU, no matter if you are a seasoned grognard or wannabe players who are about to take their first steps in The Hobby. 
 
 We are for those curious about what and how tabletop roleplaying games are played across the World, how players can have wildly different walks of life and interests can be.</description>
+            <lastBuildDate>${latestPostDate}</lastBuildDate>            
             <language>en</language>
-            <lastBuildDate>${latestPostDate}</lastBuildDate>
+            <sy:updatePeriod>
+	        hourly	</sy:updatePeriod>
+	        <sy:updateFrequency>
+            1	</sy:updateFrequency>
             <itunes:subtitle>Your London-based tabletop RPG shows!</itunes:subtitle>
 <itunes:summary>Welcome among The Rolistes…
 
@@ -194,7 +198,9 @@ function getPosts () {
                     }                                                                                                 
                 }
 
-                fetchedPodcast.reverse();
+                fetchedPodcast.sort((a,b)=>{
+                    return new Date(b.pubDate) - new Date(a.pubDate)  
+                });
 
                 const xml = toRssXML(fetchedPodcast);
                 fs.writeFileSync("./public/rss.xml", xml);                                                                            
