@@ -52,15 +52,14 @@ const Posts = props => {
 
         for(let i=1;i<posts.length;i++){
 
-            for (let j=1; j < posts[i]["category"].length; j++) {
+            for (let j=0; j < posts[i]["category"].length; j++) {
                                     
                 if(posts[i]["category"][j]["$"]["nicename"]===category){
                                             
                     return i;                        
                 }
             }    
-        }
-        
+        }        
     }
 
     const searchLatestPodcast = ( posts, amountToReturn ) => {
@@ -84,7 +83,7 @@ const Posts = props => {
             podcast.push({            
                 ...posts[indexPost],
                 latest: true,
-                id:0                                                
+                id: i+1                                                
             })
         }                   
 
@@ -159,7 +158,8 @@ const Posts = props => {
                     title= {news["title"]}
                     content= {news["content:encoded"][0]}
                     postName={news["wp:post_name"][0]}
-                    latest= {news.latest}/>                                                          
+                    latest= {news.latest}
+                    location = {location["pathname"]}/>                                                            
                     ));                           
                 break;
 
@@ -173,6 +173,7 @@ const Posts = props => {
                     title= {news["title"]}
                     content= {news["content:encoded"][0]}
                     postName={news["wp:post_name"][0]}
+                    location = {location["pathname"]}
                     latest= {false}/>                                                          
                     ));                           
                 break;
