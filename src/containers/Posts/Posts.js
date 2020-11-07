@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import Post from '../../components/Post/Post';
 import PodcastTile from '../../components/PodcastTile/PodcastTile';
 import FullPost from '../../components/FullPost/FullPost';
+import LatestNews from '../../components/LatestNews/LatestNews';
+import LatestPodcast from '../../components/LatestPodcast/LatestPodcast';
 import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
 import * as actions from '../../store/actions/index';
 import { connect } from 'react-redux';
@@ -28,10 +30,78 @@ const Posts = props => {
                 console.log("Found in: ", i);
                 return i;
             }
-        }
-        
-        
+        }                
     }
+
+    const searchLatestNews = ( posts, amountToReturn ) => {
+
+        const news = [];
+
+        for(let i=0;i<amountToReturn;i++){
+            news.push({
+                ...posts[i],
+                latest: i==0? true:false,
+                id:i                                                
+            })
+        };
+
+        return news;
+    }
+
+    const searchLatestPodcast = ( posts, amountToReturn ) => {
+
+        const podcast = [];
+
+
+            for (let i=1; i < fetchedPosts[key]["category"].length; i++) {
+                                    
+                switch(fetchedPosts[key]["category"][i]["$"]["nicename"]){
+
+                    case "cafe-rolistes": 
+                        fetchedNews.push({
+                        ...fetchedPosts[key],
+                        id:key                                                
+                        });
+                        
+                        
+                        break;
+
+                    case "the-rolistes-podcast": 
+                        fetchedPodcast.push({
+                        ...fetchedPosts[key],
+                        id:key                                                
+                        });
+
+                        break;
+
+                    case "the-rolistes-present": 
+                        fetchedGondo.push({
+                        ...fetchedPosts[key],
+                        id:key                                                
+                        });
+                        break;
+
+                    case "film-studies": 
+                        fetchedGondo.push({
+                        ...fetchedPosts[key],
+                        id:key                                                
+                        });
+                        break;
+                }
+            }        
+
+
+        for(let i=0;i<amountToReturn;i++){
+            podcast.push({
+                ...posts[i],
+                latest: i==0? true:false,
+                id: i
+            })
+        };
+
+        return podcast;            
+    }
+    
     
     let posts = <Spinner />;
     let key = 0;
@@ -87,7 +157,35 @@ const Posts = props => {
                     author= {podcast[key]["dc:creator"][0]}
                     date= {podcast[key]["pubDate"][0]}
                     title= {podcast[key]["title"]}
-                    content= {podcast[key]["content:encoded"][0]}/>;                    ;             
+                    content= {podcast[key]["content:encoded"][0]}/>;                                 
+                break;
+
+            case "LATESTNEWS":
+                
+                const latestNews= searchLatestNews(props.news, 5); 
+                posts =latestNews.map ( news => (  
+                    <LatestNews
+                    key= {news.id}
+                    date= {news["pubDate"][0]}
+                    title= {news["title"]}
+                    content= {news["content:encoded"][0]}
+                    postName={news["wp:post_name"][0]}
+                    latest= {news.latest}/>                                                          
+                    ));                           
+                break;
+
+            case "LATESTPODCAST":
+               
+                const latestPodcast= searchLatestPodcast(props.podcast, 5); 
+                posts =latestPodcast.map ( news => (  
+                    <LatestPodcast
+                    key= {news.id}
+                    date= {news["pubDate"][0]}
+                    title= {news["title"]}
+                    content= {news["content:encoded"][0]}
+                    postName={news["wp:post_name"][0]}
+                    latest= {false}/>                                                          
+                    ));                           
                 break;
         }        
     }

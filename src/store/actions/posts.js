@@ -27,8 +27,11 @@ export const fetchPostsFailed = (error) => {
     }
 };
 
-const sortPosts = () => {
+const sortPosts = (postsToSort) => {
 
+    postsToSort.sort((a,b)=>{
+        return new Date(b["pubDate"][0]) - new Date(a["pubDate"][0]) 
+    });
 }
 
 export const fetchPosts = () => {
@@ -122,6 +125,10 @@ export const fetchPosts = () => {
                     fetchedGondo.sort((a,b)=>{
                         return new Date(b["pubDate"][0]) - new Date(a["pubDate"][0]) 
                     });
+
+                    // fetchedPodcast = sortPosts(fetchedPodcast);
+                    // fetchedNews = sortPosts(fetchedNews);
+                    // fetchedGondo = sortPosts(fetchedGondo);
                     
                     console.log(fetchedPosts);
                     console.log(fetchedNews);
