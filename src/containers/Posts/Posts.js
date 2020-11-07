@@ -48,56 +48,45 @@ const Posts = props => {
         return news;
     }
 
+    const searchPostBasedOnCategory = (posts, category) => {
+
+        for(let i=1;i<posts.length;i++){
+
+            for (let j=1; j < posts[i]["category"].length; j++) {
+                                    
+                if(posts[i]["category"][j]["$"]["nicename"]===category){
+                                            
+                    return i;                        
+                }
+            }    
+        }
+        
+    }
+
     const searchLatestPodcast = ( posts, amountToReturn ) => {
 
         const podcast = [];
 
+        podcast.push({            
+            ...posts[0],
+            latest: true,
+            id:0                                                
+        })
 
-            for (let i=1; i < fetchedPosts[key]["category"].length; i++) {
-                                    
-                switch(fetchedPosts[key]["category"][i]["$"]["nicename"]){
+        const categories =["the-rolistes-podcast","the-rolistes-present","cafe-rolistes","film-studies"];
 
-                    case "cafe-rolistes": 
-                        fetchedNews.push({
-                        ...fetchedPosts[key],
-                        id:key                                                
-                        });
-                        
-                        
-                        break;
+        let indexPost = 0;
 
-                    case "the-rolistes-podcast": 
-                        fetchedPodcast.push({
-                        ...fetchedPosts[key],
-                        id:key                                                
-                        });
+        for(let i=0;i<categories.length;i++){
 
-                        break;
+            indexPost = searchPostBasedOnCategory (posts,categories[i]);
 
-                    case "the-rolistes-present": 
-                        fetchedGondo.push({
-                        ...fetchedPosts[key],
-                        id:key                                                
-                        });
-                        break;
-
-                    case "film-studies": 
-                        fetchedGondo.push({
-                        ...fetchedPosts[key],
-                        id:key                                                
-                        });
-                        break;
-                }
-            }        
-
-
-        for(let i=0;i<amountToReturn;i++){
-            podcast.push({
-                ...posts[i],
-                latest: i==0? true:false,
-                id: i
+            podcast.push({            
+                ...posts[indexPost],
+                latest: true,
+                id:0                                                
             })
-        };
+        }                   
 
         return podcast;            
     }
