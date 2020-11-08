@@ -93,7 +93,8 @@ const Posts = props => {
         
         switch (props.type){
             case "NEWS":
-                posts = props.news.map(news => (
+                const currentNews = props.news.slice(props.indexOfFirstPost,props.indexOfLastPost)
+                posts = currentNews.map(news => (
                     <Post
                         key= {news.id}
                         author= {news["dc:creator"][0]}
@@ -106,7 +107,8 @@ const Posts = props => {
                 break;
             
             case "PODCAST":
-                posts =props.podcast.map ( podcast => (                               
+                const currentPodcast = props.podcast.slice(props.indexOfFirstPost,props.indexOfLastPost)
+                posts =currentPodcast.map ( podcast => (                               
                     <PodcastTile 
                         key= {podcast.id}
                         date= {podcast["pubDate"][0]}

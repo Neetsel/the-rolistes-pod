@@ -23,7 +23,7 @@ const Layout = props => {
             <Toolbar drawerToggleClicked = {sideDrawerToggleHandler}/>
             <SideDrawer open={sideDrawerIsVisible} closed={sideDrawerClosedHandler}/>
 
-            <main>                
+            <main id="top">                
                 {props.children}           
             </main>  
         </Aux>

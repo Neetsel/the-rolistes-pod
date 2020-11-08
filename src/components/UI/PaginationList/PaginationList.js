@@ -6,18 +6,16 @@ import { Pagination } from 'react-bootstrap';
 
 const PaginationList = (props) => {
 
-    let active = 1;
+    let active = props.currentPage;
     let items = [];
 
-    let totalRecords = 0;
     let totalPages = 0;
-    let pageLimit = 15;
 
-    totalPages = Math.ceil(totalRecords/pageLimit);
+    totalPages = Math.ceil(props.totalRecords/props.pageLimit);
 
     for (let number = 1; number <= totalPages; number++) {
         items.push(
-            <Pagination.Item key={number} active={number === active} href="!#">
+            <Pagination.Item key={number} onClick= {()=> props.paginate(number)} active={number === active} href="#top">
             {number}
             </Pagination.Item>,
         );
@@ -27,13 +25,6 @@ const PaginationList = (props) => {
     const paginationBasic = (
 
         <div>
-
-            {/* <Pagination>{items}</Pagination>
-            <br />
-
-            <Pagination size="lg">{items}</Pagination>
-            <br /> */}
-
             <Pagination size="sm">{items}</Pagination>
         </div>
     );

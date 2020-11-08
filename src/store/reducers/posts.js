@@ -8,7 +8,9 @@ const initialState = {
     podcast:[],
     gondo:[],
     loading: false,
-    loaded: false
+    loaded: false,
+    currentPageNews: 1,
+    currentPagePodcast: 1
 };
 
 const fetchPostsStart = (state, action) => {
@@ -30,6 +32,19 @@ const fetchPostsFailed = (state, action) => {
     return updateObject(state, {loading: false})  
 };
 
+const setCurrentPageNews = (state, action) => {
+    return updateObject(state,{
+        currentPageNews: action.currentPageNews
+    });
+};
+
+const setCurrentPagePodcast = (state, action) => {
+    return updateObject(state,{
+        currentPagePodcast: action.currentPagePodcast
+    });
+};
+
+
 const reducer = (state =initialState, action) => {
     
     switch (action.type){           
@@ -42,6 +57,12 @@ const reducer = (state =initialState, action) => {
 
         case actionTypes.FETCH_POSTS_FAILED:
             return fetchPostsFailed(state, action); 
+
+        case actionTypes.SET_CURRENT_PAGE_NEWS:
+            return setCurrentPageNews(state, action); 
+
+        case actionTypes.SET_CURRENT_PAGE_PODCAST:
+            return setCurrentPagePodcast(state, action); 
 
         default:
             return state;

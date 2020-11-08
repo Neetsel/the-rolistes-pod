@@ -1,3 +1,5 @@
 export {
-    fetchPosts
+    fetchPosts,
+    setCurrentPageNews,
+    setCurrentPagePodcast
 } from './posts';
