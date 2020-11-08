@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import Post from '../../components/Post/Post';
 import PodcastTile from '../../components/PodcastTile/PodcastTile';
 import FullPost from '../../components/FullPost/FullPost';
-import LatestNews from '../../components/LatestNews/LatestNews';
-import LatestPodcast from '../../components/LatestPodcast/LatestPodcast';
+import LatestNews from '../../components/Latest/LatestNews/LatestNews';
+import LatestPodcast from '../../components/Latest/LatestPodcast/LatestPodcast';
 import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
 import * as actions from '../../store/actions/index';
 import { connect } from 'react-redux';
@@ -148,35 +148,23 @@ const Posts = props => {
                     content= {podcast[key]["content:encoded"][0]}/>;                                 
                 break;
 
-            case "LATESTNEWS":
+            case "LATEST":
                 
                 const latestNews= searchLatestNews(props.news, 5); 
-                posts =latestNews.map ( news => (  
-                    <LatestNews
-                    key= {news.id}
-                    date= {news["pubDate"][0]}
-                    title= {news["title"]}
-                    content= {news["content:encoded"][0]}
-                    postName={news["wp:post_name"][0]}
-                    latest= {news.latest}
-                    location = {location["pathname"]}/>                                                            
-                    ));                           
+                const latestPodcast= searchLatestPodcast(props.podcast, 5);
+                
+                posts = 
+                <div>
+                    <LatestNews 
+                    news={latestNews} 
+                    location = {location["pathname"]}/> 
+                    <LatestPodcast 
+                    podcast={latestPodcast} 
+                    location = {location["pathname"]}/>  
+                </div> 
+                                                         
                 break;
-
-            case "LATESTPODCAST":
-               
-                const latestPodcast= searchLatestPodcast(props.podcast, 5); 
-                posts =latestPodcast.map ( news => (  
-                    <LatestPodcast
-                    key= {news.id}
-                    date= {news["pubDate"][0]}
-                    title= {news["title"]}
-                    content= {news["content:encoded"][0]}
-                    postName={news["wp:post_name"][0]}
-                    location = {location["pathname"]}
-                    latest= {false}/>                                                          
-                    ));                           
-                break;
+                   
         }        
     }
 

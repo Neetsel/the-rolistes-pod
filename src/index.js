@@ -10,7 +10,9 @@ import thunk from 'redux-thunk';
 import postsReducer from './store/reducers/posts'
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
-const composeEnhancers = process.env.REACT_APP_NODE_ENVX === "development" ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ : null || compose;
+// const composeEnhancers = process.env.REACT_APP_NODE_ENVX === "development" ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ : null || compose;
+const composeEnhancers =  window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
 
 const rootReducer = combineReducers({
   posts: postsReducer
