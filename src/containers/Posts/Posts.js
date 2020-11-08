@@ -10,16 +10,9 @@ import { connect } from 'react-redux';
 import Spinner from '../../components/UI/Spinner/Spinner';
 import { Row } from 'react-bootstrap';
 import { useLocation } from 'react-router-dom';
+import ComingSoon from '../../components/ComingSoon/ComingSoon';
 
 const Posts = props => {
-
-    const { onFetchPosts } = props;
-
-    useEffect(()=> {
-        if(!props.loaded){
-            onFetchPosts();
-        }        
-    }, []);   
 
     const searchPost = ( posts, pageTitle ) => {
 
@@ -155,6 +148,7 @@ const Posts = props => {
                 
                 posts = 
                 <div>
+                    <ComingSoon/>
                     <LatestNews 
                     news={latestNews} 
                     location = {location["pathname"]}/> 
@@ -184,10 +178,4 @@ const mapStateToProps = state => {
     };
 };
 
-const mapDispatchToProps = dispatch => {
-    return {
-        onFetchPosts: () => dispatch (actions.fetchPosts())
-    };
-};
-
-export default connect(mapStateToProps,mapDispatchToProps)(Posts);
+export default connect(mapStateToProps)(Posts);

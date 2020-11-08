@@ -8,8 +8,7 @@ import Posts from '../../../containers/Posts/Posts';
 
 const HomeLayout = (props) => (
     <Aux>
-        <Container>
-            <ComingSoon/>            
+        <Container>                      
             <Posts {...props} type="LATEST" />                
         </Container>
         

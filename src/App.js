@@ -1,10 +1,10 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useEffect } from 'react';
 import Layout from './hoc/Layout/Layout';
+import * as actions from './store/actions/index';
+import { connect } from 'react-redux';
 
 import { Route, Switch, withRouter } from 'react-router-dom';
 import './App.css';
-
-
 
 
 const Home = React.lazy(()=>{
@@ -27,7 +27,14 @@ const AboutUs = React.lazy(()=>{
   return import ('./hoc/Layout/AboutUsLayout/AboutUsLayout');
 });
 
-function App() {
+
+const App = props => {
+
+  const { onFetchPosts } = props;
+
+    useEffect(()=> {
+      onFetchPosts();      
+    }, []);   
 
   let routes = (
     <Switch>
@@ -50,4 +57,10 @@ function App() {
   );
 }
 
-export default withRouter(App);
+const mapDispatchToProps = dispatch => {
+  return {
+      onFetchPosts: () => dispatch (actions.fetchPosts())
+  };
+};
+
+export default withRouter(connect(null,mapDispatchToProps)(App));
