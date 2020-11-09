@@ -19,7 +19,7 @@ const NewsLayout = (props) =>
     const indexOfLastPost = props.currentPageNews * postPerPage;
     const indexOfFirstPost = indexOfLastPost - postPerPage;
 
-    const paginate = (pageNumber) => props.onSetCurrentPage(pageNumber);
+    const paginate = (pageNumber) => props.onSetCurrentPageNews(pageNumber);
 
     return (
         <Aux>
@@ -66,7 +66,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        onSetCurrentPage: (pageNumber) => dispatch (actions.setCurrentPageNews(pageNumber))
+        onSetCurrentPageNews: (pageNumber) => dispatch (actions.setCurrentPageNews(pageNumber))
     };
   };
 

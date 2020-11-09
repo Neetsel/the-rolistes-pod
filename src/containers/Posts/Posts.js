@@ -55,6 +55,24 @@ const Posts = props => {
         }        
     }
 
+    const searchPostsBasedOnCategory = (posts, category) => {
+
+        const postsFromCategory = [];
+
+        for(let i=1;i<posts.length;i++){
+
+            for (let j=0; j < posts[i]["category"].length; j++) {
+                                    
+                if(posts[i]["category"][j]["$"]["nicename"]===category){
+                                            
+                    postsFromCategory.push(posts[i]);
+                }
+            }    
+        }  
+        
+        return postsFromCategory
+    }
+
     const searchLatestPodcast = ( posts, amountToReturn ) => {
 
         const podcast = [];
@@ -94,6 +112,7 @@ const Posts = props => {
         switch (props.type){
             case "NEWS":
                 const currentNews = props.news.slice(props.indexOfFirstPost,props.indexOfLastPost)
+                
                 posts = currentNews.map(news => (
                     <Post
                         key= {news.id}
@@ -107,7 +126,9 @@ const Posts = props => {
                 break;
             
             case "PODCAST":
-                const currentPodcast = props.podcast.slice(props.indexOfFirstPost,props.indexOfLastPost)
+                const currentPodcast = searchPostsBasedOnCategory(props.podcast, props.filterCategory)
+                    .slice(props.indexOfFirstPost,props.indexOfLastPost);
+
                 posts =currentPodcast.map ( podcast => (                               
                     <PodcastTile 
                         key= {podcast.id}
