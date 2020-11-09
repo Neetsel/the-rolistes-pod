@@ -1,5 +1,6 @@
 export {
     fetchPosts,
     setCurrentPageNews,
-    setCurrentPagePodcast
+    setCurrentPagePodcast,
+    setCurrentCategoryPodcast
 } from './posts';

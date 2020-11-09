@@ -14,21 +14,22 @@ const PodcastLayout = (props) => {
     const postPerPage = 18;
     const indexOfLastPost = props.currentPagePodcast * postPerPage;
     const indexOfFirstPost = indexOfLastPost - postPerPage;
-    const categories =["podcast","the-rolistes-podcast","the-rolistes-present","cafe-rolistes","film-studies"];
-    let selectedCategory = 0;
+    
     // need to convert this with use effect
 
     useEffect(() => {
-        props.onSetCurrentPagePodcast(1)
+        props.onSetCurrentPagePodcast(1);
+        props.onSetCurrentCategoryPodcast("podcast");
       }, [])
 
     const paginate = (pageNumber) => props.onSetCurrentPagePodcast(pageNumber);
     
-    const filterAll = () => selectedCategory = 0;
-    const filterRolistesPod = () => selectedCategory = 1;
-    const filterRolistesPresent = () => selectedCategory = 2;
-    const filterCafeRolistes = () => selectedCategory = 3;
-    const filterFilmStudies = () => selectedCategory = 4;
+    const filterAll = () => props.onSetCurrentCategoryPodcast("podcast");
+    const filterRolistesPod = () => props.onSetCurrentCategoryPodcast("the-rolistes-podcast");
+    const filterRolistesPresent = () => props.onSetCurrentCategoryPodcast("the-rolistes-present");
+    const filterCafeRolistes = () => props.onSetCurrentCategoryPodcast("cafe-rolistes");
+    const filterFilmStudies = () => props.onSetCurrentCategoryPodcast("film-studies");
+ 
 
     return (
         <Aux>
@@ -42,7 +43,7 @@ const PodcastLayout = (props) => {
                 <Col xs={12} >
                     <Posts {...props} 
                         type="PODCAST"
-                        filterCategory={categories[selectedCategory]}
+                        filterCategory={props.currentCategoryPodcast}
                         indexOfFirstPost={indexOfFirstPost} 
                         indexOfLastPost={indexOfLastPost}/>
                     <PaginationList
@@ -63,13 +64,15 @@ const PodcastLayout = (props) => {
 const mapStateToProps = state => {
     return {
         podcast: state.posts.podcast,
-        currentPagePodcast: state.posts.currentPagePodcast
+        currentPagePodcast: state.posts.currentPagePodcast,
+        currentCategoryPodcast: state.posts.currentCategoryPodcast
     };
 };
 
 const mapDispatchToProps = dispatch => {
     return {
-        onSetCurrentPagePodcast: (pageNumber) => dispatch (actions.setCurrentPagePodcast(pageNumber))
+        onSetCurrentPagePodcast: (pageNumber) => dispatch (actions.setCurrentPagePodcast(pageNumber)),
+        onSetCurrentCategoryPodcast: (category) => dispatch (actions.setCurrentCategoryPodcast(category))    
     };
   };
 
