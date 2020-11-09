@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Aux from '../../Auxiliary/Auxiliary';
-
+import Button from '../../../components/UI/Button/Button';
 import classes from './PodcastLayout.module.css';
 import { Col, Container, Row } from 'react-bootstrap';
 import Posts from '../../../containers/Posts/Posts';
@@ -15,6 +15,7 @@ const PodcastLayout = (props) => {
     const indexOfLastPost = props.currentPagePodcast * postPerPage;
     const indexOfFirstPost = indexOfLastPost - postPerPage;
     const categories =["podcast","the-rolistes-podcast","the-rolistes-present","cafe-rolistes","film-studies"];
+    let selectedCategory = 0;
     // need to convert this with use effect
 
     useEffect(() => {
@@ -22,21 +23,32 @@ const PodcastLayout = (props) => {
       }, [])
 
     const paginate = (pageNumber) => props.onSetCurrentPagePodcast(pageNumber);
+    
+    const filterAll = () => selectedCategory = 0;
+    const filterRolistesPod = () => selectedCategory = 1;
+    const filterRolistesPresent = () => selectedCategory = 2;
+    const filterCafeRolistes = () => selectedCategory = 3;
+    const filterFilmStudies = () => selectedCategory = 4;
 
     return (
         <Aux>
         <Container>
+            <Button type="TOGGLE" clicked ={filterAll}>ALL</Button>
+            <Button type="TOGGLE" clicked ={filterRolistesPod}>Rolistes Pod</Button>
+            <Button type="TOGGLE" clicked ={filterRolistesPresent}>Rolistes Present</Button>
+            <Button type="TOGGLE" clicked ={filterCafeRolistes}>Cafe Rolistes</Button>
+            <Button type="TOGGLE" clicked ={filterFilmStudies}>Film Studies</Button>
             <Row>
                 <Col xs={12} >
                     <Posts {...props} 
                         type="PODCAST"
-                        filterCategory={categories[0]}
+                        filterCategory={categories[selectedCategory]}
                         indexOfFirstPost={indexOfFirstPost} 
                         indexOfLastPost={indexOfLastPost}/>
                     <PaginationList
                         totalRecords={props.podcast.length} 
                         pageLimit={postPerPage} 
-                        paginate={paginate}
+                        clicked={paginate}
                         currentPage={props.currentPagePodcast}/>
                 </Col>
             </Row>

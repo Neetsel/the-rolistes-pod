@@ -15,7 +15,7 @@ const PaginationList = (props) => {
 
     for (let number = 1; number <= totalPages; number++) {
         items.push(
-            <Pagination.Item key={number} onClick= {()=> props.paginate(number)} active={number === active} href="#top">
+            <Pagination.Item key={number} onClick= {()=> props.clicked(number)} active={number === active} href="#top">
             {number}
             </Pagination.Item>,
         );
