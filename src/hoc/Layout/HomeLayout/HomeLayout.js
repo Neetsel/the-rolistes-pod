@@ -10,8 +10,7 @@ const HomeLayout = (props) => (
     <Aux>
         <Container>                      
             <Posts {...props} type="LATEST" />                
-        </Container>
-        
+        </Container>        
         <Footer/>        
     </Aux>
 )

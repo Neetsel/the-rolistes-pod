@@ -11,7 +11,7 @@ import { connect } from 'react-redux';
 
 const PodcastLayout = (props) => {
 
-    const postPerPage = 18;
+    const postPerPage = 24;
     const indexOfLastPost = props.currentPagePodcast * postPerPage;
     const indexOfFirstPost = indexOfLastPost - postPerPage;
     
@@ -30,35 +30,32 @@ const PodcastLayout = (props) => {
     const filterCafeRolistes = () => props.onSetCurrentCategoryPodcast("cafe-rolistes");
     const filterFilmStudies = () => props.onSetCurrentCategoryPodcast("film-studies");
  
-
     return (
         <Aux>
-        <Container>
-            <Button type="TOGGLE" clicked ={filterAll}>ALL</Button>
-            <Button type="TOGGLE" clicked ={filterRolistesPod}>The Rolistes Podcast</Button>
-            <Button type="TOGGLE" clicked ={filterRolistesPresent}>The Rolistes Present</Button>
-            <Button type="TOGGLE" clicked ={filterCafeRolistes}>Cafe Rolistes</Button>
-            <Button type="TOGGLE" clicked ={filterFilmStudies}>Film Studies</Button>
-            <Row>
-                <Col xs={12} >
-                    <Posts {...props} 
-                        type="PODCAST"
-                        filterCategory={props.currentCategoryPodcast}
-                        indexOfFirstPost={indexOfFirstPost} 
-                        indexOfLastPost={indexOfLastPost}/>
-                    <PaginationList
-                        // totalRecords={props.podcast.length} 
-                        totalRecords={props.currentCategorySize} 
-                        pageLimit={postPerPage} 
-                        clicked={paginate}
-                        currentPage={props.currentPagePodcast}/>
-                </Col>
-            </Row>
-        </Container> 
-        
-        <Footer/>
-             
-    </Aux>
+            <Container>
+                <Button type="TOGGLE" clicked ={filterAll}>ALL</Button>
+                <Button type="TOGGLE" clicked ={filterRolistesPod}>The Rolistes Podcast</Button>
+                <Button type="TOGGLE" clicked ={filterRolistesPresent}>The Rolistes Present</Button>
+                <Button type="TOGGLE" clicked ={filterCafeRolistes}>Cafe Rolistes</Button>
+                <Button type="TOGGLE" clicked ={filterFilmStudies}>Film Studies</Button>
+                <Row>
+                    <Col xs={12} >
+                        <Posts {...props} 
+                            type="PODCAST"
+                            filterCategory={props.currentCategoryPodcast}
+                            indexOfFirstPost={indexOfFirstPost} 
+                            indexOfLastPost={indexOfLastPost}/>
+                        <PaginationList
+                            // totalRecords={props.podcast.length} 
+                            totalRecords={props.currentCategorySize} 
+                            pageLimit={postPerPage} 
+                            clicked={paginate}
+                            currentPage={props.currentPagePodcast}/>
+                    </Col>
+                </Row>
+            </Container>             
+            <Footer/>             
+        </Aux>
     )    
 }
 
@@ -76,6 +73,6 @@ const mapDispatchToProps = dispatch => {
         onSetCurrentPagePodcast: (pageNumber) => dispatch (actions.setCurrentPagePodcast(pageNumber)),
         onSetCurrentCategoryPodcast: (category) => dispatch (actions.setCurrentCategoryPodcast(category))    
     };
-  };
+};
 
 export default connect(mapStateToProps,mapDispatchToProps)(PodcastLayout);
