@@ -35,8 +35,8 @@ const PodcastLayout = (props) => {
         <Aux>
         <Container>
             <Button type="TOGGLE" clicked ={filterAll}>ALL</Button>
-            <Button type="TOGGLE" clicked ={filterRolistesPod}>Rolistes Pod</Button>
-            <Button type="TOGGLE" clicked ={filterRolistesPresent}>Rolistes Present</Button>
+            <Button type="TOGGLE" clicked ={filterRolistesPod}>The Rolistes Podcast</Button>
+            <Button type="TOGGLE" clicked ={filterRolistesPresent}>The Rolistes Present</Button>
             <Button type="TOGGLE" clicked ={filterCafeRolistes}>Cafe Rolistes</Button>
             <Button type="TOGGLE" clicked ={filterFilmStudies}>Film Studies</Button>
             <Row>
