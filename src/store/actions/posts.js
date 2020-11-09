@@ -27,13 +27,6 @@ export const fetchPostsFailed = (error) => {
     }
 };
 
-const sortPosts = (postsToSort) => {
-
-    postsToSort.sort((a,b)=>{
-        return new Date(b["pubDate"][0]) - new Date(a["pubDate"][0]) 
-    });
-}
-
 export const setCurrentPageNews = (pageNumber) => {
     return {
         type: actionTypes.SET_CURRENT_PAGE_NEWS,
@@ -53,6 +46,13 @@ export const setCurrentCategoryPodcast = (category) => {
     return {
         type: actionTypes.SET_CURRENT_CATEGORY_PODCAST,
         currentCategoryPodcast: category    
+    }
+}
+
+export const setCurrentCategorySize = (size) => {
+    return {
+        type: actionTypes.SET_CURRENT_CATEGORY_SIZE,
+        currentCategorySize: size    
     }
 }
 

@@ -11,7 +11,8 @@ const initialState = {
     loaded: false,
     currentPageNews: 1,
     currentPagePodcast: 1,
-    currentCategoryPodcast: "podcast"
+    currentCategoryPodcast: "podcast",
+    currentCategorySize: 1
 };
 
 const fetchPostsStart = (state, action) => {
@@ -51,6 +52,13 @@ const setCurrentCategoryPodcast = (state, action) => {
     });
 };
 
+const setCurrentCategorySize = (state, action) => {
+    return updateObject(state,{
+        currentCategorySize: action.currentCategorySize
+    });
+};
+
+
 
 
 const reducer = (state =initialState, action) => {
@@ -74,6 +82,9 @@ const reducer = (state =initialState, action) => {
 
         case actionTypes.SET_CURRENT_CATEGORY_PODCAST:
             return setCurrentCategoryPodcast(state, action); 
+
+        case actionTypes.SET_CURRENT_CATEGORY_SIZE:
+            return setCurrentCategorySize(state, action); 
 
         default:
             return state;

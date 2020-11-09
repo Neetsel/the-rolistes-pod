@@ -47,7 +47,8 @@ const PodcastLayout = (props) => {
                         indexOfFirstPost={indexOfFirstPost} 
                         indexOfLastPost={indexOfLastPost}/>
                     <PaginationList
-                        totalRecords={props.podcast.length} 
+                        // totalRecords={props.podcast.length} 
+                        totalRecords={props.currentCategorySize} 
                         pageLimit={postPerPage} 
                         clicked={paginate}
                         currentPage={props.currentPagePodcast}/>
@@ -65,7 +66,8 @@ const mapStateToProps = state => {
     return {
         podcast: state.posts.podcast,
         currentPagePodcast: state.posts.currentPagePodcast,
-        currentCategoryPodcast: state.posts.currentCategoryPodcast
+        currentCategoryPodcast: state.posts.currentCategoryPodcast,
+        currentCategorySize: state.posts.currentCategorySize
     };
 };
 

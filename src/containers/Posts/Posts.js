@@ -14,6 +14,13 @@ import ComingSoon from '../../components/ComingSoon/ComingSoon';
 
 const Posts = props => {
 
+    console.log("start");
+
+    let sizePodcast = 1;    
+    let posts = <Spinner />;
+    let key = 0;
+    let location = useLocation();    
+
     const searchPost = ( posts, pageTitle ) => {
 
         console.log("Start Test");
@@ -68,10 +75,17 @@ const Posts = props => {
                     postsFromCategory.push(posts[i]);
                 }
             }    
-        }  
+        }          
         
+        sizePodcast = postsFromCategory.length;
         return postsFromCategory
     }
+
+    useEffect(()=> {
+        if (props.type ==="PODCAST"){
+            props.onSetCurrentCategorySize(sizePodcast);        
+        }        
+    },[props.podcast,props.currentCategoryPodcast]);
 
     const searchLatestPodcast = ( posts, amountToReturn ) => {
 
@@ -102,11 +116,6 @@ const Posts = props => {
     }
     
     
-    let posts = <Spinner />;
-    let key = 0;
-    let location = useLocation();
-    console.log(location);
-
     if(!props.loading & props.loaded){
         
         switch (props.type){
@@ -197,8 +206,15 @@ const mapStateToProps = state => {
         news: state.posts.news,
         podcast: state.posts.podcast,
         loading: state.posts.loading,
-        loaded: state.posts.loaded
+        loaded: state.posts.loaded,
+        currentCategoryPodcast: state.posts.currentCategoryPodcast
     };
 };
 
-export default connect(mapStateToProps)(Posts);
+const mapDispatchToProps = dispatch => {
+    return {      
+        onSetCurrentCategorySize: (size) => dispatch (actions.setCurrentCategorySize(size))    
+    };
+  };
+
+export default connect(mapStateToProps,mapDispatchToProps)(Posts);
