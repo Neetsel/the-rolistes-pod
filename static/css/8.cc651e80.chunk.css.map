@@ -1,1 +1,0 @@
-{"version":3,"sources":["Post.module.css"],"names":[],"mappings":"AAAA,IACI,wBAA0B,CAC1B,qBAAuB,CACvB,aACJ","file":"8.cc651e80.chunk.css","sourcesContent":["img{\r\n    max-width: 100% !important;\r\n    height: auto !important;\r\n    display:block;\r\n}\r\n\r\n"]}
