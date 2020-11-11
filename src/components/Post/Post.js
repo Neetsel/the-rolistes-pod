@@ -14,7 +14,7 @@ const Post = (props) => {
                 <h1>{props.title}</h1>
                 <p>{props.author}</p>
                 <p>{props.date}</p>            
-                <div dangerouslySetInnerHTML={{ __html: props.article }} />
+                <div className={classes.mainArticle} dangerouslySetInnerHTML={{ __html: props.article }} />
             </Link>
         </Col>
     );

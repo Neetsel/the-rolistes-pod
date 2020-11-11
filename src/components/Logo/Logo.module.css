@@ -4,8 +4,10 @@
     height: 100%;
     box-sizing: border-box;
     border-radius: 5px;
+    max-width: 251px;
 }
 
-.Logo img {
+/* .Logo img {
     height: 100%;
-}
+    
+} */
