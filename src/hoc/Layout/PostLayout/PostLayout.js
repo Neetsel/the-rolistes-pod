@@ -23,7 +23,6 @@ const PostLayout = (props) => {
                 <Row>
                     <Col lg={8} xs={12} >
                         <Posts type={props.type} pageTitle={pageId}/>                    
-                        ref page: {pageId}
                         <PaginationList/>
                     </Col>
                     <Col  lg={4} xs={12}>

@@ -1,10 +1,14 @@
 import React from 'react';
 import Aux from '../../../hoc/Auxiliary/Auxiliary';
+import globalClasses from '../../../App.module.css';
 
 const RecentPosts = (props) => {
     return (
         <Aux>
-            Recent
+            <div className={globalClasses.item_box}>
+                <h2 className={globalClasses.section_title}>Recent</h2>
+                            
+            </div>
         </Aux>
     )
 }

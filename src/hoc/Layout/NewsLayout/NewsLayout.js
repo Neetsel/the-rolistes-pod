@@ -10,6 +10,7 @@ import Support from '../../../components/side/Support/Support';
 import Footer from '../../../components/Footer/Footer';
 import * as actions from '../../../store/actions/index';
 import { connect } from 'react-redux';
+import globalClasses from '../../../App.module.css';
 
 
 
@@ -24,19 +25,24 @@ const NewsLayout = (props) =>
     return (
         <Aux>
             <Container>
-                <Row>
-                    <Col lg={8} xs={12} >
-                        <Posts 
-                            {...props} 
-                            type="NEWS" 
-                            indexOfFirstPost={indexOfFirstPost} 
-                            indexOfLastPost={indexOfLastPost}/>
-                        <PaginationList 
-                            totalRecords={props.news.length} 
-                            pageLimit={postPerPage} 
-                            clicked={paginate}
-                            currentPage={props.currentPageNews}/>
+                <Row>                                           
+                    <Col lg={8} xs={12} >                    
+                        <div className={globalClasses.item_box}>
+                            <h1 className={globalClasses.section_title}>News</h1>
+                            <Posts 
+                                {...props} 
+                                type="NEWS" 
+                                indexOfFirstPost={indexOfFirstPost} 
+                                indexOfLastPost={indexOfLastPost}/>
+                            <PaginationList 
+                                totalRecords={props.news.length} 
+                                pageLimit={postPerPage} 
+                                clicked={paginate}
+                                currentPage={props.currentPageNews}/>
+
+                        </div>  
                     </Col>
+                   
                     <Col  lg={4} xs={12}>
                         <Row>  
                             <Col xs={12}>
@@ -51,6 +57,7 @@ const NewsLayout = (props) =>
                         </Row>    
                     </Col>
                 </Row>
+                
             </Container>  
             <Footer/>           
         </Aux>

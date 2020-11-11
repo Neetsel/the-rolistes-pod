@@ -8,12 +8,14 @@ import Footer from '../../../components/Footer/Footer';
 import PaginationList from '../../../components/UI/PaginationList/PaginationList';
 import * as actions from '../../../store/actions/index';
 import { connect } from 'react-redux';
+import globalClasses from '../../../App.module.css';
 
 const PodcastLayout = (props) => {
 
     const postPerPage = 24;
     const indexOfLastPost = props.currentPagePodcast * postPerPage;
     const indexOfFirstPost = indexOfLastPost - postPerPage;
+    
     
     // need to convert this with use effect
 
@@ -33,26 +35,29 @@ const PodcastLayout = (props) => {
     return (
         <Aux>
             <Container>
-                <Button type="TOGGLE" clicked ={filterAll}>ALL</Button>
-                <Button type="TOGGLE" clicked ={filterRolistesPod}>The Rolistes Podcast</Button>
-                <Button type="TOGGLE" clicked ={filterRolistesPresent}>The Rolistes Present</Button>
-                <Button type="TOGGLE" clicked ={filterCafeRolistes}>Cafe Rolistes</Button>
-                <Button type="TOGGLE" clicked ={filterFilmStudies}>Film Studies</Button>
-                <Row>
-                    <Col xs={12} >
-                        <Posts {...props} 
-                            type="PODCAST"
-                            filterCategory={props.currentCategoryPodcast}
-                            indexOfFirstPost={indexOfFirstPost} 
-                            indexOfLastPost={indexOfLastPost}/>
-                        <PaginationList
-                            // totalRecords={props.podcast.length} 
-                            totalRecords={props.currentCategorySize} 
-                            pageLimit={postPerPage} 
-                            clicked={paginate}
-                            currentPage={props.currentPagePodcast}/>
-                    </Col>
-                </Row>
+                <div className={globalClasses.item_box}>
+                    <h1 className={globalClasses.section_title}>Podcast</h1>
+                    <Button type="TOGGLE" clicked ={filterAll}>ALL</Button>
+                    <Button type="TOGGLE" clicked ={filterRolistesPod}>The Rolistes Podcast</Button>
+                    <Button type="TOGGLE" clicked ={filterRolistesPresent}>The Rolistes Present</Button>
+                    <Button type="TOGGLE" clicked ={filterCafeRolistes}>Cafe Rolistes</Button>
+                    <Button type="TOGGLE" clicked ={filterFilmStudies}>Film Studies</Button>
+                    <Row>
+                        <Col xs={12} >
+                            <Posts {...props} 
+                                type="PODCAST"
+                                filterCategory={props.currentCategoryPodcast}
+                                indexOfFirstPost={indexOfFirstPost} 
+                                indexOfLastPost={indexOfLastPost}/>
+                            <PaginationList
+                                // totalRecords={props.podcast.length} 
+                                totalRecords={props.currentCategorySize} 
+                                pageLimit={postPerPage} 
+                                clicked={paginate}
+                                currentPage={props.currentPagePodcast}/>
+                        </Col>
+                    </Row>
+                </div>
             </Container>             
             <Footer/>             
         </Aux>
