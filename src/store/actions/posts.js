@@ -56,6 +56,20 @@ export const setCurrentCategorySize = (size) => {
     }
 }
 
+const getAttachmentURL = (attachments, postId) => {
+    
+    for(let key in attachments){
+
+        if(attachments[key]["wp:post_parent"][0] === postId){
+
+            return attachments[key]["wp:attachment_url"][0];
+        }
+    }
+
+    return "https://static8.depositphotos.com/1051435/932/i/950/depositphotos_9327706-stock-photo-happy-clown.jpg";
+    //return attachment_url
+}
+
 export const fetchPosts = () => {
 
     return dispatch => {
@@ -71,6 +85,7 @@ export const fetchPosts = () => {
             let parser = new xml2js.Parser();
             
             const fetchedPosts = [];
+            const fetchedAttachment = [];
             const fetchedNews = [];
             const fetchedPodcast = [];
             const fetchedGondo = [];
@@ -79,13 +94,24 @@ export const fetchPosts = () => {
                 response.data,
                 (err,result) => {
 
-                    for (let key in result["rss"]["channel"][0]["item"]) {                           
-                        
-                        fetchedPosts.push({
-                            ...result["rss"]["channel"][0]["item"][key],
-                            id:key
-                        });
-                        console.log('test') ;           
+                    for (let key in result["rss"]["channel"][0]["item"]) {
+
+                        if(result["rss"]["channel"][0]["item"][key]["wp:post_type"][0]==='attachment'){
+                            fetchedAttachment.push({
+                                ...result["rss"]["channel"][0]["item"][key],
+                                id:key
+                            });
+                        }
+                        else{
+                            fetchedPosts.push({
+                                ...result["rss"]["channel"][0]["item"][key],
+                                id:key
+                            });
+                        }
+                    }
+
+                    for (let key in fetchedPosts) {                                                                           
+         
                         const currentDate = new Date();
                         const publishDate = new Date(fetchedPosts[key]["pubDate"][0]);                       
 
@@ -103,6 +129,8 @@ export const fetchPosts = () => {
                                 )
                             )
                         ){
+                            const postId = fetchedPosts[key]["wp:post_id"][0];
+                            const attachmentURL= getAttachmentURL(fetchedAttachment , postId);
 
                             for (let i=0; i < fetchedPosts[key]["category"].length; i++) {
                                 
@@ -111,6 +139,7 @@ export const fetchPosts = () => {
                                     case "news": 
                                         fetchedNews.push({
                                         ...fetchedPosts[key],
+                                        cover: attachmentURL,
                                         id:key                                                
                                         });
                                         
@@ -120,6 +149,7 @@ export const fetchPosts = () => {
                                     case "podcast": 
                                         fetchedPodcast.push({
                                         ...fetchedPosts[key],
+                                        cover: attachmentURL,
                                         id:key                                                
                                         });
 
@@ -147,11 +177,8 @@ export const fetchPosts = () => {
                     fetchedGondo.sort((a,b)=>{
                         return new Date(b["pubDate"][0]) - new Date(a["pubDate"][0]) 
                     });
-
-                    // fetchedPodcast = sortPosts(fetchedPodcast);
-                    // fetchedNews = sortPosts(fetchedNews);
-                    // fetchedGondo = sortPosts(fetchedGondo);
                     
+                    console.log(fetchedAttachment);
                     console.log(fetchedPosts);
                     console.log(fetchedNews);
                     console.log(fetchedPodcast);

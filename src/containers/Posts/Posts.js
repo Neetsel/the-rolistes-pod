@@ -125,7 +125,8 @@ const Posts = props => {
                 posts = currentNews.map(news => (
                     <Post
                         key= {news.id}
-                        author= {news["dc:creator"][0]}
+                        cover={news.cover}
+                        author= {news["dc:creator"][0]}                        
                         title= {news["title"]}
                         article= {news["content:encoded"][0]}
                         date= {news["pubDate"][0]}
@@ -141,7 +142,8 @@ const Posts = props => {
                 posts =currentPodcast.map ( podcast => (                               
                     <PodcastTile 
                         key= {podcast.id}
-                        date= {podcast["pubDate"][0]}
+                        cover={podcast.cover}
+                        date= {podcast["pubDate"][0]}                        
                         title= {podcast["title"]}
                         content= {podcast["content:encoded"][0]}
                         postName={podcast["wp:post_name"][0]}
@@ -155,6 +157,7 @@ const Posts = props => {
                 posts =                          
                     <FullPost 
                         key= {news[key].id}
+                        cover={news[key].cover}
                         author= {news[key]["dc:creator"][0]}
                         title= {news[key]["title"]}
                         content= {news[key]["content:encoded"][0]}
@@ -167,6 +170,7 @@ const Posts = props => {
                 posts =                          
                 <FullPost 
                     key= {podcast[key].id}
+                    cover={podcast[key].cover}
                     author= {podcast[key]["dc:creator"][0]}
                     date= {podcast[key]["pubDate"][0]}
                     title= {podcast[key]["title"]}

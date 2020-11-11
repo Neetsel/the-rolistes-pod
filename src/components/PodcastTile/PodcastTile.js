@@ -15,9 +15,9 @@ const PodcastTile = (props) => {
         <Aux>
             <Col xs={12} md={6} lg={4} className={classes.cell} >
                 {/* <Link to={props.location + '/'  + props.postName}> */}
-                <Link to={'/2020/15/16/'  + props.postName}>
-                    {/* <img src="/assets/images/Episode_40_Ep.jpg" alt=""/> */}
-                    <img src={imgTest} alt=""/> 
+                <Link to={'/2020/15/16/'  + props.postName}>                                    
+                    <img src={props.cover} alt=""/> 
+                    {/* <img src={imgTest} alt=""/>  */}
                     <div className={classes.overlay}> 
                         <div className={classes.overlayText}>
                              <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{props.date}</div>
