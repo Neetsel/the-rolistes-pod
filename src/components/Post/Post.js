@@ -11,6 +11,7 @@ const Post = (props) => {
         
         <Col xs={12} >
             <Link to={props.location + '/'  + props.postName}>
+                {/* '?w=656&h=300&crop=1' */}
                 <h2>{props.title}</h2>
                 <p>{props.author}</p>
                 <p>{props.date}</p>            
