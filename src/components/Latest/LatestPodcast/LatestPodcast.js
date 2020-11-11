@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import Aux from '../../../hoc/Auxiliary/Auxiliary';
 import classes from './LatestPodcast.module.css';
 import globalClasses from '../../../App.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 
 const LatestPodcast = (props) => {
 
@@ -26,15 +28,11 @@ const LatestPodcast = (props) => {
     const podcastMainOutput = 
         <Link to={podcast[0].location + '2020/15/16/'  + podcast[0].postName}>
             <img src="" alt=""/>
-            <div> 
-                {/* Overlay */}
-                <div>
-                    {/* Overlay-text */}
-                    <p>{podcast[0].date}</p>
-                    {/* <div dangerouslySetInnerHTML={{ __html: props.content }} /> */}
-                    
-                    <h1>{podcast[0].title}</h1>
-                </div>
+            <div>                                 
+                <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{podcast[0].date}</div>
+                {/* <div dangerouslySetInnerHTML={{ __html: props.content }} /> */}                
+                <h1>{podcast[0].title}</h1>
+              
             </div>
             
         </Link>  ;
@@ -45,18 +43,13 @@ const LatestPodcast = (props) => {
         return <Col xs={12} md={6} key={podcast.key}>
             {/* <Link to={props.location + '/'  + props.postName}> */}
                 <Link to={podcast.location + '2020/15/16/'  + podcast.postName}>
-                    <img src="" alt=""/>
-                    <div> 
-                        {/* Overlay */}
-                        <div>
-                             {/* Overlay-text */}
-                            <p>{podcast.date}</p>
-                            {/* <div dangerouslySetInnerHTML={{ __html: props.content }} /> */}
-                            
-                            <h1>{podcast.title}</h1>
-                        </div>
+                    <img src="" alt=""/>                                            
+                    <div>
+                        <div className={classes.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{podcast.date}</div>
+                        {/* <div dangerouslySetInnerHTML={{ __html: props.content }} /> */}
+                        
+                        <h1>{podcast.title}</h1>
                     </div>
-                    
                 </Link>              
             </Col>;
     });

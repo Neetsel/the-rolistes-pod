@@ -5,7 +5,10 @@ const Footer = (props) => {
 
     return (
         <Aux>
-            Footer
+            <footer>
+                Footer
+            </footer>
+            
         </Aux>
     )
 }
