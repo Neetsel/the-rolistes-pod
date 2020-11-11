@@ -2,6 +2,8 @@ import React from 'react'
 import { Col, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Aux from '../../../hoc/Auxiliary/Auxiliary';
+import classes from './LatestNews.module.css';
+import globalClasses from '../../../App.module.css';
 
 const LatestNews = (props) => {
 
@@ -64,17 +66,19 @@ const LatestNews = (props) => {
 
     return (
         <Aux>
-            <Row>
-            <Col xs={12} lg={5}>
-                {newsMainOutput}
-            </Col>
-            <Col xs={12} lg={7}>
-                <Row>
-                    {newsSecondaryOutput}
+            <div className={globalClasses.item_box}>
+                <h2 className={globalClasses.section_title}>News Latest</h2>
+                <Row>                    
+                    <Col xs={12} lg={5}>
+                        {newsMainOutput}
+                    </Col>
+                    <Col xs={12} lg={7}>
+                        <Row>
+                            {newsSecondaryOutput}
+                        </Row>
+                    </Col>
                 </Row>
-            </Col>
-            </Row>
-            
+            </div>
         </Aux>
     )
 }

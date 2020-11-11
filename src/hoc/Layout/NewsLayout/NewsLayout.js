@@ -34,7 +34,7 @@ const NewsLayout = (props) =>
                         <PaginationList 
                             totalRecords={props.news.length} 
                             pageLimit={postPerPage} 
-                            paginate={paginate}
+                            clicked={paginate}
                             currentPage={props.currentPageNews}/>
                     </Col>
                     <Col  lg={4} xs={12}>
