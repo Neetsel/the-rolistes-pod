@@ -61,10 +61,22 @@ const getAttachmentURL = (attachments, postId) => {
     for(let key in attachments){
 
         if(attachments[key]["wp:post_parent"][0] === postId){
+        // if(attachments[key]["wp:post_id"][0] === postId){
+            
 
             return attachments[key]["wp:attachment_url"][0];
         }
     }
+
+    // for(let key in attachments){
+
+    //     if(attachments[key]["wp:post_parent"][0] === postId){
+    //     // if(attachments[key]["wp:post_id"][0] === postId){
+            
+
+    //         return attachments[key]["wp:attachment_url"][0];
+    //     }
+    // }
 
     return "https://static8.depositphotos.com/1051435/932/i/950/depositphotos_9327706-stock-photo-happy-clown.jpg";
     //return attachment_url
