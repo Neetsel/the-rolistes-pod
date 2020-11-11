@@ -6,6 +6,7 @@ import classes from './LatestPodcast.module.css';
 import globalClasses from '../../../App.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
+import imgTest from '../../../assets/images/Episode_40_Ep.jpg';
 
 const LatestPodcast = (props) => {
 
@@ -27,11 +28,11 @@ const LatestPodcast = (props) => {
     
     const podcastMainOutput = 
         <Link to={podcast[0].location + '2020/15/16/'  + podcast[0].postName}>
-            <img src="" alt=""/>
+            <img src={imgTest} alt=""/> 
             <div>                                 
                 <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{podcast[0].date}</div>
                 {/* <div dangerouslySetInnerHTML={{ __html: props.content }} /> */}                
-                <h1>{podcast[0].title}</h1>
+                <h3>{podcast[0].title}</h3>
               
             </div>
             
@@ -43,12 +44,12 @@ const LatestPodcast = (props) => {
         return <Col xs={12} md={6} key={podcast.key}>
             {/* <Link to={props.location + '/'  + props.postName}> */}
                 <Link to={podcast.location + '2020/15/16/'  + podcast.postName}>
-                    <img src="" alt=""/>                                            
+                    <img src={imgTest} alt=""/>                                             
                     <div>
                         <div className={classes.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{podcast.date}</div>
                         {/* <div dangerouslySetInnerHTML={{ __html: props.content }} /> */}
                         
-                        <h1>{podcast.title}</h1>
+                        <h3>{podcast.title}</h3>
                     </div>
                 </Link>              
             </Col>;
@@ -59,10 +60,10 @@ const LatestPodcast = (props) => {
             <div className={globalClasses.item_box}>
             <h2 className={globalClasses.section_title}>Podcast Latest</h2>
                 <Row>
-                    <Col xs={12} lg={5}>
+                    <Col xs={12} lg={6}>
                         {podcastMainOutput}
                     </Col>
-                    <Col xs={12} lg={7}>
+                    <Col xs={12} lg={6}>
                         <Row>
                             {podcastSecondaryOutput}
                         </Row>

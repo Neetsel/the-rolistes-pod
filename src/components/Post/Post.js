@@ -11,7 +11,7 @@ const Post = (props) => {
         
         <Col xs={12} >
             <Link to={props.location + '/'  + props.postName}>
-                <h1>{props.title}</h1>
+                <h2>{props.title}</h2>
                 <p>{props.author}</p>
                 <p>{props.date}</p>            
                 <div className={classes.mainArticle} dangerouslySetInnerHTML={{ __html: props.article }} />

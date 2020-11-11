@@ -23,7 +23,7 @@ const PodcastTile = (props) => {
                              <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{props.date}</div>
                             <p></p>
                             {/* <div dangerouslySetInnerHTML={{ __html: props.content }} /> */}                            
-                            <h1>{props.title}</h1>
+                            <h2>{props.title}</h2>
                         </div>
                     </div>
                     

@@ -26,13 +26,12 @@ const LatestNews = (props) => {
     }
     
     const newsMainOutput = <Link to={news[0].location + 'news/'  + news[0].postName}>
-                <img src="" alt=""/>
-                <div> 
-                    
+                {/* <img src={imgTest} alt=""/>  */}
+                <div>   
                     <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{news[0].date}</div>
                     {/* <div dangerouslySetInnerHTML={{ __html: props.content }} /> */}
                     
-                    <h1>{news[0].title}</h1>
+                    <h3>{news[0].title}</h3>
                     {/* {props.latest ? <h2>{props.summary}test</h2> : null } */}
 
                 </div>                
@@ -45,12 +44,12 @@ const LatestNews = (props) => {
         return <Col xs={12} md={6} key={news.key}>
             {/* <Link to={props.location + '/'  + props.postName}> */}
                 <Link to={news.location + 'news/'  + news.postName}>
-                    <img src="" alt=""/>
+                    {/* <img src={imgTest} alt=""/>  */}
                     <div>                                                 
                         <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{news.date}</div>
                         {/* <div dangerouslySetInnerHTML={{ __html: props.content }} /> */}
                         
-                        <h1>{news.title}</h1>
+                        <h3>{news.title}</h3>
                         {/* {props.latest ? <h2>{props.summary}test</h2> : null } */}                        
                     </div>
                     
