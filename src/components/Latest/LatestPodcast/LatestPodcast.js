@@ -17,6 +17,7 @@ const LatestPodcast = (props) => {
         podcast.push(
             {
                 key: props.podcast[key].id,
+                cover: props.podcast[key].cover,
                 date: props.podcast[key]["pubDate"][0],
                 title: props.podcast[key]["title"],
                 content: props.podcast[key]["content:encoded"][0],
@@ -28,7 +29,7 @@ const LatestPodcast = (props) => {
     
     const podcastMainOutput = 
         <Link to={podcast[0].location + '2020/15/16/'  + podcast[0].postName}>
-            <img src={imgTest} alt=""/> 
+            <img src={podcast[0].cover} alt=""/> 
             <div>                                 
                 <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{podcast[0].date}</div>
                 {/* <div dangerouslySetInnerHTML={{ __html: props.content }} /> */}                
@@ -44,7 +45,7 @@ const LatestPodcast = (props) => {
         return <Col xs={12} md={6} key={podcast.key}>
             {/* <Link to={props.location + '/'  + props.postName}> */}
                 <Link to={podcast.location + '2020/15/16/'  + podcast.postName}>
-                    <img src={imgTest} alt=""/>                                             
+                    <img src={podcast.cover} alt=""/>                                             
                     <div>
                         <div className={classes.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{podcast.date}</div>
                         {/* <div dangerouslySetInnerHTML={{ __html: props.content }} /> */}
