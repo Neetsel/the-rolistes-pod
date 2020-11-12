@@ -1,6 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './assets/fonts/BellGothicStd-Black.otf';
+import './assets/fonts/BellGothicStd-Bold.otf';
+import './assets/fonts/BellGothicStd-Light.otf';
+import './assets/fonts/Johnston100-Light.otf';
+import './assets/fonts/Johnston100-Medium.otf';
+import './assets/fonts/Johnston100-Regular.otf';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
