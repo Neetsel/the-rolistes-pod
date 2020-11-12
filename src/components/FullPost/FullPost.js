@@ -16,7 +16,7 @@ const Post = (props) => {
                 <h1 className={globalClasses.section_title}>{props.title}</h1>                    
                 <p>{props.author}</p>
                 <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{props.date}</div>
-                <div dangerouslySetInnerHTML={{ __html: props.content }}/>     
+                <div dangerouslySetInnerHTML={{ __html: props.content }} className={classes.fullPost}/>     
             </div>                                   
         </Col>
     );

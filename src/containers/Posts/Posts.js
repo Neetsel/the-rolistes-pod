@@ -14,8 +14,6 @@ import ComingSoon from '../../components/ComingSoon/ComingSoon';
 
 const Posts = props => {
 
-    console.log("start");
-
     let sizePodcast = 1;    
     let posts = <Spinner />;
     let key = 0;

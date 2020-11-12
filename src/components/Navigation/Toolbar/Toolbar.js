@@ -9,7 +9,7 @@ import { Container } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 const toolbar = (props) => (
-    <header>
+    <header className={classes.Toolbar}>
         <Container>
             <DrawerToggle clicked = {props.DrawerToggleClicked}/>
 
@@ -20,7 +20,9 @@ const toolbar = (props) => (
                     </div>
                 </NavLink>
 
-                <NavigationItems/>                
+                <div className={classes.DesktopOnly}>
+                    <NavigationItems/>
+                </div>
             </nav>
 
             <div>
