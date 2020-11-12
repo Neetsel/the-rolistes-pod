@@ -126,7 +126,8 @@ const Posts = props => {
                     <Post
                         key= {news.id}
                         cover={news.cover}
-                        author= {news["dc:creator"][0]}                        
+                        excerpt= {news.excerpt} 
+                        author= {news["dc:creator"][0]}                                           
                         title= {news["title"]}
                         article= {news["content:encoded"][0]}
                         date= {news["pubDate"][0]}

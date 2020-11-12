@@ -79,6 +79,27 @@ const getAttachmentURL = (attachments, postMeta) => {
     return "";
 }
 
+const getExcerpt = (content, wordLimit) => {
+     
+    let filter = content.replace( /(<([^>]+)>)/ig, '');
+    filter = filter.replace(/\s+/g, ' ');
+    const wordsarr = filter.split(' ');
+
+    if(wordsarr.length < wordLimit) {
+        return content;
+    }
+
+    else {
+        let excerpt = "";
+
+        for (let i = 0; i < wordLimit; i++) {
+            excerpt = excerpt + " " + wordsarr[i] + " ";
+        }
+
+        return excerpt;
+    }     
+}
+
 export const fetchPosts = () => {
 
     return dispatch => {
@@ -140,18 +161,19 @@ export const fetchPosts = () => {
                         ){           
 
                             const attachmentURL= getAttachmentURL(fetchedAttachment , fetchedPosts[key]);
-
+                            
                             for (let i=0; i < fetchedPosts[key]["category"].length; i++) {
                                 
                                 switch(fetchedPosts[key]["category"][i]["$"]["nicename"]){
 
                                     case "news": 
+                                        const excerpt= getExcerpt(fetchedPosts[key]["content:encoded"][0], 40);
                                         fetchedNews.push({
                                         ...fetchedPosts[key],
                                         cover: attachmentURL,
+                                        excerpt: excerpt,
                                         id:key                                                
-                                        });
-                                        
+                                        });                          
                                         
                                         break;
 

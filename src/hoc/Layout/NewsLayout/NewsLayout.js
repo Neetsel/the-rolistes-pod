@@ -16,7 +16,7 @@ import globalClasses from '../../../App.module.css';
 
 const NewsLayout = (props) => 
 {
-    const postPerPage = 15;
+    const postPerPage = 10;
     const indexOfLastPost = props.currentPageNews * postPerPage;
     const indexOfFirstPost = indexOfLastPost - postPerPage;
 
