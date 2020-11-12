@@ -185,13 +185,13 @@ const Posts = props => {
                 
                 posts = 
                 <div>
-                    <ComingSoon/>
+                    <ComingSoon/>                    
+                    <LatestPodcast 
+                    podcast={latestPodcast} 
+                    location = {location["pathname"]}/> 
                     <LatestNews 
                     news={latestNews} 
                     location = {location["pathname"]}/> 
-                    <LatestPodcast 
-                    podcast={latestPodcast} 
-                    location = {location["pathname"]}/>  
                 </div> 
                                                          
                 break;
