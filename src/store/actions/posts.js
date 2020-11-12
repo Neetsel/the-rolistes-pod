@@ -56,30 +56,27 @@ export const setCurrentCategorySize = (size) => {
     }
 }
 
-const getAttachmentURL = (attachments, postId) => {
+const getAttachmentURL = (attachments, postMeta) => {
     
+    let attachmentId = 0;
+    
+    for (let metaKey in postMeta["wp:postmeta"]){
+
+        if(postMeta["wp:postmeta"][metaKey]["wp:meta_key"][0]==="_thumbnail_id"){
+            attachmentId = postMeta["wp:postmeta"][metaKey]["wp:meta_value"][0];
+        }
+    }
+
     for(let key in attachments){
 
-        if(attachments[key]["wp:post_parent"][0] === postId){
-        // if(attachments[key]["wp:post_id"][0] === postId){
-            
+        if(attachments[key]["wp:post_id"][0] == attachmentId){       
 
             return attachments[key]["wp:attachment_url"][0];
         }
     }
 
-    // for(let key in attachments){
-
-    //     if(attachments[key]["wp:post_parent"][0] === postId){
-    //     // if(attachments[key]["wp:post_id"][0] === postId){
-            
-
-    //         return attachments[key]["wp:attachment_url"][0];
-    //     }
-    // }
-
-    return "https://static8.depositphotos.com/1051435/932/i/950/depositphotos_9327706-stock-photo-happy-clown.jpg";
-    //return attachment_url
+    // return "https://static8.depositphotos.com/1051435/932/i/950/depositphotos_9327706-stock-photo-happy-clown.jpg";
+    return "";
 }
 
 export const fetchPosts = () => {
@@ -140,9 +137,9 @@ export const fetchPosts = () => {
                                 fetchedPosts[key]["wp:status"][0] === "future" && currentDate.getTime() > publishDate.getTime()
                                 )
                             )
-                        ){
-                            const postId = fetchedPosts[key]["wp:post_id"][0];
-                            const attachmentURL= getAttachmentURL(fetchedAttachment , postId);
+                        ){           
+
+                            const attachmentURL= getAttachmentURL(fetchedAttachment , fetchedPosts[key]);
 
                             for (let i=0; i < fetchedPosts[key]["category"].length; i++) {
                                 

@@ -16,6 +16,7 @@ const LatestNews = (props) => {
         news.push(
             {
                 key: props.news[key].id,
+                cover: props.news[key].cover,
                 date: props.news[key]["pubDate"][0],
                 title: props.news[key]["title"],
                 content: props.news[key]["content:encoded"][0],
@@ -26,13 +27,11 @@ const LatestNews = (props) => {
     }
     
     const newsMainOutput = <Link to={news[0].location + 'news/'  + news[0].postName}>
-                {/* <img src={imgTest} alt=""/>  */}
+                <img src={news[0].cover + '?w=656&h=300&crop=1'} alt=""/> 
                 <div>   
                     <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{news[0].date}</div>
-                    {/* <div dangerouslySetInnerHTML={{ __html: props.content }} /> */}
                     
                     <h3>{news[0].title}</h3>
-                    {/* {props.latest ? <h2>{props.summary}test</h2> : null } */}
 
                 </div>                
             </Link>;
@@ -42,15 +41,13 @@ const LatestNews = (props) => {
 
     const newsSecondaryOutput = news.map(news => {
         return <Col xs={12} md={6} key={news.key}>
-            {/* <Link to={props.location + '/'  + props.postName}> */}
                 <Link to={news.location + 'news/'  + news.postName}>
-                    {/* <img src={imgTest} alt=""/>  */}
+                    <img src={news.cover + '?w=656&h=300&crop=1'} alt=""/> 
                     <div>                                                 
                         <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{news.date}</div>
-                        {/* <div dangerouslySetInnerHTML={{ __html: props.content }} /> */}
                         
                         <h3>{news.title}</h3>
-                        {/* {props.latest ? <h2>{props.summary}test</h2> : null } */}                        
+                 
                     </div>
                     
                 </Link>               
