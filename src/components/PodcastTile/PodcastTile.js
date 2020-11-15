@@ -7,7 +7,6 @@ import classes from './PodcastTile.module.css';
 import globalClasses from '../../App.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
-import imgTest from '../../assets/images/Episode_40_Ep.jpg';
 
 const PodcastTile = (props) => {
 
