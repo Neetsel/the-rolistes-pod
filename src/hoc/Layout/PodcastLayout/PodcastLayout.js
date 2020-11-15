@@ -9,12 +9,22 @@ import PaginationList from '../../../components/UI/PaginationList/PaginationList
 import * as actions from '../../../store/actions/index';
 import { connect } from 'react-redux';
 import globalClasses from '../../../App.module.css';
+import { useState } from 'react';
 
 const PodcastLayout = (props) => {
 
     const postPerPage = 24;
     const indexOfLastPost = props.currentPagePodcast * postPerPage;
     const indexOfFirstPost = indexOfLastPost - postPerPage;
+    
+    const btnType = "filter"; 
+    const [disabledButtons, setdisabledButtons] = useState([]);
+    // setdisabledButtons({
+
+    // })
+    // const [formIsValid, setFormIsValid] = useState(false);
+    // const [formIsValid, setFormIsValid] = useState(false);
+    // const [formIsValid, setFormIsValid] = useState(false); 
     
     
     // need to convert this with use effect
@@ -26,8 +36,13 @@ const PodcastLayout = (props) => {
 
     const paginate = (pageNumber) => props.onSetCurrentPagePodcast(pageNumber);
     
-    const filterAll = () => props.onSetCurrentCategoryPodcast("podcast");
-    const filterRolistesPod = () => props.onSetCurrentCategoryPodcast("the-rolistes-podcast");
+    const filterAll = () => {        
+        props.onSetCurrentCategoryPodcast("podcast");
+    } 
+
+    const filterRolistesPod = () => {    
+        props.onSetCurrentCategoryPodcast("the-rolistes-podcast");   
+    }
     const filterRolistesPresent = () => props.onSetCurrentCategoryPodcast("the-rolistes-present");
     const filterCafeRolistes = () => props.onSetCurrentCategoryPodcast("cafe-rolistes");
     const filterFilmStudies = () => props.onSetCurrentCategoryPodcast("film-studies");
@@ -37,11 +52,13 @@ const PodcastLayout = (props) => {
             <Container>
                 <div className={globalClasses.item_box}>
                     <h1 className={globalClasses.section_title}>Podcast</h1>
-                    <Button type="TOGGLE" clicked ={filterAll}>ALL</Button>
-                    <Button type="TOGGLE" clicked ={filterRolistesPod}>The Rolistes Podcast</Button>
-                    <Button type="TOGGLE" clicked ={filterRolistesPresent}>The Rolistes Present</Button>
-                    <Button type="TOGGLE" clicked ={filterCafeRolistes}>Cafe Rolistes</Button>
-                    <Button type="TOGGLE" clicked ={filterFilmStudies}>Film Studies</Button>
+                    <div className={classes.filters}>
+                        <Button btnType={btnType} disabled={false} clicked ={filterAll}>ALL</Button>
+                        <Button btnType={btnType} disabled={false} clicked ={filterRolistesPod}>The Rolistes Podcast</Button>
+                        <Button btnType={btnType} disabled={false} clicked ={filterRolistesPresent}>The Rolistes Present</Button>
+                        <Button btnType={btnType} disabled={false} clicked ={filterCafeRolistes}>Cafe Rolistes</Button>
+                        <Button btnType={btnType} disabled={false} clicked ={filterFilmStudies}>Film Studies</Button>
+                    </div>                    
                     <Row>
                         <Col xs={12} >
                             <Posts {...props} 
