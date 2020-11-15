@@ -10,20 +10,21 @@ import { NavLink } from 'react-router-dom';
 
 const toolbar = (props) => (
     <header className={classes.Toolbar}>
-        <Container>
-            <DrawerToggle clicked = {props.DrawerToggleClicked}/>
+        <Container>            
 
-            <nav >
-                <NavLink to="/" exact>
-                    <div className={classes.Logo}>
+            <nav>                
+                <div className={classes.Logo}>
+                    <NavLink to="/" exact>
                         <Logo/>
-                    </div>
-                </NavLink>
+                    </NavLink>
+                </div>                
 
                 <div className={classes.DesktopOnly}>
                     <NavigationItems/>
                 </div>
             </nav>
+
+            <DrawerToggle clicked = {props.drawerToggleClicked}/>
 
             <div>
                 <Search/>

@@ -1,14 +1,14 @@
 .Toolbar{
-    height: 56px;
+    /* height: 56px;
     width: 100%;
     top: 0;
     left:0;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 20px; */
     box-sizing: border-box;
-    z-index: 90;
+    /* z-index: 90; */
 }
 
 .Toolbar nav{
@@ -16,13 +16,20 @@
 }
 
 .Logo {
-    height: 80%;
-    display:flex;
-    flex-flow: column;
+    height:4rem;
+    width:5.5rem; 
+  
 }
 
 @media (max-width: 499px){
     .DesktopOnly{
         display: none;
     }
+}
+
+@media screen and (min-width: 768px){
+	.Logo {
+	    height:5rem;
+	    width:7rem;
+	}
 }
