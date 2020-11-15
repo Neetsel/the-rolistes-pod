@@ -1,10 +1,10 @@
-.SupportLink, .SupportLink:hover{
-	display:inline-block;
-	box-sizing: border-box;
-	transition: background-color 0.4s ease;
-	width: 2.5rem;
-	height: 2.5rem;
-	border-radius: 5px;
+.supportLink, .supportLink:hover{
+	transition: filter 0.4s ease;
+}
+
+.supportLink img{
+    border-radius: 15px;
+    max-width: 434px;
 }
 
 /* .SupportLink>span{
@@ -17,7 +17,13 @@
     font-size: 1.6em;
 } */
 
-.SupportLink{
-	background-color: #FFFFFF;
+.supportLink{
 	color:#000000;
+}
+
+.supportLink:hover{
+	/* background-color: var(--secondary-color);
+    color:var(--main-color); */
+    filter: invert(97%) sepia(0%) saturate(0%) hue-rotate(133deg) brightness(103%) contrast(108%); 
+    -webkit-filter: invert(97%) sepia(0%) saturate(0%) hue-rotate(133deg) brightness(103%) contrast(108%);
 }

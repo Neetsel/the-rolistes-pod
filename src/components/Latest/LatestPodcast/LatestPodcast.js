@@ -29,9 +29,9 @@ const LatestPodcast = (props) => {
     const podcastMainOutput = 
         <Link to={podcast[0].location + '2020/15/16/'  + podcast[0].postName}>
             <img src={podcast[0].cover} alt=""/> 
-            <div>                                 
-                {/* <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{podcast[0].date}</div> */}
-                <p>LATEST RELEASE</p>               
+            <div>                                                 
+                <p>Latest Release: <span className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{podcast[0].date}</span>
+                </p>
                 <h3>{podcast[0].title}</h3>
               
             </div>
