@@ -24,7 +24,7 @@ const Footer = (props) => {
     return (
         <Aux>
             <footer>
-                <Container>
+                <Container className={classes.footer}>
                     <Row>
                         <Col lg={4} xs={12}>
                             <Follow/>

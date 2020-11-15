@@ -18,12 +18,12 @@
 }
 
 .FooterLink{
-	background-color: #FFFFFF;
-	color:#000000;
+	background-color: var(--main-color);
+	color:var(--secondary-color);
 }
 
 .FooterLink:hover{
-	background-color: #000000;
-    color:#FFFFFF;
+	background-color: var(--secondary-color);
+    color:var(--main-color);
 }
 

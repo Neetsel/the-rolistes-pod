@@ -1,6 +1,6 @@
 :root{
 	--main-color:#000000;
-	--main-background-color:#FFFFFF;
+	--secondary-color:#FFFFFF;
 }
 
 body{
@@ -9,13 +9,13 @@ body{
 }
 
 header{
-	background-color: var(--main-background-color);
+	background-color: var(--secondary-color);
 	color: var(--main-color);
 }
 
 footer{
 	background-color: var(--main-color);
-	color: var(--main-background-color);
+	color: var(--secondary-color);
 }
 
 section{
@@ -46,9 +46,16 @@ h3 {
     font-size: 15px;
 }
 
+.section_title, .section_title_footer{	
+	border-bottom: 2px solid;
+}
+
 .section_title{	
 	color: var(--main-color);
-	border-bottom: 2px solid;
+}
+
+.section_title_footer, .item_box_footer p, .item_box_footer h3{	
+	color: var(--secondary-color);
 }
 
 .noPadding{	
@@ -81,6 +88,14 @@ a:hover, a:hover > p, a:hover > h2, a:hover > h3 {
 .item_box{
     margin:15px;
     padding:1.5rem 2rem 0;
-    background-color: var(--main-background-color);
+    background-color: var(--secondary-color);
     border-radius: 2px;
+}
+
+.item_box_footer{
+    margin:15px;
+    padding:1.5rem 2rem 0;
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    border-radius: 2px;  	
 }

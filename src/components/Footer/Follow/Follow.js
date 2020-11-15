@@ -14,10 +14,10 @@ const Follow = (props) => {
 
     return (
         <Aux>   
-            <div className={globalClasses.item_box}>                
+            <div className={globalClasses.item_box_footer}>                
                 <Row>            
                     <Col xs={12}>
-                        <h2 className={globalClasses.section_title}>Stay Connected</h2>                     
+                        <h2 className={globalClasses.section_title_footer}>Stay Connected</h2>                     
                     </Col>
                 </Row>
                 <Row>

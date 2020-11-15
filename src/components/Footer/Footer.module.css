@@ -1,9 +1,4 @@
-.item-box-footer{
-    margin:15px;
-    padding:1.5rem 2rem 0;
-    background-color: #000000;
-    border-radius: 2px;  	
-}
+
 
 .navUp, .navDown {
 	height: 40px;
@@ -25,4 +20,8 @@
 
 .topLink {
 	color: #FFFFFF;
+}
+
+.footer{
+	padding-bottom: 45px;
 }
