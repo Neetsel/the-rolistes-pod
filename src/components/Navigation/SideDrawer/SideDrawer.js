@@ -4,6 +4,7 @@ import Aux from '../../../hoc/Auxiliary/Auxiliary';
 import Backdrop from '../../UI/Backdrop/Backdrop';
 import Logo from '../../Logo/Logo';
 import NavigationItems from '../NavigationItems/NavigationItems';
+import { NavLink } from 'react-router-dom';
 
 const sideDrawer = (props) => {
 
@@ -18,8 +19,11 @@ const sideDrawer = (props) => {
         <Aux>
             <Backdrop show={props.open} clicked={props.closed}/>
             <div className={attachedClasses.join(' ')} onClick={props.closed}>
+                
                 <div className={classes.Logo}>
-                    <Logo />
+                    <NavLink to="/" exact>
+                        <Logo/>
+                    </NavLink>
                 </div>
                 <nav>
                     <NavigationItems />
