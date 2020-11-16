@@ -18,14 +18,13 @@ const PodcastLayout = (props) => {
     const indexOfFirstPost = indexOfLastPost - postPerPage;
     
     const btnType = "filter"; 
-    const [disabledButtons, setdisabledButtons] = useState([]);
-    // setdisabledButtons({
-
-    // })
-    // const [formIsValid, setFormIsValid] = useState(false);
-    // const [formIsValid, setFormIsValid] = useState(false);
-    // const [formIsValid, setFormIsValid] = useState(false); 
-    
+    const [btnState, setBtnState] = useState({
+        allIsDisabled: true,
+        rolistesPodIsDisabled: false,
+        rolistesPresentIsDisabled: false,
+        cafeRolistesIsDisabled: false,
+        filmStudiesIsDisabled: false
+    });
     
     // need to convert this with use effect
 
@@ -38,14 +37,58 @@ const PodcastLayout = (props) => {
     
     const filterAll = () => {        
         props.onSetCurrentCategoryPodcast("podcast");
+        setBtnState({
+            allIsDisabled: true,
+            rolistesPodIsDisabled: false,
+            rolistesPresentIsDisabled: false,
+            cafeRolistesIsDisabled: false,
+            filmStudiesIsDisabled: false
+        });
     } 
 
     const filterRolistesPod = () => {    
-        props.onSetCurrentCategoryPodcast("the-rolistes-podcast");   
+        props.onSetCurrentCategoryPodcast("the-rolistes-podcast");
+        setBtnState({
+            allIsDisabled: false,
+            rolistesPodIsDisabled: true,
+            rolistesPresentIsDisabled: false,
+            cafeRolistesIsDisabled: false,
+            filmStudiesIsDisabled: false
+        });   
     }
-    const filterRolistesPresent = () => props.onSetCurrentCategoryPodcast("the-rolistes-present");
-    const filterCafeRolistes = () => props.onSetCurrentCategoryPodcast("cafe-rolistes");
-    const filterFilmStudies = () => props.onSetCurrentCategoryPodcast("film-studies");
+
+    const filterRolistesPresent = () => {
+        props.onSetCurrentCategoryPodcast("the-rolistes-present");
+        setBtnState({
+            allIsDisabled: false,
+            rolistesPodIsDisabled: false,
+            rolistesPresentIsDisabled: true,
+            cafeRolistesIsDisabled: false,
+            filmStudiesIsDisabled: false
+        });  
+    }
+
+    const filterCafeRolistes = () => 
+    {
+        props.onSetCurrentCategoryPodcast("cafe-rolistes");
+        setBtnState({
+            allIsDisabled: false,
+            rolistesPodIsDisabled: false,
+            rolistesPresentIsDisabled: false,
+            cafeRolistesIsDisabled: true,
+            filmStudiesIsDisabled: false
+        });  
+    }
+    const filterFilmStudies = () => {
+        props.onSetCurrentCategoryPodcast("film-studies");
+        setBtnState({
+            allIsDisabled: false,
+            rolistesPodIsDisabled: false,
+            rolistesPresentIsDisabled: false,
+            cafeRolistesIsDisabled: false,
+            filmStudiesIsDisabled: true
+        });  
+    }
  
     return (
         <Aux>
@@ -53,11 +96,11 @@ const PodcastLayout = (props) => {
                 <div className={globalClasses.item_box}>
                     <h1 className={globalClasses.section_title}>Podcast</h1>
                     <div className={classes.filters}>
-                        <Button btnType={btnType} disabled={false} clicked ={filterAll}>ALL</Button>
-                        <Button btnType={btnType} disabled={false} clicked ={filterRolistesPod}>The Rolistes Podcast</Button>
-                        <Button btnType={btnType} disabled={false} clicked ={filterRolistesPresent}>The Rolistes Present</Button>
-                        <Button btnType={btnType} disabled={false} clicked ={filterCafeRolistes}>Cafe Rolistes</Button>
-                        <Button btnType={btnType} disabled={false} clicked ={filterFilmStudies}>Film Studies</Button>
+                        <Button btnType={btnType} disabled={btnState.allIsDisabled} clicked ={filterAll}>ALL</Button>
+                        <Button btnType={btnType} disabled={btnState.rolistesPodIsDisabled} clicked ={filterRolistesPod}>The Rolistes Podcast</Button>
+                        <Button btnType={btnType} disabled={btnState.rolistesPresentIsDisabled} clicked ={filterRolistesPresent}>The Rolistes Present</Button>
+                        <Button btnType={btnType} disabled={btnState.cafeRolistesIsDisabled} clicked ={filterCafeRolistes}>Cafe Rolistes</Button>
+                        <Button btnType={btnType} disabled={btnState.filmStudiesIsDisabled} clicked ={filterFilmStudies}>Film Studies</Button>
                     </div>                    
                     <Row>
                         <Col xs={12} >
