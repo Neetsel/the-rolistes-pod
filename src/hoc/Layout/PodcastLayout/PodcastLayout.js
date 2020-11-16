@@ -37,6 +37,7 @@ const PodcastLayout = (props) => {
     
     const filterAll = () => {        
         props.onSetCurrentCategoryPodcast("podcast");
+        paginate(1);
         setBtnState({
             allIsDisabled: true,
             rolistesPodIsDisabled: false,
@@ -48,6 +49,7 @@ const PodcastLayout = (props) => {
 
     const filterRolistesPod = () => {    
         props.onSetCurrentCategoryPodcast("the-rolistes-podcast");
+        paginate(1);
         setBtnState({
             allIsDisabled: false,
             rolistesPodIsDisabled: true,
@@ -59,6 +61,7 @@ const PodcastLayout = (props) => {
 
     const filterRolistesPresent = () => {
         props.onSetCurrentCategoryPodcast("the-rolistes-present");
+        paginate(1);
         setBtnState({
             allIsDisabled: false,
             rolistesPodIsDisabled: false,
@@ -71,6 +74,7 @@ const PodcastLayout = (props) => {
     const filterCafeRolistes = () => 
     {
         props.onSetCurrentCategoryPodcast("cafe-rolistes");
+        paginate(1);
         setBtnState({
             allIsDisabled: false,
             rolistesPodIsDisabled: false,
@@ -81,6 +85,7 @@ const PodcastLayout = (props) => {
     }
     const filterFilmStudies = () => {
         props.onSetCurrentCategoryPodcast("film-studies");
+        paginate(1);
         setBtnState({
             allIsDisabled: false,
             rolistesPodIsDisabled: false,

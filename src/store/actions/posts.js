@@ -45,7 +45,7 @@ export const setCurrentPagePodcast = (pageNumber) => {
 export const setCurrentCategoryPodcast = (category) => {
     return {
         type: actionTypes.SET_CURRENT_CATEGORY_PODCAST,
-        currentCategoryPodcast: category    
+        currentCategoryPodcast: category
     }
 }
 
