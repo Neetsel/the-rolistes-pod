@@ -64,7 +64,7 @@ const Posts = props => {
 
         const postsFromCategory = [];
 
-        for(let i=1;i<posts.length;i++){
+        for(let i=0;i<posts.length;i++){
 
             for (let j=0; j < posts[i]["category"].length; j++) {
                                     
@@ -134,10 +134,10 @@ const Posts = props => {
                     ));
                 break;
             
-            case "PODCAST":
+            case "PODCAST":                                
                 const currentPodcast = searchPostsBasedOnCategory(props.podcast, props.filterCategory)
                     .slice(props.indexOfFirstPost,props.indexOfLastPost);
-
+                
                 posts =currentPodcast.map ( podcast => (                               
                     <PodcastTile 
                         key= {podcast.id}
