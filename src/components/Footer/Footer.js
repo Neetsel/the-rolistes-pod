@@ -14,7 +14,7 @@ const Footer = (props) => {
 
 	const toggleFooter = () => {
         
-	  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+	  if (document.getElementById("dynamicFooter") && (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50)) {
 	    document.getElementById("dynamicFooter").className = classes.navUp;
 	  } else {
 	    document.getElementById("dynamicFooter").className = classes.navDown;
