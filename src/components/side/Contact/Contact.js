@@ -10,7 +10,7 @@ const Contact = (props) => {
                 <Col xs={12}>                    
                     <div className={globalClasses.item_box}>
                         <h2 className={globalClasses.section_title}>Contact Us</h2>                    
-                        <p>Email: rolistespod@gmail.com</p>
+                        <p>Email: </p>
                         <p>Twitter: @rolistespod</p>
                         <p>Facebook: @rolistespod</p>
                     </div>
