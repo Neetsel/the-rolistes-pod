@@ -12,13 +12,7 @@ const toolbar = (props) => (
     <header className={classes.Toolbar}>
         <Container>            
 
-            <nav>                
-                <div className={classes.Logo}>
-                    <NavLink to="/" exact>
-                        <Logo/>
-                    </NavLink>
-                </div>                
-
+            <nav>                                        
                 <div className={classes.DesktopOnly}>
                     <NavigationItems/>
                 </div>

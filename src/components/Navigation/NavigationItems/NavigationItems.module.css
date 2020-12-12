@@ -8,10 +8,14 @@
     height:100%;    
 }
 
+.SpacingNav{
+    margin: 10px;
+}
+
 .VerticalLine{
     display: inline-block;
     border-left: 1px solid #ccc;
-    margin: 0 10px;
+    margin: 10px 10px 0;
     height: 15px;
 }
 

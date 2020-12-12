@@ -1,12 +1,10 @@
 import React from 'react';
 import classes from './Logo.module.css';
-import imgLogo from '../../assets/images/Logo_Nav_Small.jpg';
-import txtLogo from '../../assets/images/Logo_Nav_Title.jpg';
+import imgLogo from '../../assets/images/Logo_Nav_Side.jpg';
 
 const logo = (props) => (
-    <div className={classes.Logo}>
-        <img src={imgLogo} alt="Logo"/>
-        <img src={txtLogo} alt="The Rolistes"/>
+    <div className={classes.LogoSection}>
+        <img src={imgLogo} alt="Logo" className={classes.LogoImg}/>    
     </div>
 );
 
