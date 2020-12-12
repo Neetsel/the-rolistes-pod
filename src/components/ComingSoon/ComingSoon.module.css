@@ -12,3 +12,8 @@
 	font-size:13px;
 	display:inline;
 }
+
+.kunz_img {
+    max-width:200px;
+    margin-bottom: 1.5rem;
+}

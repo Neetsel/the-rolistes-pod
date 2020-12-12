@@ -1,1 +1,7 @@
+.end_article {
+    display: inline-block;
+    border-bottom: 2px solid #E1E9ED;
+    margin-bottom: 20px;
+    width: 100%;
+}
 

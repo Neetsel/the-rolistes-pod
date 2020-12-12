@@ -11,7 +11,7 @@ import globalClasses from '../../../App.module.css';
 const Follow = (props) => {
     return (
         <Aux>   
-            <div className={globalClasses.item_box}>                
+            <div className={globalClasses.item_box_right}>                
                 <Row>            
                     <Col xs={12}>
                         <h2 className={globalClasses.section_title}>Stay Connected</h2>                     

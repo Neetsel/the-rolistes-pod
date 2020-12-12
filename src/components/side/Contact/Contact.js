@@ -8,7 +8,7 @@ const Contact = (props) => {
         <Aux>
             <Row>
                 <Col xs={12}>                    
-                    <div className={globalClasses.item_box}>
+                    <div className={globalClasses.item_box_right}>
                         <h2 className={globalClasses.section_title}>Contact Us</h2>                    
                         <p>Email: </p>
                         <p>Twitter: @rolistespod</p>

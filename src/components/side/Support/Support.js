@@ -12,7 +12,7 @@ const Support = (props) => {
             <Row>
                 <Col xs={12}>
 
-                    <div className={globalClasses.item_box}>
+                    <div className={globalClasses.item_box_right}>
                         <h2 className={globalClasses.section_title}>Support Us</h2>
                         <a href="https://www.patreon.com/RolistesPod"><img src={patreonButton} alt="Support me on Patreon" aria-hidden="true"/></a>
                               

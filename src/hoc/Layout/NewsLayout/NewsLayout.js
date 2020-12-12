@@ -26,8 +26,8 @@ const NewsLayout = (props) =>
         <Aux>
             <Container>
                 <Row>                                           
-                    <Col lg={8} xs={12} >                    
-                        <div className={globalClasses.item_box}>
+                    <Col lg={8} xs={12} className={globalClasses.no_padding_right} >                    
+                        <div className={globalClasses.item_box_left}>
                             <h1 className={globalClasses.section_title}>News</h1>
                             <Posts 
                                 {...props} 
