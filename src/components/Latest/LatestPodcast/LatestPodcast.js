@@ -27,16 +27,20 @@ const LatestPodcast = (props) => {
     }
     
     const podcastMainOutput = 
-        <Link to={podcast[0].location + '2020/15/16/'  + podcast[0].postName}>
-            <img src={podcast[0].cover} alt=""/> 
+        <Aux>
+            <Link to={podcast[0].location + '2020/15/16/'  + podcast[0].postName}>
+                <div className={globalClasses.img_scale_animate}>                
+                    <img src={podcast[0].cover} alt=""/> 
+                </div>
+            </Link> 
             <div>                                                 
                 <p>Latest Release: <span className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{podcast[0].date}</span>
                 </p>
-                <h3>{podcast[0].title}</h3>
-              
-            </div>
-            
-        </Link>  ;
+                <Link to={podcast[0].location + '2020/15/16/'  + podcast[0].postName}>
+                    <h3>{podcast[0].title}</h3>
+                </Link> 
+            </div>        
+        </Aux>;
 
     podcast.shift();
 
@@ -44,12 +48,14 @@ const LatestPodcast = (props) => {
         return <Col xs={12} md={6} key={podcast.key}>
             {/* <Link to={props.location + '/'  + props.postName}> */}
                 <Link to={podcast.location + '2020/15/16/'  + podcast.postName}>
-                    <img src={podcast.cover} alt=""/>                                             
-                    <div>
+                    <div className={globalClasses.img_scale_animate}>  
+                        <img src={podcast.cover} alt=""/>
+                    </div>                                           
+                </Link>     
                         {/* <div className={classes.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{podcast.date}</div> */}
-                        
-                        <h3>{podcast.title}</h3>
-                    </div>
+                <Link to={podcast.location + '2020/15/16/'  + podcast.postName}>   
+                    <h3>{podcast.title}</h3>
+                    
                 </Link>              
             </Col>;
     });

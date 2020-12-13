@@ -31,7 +31,12 @@ const PodcastLayout = (props) => {
     useEffect(() => {
         props.onSetCurrentPagePodcast(1);
         props.onSetCurrentCategoryPodcast("podcast");
+        window.scrollTo(0, 0);
       }, [])
+
+      useEffect(() => {
+        window.scrollTo(0, 0);
+      },)
 
     const paginate = (pageNumber) => props.onSetCurrentPagePodcast(pageNumber);
     

@@ -27,16 +27,22 @@ const LatestNews = (props) => {
         );
     }
 
-    const newsMainOutput = <Link to={news[0].location + 'news/'  + news[0].postName}>
-                <img src={news[0].cover + '?w=2237&h=1173&crop=1'} alt=""/> 
+    const newsMainOutput = <Aux>
+
+                <Link to={news[0].location + 'news/'  + news[0].postName}>
+                    <div className={globalClasses.img_scale_animate}>  
+                        <img src={news[0].cover + '?w=2237&h=1173&crop=1'} alt=""/> 
+                    </div>
+                </Link>
                 <div>   
                     <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{news[0].date}</div>
-                    
-                    <h3>{news[0].title}</h3>                
-                    <p>{news[0].excerpt}</p>
-
+                    <Link to={news[0].location + 'news/'  + news[0].postName}>
+                        <h3>{news[0].title}</h3>                
+                        <p>{news[0].excerpt}</p>
+                    </Link>
                 </div>                
-            </Link>;
+            
+            </Aux>;
 
 
     news.shift();
@@ -44,16 +50,18 @@ const LatestNews = (props) => {
     const newsSecondaryOutput = news.map(news => {
         return <Col xs={12} md={6} key={news.key}>
                 <Link to={news.location + 'news/'  + news.postName}>
-                    {/* <img src={news.cover + '?w=656&h=300&crop=1'} alt=""/>  */}
-                    <img src={news.cover + '?w=2237&h=1173&crop=1'} alt=""/>
-                    <div>                                                 
-                        <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{news.date}</div>
-                        
-                        <h3>{news.title}</h3>
-                 
+                    <div className={globalClasses.img_scale_animate}>  
+                        <img src={news.cover + '?w=2237&h=1173&crop=1'} alt=""/>
                     </div>
+                </Link>
+                <div>                                                 
+                    <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{news.date}</div>
+                    <Link to={news.location + 'news/'  + news.postName}>
+                        <h3>{news.title}</h3>
+                    </Link> 
+                </div>
                     
-                </Link>               
+                             
             </Col>;
     });
 

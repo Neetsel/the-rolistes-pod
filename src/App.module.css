@@ -1,6 +1,7 @@
 :root{
 	--main-color:#000000;
 	--secondary-color:#FFFFFF;
+	--text-color:  #747474;
 	--link-color:#1c7c7c;
 	--link-color-hover:#999999;
 	--background-color:#EAEDED;
@@ -32,12 +33,21 @@ section{
 p {
 	font-size: 15px;
 	/* color: var(--main-color); */
-	color: #747474;
+	color: var(--text-color);;
 	margin-bottom: 1rem;
 }
 
 p, ul, li, a, div{
 	line-height: 25px;
+}
+
+ul {
+	list-style: disc;
+	margin-left: 1rem;
+}
+
+li{
+	margin-bottom: 1rem;
 }
 
 h1, h2, h3 {
@@ -85,6 +95,7 @@ h3 {
 
 .date_article {
 	font-size:13px;
+	color: var(--main-color);
 }
 
 
@@ -101,6 +112,23 @@ a:hover, a:hover > p, a:hover > h2, a:hover > h3 {
 	color:var(--link-color-hover);
 	text-decoration: none;
 	transition: all 0.2s ease-out;	
+}
+
+.img_scale_animate > img {
+	transition: all 0.8s ease-out;	
+}
+
+.img_scale_animate  > img:hover {
+	transform: scale(1.02);
+	transition: all 1s ease-out;	
+}
+
+.img_scale_animate {
+    overflow: hidden;
+}
+
+.date{
+	color:#999999;
 }
 
 .item_box{

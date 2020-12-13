@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Aux from '../../Auxiliary/Auxiliary';
 import Posts from '../../../containers/Posts/Posts';
 import classes from './PostLayout.module.css';
@@ -15,6 +15,10 @@ import { useParams } from 'react-router-dom';
 const PostLayout = (props) => {
 
     let {pageId} = useParams();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      },)
 
     return(
         <Aux>

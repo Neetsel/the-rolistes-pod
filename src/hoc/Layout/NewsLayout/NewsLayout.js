@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Aux from '../../Auxiliary/Auxiliary';
 import Posts from '../../../containers/Posts/Posts';
 import classes from './NewsLayout.module.css';
@@ -15,10 +15,14 @@ import globalClasses from '../../../App.module.css';
 
 
 const NewsLayout = (props) => 
-{
+{    
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      },)
+
     const postPerPage = 10;
     const indexOfLastPost = props.currentPageNews * postPerPage;
-    const indexOfFirstPost = indexOfLastPost - postPerPage;
+    const indexOfFirstPost = indexOfLastPost - postPerPage;    
 
     const paginate = (pageNumber) => props.onSetCurrentPageNews(pageNumber);
 

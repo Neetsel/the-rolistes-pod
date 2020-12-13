@@ -14,11 +14,16 @@ const Footer = (props) => {
 
 	const toggleFooter = () => {
         
-	  if (document.getElementById("dynamicFooter") && (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50)) {
-	    document.getElementById("dynamicFooter").className = classes.navUp;
-	  } else {
-	    document.getElementById("dynamicFooter").className = classes.navDown;
-	  }
+        const elem = document.getElementById("dynamicFooter") ;
+
+        if(typeof elem !== 'undefined' && elem !== null) {
+
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("dynamicFooter").className = classes.navUp;
+            } else {
+                document.getElementById("dynamicFooter").className = classes.navDown;
+            }
+        }
     };
 
     return (
