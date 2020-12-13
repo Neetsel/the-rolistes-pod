@@ -22,7 +22,7 @@ const ComingSoon = (props) => (
                             <div className={classes.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>09 July, 2020 1pm EDT (6pm BST)</div>
                             <Row>
                                 <Col>
-                                    TBA
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eros erat, pellentesque vitae consectetur ac, sagittis a magna. Vivamus dolor est, bibendum vel lectus nec, lobortis lacinia arcu. Nunc eleifend maximus felis, vel aliquam mi. Sed a elit lacus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                                 </Col>
                             </Row>    
                         </Col> 

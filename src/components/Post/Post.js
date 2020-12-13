@@ -16,7 +16,7 @@ const Post = (props) => {
                 <p>{props.author}</p>
                 <p>{props.date}</p>            
                 {/* <div className={classes.mainArticle} dangerouslySetInnerHTML={{ __html: props.article }} /> */}
-                <p>{props.excerpt}... <span>Continue reading</span></p>
+                <p>{props.excerpt}... <span className={globalClasses.continue_reading}>Continue reading</span></p>
             </Link>
                 <span className={classes.end_article}/>
         </Col>
