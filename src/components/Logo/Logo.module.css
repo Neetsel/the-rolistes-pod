@@ -6,4 +6,11 @@
     width: auto;
 }
 
+@media screen and (max-width: 992px){
+
+    .LogoImg {        
+        height:3rem; 
+        width: auto;
+    }
+}
 

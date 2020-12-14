@@ -2,6 +2,7 @@ import React from 'react';
 import classes from './NavigationItems.module.css';
 import NavigationItem from './NavigationItem/NavigationItem';
 import Logo from '../../Logo/Logo';
+import patreonButton from '../../../assets/images/become_a_patron_button_BnW - Black.png';
 import { NavLink } from 'react-router-dom';
 
 const navigationItems= (props) => (
@@ -19,6 +20,8 @@ const navigationItems= (props) => (
         <NavigationItem link="/paris_gondo">Paris Gondo</NavigationItem>
         <span className={classes.VerticalLine}/>
         <NavigationItem link="/about_us">About Us</NavigationItem> 
+
+        <a href="https://www.patreon.com/RolistesPod" className={classes.supportLink}><img src={patreonButton} alt="Support me on Patreon" aria-hidden="true"/></a>
     </ul>
 
 );

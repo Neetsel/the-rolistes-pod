@@ -13,14 +13,69 @@
 }
 
 .VerticalLine{
-    display: inline-block;
-    border-left: 1px solid #ccc;
-    margin: 10px 10px 0;
-    height: 15px;
+    display: none;
 }
+
+.supportLink, .supportLink:hover{
+	transition: filter 0.4s ease;
+}
+
+.supportLink img{
+    border-radius: 2px;
+    height:2.5rem; 
+    width: auto;
+    margin-top: 1rem;
+    margin-left: 7rem;
+}
+
+
+
+.supportLink{
+	color:#000000;
+}
+
+.supportLink:hover{
+	/* background-color: var(--secondary-color);
+    color:var(--main-color); */
+    filter: invert(97%) sepia(0%) saturate(0%) hue-rotate(133deg) brightness(103%) contrast(108%); 
+    -webkit-filter: invert(97%) sepia(0%) saturate(0%) hue-rotate(133deg) brightness(103%) contrast(108%);
+}
+
 
 @media (min-width: 500px){
     .NavigationItems {
         flex-flow: row;
     }
+
+    .VerticalLine{
+        display: inline-block;
+        border-left: 1px solid #ccc;
+        margin: 10px 3px 0;
+        height: 15px;
+    }
+}
+
+@media screen and (max-width: 992px){
+
+    .supportLink img{
+        height:2.3rem; 
+        margin-left: 1rem;
+    }
+
+    .VerticalLine{   
+        margin: 10px 2px 0;
+    }
+
+    .SpacingNav{
+        margin: 5px;
+    }
+}
+@media screen and (min-width: 1200px){
+
+    .supportLink img{
+        height:2.5rem; 
+        margin-left: 18.5rem;
+    }
+
+
 }

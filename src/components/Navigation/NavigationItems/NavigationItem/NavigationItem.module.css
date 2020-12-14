@@ -42,3 +42,12 @@
         cursor: pointer;
     }
 }
+
+@media screen and (max-width: 992px){
+
+    .NavigationItem a{
+        height: 100%;
+        width:auto;
+        padding: 24px 5px 10px;      
+    }
+}

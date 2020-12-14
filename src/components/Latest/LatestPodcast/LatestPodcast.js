@@ -34,8 +34,7 @@ const LatestPodcast = (props) => {
                 </div>
             </Link> 
             <div>                                                 
-                <p>Latest Release: <span className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{podcast[0].date}</span>
-                </p>
+                <div>Latest Release: <span className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/> {podcast[0].date}</span></div>
                 <Link to={podcast[0].location + '2020/15/16/'  + podcast[0].postName}>
                     <h3>{podcast[0].title}</h3>
                 </Link> 
@@ -63,7 +62,7 @@ const LatestPodcast = (props) => {
     return (
         <Aux>
             <div className={globalClasses.item_box}>
-            <h2 className={globalClasses.section_title}>Podcast Latest</h2>
+            <h2 className={globalClasses.section_title}>Latest Podcast</h2>
                 <Row>
                     <Col xs={12} lg={6}>
                         {podcastMainOutput}

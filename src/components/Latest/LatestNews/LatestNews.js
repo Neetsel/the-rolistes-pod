@@ -35,10 +35,10 @@ const LatestNews = (props) => {
                     </div>
                 </Link>
                 <div>   
-                    <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{news[0].date}</div>
+                    <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/> {news[0].date}</div>
                     <Link to={news[0].location + 'news/'  + news[0].postName}>
                         <h3>{news[0].title}</h3>                
-                        <p>{news[0].excerpt}</p>
+                        <p>{news[0].excerpt}... <span className={globalClasses.continue_reading}>Continue reading</span></p>
                     </Link>
                 </div>                
             
@@ -55,7 +55,7 @@ const LatestNews = (props) => {
                     </div>
                 </Link>
                 <div>                                                 
-                    <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{news.date}</div>
+                    <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/> {news.date}</div>
                     <Link to={news.location + 'news/'  + news.postName}>
                         <h3>{news.title}</h3>
                     </Link> 
@@ -70,7 +70,7 @@ const LatestNews = (props) => {
     return (
         <Aux>
             <div className={globalClasses.item_box}>
-                <h2 className={globalClasses.section_title}>News Latest</h2>
+                <h2 className={globalClasses.section_title}>Latest News</h2>
                 <Row>                    
                     <Col xs={12} lg={5}>
                         {newsMainOutput}
