@@ -19,9 +19,9 @@ const Follow = (props) => {
                 </Row>
                 <Row>
                     <Col xs={12}>
-                        <h3>Follow</h3>
+                        <h3 className={classes.side_title}>Follow</h3>
                     </Col>
-                    <Row>
+                    <Row className={classes.side_icons}>
                         <Col xs={3}>
                             <a href="https://www.facebook.com/Rolistespod/" className={classes.SideLink}><span><FontAwesomeIcon icon={faFacebookF} aria-hidden="true"/></span></a>
                         </Col>
@@ -42,9 +42,9 @@ const Follow = (props) => {
                 </Row>
                 <Row>
                     <Col xs={12}>
-                        <h3>Listen</h3>
+                        <h3 className={classes.side_title}>Listen</h3>
                     </Col>
-                    <Row>
+                    <Row className={classes.side_icons}>
                         <Col xs={3}>
                             <a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom?si=f8oaIyG1QU2cgrBeDlLP5A" className={classes.SideLink}><span><FontAwesomeIcon icon={faSpotify} aria-hidden="true"/></span></a>
                         </Col>
