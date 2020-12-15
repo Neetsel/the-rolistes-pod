@@ -18,7 +18,7 @@ const Post = (props) => {
                 </div>          
             </Link>   
             <Link to={props.location + '/'  + props.postName}>
-                <h2>{props.title}</h2>            
+                <h2 className={classes.title_news}>{props.title}</h2>            
                 {/* <p className={globalClasses.author}>{props.author}</p> */}
                 <p className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/> {props.date}</p>            
                 {/* <div className={classes.mainArticle} dangerouslySetInnerHTML={{ __html: props.article }} /> */}           
