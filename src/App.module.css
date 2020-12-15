@@ -109,6 +109,10 @@ a:hover, a:hover > p, a:hover > h2, a:hover > h3 {
 	transition: all 0.2s ease-out;	
 }
 
+img {
+	border-radius: 5px;
+}
+
 .img_scale_animate > img {
 	transition: all 0.8s ease-out;	
 }
@@ -119,7 +123,8 @@ a:hover, a:hover > p, a:hover > h2, a:hover > h3 {
 }
 
 .img_scale_animate {
-    overflow: hidden;
+	overflow: hidden;
+	border-radius: 8px;
 }
 
 .date{

@@ -7,12 +7,12 @@ img {
 }
 
 .cell {
-    padding: 20px var(--padding-cell) 5px;
+    padding: 15px var(--padding-cell) 0;
 }
 
 .overlay {
     position: absolute;
-    bottom: 12px;
+    bottom: 8px;
     left: 0;
     box-sizing: border-box;
     overflow: hidden;
@@ -29,11 +29,13 @@ img {
       height:100%;
       padding:5px;	
       background-color: #FFFFFF;
-      border: solid #000000;
+      border: solid #000000;      
+      border-radius: 5px;
   }
   
   a:hover>.overlay {
     height: 30%;
+    border-radius: 8px;
   }
   
   .overlayText>h2 {

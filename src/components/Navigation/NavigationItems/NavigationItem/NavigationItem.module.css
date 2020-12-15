@@ -10,6 +10,9 @@
     width: 100%;
     box-sizing: border-box;
     display: block;
+    color: #000000;
+    font-size: 20px;
+
 }
 
 .NavigationItem a:hover{
@@ -19,7 +22,7 @@
 .NavigationItem a:hover,
 .NavigationItem a:active,
 .NavigationItem a.active {
-    color:#40A4C8;
+    color:#999999;
 }
 
 @media (min-width: 500px){
@@ -48,6 +51,7 @@
     .NavigationItem a{
         height: 100%;
         width:auto;
-        padding: 24px 5px 10px;      
+        padding: 24px 5px 10px;           
+        font-size: 17px;   
     }
 }
