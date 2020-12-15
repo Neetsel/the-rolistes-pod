@@ -1,10 +1,11 @@
 .navUp, .navDown {
-	height: 40px;
+	height: 45px;
 	width: 100%;
 	text-align: center;
     background-color: #000000;
+    padding-top: 7px;
     position: fixed;
-	bottom: -40px;
+	bottom: -45px;
 	transition: bottom 0.2s ease-in-out;
 }
 
@@ -13,7 +14,7 @@
 }
 
 .navDown {
-	bottom: -40px;
+	bottom: -45px;
 }
 
 .topLink {
@@ -24,7 +25,12 @@
     padding: 3px 5px;
 	border-radius: 5px;
     color: var(--secondary-color);
-    font-size: 1.6em;
+    font-size: 1.6em;    
+    
+}
+
+.topLink a{
+    margin-top:50px;
 }
 
 .topLink:hover {
