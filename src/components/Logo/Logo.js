@@ -4,7 +4,7 @@ import imgLogo from '../../assets/images/Logo_Nav_Side.jpg';
 
 const logo = (props) => (
     <div className={classes.LogoSection}>
-        <img src={imgLogo} alt="Logo" className={classes.LogoImg}/>    
+        <img src={imgLogo} alt="Logo" className={classes.LogoImg}/>   
     </div>
 );
 

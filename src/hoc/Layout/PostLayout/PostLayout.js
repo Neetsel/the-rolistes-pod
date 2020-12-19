@@ -10,6 +10,7 @@ import RecommendedPosts from '../../../components/side/Recommended/RecommendedPo
 import RecentPosts from '../../../components/side/Recent/RecentPosts';
 import PaginationList from '../../../components/UI/PaginationList/PaginationList';
 import Footer from '../../../components/Footer/Footer';
+import globalClasses from '../../../App.module.css';
 import { useParams } from 'react-router-dom';
 
 const PostLayout = (props) => {
@@ -31,19 +32,19 @@ const PostLayout = (props) => {
                     </Col>
                     <Col  lg={4} xs={12}>
                         <Row>  
-                            <Col xs={12}>
+                            <Col xs={12} className={globalClasses.no_padding_smallscreen}>
                                 <Follow /> 
                             </Col>                  
-                            <Col xs={12}>
+                            <Col xs={12} className={globalClasses.no_padding_smallscreen}>
                                 <Contact />
                             </Col>  
-                            <Col xs={12}>
+                            <Col xs={12} className={globalClasses.no_padding_smallscreen}>
                                 <Support />
                             </Col>  
-                            <Col xs={12}>
+                            <Col xs={12} className={globalClasses.no_padding_smallscreen}>
                                 <RecommendedPosts/>
                             </Col>  
-                            <Col xs={12}>
+                            <Col xs={12} className={globalClasses.no_padding_smallscreen}>
                                 <RecentPosts/>
                             </Col>                  
                         </Row>                    

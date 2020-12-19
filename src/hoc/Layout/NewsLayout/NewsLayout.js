@@ -30,7 +30,7 @@ const NewsLayout = (props) =>
         <Aux>
             <Container>
                 <Row>                                           
-                    <Col lg={8} xs={12} className={globalClasses.no_padding_right} >                    
+                    <Col lg={8} xs={12} className={[globalClasses.no_padding_right,globalClasses.no_padding_smallscreen].join(' ')} >                    
                         <div className={globalClasses.item_box_left}>
                             <h1 className={globalClasses.section_title}>News</h1>
                             <Posts 
@@ -49,13 +49,13 @@ const NewsLayout = (props) =>
                    
                     <Col  lg={4} xs={12}>
                         <Row>  
-                            <Col xs={12}>
+                            <Col xs={12} className={globalClasses.no_padding_smallscreen}>
                                 <Follow /> 
                             </Col>                  
-                            <Col xs={12}>
+                            <Col xs={12} className={globalClasses.no_padding_smallscreen}>
                                 <Contact />
                             </Col>  
-                            <Col xs={12}>
+                            <Col xs={12} className={globalClasses.no_padding_smallscreen}>
                                 <Support />
                             </Col>                                         
                         </Row>    

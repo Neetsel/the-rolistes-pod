@@ -10,8 +10,7 @@ const Post = (props) => {
     
     return (
         
-        <Col xs={12} >
-
+        <Col xs={12} className={globalClasses.no_padding_smallscreen}>
             <div className={globalClasses.item_box}>
                 <h1 className={globalClasses.section_title}>{props.title}</h1>                    
                 {/* <p>{props.author}</p> */}

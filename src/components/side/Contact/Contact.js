@@ -7,7 +7,7 @@ const Contact = (props) => {
     return (
         <Aux>
             <Row>
-                <Col xs={12}>                    
+                <Col xs={12} >                    
                     <div className={globalClasses.item_box_right}>
                         <h2 className={globalClasses.section_title}>Contact Us</h2>                    
                         <p>Email: </p>

@@ -102,7 +102,7 @@ const PodcastLayout = (props) => {
  
     return (
         <Aux>
-            <Container>
+            <Container className={globalClasses.no_padding_smallscreen} >
                 <div className={globalClasses.item_box}>
                     <h1 className={globalClasses.section_title}>Podcast</h1>
                     <div className={classes.filters}>
@@ -127,6 +127,7 @@ const PodcastLayout = (props) => {
                                 currentPage={props.currentPagePodcast}/>
                         </Col>
                     </Row>
+                
                 </div>
             </Container>             
             <Footer/>             

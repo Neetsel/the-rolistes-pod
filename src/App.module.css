@@ -148,14 +148,14 @@ img {
 }
 
 .item_box{
-    margin:15px 15px 0;
+    margin:15px 0 0;
     padding:1rem 1rem 0;
     background-color: var(--secondary-color);
     border-radius: 2px;
 }
 
 .item_box_left{
-    margin:15px 15px 0 0;
+    margin:15px 0 0;
     padding:1rem 1rem 0;
     background-color: var(--secondary-color);
     border-radius: 2px;
@@ -169,7 +169,7 @@ img {
 }
 
 .item_box_footer{
-    margin:15px 15px 0;
+    margin:15px 0 0;
     padding:1rem 1rem 0;
     background-color: var(--main-color);
     color: var(--secondary-color);
@@ -190,11 +190,15 @@ img {
 
 @media screen and (max-width: 992px){
 
+	.no_padding_smallscreen{	
+		padding: 0;
+	}
+
 	.item_box_left{
-		margin:15px 15px 0;
+		margin:15px 0 0;
 	}
 
 	.item_box_right{
-		margin:15px 0 0 15px;
+		margin:15px 0 0 0;
 	}
 }

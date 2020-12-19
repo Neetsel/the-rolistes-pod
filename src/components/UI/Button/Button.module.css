@@ -1,6 +1,6 @@
 .filter{
 	display:inline-block;
-	margin:5px 1% 0;
+	margin:5px 3px 0;
 	padding:0 2%;
 	cursor: pointer;
 	border: solid #000000;
@@ -10,17 +10,14 @@
 
 .filter:hover{
 	border: solid #777777;
-	color: #777777;
+	color: #777777;	
 	transition: all 0.2s ease-in-out;
 }
 
 .filter:disabled {
     border: solid #000000;
-    margin:5px 1% 0;
-	padding:0 2%;
 	color: #FFFFFF;
 	background-color: #000000;
-    cursor: default;
-    border-radius: 5px;
+	cursor: default;
 	transition: all 0.2s ease-in-out;
 }
