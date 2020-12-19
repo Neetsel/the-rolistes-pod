@@ -1,5 +1,15 @@
+.fullPost{
+    padding-bottom: 15px;
+}
+
 .fullPost img{
     max-width: 100% !important;
     height: auto !important;
     display:block;
+    margin-bottom: 15px;
+}
+
+audio{
+	width:100%;
+	margin-bottom: 15px;
 }
