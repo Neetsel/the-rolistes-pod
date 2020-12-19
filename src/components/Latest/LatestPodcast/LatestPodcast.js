@@ -36,7 +36,7 @@ const LatestPodcast = (props) => {
             <div>                                                 
                 <div>Latest Release: <span className={globalClasses.date_home}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/> {podcast[0].date}</span></div>
                 <Link to={podcast[0].location + '2020/15/16/'  + podcast[0].postName}>
-                    <h3>{podcast[0].title}</h3>
+                    <h3 className={globalClasses.title_home_secondary}>{podcast[0].title}</h3>
                 </Link> 
             </div>        
         </Aux>;

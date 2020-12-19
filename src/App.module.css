@@ -53,7 +53,8 @@ li{
 }
 
 audio{
-	width:100%
+	width:100%;
+	margin: 15px 0;
 }
 
 h1, h2, h3 {
@@ -86,6 +87,12 @@ h3 {
 	color: var(--main-color);
 	margin-bottom: 1.5rem;
 }
+.section_title_podcast{	
+	margin-bottom:15px;
+}
+.section_title_article{	
+	margin-bottom:5px;
+}
 
 .section_title_footer, .item_box_footer p, .item_box_footer h3{	
 	color: var(--secondary-color);
@@ -100,9 +107,9 @@ h3 {
 	padding-right: 0;
 }
 
-.date_article {
-	font-size:13px;
-	color: var(--main-color);
+.date_article{
+	color:#999999;
+	margin-bottom: 15px;
 }
 
 a {

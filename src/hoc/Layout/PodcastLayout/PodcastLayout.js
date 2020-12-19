@@ -104,7 +104,7 @@ const PodcastLayout = (props) => {
         <Aux>
             <Container className={globalClasses.no_padding_smallscreen} >
                 <div className={globalClasses.item_box}>
-                    <h1 className={globalClasses.section_title}>Podcast</h1>
+                    <h1 className={[globalClasses.section_title, globalClasses.section_title_podcast].join(' ')}>Podcast</h1>
                     <div className={classes.filters}>
                         <Button btnType={btnType} disabled={btnState.allIsDisabled} clicked ={filterAll}>ALL</Button>
                         <Button btnType={btnType} disabled={btnState.rolistesPodIsDisabled} clicked ={filterRolistesPod}>The Rolistes Podcast</Button>
