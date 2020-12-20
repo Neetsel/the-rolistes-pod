@@ -2,18 +2,12 @@
     width: 100%;
     height: 100%;
     display: flex;
-    flex-flow: column;
-    justify-content: space-around;
+    flex-flow: row;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 0;
     box-sizing: border-box;
     cursor: pointer;
-}
-
-.DrawerToggle div {
-    width: 90%;
-    height: 3px;
-    background-color: black;
 }
 
 @media (min-width: 768px) {

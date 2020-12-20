@@ -12,7 +12,6 @@
     display: block;
     color: #000000;
     font-size: 20px;
-
 }
 
 .NavigationItem a:hover{
@@ -25,7 +24,7 @@
     color:#999999;
 }
 
-@media (min-width: 500px){
+@media (min-width: 768px){
     .NavigationItem{
         margin: 0;      
         display:flex;
@@ -53,5 +52,15 @@
         width:auto;
         padding: 24px 5px 10px;           
         font-size: 17px;   
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .NavigationItem a{
+        height: 100%;
+        width:auto;
+        padding: 5px 10px;        
+        font-size: 20px;   
     }
 }

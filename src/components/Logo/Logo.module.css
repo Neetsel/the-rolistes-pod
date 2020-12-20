@@ -6,10 +6,22 @@
     width: auto;
 }
 
+.LogoSection{
+    display:inherit;
+}
+
 @media screen and (max-width: 992px){
 
     .LogoImg {        
         height:3rem; 
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .LogoImg {        
+        height:2.5rem; 
         width: auto;
     }
 }
