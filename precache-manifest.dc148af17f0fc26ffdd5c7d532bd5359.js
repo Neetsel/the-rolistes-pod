@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e677bc875c64776a79bf5527b5b025e",
+    "revision": "a6e09f14f6d6090c354182ab1f6f5ae9",
     "url": "/the-rolistes-pod/index.html"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-rolistes-pod/static/css/9.f2046077.chunk.css"
   },
   {
-    "revision": "14c2d6dd373f484eabd7",
+    "revision": "9e52ee0580c31c061f82",
     "url": "/the-rolistes-pod/static/css/main.a0f87b3f.chunk.css"
   },
   {
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-rolistes-pod/static/js/9.f43d81eb.chunk.js"
   },
   {
-    "revision": "14c2d6dd373f484eabd7",
-    "url": "/the-rolistes-pod/static/js/main.1454fc2e.chunk.js"
+    "revision": "9e52ee0580c31c061f82",
+    "url": "/the-rolistes-pod/static/js/main.d32963da.chunk.js"
   },
   {
     "revision": "10b7a1ffb1672abdeadb",
@@ -132,7 +132,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-rolistes-pod/static/media/paypal-button.4cc1a483.png"
   },
   {
-    "revision": "cd7d947cefe793ffcc9d7d47bc7a1142",
-    "url": "/the-rolistes-pod/static/media/therolistespodcast.cd7d947c.xml"
+    "revision": "47c9d27df47a1a2c089ab3c93c33f611",
+    "url": "/the-rolistes-pod/static/media/therolistespodcast.47c9d27d.xml"
   }
 ]);
