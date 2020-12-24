@@ -26,7 +26,7 @@ const PostLayout = (props) => {
             
             <Container>
                 <Row>
-                    <Col lg={8} xs={12} >
+                    <Col lg={8} xs={12} className={[globalClasses.no_padding_right,globalClasses.no_padding_smallscreen].join(' ')}>
                         <Posts type={props.type} pageTitle={pageId}/>                    
                         <PaginationList/>
                     </Col>

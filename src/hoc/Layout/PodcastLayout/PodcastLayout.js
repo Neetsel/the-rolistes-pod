@@ -113,21 +113,18 @@ const PodcastLayout = (props) => {
                         <Button btnType={btnType} disabled={btnState.filmStudiesIsDisabled} clicked ={filterFilmStudies}>Film Studies</Button>
                     </div>                    
                     <Row>
-                        <Col xs={12} >
                             <Posts {...props} 
                                 type="PODCAST"
                                 filterCategory={props.currentCategoryPodcast}
                                 indexOfFirstPost={indexOfFirstPost} 
                                 indexOfLastPost={indexOfLastPost}/>
-                            <PaginationList
+                    </Row>
+                    <PaginationList
                                 // totalRecords={props.podcast.length} 
                                 totalRecords={props.currentCategorySize} 
                                 pageLimit={postPerPage} 
                                 clicked={paginate}
                                 currentPage={props.currentPagePodcast}/>
-                        </Col>
-                    </Row>
-                
                 </div>
             </Container>             
             <Footer/>             

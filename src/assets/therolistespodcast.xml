@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress.com" created="2020-12-20 13:00"-->
+<!-- generator="WordPress.com" created="2020-12-23 13:36"-->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>The Rolistes Podcast</title>
 	<link>http://rolistespod.com</link>
 	<description>Your London-based tabletop RPG podcast !</description>
-	<pubDate>Sun, 20 Dec 2020 13:00:57 +0000</pubDate>
+	<pubDate>Wed, 23 Dec 2020 13:36:50 +0000</pubDate>
 	<language></language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://wordpress.com/</wp:base_site_url>
@@ -49132,8 +49132,8 @@ https://youtu.be/eq7KDfszVlM
 	</item>
 	<item>
 		<title>&quot;Déjà Vu&quot; at CyberConv 2.0 (Part One)</title>
-		<link>http://rolistespod.com/?p=4640</link>
-		<pubDate></pubDate>
+		<link>http://rolistespod.com/2020/12/21/deja-vu-at-cyberconv-2-0-part-one/</link>
+		<pubDate>Mon, 21 Dec 2020 00:41:35 +0000</pubDate>
 		<dc:creator>kalum666</dc:creator>
 		<guid isPermaLink="false">http://rolistespod.com/?p=4640</guid>
 		<description></description>
@@ -49142,19 +49142,35 @@ https://youtu.be/eq7KDfszVlM
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><br>[audio src="XXX"]Listen, subscribe &amp; review on <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>, <strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong> or <strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong>. Sign up to our <strong><a rel="noreferrer noopener" href="http://eepurl.com/gJCUVX" target="_blank">newsletter</a></strong>!</p>
+<p><br>[audio src="https://archive.org/download/the-rolistes-podcast-episode-45-part-1-2019.12.21/The%20Rolistes%20Podcast_Episode%2045_Part%201_2019.12.21.mp3"]Listen, subscribe &amp; review on <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>, <strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong> or <strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong>. Sign up to our <strong><a rel="noreferrer noopener" href="http://eepurl.com/gJCUVX" target="_blank">newsletter</a></strong>!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>x</p>
+<p>Welcome to CyberConv'!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Back in March 2020, as France entered its first lockdown, a bunch of TTRPG enthusiasts decided to do something about their favourite conventions getting cancelled. They created their own online convention.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>With only a couple weeks of preparation, the first CyberConv' took place in April 2020.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Due to the great success of this first edition, a second one was launched in late November...</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>...and that's where I recorded the following interviews:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul><li>Naali, game master for the "<strong><a href="https://oniriquepodcast.fr/">Onirique, Le Podcast de l'Imaginaire</a></strong>" who published already <strong><a href="https://www.dmsguild.com/browse.php?keywords=&amp;x=24&amp;y=21&amp;author=naali&amp;affiliate_id=1289000">several supplements on Dungeon Masters guild</a></strong>;</li><li><strong><a href="https://twitter.com/MichaelGhelfi">Michaël Ghelfi</a></strong>, successful <strong><a href="https://www.youtube.com/user/MichaelGhelfi">music and ambiance composer</a></strong>, author of the upcoming "Tempête sur l'Archipel" to be published by <strong><a href="https://www.les12singes.com/">Les XII Singes</a></strong>;</li><li>&nbsp;<a href="https://twitter.com/gaelsacre"><strong>Gaël Sacré</strong></a> aka Willox, <a href="https://willox.itch.io/"><strong>game designer</strong></a>, and Kinayla from <a href="https://twitter.com/D1000_et_D100"><strong>D1000 et D100</strong></a> who are part of the CyberConv' organisers</li></ul>
+<ul><li><a href="https://twitter.com/GmNaali"><strong>Naali</strong></a>, game master for the "<strong><a href="https://oniriquepodcast.fr/">Onirique, Le Podcast de l'Imaginaire</a></strong>" who published already <strong><a href="https://www.dmsguild.com/browse.php?keywords=&amp;x=24&amp;y=21&amp;author=naali&amp;affiliate_id=1289000">several supplements on Dungeon Masters guild</a></strong>;</li><li><strong><a href="https://twitter.com/MichaelGhelfi">Michaël Ghelfi</a></strong>, successful <strong><a href="https://www.youtube.com/user/MichaelGhelfi">music and ambiance composer</a></strong>, author of the upcoming "Tempête sur l'Archipel" to be published by <strong><a href="https://www.les12singes.com/">Les XII Singes</a></strong>;</li><li>&nbsp;<a href="https://twitter.com/gaelsacre"><strong>Gaël Sacré</strong></a> aka Willox, <a href="https://willox.itch.io/"><strong>game designer</strong></a>, and Kinayla from <a href="https://twitter.com/D1000_et_D100"><strong>D1000 et D100</strong></a> who are part of the CyberConv' organisers</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Listen, rate or review the show on <strong><a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798">Podchaser</a></strong>, <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>, <strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>, <strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong>&nbsp;or <a href="http://www.stitcher.com/podcast/the-rolistes-podcast"><strong>Stitcher</strong></a><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">.</a>&nbsp;You can also&nbsp;<strong><a href="http://XX">download the episode</a></strong>.</p>
+<p>Listen, rate or review the show on <strong><a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798">Podchaser</a></strong>, <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>, <strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>, <strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong> or <a href="http://www.stitcher.com/podcast/the-rolistes-podcast"><strong>Stitcher</strong></a><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">.</a> You can also <strong><a href="https://archive.org/download/the-rolistes-podcast-episode-45-part-1-2019.12.21/The%20Rolistes%20Podcast_Episode%2045_Part%201_2019.12.21.mp3">download the episode</a></strong>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -49186,7 +49202,7 @@ https://youtu.be/eq7KDfszVlM
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Theme song: "Solta o Frango" by Bonde Do Role<br>"Sinking Ship - Vanished Crew" by Plastic Flowers<br>Available for free download at <a href="http://freemusicarchive.org/">http://freemusicarchive.org/</a><br><br>"<a href="https://youtu.be/Wdnmhw9194g"><strong>Epic Pirate Music - Etterban Corsairs</strong></a>" by <a href="https://www.patreon.com/MichaelGhelfi"><strong>Michael Ghelfi</strong></a><br>Check out this composition and many more and Michael Ghelfi's <a href="https://michaelghelfi.bandcamp.com/"><strong>Bandcamp</strong></a>.</p>
+<p>Theme song: "Solta o Frango" by Bonde Do Role<br>"Sinking Ship - Vanished Crew" by Plastic Flowers<br>Available for free download at&nbsp;<a href="http://freemusicarchive.org/">http://freemusicarchive.org/</a><br><br>"<a href="https://youtu.be/Wdnmhw9194g"><strong>Epic Pirate Music - Etterban Corsairs</strong></a>" by <a href="https://www.patreon.com/MichaelGhelfi"><strong>Michael Ghelfi</strong></a><br>Check out this composition and many more and Michael Ghelfi's <a href="https://michaelghelfi.bandcamp.com/"><strong>Bandcamp</strong></a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
@@ -49194,7 +49210,7 @@ https://youtu.be/eq7KDfszVlM
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>"<strong><a href="https://www.dmsguild.com/product/311386/HOW-TO-Create-an-Adventure-in-15-Minutes&amp;affiliate_id=1289000">[HOW TO] Create an Adventure in 15 Minutes</a></strong>", "<strong><a href="https://www.dmsguild.com/product/313786/HOW-TO-Skill-Challenges&amp;affiliate_id=1289000">[HOW TO] Skill Challenges</a></strong>" and "<strong><a href="https://www.dmsguild.com/product/323753/Silver-Lining&amp;affiliate_id=1289000">Silver Lining</a></strong>" by <strong><a href="https://www.dmsguild.com/browse.php?keywords=&amp;x=24&amp;y=21&amp;author=naali&amp;affiliate_id=1289000">Naali</a></strong><br>"<strong><a href="https://www.drivethrurpg.com/product/226996/Stars-Without-Number-Revised-Edition&amp;affiliate_id=1289000">Stars Without Number</a></strong>" by <strong><a href="https://www.drivethrurpg.com/advanced_search_result.php?author=Kevin%20Crawford&amp;affiliate_id=1289000">Kevin Crawford</a></strong> for <strong><a href="https://www.drivethrurpg.com/browse/pub/3482/Sine-Nomine-Publishing&amp;affiliate_id=1289000">Sine Nomine Publishing</a></strong><br>"<strong><a href="https://www.drivethrurpg.com/product/246792/Worlds-Without-Master-Issue-111-BUNDLE&amp;affiliate_id=1289000">Swords Without Master</a></strong>" by <a href="https://www.drivethrurpg.com/advanced_search_result.php?author=Epidiah%20Ravachol&amp;affiliate_id=1289000"><strong>Epidiah Ravachol</strong></a> for <strong><a href="https://www.drivethrurpg.com/browse/pub/3155/Dig-a-Thousand-Holes-Publishing&amp;affiliate_id=1289000">Dig a Thousand Holes Publishing</a></strong><br>"<a href="https://www.drivethrurpg.com/product/138315/Bethorm-the-Plane-of-Tekumel-RPG&amp;affiliate_id=1289000"><strong>Bethorm: the Plane of Tekumel RPG</strong></a>" by <strong><a href="https://www.drivethrurpg.com/advanced_search_result.php?author=M.A.R.%20Barker&amp;affiliate_id=1289000">M.A.R. Barker</a></strong> &amp; <strong><a href="https://www.drivethrurpg.com/advanced_search_result.php?author=Jeff%20Dee&amp;affiliate_id=1289000">Jeff Dee</a></strong> for <a href="https://www.drivethrurpg.com/browse/pub/91/UNIGames&amp;affiliate_id=1289000"><strong>UNIGames</strong></a><br>"<a href="https://www.drivethrurpg.com/product/2060/TEKUMELR--Empire-of-the-Petal-Throne-TSR&amp;affiliate_id=1289000"><strong>Tekumel: Empire of the Petal Throne</strong></a>" by <strong><a href="https://www.drivethrurpg.com/advanced_search_result.php?author=M.A.R.%20Barker&amp;affiliate_id=1289000">M.A.R. Barker</a></strong>  for <a href="https://www.drivethrurpg.com/browse/pub/5203/TSR-Inc&amp;affiliate_id=1289000"><strong>TSR</strong></a><br>"<a href="https://www.drivethrurpg.com/product/25585/Nephilim&amp;affiliate_id=1289000"><strong>Nephilim</strong></a>" which was showcased in “<a href="https://rolistespod.com/2017/04/02/episode-20-part-1-nephilim-with-mira-willem-rob/"><strong>Episode 20 – Nephilim with Mira, Willem &amp; Rob</strong></a>”<br>"<a href="https://discord.com/channels/@me/782214606495285248/788886111778897981"><strong>The Gruff &amp; Ready: Full D&amp;D Adventure</strong></a>" by <a href="https://www.dmsguild.com/browse.php?author=Venatus%20Maps&amp;affiliate_id=1289000"><strong>Venatus Maps</strong></a> and <a href="https://www.patreon.com/MichaelGhelfi"><strong>Michael Ghelfi</strong></a><br>"<strong><a href="https://www.drivethrurpg.com/product/297543/Nibiru-Corebook&amp;affiliate_id=1289000">Nibiru</a></strong> " by <strong><a href="https://www.drivethrurpg.com/browse.php?author=Federico%20Sohns&amp;affiliate_id=1289000">Federico Sohns</a></strong> for <a href="https://www.drivethrurpg.com/browse/pub/17290/Araukana-Media&amp;affiliate_id=1289000"><strong>Araukana Media</strong></a><br>"<a href="https://willox.itch.io/saga-heroique-minima"><strong>Saga Héroïque Minima</strong></a>" and "<a href="http://covenether.squarespace.com/happy-together-english"><strong>Happy Together (in English)</strong></a>" by <a href="https://willox.itch.io/"><strong>Gaël Sacré aka Willox</strong></a></p>
+<p>"<strong><a href="https://www.dmsguild.com/product/311386/HOW-TO-Create-an-Adventure-in-15-Minutes&amp;affiliate_id=1289000">[HOW TO] Create an Adventure in 15 Minutes</a></strong>", "<strong><a href="https://www.dmsguild.com/product/313786/HOW-TO-Skill-Challenges&amp;affiliate_id=1289000">[HOW TO] Skill Challenges</a></strong>" and "<strong><a href="https://www.dmsguild.com/product/323753/Silver-Lining&amp;affiliate_id=1289000">Silver Lining</a></strong>" by <strong><a href="https://www.dmsguild.com/browse.php?keywords=&amp;x=24&amp;y=21&amp;author=naali&amp;affiliate_id=1289000">Naali</a></strong><br>"<strong><a href="https://www.drivethrurpg.com/product/226996/Stars-Without-Number-Revised-Edition&amp;affiliate_id=1289000">Stars Without Number</a></strong>" by <strong><a href="https://www.drivethrurpg.com/advanced_search_result.php?author=Kevin%20Crawford&amp;affiliate_id=1289000">Kevin Crawford</a></strong>&nbsp;for <strong><a href="https://www.drivethrurpg.com/browse/pub/3482/Sine-Nomine-Publishing&amp;affiliate_id=1289000">Sine Nomine Publishing</a></strong><br>"<strong><a href="https://www.drivethrurpg.com/product/246792/Worlds-Without-Master-Issue-111-BUNDLE&amp;affiliate_id=1289000">Swords Without Master</a></strong>" by <a href="https://www.drivethrurpg.com/advanced_search_result.php?author=Epidiah%20Ravachol&amp;affiliate_id=1289000"><strong>Epidiah Ravachol</strong></a>&nbsp;for <strong><a href="https://www.drivethrurpg.com/browse/pub/3155/Dig-a-Thousand-Holes-Publishing&amp;affiliate_id=1289000">Dig a Thousand Holes Publishing</a></strong><br>"<a href="https://www.drivethrurpg.com/product/138315/Bethorm-the-Plane-of-Tekumel-RPG&amp;affiliate_id=1289000"><strong>Bethorm: the Plane of Tekumel RPG</strong></a>" by <strong><a href="https://www.drivethrurpg.com/advanced_search_result.php?author=M.A.R.%20Barker&amp;affiliate_id=1289000">M.A.R. Barker</a></strong> &amp;&nbsp;<strong><a href="https://www.drivethrurpg.com/advanced_search_result.php?author=Jeff%20Dee&amp;affiliate_id=1289000">Jeff Dee</a></strong> for <a href="https://www.drivethrurpg.com/browse/pub/91/UNIGames&amp;affiliate_id=1289000"><strong>UNIGames</strong></a><br>"<a href="https://www.drivethrurpg.com/product/2060/TEKUMELR--Empire-of-the-Petal-Throne-TSR&amp;affiliate_id=1289000"><strong>Tekumel: Empire of the Petal Throne</strong></a>" by <strong><a href="https://www.drivethrurpg.com/advanced_search_result.php?author=M.A.R.%20Barker&amp;affiliate_id=1289000">M.A.R. Barker</a></strong>  for <a href="https://www.drivethrurpg.com/browse/pub/5203/TSR-Inc&amp;affiliate_id=1289000"><strong>TSR</strong></a><br>"<a href="https://www.drivethrurpg.com/product/25585/Nephilim&amp;affiliate_id=1289000"><strong>Nephilim</strong></a>" which was showcased in “<a href="https://rolistespod.com/2017/04/02/episode-20-part-1-nephilim-with-mira-willem-rob/"><strong>Episode 20 – Nephilim with Mira, Willem &amp; Rob</strong></a>”<br>"<a href="https://discord.com/channels/@me/782214606495285248/788886111778897981"><strong>The Gruff &amp; Ready: Full D&amp;D Adventure</strong></a>" by <a href="https://www.dmsguild.com/browse.php?author=Venatus%20Maps&amp;affiliate_id=1289000"><strong>Venatus Maps</strong></a> and <a href="https://www.patreon.com/MichaelGhelfi"><strong>Michael Ghelfi</strong></a><br>"<strong><a href="https://www.drivethrurpg.com/product/297543/Nibiru-Corebook&amp;affiliate_id=1289000">Nibiru</a></strong>&nbsp;" by <strong><a href="https://www.drivethrurpg.com/browse.php?author=Federico%20Sohns&amp;affiliate_id=1289000">Federico Sohns</a></strong>&nbsp;for <a href="https://www.drivethrurpg.com/browse/pub/17290/Araukana-Media&amp;affiliate_id=1289000"><strong>Araukana Media</strong></a><br>"<a href="https://willox.itch.io/saga-heroique-minima"><strong>Saga Héroïque Minima</strong></a>" and "<a href="http://covenether.squarespace.com/happy-together-english"><strong>Happy Together (in English)</strong></a>" by <a href="https://willox.itch.io/"><strong>Gaël Sacré aka Willox</strong></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
@@ -49202,11 +49218,7 @@ https://youtu.be/eq7KDfszVlM
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><a href="https://en.wikipedia.org/wiki/Game_of_Thrones"><strong>Game of Thrones</strong></a>" TV show by <a href="https://en.wikipedia.org/wiki/David_Benioff"><strong>David Benioff</strong></a> and <a href="https://en.wikipedia.org/wiki/D._B._Weiss"><strong>D. B. Weiss</strong></a> based on <a href="https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire"><strong>A Song of Ice and Fire</strong></a> by <a href="https://en.wikipedia.org/wiki/George_R._R._Martin"><strong>George R. R. Martin</strong></a><br>"<a href="https://en.wikipedia.org/wiki/Stranger_Things"><strong>Stranger Things</strong></a>" TV show by <a href="https://en.wikipedia.org/wiki/The_Duffer_Brothers"><strong>the Duffer Brothers</strong></a> for <a href="https://en.wikipedia.org/wiki/Netflix"><strong>Netflix</strong></a><br>"<a href="https://en.wikipedia.org/wiki/Community_(TV_series)"><strong>Community</strong></a>" TV show by <a href="https://en.wikipedia.org/wiki/Dan_Harmon"><strong>Dan Harmon</strong></a> for <a href="https://en.wikipedia.org/wiki/NBC"><strong>NBC</strong></a><br>"<a href="https://en.wikipedia.org/wiki/Star_Wars"><strong>Star Wars</strong></a>" media franchise created by <strong><a href="https://en.wikipedia.org/wiki/George_Lucas">George Lucas</a> </strong><br>"<a href="https://en.wikipedia.org/wiki/Star_Trek"><strong>Star Trek</strong></a>" media franchise created by <a href="https://en.wikipedia.org/wiki/Gene_Roddenberry"><strong>Gene Roddenberry</strong></a> <br>"<a href="https://en.wikipedia.org/wiki/Stargate_SG-1"><strong>Stargate SG-1</strong></a>" TV show by <a href="https://en.wikipedia.org/wiki/Brad_Wright"><strong>Brad Wright</strong></a> and <a href="https://en.wikipedia.org/wiki/Jonathan_Glassner"><strong>Jonathan Glassner</strong></a><br>"<a href="https://en.wikipedia.org/wiki/This_Is_Spinal_Tap"><strong>This Is Spinal Tap</strong></a>"  mockumentary film co-written and directed by <a href="https://en.wikipedia.org/wiki/Rob_Reiner"><strong>Rob Reiner</strong></a> featuring the legendary "<strong><a href="https://www.youtube.com/watch?v=NgViOqGJEvM">A Mach Piece (in D Minor)</a></strong>"<br>"<a href="https://en.wikipedia.org/wiki/Diablo_III"><strong>Diablo III</strong></a>" and "<a href="https://en.wikipedia.org/wiki/World_of_Warcraft"><strong>World of Warcraft</strong></a>" video games by <a href="https://en.wikipedia.org/wiki/Blizzard_Entertainment"><strong>Blizzard Entertainment</strong></a><br>"<a href="https://en.wikipedia.org/wiki/The_Elder_Scrolls"><strong>The Elder Scrolls</strong></a>" video game by <a href="https://en.wikipedia.org/wiki/Bethesda_Game_Studios"><strong>Bethesda Game Studios</strong></a><br>"<a href="https://youtu.be/_52K0E_gNY0"><strong>Medieval City</strong></a>" &amp; "<a href="https://youtu.be/ga7PiR_X0cM"><strong>Temple of Blood</strong></a>" ambiances by <strong><a href="https://twitter.com/MichaelGhelfi">Michaël Ghelfi</a></strong><br>"<a href="https://strongsongspodcast.com/"><strong>Strong Songs</strong></a>", podcast by <a href="https://twitter.com/kirkhamilton"><strong>Kirk Hamilton</strong></a><br>"<a href="https://youtu.be/fAlY22-uDfE"><strong>Table Ronde - Mettre en Scène le Voyage: Rythme et Mécaniques</strong></a>" panel hosted by Kinayla for <a href="https://cyberconv.com/cyberconv-2-0"><strong>CyberConv' 2.0</strong></a><br>"<a href="https://youtu.be/70BiZF13-6Y"><strong>Table Ronde - Voyages dans le Temps</strong></a>" hosted by Kalum for <a href="https://cyberconv.com/cyberconv-2-0"><strong>CyberConv' 2.0</strong></a><br>"Jeu de Rôle en France" panel hosted bien <a href="https://twitter.com/cendrones"><strong>Julien Pouard</strong></a> for Metatopia</p>
+<p><a href="https://en.wikipedia.org/wiki/Game_of_Thrones"><strong>Game of Thrones</strong></a>" TV show&nbsp;by&nbsp;<a href="https://en.wikipedia.org/wiki/David_Benioff"><strong>David Benioff</strong></a>&nbsp;and&nbsp;<a href="https://en.wikipedia.org/wiki/D._B._Weiss"><strong>D. B. Weiss</strong></a>&nbsp;based on&nbsp;<a href="https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire"><strong>A Song of Ice and Fire</strong></a> by&nbsp;<a href="https://en.wikipedia.org/wiki/George_R._R._Martin"><strong>George R. R. Martin</strong></a><br>"<a href="https://en.wikipedia.org/wiki/Stranger_Things"><strong>Stranger Things</strong></a>" TV show by&nbsp;<a href="https://en.wikipedia.org/wiki/The_Duffer_Brothers"><strong>the Duffer Brothers</strong></a>&nbsp;for&nbsp;<a href="https://en.wikipedia.org/wiki/Netflix"><strong>Netflix</strong></a><br>"<a href="https://en.wikipedia.org/wiki/Community_(TV_series)"><strong>Community</strong></a>" TV show by&nbsp;<a href="https://en.wikipedia.org/wiki/Dan_Harmon"><strong>Dan Harmon</strong></a> for&nbsp;<a href="https://en.wikipedia.org/wiki/NBC"><strong>NBC</strong></a><br>"<a href="https://en.wikipedia.org/wiki/Star_Wars"><strong>Star Wars</strong></a>" media franchise created by&nbsp;<strong><a href="https://en.wikipedia.org/wiki/George_Lucas">George Lucas</a> </strong><br>"<a href="https://en.wikipedia.org/wiki/Star_Trek"><strong>Star Trek</strong></a>" media franchise created by&nbsp;<a href="https://en.wikipedia.org/wiki/Gene_Roddenberry"><strong>Gene Roddenberry</strong></a>&nbsp;<br>"<a href="https://en.wikipedia.org/wiki/Stargate_SG-1"><strong>Stargate SG-1</strong></a>" TV show by&nbsp;<a href="https://en.wikipedia.org/wiki/Brad_Wright"><strong>Brad Wright</strong></a>&nbsp;and&nbsp;<a href="https://en.wikipedia.org/wiki/Jonathan_Glassner"><strong>Jonathan Glassner</strong></a><br>"<a href="https://en.wikipedia.org/wiki/This_Is_Spinal_Tap"><strong>This Is Spinal Tap</strong></a>" &nbsp;mockumentary&nbsp;film co-written and directed by&nbsp;<a href="https://en.wikipedia.org/wiki/Rob_Reiner"><strong>Rob Reiner</strong></a> featuring the legendary "<strong><a href="https://www.youtube.com/watch?v=NgViOqGJEvM">A Mach Piece (in D Minor)</a></strong>"<br>"<a href="https://en.wikipedia.org/wiki/Diablo_III"><strong>Diablo III</strong></a>" and "<a href="https://en.wikipedia.org/wiki/World_of_Warcraft"><strong>World of Warcraft</strong></a>" video games by&nbsp;<a href="https://en.wikipedia.org/wiki/Blizzard_Entertainment"><strong>Blizzard Entertainment</strong></a><br>"<a href="https://en.wikipedia.org/wiki/The_Elder_Scrolls"><strong>The Elder Scrolls</strong></a>" video game by&nbsp;<a href="https://en.wikipedia.org/wiki/Bethesda_Game_Studios"><strong>Bethesda Game Studios</strong></a><br>"<a href="https://youtu.be/_52K0E_gNY0"><strong>Medieval City</strong></a>" &amp; "<a href="https://youtu.be/ga7PiR_X0cM"><strong>Temple of Blood</strong></a>" ambiances by <strong><a href="https://twitter.com/MichaelGhelfi">Michaël Ghelfi</a></strong><br>"<a href="https://strongsongspodcast.com/"><strong>Strong Songs</strong></a>", podcast by <a href="https://twitter.com/kirkhamilton"><strong>Kirk Hamilton</strong></a><br>"<a href="https://youtu.be/fAlY22-uDfE"><strong>Table Ronde - Mettre en Scène le Voyage: Rythme et Mécaniques</strong></a>" panel hosted by Kinayla for <a href="https://cyberconv.com/cyberconv-2-0"><strong>CyberConv' 2.0</strong></a><br>"<a href="https://youtu.be/70BiZF13-6Y"><strong>Table Ronde - Voyages dans le Temps</strong></a>" hosted by Kalum for <a href="https://cyberconv.com/cyberconv-2-0"><strong>CyberConv' 2.0</strong></a><br>"<a href="https://youtu.be/z4aizodXSeg"><strong>Le Jeu de Rôle en France</strong></a>" panel hosted bien <a href="https://twitter.com/cendrones"><strong>Julien Pouard</strong></a> for <a href="https://www.dexposure.com/m2020.html"><strong>Metatopia</strong></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
@@ -49218,12 +49230,12 @@ https://youtu.be/eq7KDfszVlM
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>4640</wp:post_id>
-		<wp:post_date>2020-12-19 22:26:25</wp:post_date>
-		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:post_date>2020-12-21 00:41:35</wp:post_date>
+		<wp:post_date_gmt>2020-12-21 00:41:35</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name></wp:post_name>
-		<wp:status>draft</wp:status>
+		<wp:post_name>deja-vu-at-cyberconv-2-0-part-one</wp:post_name>
+		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type>post</wp:post_type>
@@ -49262,6 +49274,37 @@ https://youtu.be/eq7KDfszVlM
 		<category domain="category" nicename="the-rolistes-podcast"><![CDATA[The Rolistes Podcast]]></category>
 		<category domain="post_tag" nicename="united-kingdom"><![CDATA[United Kingdom]]></category>
 		<category domain="post_tag" nicename="%e6%a1%8c%e4%b8%8a%e8%a7%92%e8%89%b2%e6%89%ae%e6%bc%94%e9%81%8a%e6%88%b2"><![CDATA[桌上角色扮演遊戲]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_publicize_job_id</wp:meta_key>
+			<wp:meta_value><![CDATA[52470590485]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>enclosure</wp:meta_key>
+			<wp:meta_value><![CDATA[https://archive.org/download/the-rolistes-podcast-episode-45-part-1-2019.12.21/The%20Rolistes%20Podcast_Episode%2045_Part%201_2019.12.21.mp3
+54092053
+audio/mpeg
+]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_publicize_done_external</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:7:"twitter";a:1:{i:11622706;s:58:"https://twitter.com/rolistespod/status/1340819676650156033";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_publicize_done_11560013</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpas_done_11622706</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>publicize_twitter_user</wp:meta_key>
+			<wp:meta_value><![CDATA[rolistespod]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>timeline_notification</wp:meta_key>
+			<wp:meta_value><![CDATA[1608511299]]></wp:meta_value>
+		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_thumbnail_id</wp:meta_key>
 			<wp:meta_value><![CDATA[5170]]></wp:meta_value>
@@ -49708,12 +49751,12 @@ https://youtu.be/eq7KDfszVlM
 	<item>
 		<title>Café Rolistes 116 - Anthony, Dave &#038; Michelle from &quot;Battlelords of the 23rd Century&quot;</title>
 		<link>http://rolistespod.com/?p=5156</link>
-		<pubDate>Mon, 21 Dec 2020 01:00:00 +0000</pubDate>
+		<pubDate>Mon, 28 Dec 2020 01:00:00 +0000</pubDate>
 		<dc:creator>kalum666</dc:creator>
 		<guid isPermaLink="false">http://rolistespod.com/?p=5156</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>[audio src="https://archive.org/download/cafe-rolistes-116-2020.07.03/Caf%C3%A9%20Rolistes_116_2020.07.03.mp3"] Listen, subscribe &amp; review on <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>, <strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>, <strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong>.<br>You can also <strong><a href="https://archive.org/download/cafe-rolistes-116-2020.07.03/Caf%C3%A9%20Rolistes_116_2020.07.03.mp3">download this episode</a></strong>.</p>
+<p>[audio src="https://archive.org/download/cafe-rolistes-116-2020.07.03/Caf%C3%A9%20Rolistes_116_2020.07.03.mp3"] Listen, subscribe &amp; review on <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>,&nbsp;<strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>,&nbsp;<strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong>.<br>You can also <strong><a href="https://archive.org/download/cafe-rolistes-116-2020.07.03/Caf%C3%A9%20Rolistes_116_2020.07.03.mp3">download this episode</a></strong>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -49731,7 +49774,7 @@ https://youtu.be/eq7KDfszVlM
 <!-- /wp:embed -->
 
 <!-- wp:paragraph -->
-<p>Follow us on <strong><a href="https://www.twitch.tv/rolistespod">Twitch</a></strong> and contribute LIVE with your questions via the chat.</p>
+<p>Follow us on&nbsp;<strong><a href="https://www.twitch.tv/rolistespod">Twitch</a></strong>&nbsp;and contribute LIVE with your questions via the chat.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":5} -->
@@ -49739,7 +49782,7 @@ https://youtu.be/eq7KDfszVlM
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><a href="http://www.23rdcentury.net/">http://www.23rdcentury.net/</a><br><a href="https://twitter.com/BattlelordsRPG">https://twitter.com/BattlelordsRPG</a><br><a href="https://www.drivethrurpg.com/browse/pub/12073/23rd-Century-Productions-LLC&amp;affiliate_id=1289000">https://www.drivethrurpg.com/browse/pub/12073/23rd-Century-Productions-LLC&amp;affiliate_id=1289000</a>  </p>
+<p><a href="http://www.23rdcentury.net/">http://www.23rdcentury.net/</a><br><a href="https://twitter.com/BattlelordsRPG">https://twitter.com/BattlelordsRPG</a><br><a href="https://www.drivethrurpg.com/browse/pub/12073/23rd-Century-Productions-LLC&amp;affiliate_id=1289000">https://www.drivethrurpg.com/browse/pub/12073/23rd-Century-Productions-LLC&amp;affiliate_id=1289000</a> &nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":5} -->
@@ -49747,7 +49790,7 @@ https://youtu.be/eq7KDfszVlM
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><a href="https://www.drivethrurpg.com/product/294684/Battlelords-of-the-23rd-Century-QUICKSTART-RULES-Kickstarter-Edition?manufacturers_id=12073&amp;affiliate_id=1289000">https://www.drivethrurpg.com/product/294684/Battlelords-of-the-23rd-Century-QUICKSTART-RULES-Kickstarter-Edition?manufacturers_id=12073&amp;affiliate_id=1289000</a> </p>
+<p><a href="https://www.drivethrurpg.com/product/294684/Battlelords-of-the-23rd-Century-QUICKSTART-RULES-Kickstarter-Edition?manufacturers_id=12073&amp;affiliate_id=1289000">https://www.drivethrurpg.com/product/294684/Battlelords-of-the-23rd-Century-QUICKSTART-RULES-Kickstarter-Edition?manufacturers_id=12073&amp;affiliate_id=1289000</a>&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":5} -->
@@ -49763,7 +49806,7 @@ https://youtu.be/eq7KDfszVlM
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p> <a href="https://t.co/dJRzULfapy?amp=1">https://t.co/dJRzULfapy?amp=1</a>  </p>
+<p> <a href="https://t.co/dJRzULfapy?amp=1">https://t.co/dJRzULfapy?amp=1</a> &nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -49815,7 +49858,7 @@ https://youtu.be/eq7KDfszVlM
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Listen, rate or review the show on <strong><a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798">Podchaser</a></strong>, <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>, <strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>, <strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong> or <a href="http://www.stitcher.com/podcast/the-rolistes-podcast"><strong>Stitcher</strong></a><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">.</a></p>
+<p>Listen, rate or review the show on&nbsp;<strong><a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798">Podchaser</a></strong>,&nbsp;<strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>,&nbsp;<strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>,&nbsp;<strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong>&nbsp;or&nbsp;<a href="http://www.stitcher.com/podcast/the-rolistes-podcast"><strong>Stitcher</strong></a><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">.</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -49835,7 +49878,7 @@ https://youtu.be/eq7KDfszVlM
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The Rolistes Podcast brand new logo by Rollin Kunz. Please check his excellent work at <strong><a href="https://www.rollinkunz.com/">https://www.rollinkunz.com</a></strong>.</p>
+<p>The Rolistes Podcast brand new logo by Rollin Kunz. Please check his excellent work at&nbsp;<strong><a href="https://www.rollinkunz.com/">https://www.rollinkunz.com</a></strong>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -49847,12 +49890,12 @@ https://youtu.be/eq7KDfszVlM
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Theme song: "Playtime" by Jahzzar<br>Available for free download at <a href="http://freemusicarchive.org/">http://freemusicarchive.org/</a></p>
+<p>Theme song: "Playtime" by Jahzzar<br>Available for free download at&nbsp;<a href="http://freemusicarchive.org/">http://freemusicarchive.org/</a></p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>5156</wp:post_id>
-		<wp:post_date>2020-12-21 01:00:00</wp:post_date>
-		<wp:post_date_gmt>2020-12-21 01:00:00</wp:post_date_gmt>
+		<wp:post_date>2020-12-28 01:00:00</wp:post_date>
+		<wp:post_date_gmt>2020-12-28 01:00:00</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
 		<wp:post_name>cafe-rolistes-116-anthony-dave-michelle-from-battlelords-of-the-23rd-century</wp:post_name>
@@ -49907,7 +49950,7 @@ https://youtu.be/eq7KDfszVlM
 	</item>
 	<item>
 		<title>The Rolistes Podcast_Episode 45 Part 1_LD</title>
-		<link>http://rolistespod.com/?attachment_id=5170</link>
+		<link>http://rolistespod.com/2020/12/21/deja-vu-at-cyberconv-2-0-part-one/the-rolistes-podcast_episode-45-part-1_ld/</link>
 		<pubDate>Sat, 19 Dec 2020 20:47:25 +0000</pubDate>
 		<dc:creator>kalum666</dc:creator>
 		<guid isPermaLink="false">http://rolistespod.files.wordpress.com/2020/12/the-rolistes-podcast_episode-45-part-1_ld.jpg</guid>

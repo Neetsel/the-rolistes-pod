@@ -11,6 +11,7 @@ import Spinner from '../../components/UI/Spinner/Spinner';
 import { Row } from 'react-bootstrap';
 import { useLocation } from 'react-router-dom';
 import ComingSoon from '../../components/ComingSoon/ComingSoon';
+import Aux from '../../hoc/Auxiliary/Auxiliary';
 
 const Posts = props => {
 
@@ -182,7 +183,7 @@ const Posts = props => {
                 const latestPodcast= searchLatestPodcast(props.podcast, 5);
                 
                 posts = 
-                <div>
+                <Aux>
                     <ComingSoon/>                    
                     <LatestPodcast 
                     podcast={latestPodcast} 
@@ -190,7 +191,7 @@ const Posts = props => {
                     <LatestNews 
                     news={latestNews} 
                     location = {location["pathname"]}/> 
-                </div> 
+                </Aux> 
                                                          
                 break;
                    
@@ -198,9 +199,9 @@ const Posts = props => {
     }
 
     return (
-        <Row>
+        <Aux>
             {posts}
-        </Row>
+        </Aux>
     );
 }
 
