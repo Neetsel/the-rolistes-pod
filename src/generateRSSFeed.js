@@ -3,7 +3,7 @@ const fs = require ('fs');
 var axios = require('axios');
 // const xmlData = require('./src/assets/therolistespodcast.xml');
 
-function toRssXML(posts) {    
+const toRssXML = (posts) => {    
     // console.log(posts); 
 
     const latestPostDate = posts[0]["pubDate"]; 
@@ -121,7 +121,52 @@ We are for those curious about what and how tabletop roleplaying games are playe
     </rss>`;
 }
 
-function getPosts () {    
+const getAttachmentURL = (attachments, postMeta) => {
+    
+    let attachmentId = 0;
+    
+    for (let metaKey in postMeta["wp:postmeta"]){
+
+        if(postMeta["wp:postmeta"][metaKey]["wp:meta_key"][0]==="_thumbnail_id"){
+            attachmentId = postMeta["wp:postmeta"][metaKey]["wp:meta_value"][0];
+        }
+    }
+
+    for(let key in attachments){
+
+        if(attachments[key]["wp:post_id"][0] == attachmentId){       
+
+            return attachments[key]["wp:attachment_url"][0];
+        }
+    }
+
+    // return "https://static8.depositphotos.com/1051435/932/i/950/depositphotos_9327706-stock-photo-happy-clown.jpg";
+    return "";
+}
+
+
+const getEnclosureURL = (postMeta) => {
+    
+    for (let metaKey in postMeta["wp:postmeta"]){
+
+        if(postMeta["wp:postmeta"][metaKey]["wp:meta_key"][0]==="enclosure"){
+             
+            return postMeta["wp:postmeta"][metaKey]["wp:meta_value"][0];
+        }
+    }
+
+    return "";
+}
+
+const cleanDescription = (str) => {
+    
+    let newStr= str.replace(/\[audio/,'<audio controls');
+    newStr= newStr.replace(/mp3\"\]/,'mp3"></audio><br>');
+    return newStr;
+}
+
+
+const getPosts = () => {    
     
     const fetchedPodcast = [];
     
@@ -132,6 +177,18 @@ function getPosts () {
         parser.parseString(
             data,
             (err,result) => {
+
+                const fetchedAttachment = [];
+
+                for (let key in result["rss"]["channel"][0]["item"]) {
+
+                    if(result["rss"]["channel"][0]["item"][key]["wp:post_type"][0]==='attachment'){
+                        fetchedAttachment.push({
+                            ...result["rss"]["channel"][0]["item"][key],
+                            id:key
+                        });
+                    }
+                }
 
                 for (let key in result["rss"]["channel"][0]["item"]) {                           
 
@@ -146,30 +203,27 @@ function getPosts () {
                                 case "podcast": 
                                     //modifier les différences champs
 
-                                    // let str= fetchedPosts[key]["content:encoded"][0];
-                                    // let newStr= str.replace(/\[audio/,'<audio controls');
-                                    // newStr= newStr.replace(/mp3\"\]/,'mp3"></audio><br>');
-                                    // fetchedPosts[key]["content:encoded"][0] = newStr; 
-                                    // console.log(fetchedPost);
+                                    const attachmentURL= getAttachmentURL(fetchedAttachment , fetchedPost);
     
                                     const title = fetchedPost["title"];
                                     const link = 'https://neetsel.github.io/the-rolistes-pod/2020/15/16/'  + fetchedPost["wp:post_name"][0];
-                                    // const pubDate = new Date (fetchedPost["pubDate"][0]);
                                     const pubDate = fetchedPost["pubDate"][0];
                                     const categories = fetchedPost["category"];
                                     const guid = link;
-                                    const description = 'test';
-                                    const enclosure = 'test';
-                                    const itunesAuthor = fetchedPost["dc:creator"];   
-                                    const itunesImage = 'test';
-                                    const itunesSummary = 'test';   
-                                    const itunesSubtitle = 'test';
+                                    
+                                    const description = cleanDescription(fetchedPost["content:encoded"][0]);
+
+                                    const enclosure = getEnclosureURL(fetchedPost);
+                                    // const itunesAuthor = fetchedPost["dc:creator"];   
+                                    // const itunesImage = 'test';
+                                    // const itunesSummary = 'test';   
+                                    // const itunesSubtitle = 'test';
                                     const mediaThumbnail = 'test';   
                                     const mediaThumbnailContent = 'test';
                                     const mediaThumbnailTitle = 'test';
                                     const mediaAuthorContent = 'test';
                                     const mediaAuthorTitle = 'test';
-                                    const mediaAudioContent = 'test';
+                                    const mediaAudioContent = enclosure;
     
                                     fetchedPodcast.push({
                                     title:title,
@@ -179,10 +233,10 @@ function getPosts () {
                                     guid:guid,                                    
                                     description:description,
                                     enclosure:enclosure,
-                                    itunesAuthor:itunesAuthor,
-                                    itunesImage:itunesImage,
-                                    itunesSummary:itunesSummary,
-                                    itunesSubtitle:itunesSubtitle,
+                                    // itunesAuthor:itunesAuthor,
+                                    // itunesImage:itunesImage,
+                                    // itunesSummary:itunesSummary,
+                                    // itunesSubtitle:itunesSubtitle,
                                     mediaThumbnail:mediaThumbnail,
                                     mediaThumbnailContent:mediaThumbnailContent,
                                     mediaThumbnailTitle:mediaThumbnailTitle,
