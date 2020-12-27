@@ -149,8 +149,10 @@ const getEnclosureURL = (postMeta) => {
     for (let metaKey in postMeta["wp:postmeta"]){
 
         if(postMeta["wp:postmeta"][metaKey]["wp:meta_key"][0]==="enclosure"){
-             
-            return postMeta["wp:postmeta"][metaKey]["wp:meta_value"][0];
+            
+            let url = postMeta["wp:postmeta"][metaKey]["wp:meta_value"][0];
+            url= url.substring(0, url.lastIndexOf('.mp3') + 4);
+            return url;
         }
     }
 
