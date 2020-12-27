@@ -31,15 +31,15 @@ const toRssXML = (posts) => {
             <![CDATA[ ${post.description} ]]>
             </description>
 
-            <enclosure url="${post.enclosure}" length="0" type="audio/mpeg" />
+            <enclosure url="${post.enclosure}" length="0" type="audio/mpeg" />`+
 
-            <itunes:author>${post.itunesAuthor}</itunes:author>
-            <itunes:explicit>no</itunes:explicit>
-            <itunes:image href="${post.itunesImage}" />
-            <itunes:summary>${post.itunesSummary}</itunes:summary>
-            <itunes:subtitle>${post.itunesSubtitle}</itunes:subtitle>
+            // <itunes:author>${post.itunesAuthor}</itunes:author>
+            // <itunes:explicit>no</itunes:explicit>
+            // <itunes:image href="${post.itunesImage}" />
+            // <itunes:summary>${post.itunesSummary}</itunes:summary>
+            // <itunes:subtitle>${post.itunesSubtitle}</itunes:subtitle>
 
-		    <media:thumbnail url="${post.mediaThumbnail}" />
+		    `<media:thumbnail url="${post.mediaThumbnail}" />
 		        <media:content url="${post.mediaThumbnailContent}" medium="image">
 			<media:title type="html">${post.mediaThumbnailTitle}</media:title>
 		    </media:content>
@@ -67,8 +67,8 @@ const toRssXML = (posts) => {
     
         <channel>
             <title>The Rolistes Podcast</title>
-            <atom:link href="https://rolistespod.com/category/podcast/feed/" rel="self" type="application/rss+xml" />
-            <link>https://rolistespod.com</link>
+            <atom:link href="https://neetsel.github.io/the-rolistes-pod/" rel="self" type="application/rss+xml" />
+            <link>https://neetsel.github.io/the-rolistes-pod/</link>
             <description>Welcome among The Rolistes…
 
 We are the proudly London-based producers of Tabletop RPG podcasts showcasing fans across the Channel, the Pond and beyond.
@@ -87,41 +87,41 @@ We are for those curious about what and how tabletop roleplaying games are playe
             <sy:updatePeriod>
 	        hourly	</sy:updatePeriod>
 	        <sy:updateFrequency>
-            1	</sy:updateFrequency>
-            <itunes:subtitle>Your London-based tabletop RPG shows!</itunes:subtitle>
-<itunes:summary>Welcome among The Rolistes…
+            1	</sy:updateFrequency>`+
+//             <itunes:subtitle>Your London-based tabletop RPG shows!</itunes:subtitle>
+// <itunes:summary>Welcome among The Rolistes…
 
-We are the proudly London-based producers of Tabletop RPG podcasts showcasing fans across the Channel, the Pond and beyond.
+// We are the proudly London-based producers of Tabletop RPG podcasts showcasing fans across the Channel, the Pond and beyond.
 
-We cross borders, languages, fandoms, game systems and settings with unique discoveries in each episode. 
+// We cross borders, languages, fandoms, game systems and settings with unique discoveries in each episode. 
 
-Join us for a mix of discussions, RPG actual plays, travel-diaries, vox-populi, movie reviews, and even music by amazing Creative Commons artists. 
+// Join us for a mix of discussions, RPG actual plays, travel-diaries, vox-populi, movie reviews, and even music by amazing Creative Commons artists. 
 
-Meet independent game designers, popular British publishers, immigrants, travellers visiting London or other random encounters made during our travels.
+// Meet independent game designers, popular British publishers, immigrants, travellers visiting London or other random encounters made during our travels.
 
-Our content is for YOU, no matter if you are a seasoned grognard or wannabe players who are about to take their first steps in The Hobby. 
+// Our content is for YOU, no matter if you are a seasoned grognard or wannabe players who are about to take their first steps in The Hobby. 
 
-We are for those curious about what and how tabletop roleplaying games are played across the World, how players can have wildly different walks of life and interests can be.</itunes:summary>
-<itunes:author>Kalum</itunes:author>
-<itunes:owner><itunes:email>rolistespod@gmail.com</itunes:email>
-</itunes:owner><copyright>The Rolistes Podcast by Kalum is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright>
-<itunes:explicit>no</itunes:explicit>
-<itunes:image href='https://rolistespod.files.wordpress.com/2019/12/cropped-the-rolistes_logo-2019_v1_logo-only_cropped85-e1573424020821.jpg?fit=3000%2C3000' />
-<itunes:category text='Leisure'>
-	<itunes:category text='Games' />
-</itunes:category>
-<itunes:category text='Leisure'>
-	<itunes:category text='Hobbies' />
-</itunes:category>
-<itunes:category text='Society &amp; Culture'>
-	<itunes:category text='Places &amp; Travel' />
-</itunes:category>
-            ${postXml}
+// We are for those curious about what and how tabletop roleplaying games are played across the World, how players can have wildly different walks of life and interests can be.</itunes:summary>
+// <itunes:author>Kalum</itunes:author>
+// <itunes:owner><itunes:email>rolistespod@gmail.com</itunes:email>
+// </itunes:owner><copyright>The Rolistes Podcast by Kalum is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</copyright>
+// <itunes:explicit>no</itunes:explicit>
+// <itunes:image href='https://rolistespod.files.wordpress.com/2019/12/cropped-the-rolistes_logo-2019_v1_logo-only_cropped85-e1573424020821.jpg?fit=3000%2C3000' />
+// <itunes:category text='Leisure'>
+// 	<itunes:category text='Games' />
+// </itunes:category>
+// <itunes:category text='Leisure'>
+// 	<itunes:category text='Hobbies' />
+// </itunes:category>
+// <itunes:category text='Society &amp; Culture'>
+// 	<itunes:category text='Places &amp; Travel' />
+// </itunes:category>        
+            `${postXml}
         </channel>
     </rss>`;
 }
 
-const getAttachmentURL = (attachments, postMeta) => {
+const getAttachment = (attachments, postMeta) => {
     
     let attachmentId = 0;
     
@@ -136,11 +136,10 @@ const getAttachmentURL = (attachments, postMeta) => {
 
         if(attachments[key]["wp:post_id"][0] == attachmentId){       
 
-            return attachments[key]["wp:attachment_url"][0];
+            return attachments[key];
         }
     }
 
-    // return "https://static8.depositphotos.com/1051435/932/i/950/depositphotos_9327706-stock-photo-happy-clown.jpg";
     return "";
 }
 
@@ -158,13 +157,31 @@ const getEnclosureURL = (postMeta) => {
     return "";
 }
 
-const cleanDescription = (str) => {
+const cleanDescription = (content, link, title) => {
     
-    let newStr= str.replace(/\[audio/,'<audio controls');
-    newStr= newStr.replace(/mp3\"\]/,'mp3"></audio><br>');
-    return newStr;
-}
+    let filter= content.replace(/\[audio/,'<audio controls');
+    filter= filter.replace(/mp3\"\]/,'mp3"></audio><br>');
+    
+    filter = filter.replace( /(<([^>]+)>)/ig, '');
+    filter = filter.replace(/\s+/g, ' ');
+    const wordsarr = filter.split(' ');
+    const wordLimit = 60;
 
+    if(wordsarr.length < wordLimit) {
+        return content;
+    }
+
+    else {
+        let excerpt = "";
+
+        for (let i = 0; i < wordLimit; i++) {
+            excerpt = excerpt + " " + wordsarr[i];            
+        }
+        excerpt = excerpt + '... <a href='+link+' class="more-link">Continue reading <span class="screen-reader-text">'+title+'</span></a>';
+
+        return excerpt;
+    }        
+}
 
 const getPosts = () => {    
     
@@ -179,6 +196,7 @@ const getPosts = () => {
             (err,result) => {
 
                 const fetchedAttachment = [];
+                const limitAmountPost = 150;
 
                 for (let key in result["rss"]["channel"][0]["item"]) {
 
@@ -190,11 +208,18 @@ const getPosts = () => {
                     }
                 }
 
-                for (let key in result["rss"]["channel"][0]["item"]) {                           
-
+                for (let key in result["rss"]["channel"][0]["item"]) {        
+                    
                     const fetchedPost = result["rss"]["channel"][0]["item"][key];
+                    const currentDate = new Date();
+                    const publishDate = new Date(fetchedPost["pubDate"][0]);  
 
-                    if(fetchedPost["category"] && fetchedPost["pubDate"][0]){
+                    if(fetchedPost["category"] && (
+                        fetchedPost["wp:status"][0] === "publish" || (
+                            fetchedPost["wp:status"][0] === "future" && currentDate.getTime() > publishDate.getTime()
+                            )
+                        )
+                    ){
 
                         for (let i=0; i < fetchedPost["category"].length; i++) {
 
@@ -202,27 +227,26 @@ const getPosts = () => {
     
                                 case "podcast": 
                                     //modifier les différences champs
-
-                                    const attachmentURL= getAttachmentURL(fetchedAttachment , fetchedPost);
-    
+                                    const attachment= getAttachment(fetchedAttachment , fetchedPost);
+                                  
                                     const title = fetchedPost["title"];
                                     const link = 'https://neetsel.github.io/the-rolistes-pod/2020/15/16/'  + fetchedPost["wp:post_name"][0];
                                     const pubDate = fetchedPost["pubDate"][0];
                                     const categories = fetchedPost["category"];
                                     const guid = link;
                                     
-                                    const description = cleanDescription(fetchedPost["content:encoded"][0]);
+                                    const description = cleanDescription(fetchedPost["content:encoded"][0], link, title);
 
                                     const enclosure = getEnclosureURL(fetchedPost);
                                     // const itunesAuthor = fetchedPost["dc:creator"];   
                                     // const itunesImage = 'test';
                                     // const itunesSummary = 'test';   
                                     // const itunesSubtitle = 'test';
-                                    const mediaThumbnail = 'test';   
-                                    const mediaThumbnailContent = 'test';
-                                    const mediaThumbnailTitle = 'test';
-                                    const mediaAuthorContent = 'test';
-                                    const mediaAuthorTitle = 'test';
+                                    const mediaThumbnail = attachment["wp:attachment_url"][0];;   
+                                    const mediaThumbnailContent = attachment["wp:attachment_url"][0];
+                                    const mediaThumbnailTitle = attachment["wp:post_name"][0];
+                                    const mediaAuthorContent = "https://2.gravatar.com/avatar/e25822b2ed220131f32139e2f1797c71?s=96&#38;d=identicon&#38;r=G";
+                                    const mediaAuthorTitle = fetchedPost["dc:creator"];
                                     const mediaAudioContent = enclosure;
     
                                     fetchedPodcast.push({
@@ -249,12 +273,14 @@ const getPosts = () => {
                                     break;
                             }
                         }                             
-                    }                                                                                                 
+                    }                                                                                                                                        
                 }
 
                 fetchedPodcast.sort((a,b)=>{
-                    return new Date(b.pubDate) - new Date(a.pubDate)  
+                    return new Date(b.pubDate) - new Date(a.pubDate);
                 });
+
+                fetchedPodcast.splice(limitAmountPost);
 
                 const xml = toRssXML(fetchedPodcast);
                 fs.writeFileSync("./public/rss.xml", xml);                                                                            
