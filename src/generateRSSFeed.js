@@ -228,9 +228,7 @@ const getPosts = () => {
                             switch(fetchedPost["category"][i]["$"]["nicename"]){
     
                                 case "podcast": 
-                                    //modifier les différences champs
-                                    const attachment= getAttachment(fetchedAttachment , fetchedPost);
-                                  
+                                    const attachment= getAttachment(fetchedAttachment , fetchedPost);                                  
                                     const title = fetchedPost["title"];
                                     const link = 'https://neetsel.github.io/the-rolistes-pod/2020/15/16/'  + fetchedPost["wp:post_name"][0];
                                     const pubDate = fetchedPost["pubDate"][0];
