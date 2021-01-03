@@ -13,6 +13,8 @@ const LatestPodcast = (props) => {
 
     for (let key in props.podcast){
 
+        const tempDate = new Date(props.podcast[key]["pubDate"][0]);   
+
         podcast.push(
             {
                 key: props.podcast[key].id,
@@ -21,21 +23,24 @@ const LatestPodcast = (props) => {
                 title: props.podcast[key]["title"],
                 content: props.podcast[key]["content:encoded"][0],
                 postName: props.podcast[key]["wp:post_name"][0],
-                location: props.location ,
+                location: props.location,
+                year:tempDate.getFullYear(),
+                month:tempDate.getMonth()+1,
+                day:tempDate.getDate()
             }
         );
     }
     
     const podcastMainOutput = 
         <Aux>
-            <Link to={podcast[0].location + '2020/15/16/'  + podcast[0].postName}>
+            <Link to={podcast[0].location + podcast[0].year + '/' + podcast[0].month + '/' + podcast[0].day + '/' + podcast[0].postName}>
                 <div className={globalClasses.img_scale_animate}>                
                     <img src={podcast[0].cover} alt=""/> 
                 </div>
             </Link> 
             <div>                                                 
                 <div>Latest Release: <span className={globalClasses.date_home}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/> {podcast[0].date}</span></div>
-                <Link to={podcast[0].location + '2020/15/16/'  + podcast[0].postName}>
+                <Link to={podcast[0].location + podcast[0].year + '/' + podcast[0].month + '/' + podcast[0].day + '/' + podcast[0].postName}>
                     <h3 className={globalClasses.title_home_secondary}>{podcast[0].title}</h3>
                 </Link> 
             </div>        
@@ -46,13 +51,13 @@ const LatestPodcast = (props) => {
     const podcastSecondaryOutput = podcast.map(podcast => {
         return <Col xs={12} md={6} key={podcast.key}>
             {/* <Link to={props.location + '/'  + props.postName}> */}
-                <Link to={podcast.location + '2020/15/16/'  + podcast.postName}>
+                <Link to={podcast.location + podcast.year + '/' + podcast.month + '/' + podcast.day + '/' + podcast.postName}>
                     <div className={globalClasses.img_scale_animate}>  
                         <img src={podcast.cover} alt=""/>
                     </div>                                           
                 </Link>     
                         {/* <div className={classes.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/>{podcast.date}</div> */}
-                <Link to={podcast.location + '2020/15/16/'  + podcast.postName}>   
+                <Link to={podcast.location + podcast.year + '/' + podcast.month + '/' + podcast.day + '/' + podcast.postName}>   
                     <h3 className={globalClasses.title_home_secondary}>{podcast.title}</h3>
                     
                 </Link>              
