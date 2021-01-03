@@ -3,8 +3,7 @@ const fs = require ('fs');
 var axios = require('axios');
 // const xmlData = require('./src/assets/therolistespodcast.xml');
 
-const toRssXML = (posts) => {    
-    // console.log(posts); 
+const toRssXML = (posts) => {  
 
     const latestPostDate = posts[0]["pubDate"]; 
     let postXml = "";

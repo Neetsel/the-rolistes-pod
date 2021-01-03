@@ -7,6 +7,7 @@ const initialState = {
     news:[],
     podcast:[],
     gondo:[],
+    comingSoon:[],
     loading: false,
     loaded: false,
     currentPageNews: 1,
@@ -24,7 +25,8 @@ const fetchPostsSuccess = (state, action) => {
         posts: action.posts,
         news: action.news,
         podcast: action.podcast,
-        gondo: action.gondo,
+        gondo: action.gondo,        
+        comingSoon: action.comingSoon,
         loading: false,
         loaded: true
     });

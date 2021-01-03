@@ -9,13 +9,14 @@ export const fetchPostsStart = () => {
     }
 };
 
-export const fetchPostsSuccess = (posts, news, podcast, gondo) => {
+export const fetchPostsSuccess = (posts, news, podcast, gondo, comingSoon) => {
     return {
         type: actionTypes.FETCH_POSTS_SUCCESS,
         posts: posts,
         news: news,
         podcast: podcast,
         gondo: gondo,
+        comingSoon: comingSoon,
         loaded: true
     }
 };
@@ -119,6 +120,7 @@ export const fetchPosts = () => {
             const fetchedNews = [];
             const fetchedPodcast = [];
             const fetchedGondo = [];
+            const fetchedComingSoon = [];
 
             parser.parseString(
                 response.data,
@@ -183,11 +185,17 @@ export const fetchPosts = () => {
                                         cover: attachmentURL,
                                         id:key                                                
                                         });
-
                                         break;
 
                                     case "paris-gondo": 
                                         fetchedGondo.push({
+                                        ...fetchedPosts[key],
+                                        id:key                                                
+                                        });
+                                        break;
+
+                                    case "coming-soon": 
+                                        fetchedComingSoon.push({
                                         ...fetchedPosts[key],
                                         id:key                                                
                                         });
@@ -208,16 +216,15 @@ export const fetchPosts = () => {
                     fetchedGondo.sort((a,b)=>{
                         return new Date(b["pubDate"][0]) - new Date(a["pubDate"][0]) 
                     });
-                    
-                    console.log(fetchedAttachment);
-                    console.log(fetchedPosts);
-                    console.log(fetchedNews);
-                    console.log(fetchedPodcast);
-                    console.log(fetchedGondo);                       
+
+                    fetchedComingSoon.sort((a,b)=>{
+                        return new Date(b["pubDate"][0]) - new Date(a["pubDate"][0]) 
+                    });
+                   
                 }
             )
             
-            dispatch(fetchPostsSuccess(fetchedPosts, fetchedNews, fetchedPodcast, fetchedGondo));    
+            dispatch(fetchPostsSuccess(fetchedPosts, fetchedNews, fetchedPodcast, fetchedGondo, fetchedComingSoon));    
         })
         .catch(error => {
             console.log(error);

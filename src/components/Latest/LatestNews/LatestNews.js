@@ -70,8 +70,6 @@ const LatestNews = (props) => {
             </Col>;
     });
 
-    console.log(newsSecondaryOutput);
-
     return (
         <Aux>
             <div className={globalClasses.item_box}>

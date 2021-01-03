@@ -22,11 +22,8 @@ const Posts = props => {
 
     const searchPost = ( posts, pageTitle ) => {
 
-        console.log("Start Test");
         for (let i = 0; i < posts.length; i++){
-            console.log(posts[i]["wp:post_name"][0]);
             if(posts[i]["wp:post_name"][0]===pageTitle){
-                console.log("Found in: ", i);
                 return i;
             }
         }                
@@ -181,10 +178,12 @@ const Posts = props => {
                 
                 const latestNews= searchLatestNews(props.news, 5); 
                 const latestPodcast= searchLatestPodcast(props.podcast, 5);
-                
+                const latestComingSoon = props.comingSoon[0];
+
                 posts = 
                 <Aux>
-                    <ComingSoon/>                    
+                    {/* post={props.comingSoon[0]} */}
+                    <ComingSoon latestComingSoon={latestComingSoon} />                    
                     <LatestPodcast 
                     podcast={latestPodcast} 
                     location = {location["pathname"]}/> 
@@ -209,6 +208,7 @@ const mapStateToProps = state => {
     return {
         news: state.posts.news,
         podcast: state.posts.podcast,
+        comingSoon: state.posts.comingSoon,
         loading: state.posts.loading,
         loaded: state.posts.loaded,
         currentCategoryPodcast: state.posts.currentCategoryPodcast
