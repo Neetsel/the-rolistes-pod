@@ -5,3 +5,7 @@ export {
     setCurrentCategoryPodcast,
     setCurrentCategorySize
 } from './posts';
+
+export {
+    setShowPopup
+} from './global';

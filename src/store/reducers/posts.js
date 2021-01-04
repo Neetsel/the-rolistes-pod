@@ -60,9 +60,6 @@ const setCurrentCategorySize = (state, action) => {
     });
 };
 
-
-
-
 const reducer = (state =initialState, action) => {
     
     switch (action.type){           

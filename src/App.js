@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 
 import { Route, Switch, withRouter } from 'react-router-dom';
 import './App.module.css';
+import Popup from './components/UI/Popup/Popup';
 
 
 const Home = React.lazy(()=>{
@@ -30,10 +31,13 @@ const AboutUs = React.lazy(()=>{
 
 const App = props => {
 
-  const { onFetchPosts } = props;
+  const { onFetchPosts, onSetShowPopup } = props;
+
+  const showPopup = props.showPopup;
 
     useEffect(()=> {
-      onFetchPosts();      
+      onFetchPosts(); 
+      onSetShowPopup(true);
     }, []);   
 
   let routes = (
@@ -50,6 +54,7 @@ const App = props => {
 
   return (
       <Layout>
+        {showPopup ? <Popup/>: null}
         <Suspense fallback={<p>Loading...</p>}>
           {routes}          
         </Suspense>        
@@ -59,8 +64,15 @@ const App = props => {
 
 const mapDispatchToProps = dispatch => {
   return {
-      onFetchPosts: () => dispatch (actions.fetchPosts())
+      onFetchPosts: () => dispatch (actions.fetchPosts()),
+      onSetShowPopup: (showPopup) => dispatch (actions.setShowPopup(showPopup)) 
   };
 };
 
-export default withRouter(connect(null,mapDispatchToProps)(App));
+const mapStateToProps = (state) => {
+  return {
+      showPopup: state.global.showPopup,
+  };
+};
+
+export default withRouter(connect(mapStateToProps,mapDispatchToProps)(App));
