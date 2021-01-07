@@ -11,7 +11,7 @@ const RecentPosts = (props) => {
     const relatedPosts = [];
 
     // recentPosts = relatedPosts.map (post => (
-    //     <recentPost 
+    //     <RecentPost 
     //         cover={post.cover}
     //         title={post["title"]}/>
     // ));
