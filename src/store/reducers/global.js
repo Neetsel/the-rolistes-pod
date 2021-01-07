@@ -3,7 +3,7 @@ import { updateObject } from '../../shared/utility';
 
 
 const initialState = {
-    showPopup: true
+    showPopup: false
 };
 
 

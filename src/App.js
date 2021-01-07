@@ -37,7 +37,6 @@ const App = props => {
 
     useEffect(()=> {
       onFetchPosts(); 
-      onSetShowPopup(true);
     }, []);   
 
   let routes = (
@@ -71,7 +70,7 @@ const mapDispatchToProps = dispatch => {
 
 const mapStateToProps = (state) => {
   return {
-      showPopup: state.global.showPopup,
+      showPopup: state.global.showPopup
   };
 };
 
