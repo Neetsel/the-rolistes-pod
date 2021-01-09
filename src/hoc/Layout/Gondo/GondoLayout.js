@@ -32,10 +32,11 @@ const NewsLayout = (props) =>
             <Container>
                 <Row>                                           
                     <Col lg={8} xs={12} className={[globalClasses.no_padding_right,globalClasses.no_padding_smallscreen].join(' ')} >                    
-                        <div className={globalClasses.item_box_left}>
-                            {/* <Posts type={props.type} pageTitle={pageId}/>   */}
-                            Test
-                        </div> 
+                        
+                        <Posts 
+                            {...props} 
+                            type="INTROGONDO"/>  
+                        
                         <div className={globalClasses.item_box_left}>
                             <h2 className={globalClasses.section_title}>Latest Paris Gondo News</h2>
                             <Posts 

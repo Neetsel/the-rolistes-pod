@@ -9,13 +9,14 @@ export const fetchPostsStart = () => {
     }
 };
 
-export const fetchPostsSuccess = (posts, news, podcast, gondo, comingSoon) => {
+export const fetchPostsSuccess = (posts, news, podcast, gondo, introGondo, comingSoon) => {
     return {
         type: actionTypes.FETCH_POSTS_SUCCESS,
         posts: posts,
         news: news,
         podcast: podcast,
         gondo: gondo,
+        introGondo: introGondo,
         comingSoon: comingSoon,
         loaded: true
     }
@@ -120,6 +121,7 @@ export const fetchPosts = () => {
             const fetchedNews = [];
             const fetchedPodcast = [];
             const fetchedGondo = [];
+            const fetchedIntroGondo = [];
             const fetchedComingSoon = [];
 
             parser.parseString(
@@ -197,6 +199,13 @@ export const fetchPosts = () => {
                                         });
                                         break;
 
+                                    case "intro-gondo": 
+                                        fetchedIntroGondo.push({
+                                        ...fetchedPosts[key],
+                                        id:key                                                
+                                        });
+                                        break;
+
                                     case "coming-soon": 
                                         fetchedComingSoon.push({
                                         ...fetchedPosts[key],
@@ -222,6 +231,10 @@ export const fetchPosts = () => {
                         return new Date(b["pubDate"][0]) - new Date(a["pubDate"][0]) 
                     });
 
+                    fetchedIntroGondo.sort((a,b)=>{
+                        return new Date(b["pubDate"][0]) - new Date(a["pubDate"][0]) 
+                    });
+
                     fetchedComingSoon.sort((a,b)=>{
                         return new Date(b["pubDate"][0]) - new Date(a["pubDate"][0]) 
                     });
@@ -229,7 +242,7 @@ export const fetchPosts = () => {
                 }
             )
             
-            dispatch(fetchPostsSuccess(fetchedPosts, fetchedNews, fetchedPodcast, fetchedGondo, fetchedComingSoon));    
+            dispatch(fetchPostsSuccess(fetchedPosts, fetchedNews, fetchedPodcast, fetchedGondo, fetchedIntroGondo, fetchedComingSoon));    
         })
         .catch(error => {
             console.log(error);

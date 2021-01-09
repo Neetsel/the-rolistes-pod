@@ -111,7 +111,6 @@ const Posts = props => {
         return podcast;            
     }
     
-    
     if(!props.loading & props.loaded){
         
         switch (props.type){
@@ -178,6 +177,18 @@ const Posts = props => {
                         date= {news[key]["pubDate"][0]}/>;
                 break;
 
+            case "INTROGONDO":
+                const introGondo= props.introGondo;
+                // posts =                          
+                //     <FullPost 
+                //         key= {introGondo[0].id}
+                //         cover={introGondo[0].cover}
+                //         author= {introGondo[0]["dc:creator"][0]}
+                //         title= {introGondo[0]["title"]}
+                //         content= {introGondo[0]["content:encoded"][0]}
+                //         date= {introGondo[0]["pubDate"][0]}/>;
+                break;
+
             case "FULLPODCAST":
                 key = searchPost(props.podcast, props.pageTitle);
                 const podcast= props.podcast;                               
@@ -225,6 +236,8 @@ const mapStateToProps = state => {
     return {
         news: state.posts.news,
         podcast: state.posts.podcast,
+        gondo: state.posts.gondo,
+        introGondo: state.posts.introGondo,
         comingSoon: state.posts.comingSoon,
         loading: state.posts.loading,
         loaded: state.posts.loaded,
