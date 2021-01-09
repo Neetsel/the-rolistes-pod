@@ -131,6 +131,23 @@ const Posts = props => {
                         location = {location["pathname"]}/>            
                     ));
                 break;
+
+            case "GONDO":
+                const currentParisGondo = props.gondo.slice(props.indexOfFirstPost,props.indexOfLastPost)
+                
+                posts = currentParisGondo.map(gondo => (
+                    <Post
+                        key= {gondo.id}
+                        cover={gondo.cover}
+                        excerpt= {gondo.excerpt} 
+                        author= {gondo["dc:creator"][0]}                                           
+                        title= {gondo["title"]}
+                        article= {gondo["content:encoded"][0]}
+                        date= {gondo["pubDate"][0]}
+                        postName={gondo["wp:post_name"][0]}
+                        location = {location["pathname"]}/>            
+                    ));
+                break;
             
             case "PODCAST":                                
                 const currentPodcast = searchPostsBasedOnCategory(props.podcast, props.filterCategory)

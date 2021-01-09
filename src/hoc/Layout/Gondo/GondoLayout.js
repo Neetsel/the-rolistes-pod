@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Aux from '../../Auxiliary/Auxiliary';
 import Posts from '../../../containers/Posts/Posts';
-import classes from './NewsLayout.module.css';
+import classes from './GondoLayout.module.css';
 import PaginationList from '../../../components/UI/PaginationList/PaginationList';
 import { Col, Container, Row } from 'react-bootstrap';
 import Follow from '../../../components/side/Follow/Follow';
@@ -33,14 +33,18 @@ const NewsLayout = (props) =>
                 <Row>                                           
                     <Col lg={8} xs={12} className={[globalClasses.no_padding_right,globalClasses.no_padding_smallscreen].join(' ')} >                    
                         <div className={globalClasses.item_box_left}>
-                            <h1 className={globalClasses.section_title}>News</h1>
+                            {/* <Posts type={props.type} pageTitle={pageId}/>   */}
+                            Test
+                        </div> 
+                        <div className={globalClasses.item_box_left}>
+                            <h2 className={globalClasses.section_title}>Latest Paris Gondo News</h2>
                             <Posts 
                                 {...props} 
-                                type="NEWS"
+                                type="GONDO"
                                 indexOfFirstPost={indexOfFirstPost} 
                                 indexOfLastPost={indexOfLastPost}/>
                             <PaginationList 
-                                totalRecords={props.news.length} 
+                                totalRecords={props.gondo.length} 
                                 pageLimit={postPerPage} 
                                 clicked={paginate}
                                 currentPage={props.currentPageNews}/>

@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './Popup.module.css';
-import Mailchimp from 'react-mailchimp-form';
 
 const Popup = (props) => {
 

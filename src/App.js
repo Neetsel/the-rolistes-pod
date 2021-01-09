@@ -20,6 +20,10 @@ const News = React.lazy(()=>{
   return import ('./hoc/Layout/NewsLayout/NewsLayout');
 });
 
+const Gondo = React.lazy(()=>{
+  return import ('./hoc/Layout/Gondo/GondoLayout');
+});
+
 const Podcast = React.lazy(()=>{
   return import ('./hoc/Layout/PodcastLayout/PodcastLayout');
 });
@@ -42,10 +46,11 @@ const App = props => {
   let routes = (
     <Switch>
       <Route path="/news/:pageId" render={(props) =>  <Post {...props} type="FULLNEWS"/>}/> 
-      <Route path="/news" render={(props) =>  <News {...props}/>}/>
+      <Route path="/news" render={(props) =>  <News {...props}/>} />
       <Route path="/:year/:month/:day/:pageId" render={(props) =>  <Post {...props} type="FULLPODCAST"/>}/>          
       <Route path="/podcast" exact render={(props) =>  <Podcast {...props}/>}/>          
-      <Route path="/paris_gondo" render={(props) =>  <Post {...props}/>}/>
+      <Route path="/paris_gondo/:pageId" render={(props) =>  <Post {...props } type="FULLNEWS"/>} />     
+      <Route path="/paris_gondo" render={(props) =>  <Gondo {...props }/>} />
       <Route path="/about_us" render={(props) =>  <AboutUs {...props}/>}/>
       <Route path="/" render={(props) =>  <Home {...props}/>}/>            
     </Switch>

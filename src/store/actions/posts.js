@@ -169,11 +169,11 @@ export const fetchPosts = () => {
                                 switch(fetchedPosts[key]["category"][i]["$"]["nicename"]){
 
                                     case "news": 
-                                        const excerpt= getExcerpt(fetchedPosts[key]["content:encoded"][0], 40);
+                                        const excerptNews= getExcerpt(fetchedPosts[key]["content:encoded"][0], 40);
                                         fetchedNews.push({
                                         ...fetchedPosts[key],
                                         cover: attachmentURL,
-                                        excerpt: excerpt,
+                                        excerpt: excerptNews,
                                         id:key                                                
                                         });                          
                                         
@@ -188,8 +188,11 @@ export const fetchPosts = () => {
                                         break;
 
                                     case "paris-gondo": 
+                                        const excerptGondo= getExcerpt(fetchedPosts[key]["content:encoded"][0], 40);
                                         fetchedGondo.push({
                                         ...fetchedPosts[key],
+                                        cover: attachmentURL,
+                                        excerpt: excerptGondo,
                                         id:key                                                
                                         });
                                         break;
@@ -204,6 +207,8 @@ export const fetchPosts = () => {
                             }                                    
                         }                            
                     }
+
+                    console.log(fetchedGondo);
                 
                     fetchedPodcast.sort((a,b)=>{
                         return new Date(b["pubDate"][0]) - new Date(a["pubDate"][0]) 
