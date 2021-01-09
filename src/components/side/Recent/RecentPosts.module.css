@@ -1,0 +1,8 @@
+.recent_img{
+    max-width: 90px;
+}
+
+.post_recent{
+    display: flex;
+    flex-wrap: wrap;
+}

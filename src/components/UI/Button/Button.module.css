@@ -3,18 +3,18 @@
 	margin:5px 3px 0;
 	padding:0 2%;
 	cursor: pointer;
-	border: solid #000000;
+	border: 2px solid #000000;
 	border-radius: 5px;
 	transition: color 0.2s ease-in-out, border 0.2s ease-in-out;
 }
 
 .filter:hover{
-	border: solid #777777;
+	border: 2px solid #777777;
 	color: #777777;	
 }
 
 .filter:disabled {
-    border: solid #000000;
+    border: 2px solid #000000;
 	color: #FFFFFF;
 	background-color: #000000;
 	cursor: default;

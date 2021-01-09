@@ -67,7 +67,7 @@ const LatestPodcast = (props) => {
     return (
         <Aux>
             <div className={globalClasses.item_box}>
-            <h2 className={globalClasses.section_title}>Latest Podcast</h2>
+            <h2 className={globalClasses.section_title}>Latest Podcasts</h2>
                 <Row>
                     <Col xs={12} lg={6}>
                         {podcastMainOutput}

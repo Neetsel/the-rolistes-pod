@@ -31,7 +31,7 @@ const Posts = props => {
         }                
     }
 
-    const searchLatestNews = ( posts, amountToReturn ) => {
+    const searchLatest = ( posts, amountToReturn ) => {
 
         const news = [];
 
@@ -206,7 +206,7 @@ const Posts = props => {
 
             case "LATEST":
                 
-                const latestNews= searchLatestNews(props.news, 5); 
+                const latestNews= searchLatest(props.news, 5); 
                 const latestPodcast= searchLatestPodcast(props.podcast, 5);
                 const latestComingSoon = props.comingSoon[0];
 
@@ -224,40 +224,18 @@ const Posts = props => {
                 break;
 
             case "RECENT":
-                let recentPosts= [];
-
-                if(props.postType === "FULLNEWS") {
-                    recentPosts= searchLatestNews(props.news, 5); 
-                } else {
-                    recentPosts = searchLatestPodcast(props.podcast, 5);   
-                }                    
+                let recentPosts= searchLatest(props.podcast, 6);                            
 
                 posts = <RecentPosts
                     recentPosts={recentPosts}
                     location = {location["pathname"]}/>;
-                // posts =                          
-                //     <FullPost 
-                //         key= {introGondo[0].id}
-                //         cover={introGondo[0].cover}
-                //         author= {introGondo[0]["dc:creator"][0]}
-                //         title= {introGondo[0]["title"]}
-                //         content= {introGondo[0]["content:encoded"][0]}
-                //         date= {introGondo[0]["pubDate"][0]}/>;
                 break;
 
             case "RECOMMENDED":
                 const recommendedPosts= props.introGondo;
                 posts = <RecommendedPosts
                     recommendedPosts={recommendedPosts}
-                    location = {location["pathname"]}/>;
-                // posts =                          
-                //     <FullPost 
-                //         key= {introGondo[0].id}
-                //         cover={introGondo[0].cover}
-                //         author= {introGondo[0]["dc:creator"][0]}
-                //         title= {introGondo[0]["title"]}
-                //         content= {introGondo[0]["content:encoded"][0]}
-                //         date= {introGondo[0]["pubDate"][0]}/>;
+                    location = {location["pathname"]}/>;                
                 break;
     
     

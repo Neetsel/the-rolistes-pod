@@ -15,7 +15,7 @@ const navigationItems= (props) => (
         <span className={classes.SpacingNav}/>
         <NavigationItem link="/news">News</NavigationItem>
         <span className={classes.VerticalLine}/>
-        <NavigationItem link="/podcast">Podcast</NavigationItem> 
+        <NavigationItem link="/podcast">Podcasts</NavigationItem> 
         <span className={classes.VerticalLine}/>
         <NavigationItem link="/paris_gondo">Paris Gondo</NavigationItem>
         <span className={classes.VerticalLine}/>

@@ -25,7 +25,7 @@
     height:2.5rem; 
     width: auto;
     margin-top: 1rem;
-    margin-left: 4rem;
+    margin-left: 3.5rem;
 }
 
 .supportLink{
@@ -38,7 +38,8 @@
 }
 
 
-@media (min-width: 768px){
+
+@media screen and (min-width: 768px){
     .NavigationItems {
         flex-flow: row;
     }
@@ -66,10 +67,19 @@
         margin: 5px;
     }
 }
+
+@media screen and (max-width: 768px){
+
+    .supportLink img{
+        height:2.5rem; 
+        margin-left: 0;
+    }
+}
+
 @media screen and (min-width: 1200px){
 
     .supportLink img{
         height:2.5rem; 
-        margin-left: 15rem;
+        margin-left: 14.75rem;
     }
 }

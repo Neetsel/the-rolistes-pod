@@ -64,9 +64,7 @@ const LatestNews = (props) => {
                     <Link to={news.location + 'news/' + news.postName}>
                         <h3 className={globalClasses.title_home_secondary}>{news.title}</h3>
                     </Link> 
-                </div>
-                    
-                             
+                </div>                                                 
             </Col>;
     });
 
