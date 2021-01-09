@@ -12,10 +12,10 @@ const ComingSoon = (props) => (
     
         <div className={[globalClasses.item_box, classes.item_box_comingsoon].join(' ')}>
             <Row>
-                <Col xs={3} lg={3}>                
+                {/* <Col xs={3} lg={3}>                
                     <img src={kunzImg} alt="" className={classes.kunz_img} />                    
-                </Col>
-                <Col xs={9} lg={9}>
+                </Col> */}
+                <Col xs={12}>
                     <h2>{props.latestComingSoon["title"]}</h2>
                     <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/> {props.latestComingSoon["pubDate"][0]}</div>
                     <Row>

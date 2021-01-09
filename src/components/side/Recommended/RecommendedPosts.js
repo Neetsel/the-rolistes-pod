@@ -2,19 +2,25 @@ import React from 'react';
 import Aux from '../../../hoc/Auxiliary/Auxiliary';
 import globalClasses from '../../../App.module.css';
 import Spinner from '../../UI/Spinner/Spinner';
-import RecommendedPost from './RecommendedPost/RecommendedPost';
-import { Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import classes from './RecommendedPosts.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 
 const RecommendedPosts = (props) => {
     
-    const recommendedPosts = <Spinner/>
+    let recommendedPosts = <Spinner/>
     const relatedPosts = [];
 
-    // recommendedPosts = relatedPosts.map (post => (
-    //     <RecommendedPost 
-    //         cover={post.cover}
-    //         title={post["title"]}/>
-    // ));
+    recommendedPosts = relatedPosts.map (post => {
+        return <Col xs={6} md={4} lg={6} className={classes.cell} >
+            <Link>
+                <img src={props.cover} alt="Cover Episode"/>
+                <h3 className={[globalClasses.section_title, globalClasses.section_title_side].join(' ')}>{props.title}</h3>    
+            </Link>
+        </Col>;   
+    });    
     
     return (
         <Aux>

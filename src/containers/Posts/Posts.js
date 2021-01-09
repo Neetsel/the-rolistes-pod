@@ -5,6 +5,8 @@ import FullPost from '../../components/FullPost/FullPost';
 import LatestNews from '../../components/Latest/LatestNews/LatestNews';
 import LatestPodcast from '../../components/Latest/LatestPodcast/LatestPodcast';
 import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
+import RecommendedPosts from '../../components/side/Recommended/RecommendedPosts';
+import RecentPosts from '../../components/side/Recent/RecentPosts';
 import * as actions from '../../store/actions/index';
 import { connect } from 'react-redux';
 import Spinner from '../../components/UI/Spinner/Spinner';
@@ -218,9 +220,47 @@ const Posts = props => {
                     <LatestNews 
                     news={latestNews} 
                     location = {location["pathname"]}/> 
-                </Aux> 
-                                                         
+                </Aux>                                                          
                 break;
+
+            case "RECENT":
+                let recentPosts= [];
+
+                if(props.postType === "FULLNEWS") {
+                    recentPosts= searchLatestNews(props.news, 5); 
+                } else {
+                    recentPosts = searchLatestPodcast(props.podcast, 5);   
+                }                    
+
+                posts = <RecentPosts
+                    recentPosts={recentPosts}
+                    location = {location["pathname"]}/>;
+                // posts =                          
+                //     <FullPost 
+                //         key= {introGondo[0].id}
+                //         cover={introGondo[0].cover}
+                //         author= {introGondo[0]["dc:creator"][0]}
+                //         title= {introGondo[0]["title"]}
+                //         content= {introGondo[0]["content:encoded"][0]}
+                //         date= {introGondo[0]["pubDate"][0]}/>;
+                break;
+
+            case "RECOMMENDED":
+                const recommendedPosts= props.introGondo;
+                posts = <RecommendedPosts
+                    recommendedPosts={recommendedPosts}
+                    location = {location["pathname"]}/>;
+                // posts =                          
+                //     <FullPost 
+                //         key= {introGondo[0].id}
+                //         cover={introGondo[0].cover}
+                //         author= {introGondo[0]["dc:creator"][0]}
+                //         title= {introGondo[0]["title"]}
+                //         content= {introGondo[0]["content:encoded"][0]}
+                //         date= {introGondo[0]["pubDate"][0]}/>;
+                break;
+    
+    
                    
         }        
     }

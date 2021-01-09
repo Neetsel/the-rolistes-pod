@@ -6,8 +6,6 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Follow from '../../../components/side/Follow/Follow';
 import Contact from '../../../components/side/Contact/Contact';
 import Support from '../../../components/side/Support/Support';
-import RecommendedPosts from '../../../components/side/Recommended/RecommendedPosts';
-import RecentPosts from '../../../components/side/Recent/RecentPosts';
 import PaginationList from '../../../components/UI/PaginationList/PaginationList';
 import Footer from '../../../components/Footer/Footer';
 import globalClasses from '../../../App.module.css';
@@ -42,10 +40,10 @@ const PostLayout = (props) => {
                                 <Support />
                             </Col>  
                             <Col xs={12} className={globalClasses.no_padding_smallscreen}>
-                                <RecommendedPosts/>
+                                <Posts type="RECOMMENDED" postType={props.type}/>
                             </Col>  
                             <Col xs={12} className={globalClasses.no_padding_smallscreen}>
-                                <RecentPosts/>
+                                <Posts type="RECENT" postType={props.type}/>
                             </Col>                  
                         </Row>                    
                     </Col>
