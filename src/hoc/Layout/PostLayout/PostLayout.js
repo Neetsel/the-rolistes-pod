@@ -40,7 +40,7 @@ const PostLayout = (props) => {
                                 <Support />
                             </Col>  
                             <Col xs={12} className={globalClasses.no_padding_smallscreen}>
-                                <Posts type="RECOMMENDED" postType={props.type}/>
+                                <Posts type="RECOMMENDED" postType={props.type} pageTitle={pageId}/>
                             </Col>  
                             <Col xs={12} className={globalClasses.no_padding_smallscreen}>
                                 <Posts type="RECENT" postType={props.type}/>

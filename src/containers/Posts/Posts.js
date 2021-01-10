@@ -79,6 +79,40 @@ const Posts = props => {
         return postsFromCategory
     }
 
+    const searchRecommendedPosts = (postToRead, posts) => {
+
+        const RecommendedPodcast = [];
+
+        for(let i=0;i<posts.length;i++){
+
+            let  amountMatchCategories = 0;
+
+            if(posts[i]!==postToRead){
+                for (let j=0; j < postToRead["category"].length; j++) {
+                    for (let k=0; k < posts[i]["category"].length; k++) {
+                        
+                        if(postToRead["category"][j]["$"]["nicename"]===posts[i]["category"][k]["$"]["nicename"]){                      
+                            amountMatchCategories += 1;                    
+                        }
+                    }
+                }
+
+                RecommendedPodcast.push({            
+                    ...posts[i],
+                    amountMatchCategories: amountMatchCategories,
+                    id:i                                                
+                })
+            }
+        }       
+        
+        RecommendedPodcast.sort((a,b)=>{
+            return b.amountMatchCategories - a.amountMatchCategories || new Date(b["pubDate"][0]) - new Date(a["pubDate"][0])
+        });
+
+        console.log(RecommendedPodcast);
+        return RecommendedPodcast;
+    }
+
     useEffect(()=> {
         if (props.type ==="PODCAST"){
             props.onSetCurrentCategorySize(sizePodcast);        
@@ -212,7 +246,6 @@ const Posts = props => {
 
                 posts = 
                 <Aux>
-                    {/* post={props.comingSoon[0]} */}
                     <ComingSoon latestComingSoon={latestComingSoon} />                    
                     <LatestPodcast 
                     podcast={latestPodcast} 
@@ -224,7 +257,7 @@ const Posts = props => {
                 break;
 
             case "RECENT":
-                let recentPosts= searchLatest(props.podcast, 6);                            
+                const recentPosts= searchLatest(props.podcast, 6);                            
 
                 posts = <RecentPosts
                     recentPosts={recentPosts}
@@ -232,7 +265,15 @@ const Posts = props => {
                 break;
 
             case "RECOMMENDED":
-                const recommendedPosts= props.introGondo;
+                
+                if(props.postType==="FULLPODCAST") {
+                    key = searchPost(props.podcast, props.pageTitle);                
+                } 
+                else {
+                    key = searchPost(props.news, props.pageTitle);
+                }         
+                
+                const recommendedPosts= searchRecommendedPosts(props.podcast[key],props.podcast);
                 posts = <RecommendedPosts
                     recommendedPosts={recommendedPosts}
                     location = {location["pathname"]}/>;                

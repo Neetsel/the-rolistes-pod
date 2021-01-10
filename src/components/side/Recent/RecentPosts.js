@@ -14,8 +14,8 @@ const RecentPosts = (props) => {
     const relatedPosts = props.recentPosts;
 
     recentPosts = relatedPosts.map (post => {
-        return <Col xs={12} className={classes.cell} >
-            <Link>
+        return <Col xs={12} className={classes.cell} key={post["id"]}>
+            <Link  to={post.location + 'news/' + post["wp:post_name"][0]}>
                 <div className={classes.post_recent}>
                     <img src={post.cover} alt="Episode Cover" className={classes.recent_img}/>              
                     <div className={globalClasses.date_article}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/> {post["pubDate"][0]}</div>
