@@ -216,8 +216,6 @@ export const fetchPosts = () => {
                             }                                    
                         }                            
                     }
-
-                    console.log(fetchedGondo);
                 
                     fetchedPodcast.sort((a,b)=>{
                         return new Date(b["pubDate"][0]) - new Date(a["pubDate"][0]) 

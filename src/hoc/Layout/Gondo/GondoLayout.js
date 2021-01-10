@@ -24,8 +24,7 @@ const NewsLayout = (props) =>
     const indexOfLastPost = props.currentPageNews * postPerPage;
     const indexOfFirstPost = indexOfLastPost - postPerPage;    
 
-    const paginate = (pageNumber) => props.onSetCurrentPageNews(pageNumber);
-    console.log(props.type);
+    const paginate = (pageNumber) => props.onSetCurrentPageNews(pageNumber);    
 
     return (
         <Aux>

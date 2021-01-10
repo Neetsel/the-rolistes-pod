@@ -109,7 +109,6 @@ const Posts = props => {
             return b.amountMatchCategories - a.amountMatchCategories || new Date(b["pubDate"][0]) - new Date(a["pubDate"][0])
         });
 
-        console.log(RecommendedPodcast);
         return RecommendedPodcast;
     }
 
@@ -273,7 +272,7 @@ const Posts = props => {
                     key = searchPost(props.news, props.pageTitle);
                 }         
                 
-                const recommendedPosts= searchRecommendedPosts(props.podcast[key],props.podcast);
+                const recommendedPosts= searchRecommendedPosts(props.podcast[key],props.podcast).slice(0, 6);
                 posts = <RecommendedPosts
                     recommendedPosts={recommendedPosts}
                     location = {location["pathname"]}/>;                

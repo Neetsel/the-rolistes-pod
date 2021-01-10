@@ -11,13 +11,13 @@ import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 const RecommendedPosts = (props) => {
     
     let recommendedPosts = <Spinner/>
-    const relatedPosts = [];
+    const relatedPosts = props.recommendedPosts;
 
     recommendedPosts = relatedPosts.map (post => {
         return <Col xs={6} md={4} lg={6} className={classes.cell} key={post["id"]}>
-            <Link>
-                <img src={props.cover} alt="Cover Episode"/>
-                <h3 className={[globalClasses.section_title, globalClasses.section_title_side].join(' ')}>{props.title}</h3>    
+            <Link to={post.location + 'news/' + post["wp:post_name"][0]}>
+                <img src={post.cover} alt="Cover Episode"/>
+                <h3 className={[globalClasses.section_title, globalClasses.section_title_side].join(' ')}>{post["title"]}</h3>    
             </Link>
         </Col>;   
     });    
