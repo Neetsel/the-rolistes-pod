@@ -19,7 +19,8 @@ const PodcastTile = (props) => {
         <Aux>
             <Col xs={12} md={6} lg={4} className={classes.cell} >
                 {/* <Link to={props.location + '/'  + props.postName}> */}
-                <Link to={'/' + year + '/' + month + '/' + day + '/' + props.postName}>                                    
+                {/* <Link to={'/' + year + '/' + month + '/' + day + '/' + props.postName}>   */}
+                <Link to={props.url}>
                     <img src={props.cover} alt="Cover Episode"/> 
                     {/* <img src={imgTest} alt=""/>  */}
                     <div className={classes.overlay}> 

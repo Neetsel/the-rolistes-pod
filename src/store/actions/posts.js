@@ -81,6 +81,25 @@ const getAttachmentURL = (attachments, postMeta) => {
     return "";
 }
 
+const getURL = (post, category) => {
+    
+    const tempDate = new Date(post["pubDate"][0]); 
+    const year = tempDate.getFullYear();
+    const month = tempDate.getMonth()+1;
+    const day = tempDate.getDate();
+    const postName = post["wp:post_name"][0];
+
+    switch(category){
+
+        case "news": 
+            return '/news/' + postName;            
+
+        case "podcast":                     
+            return '/' + year + '/' + month + '/' + day + '/' + postName;        
+    }
+     return "";
+}
+
 const getExcerpt = (content, wordLimit) => {
      
     let filter = content.replace( /(<([^>]+)>)/ig, '');
@@ -166,15 +185,18 @@ export const fetchPosts = () => {
 
                             const attachmentURL= getAttachmentURL(fetchedAttachment , fetchedPosts[key]);
                             
+                            
                             for (let i=0; i < fetchedPosts[key]["category"].length; i++) {
                                 
                                 switch(fetchedPosts[key]["category"][i]["$"]["nicename"]){
 
                                     case "news": 
                                         const excerptNews= getExcerpt(fetchedPosts[key]["content:encoded"][0], 40);
+                                        const newsURL= getURL(fetchedPosts[key], "news");
                                         fetchedNews.push({
                                         ...fetchedPosts[key],
                                         cover: attachmentURL,
+                                        url: newsURL,                                        
                                         excerpt: excerptNews,
                                         id:key                                                
                                         });                          
@@ -182,9 +204,11 @@ export const fetchPosts = () => {
                                         break;
 
                                     case "podcast": 
+                                        const podcastURL= getURL(fetchedPosts[key],"podcast");
                                         fetchedPodcast.push({
                                         ...fetchedPosts[key],
                                         cover: attachmentURL,
+                                        url: podcastURL,
                                         id:key                                                
                                         });
                                         break;

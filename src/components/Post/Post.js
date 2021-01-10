@@ -12,12 +12,12 @@ const Post = (props) => {
     return (
         
         <Col xs={12} className={globalClasses.article_preview}>
-            <Link to={props.location + '/'  + props.postName}>
+            <Link to={props.url}>
                 <div className={globalClasses.img_scale_animate}>
                     <img src={props.cover + '?w=2237&h=1173&crop=1'} alt=""/>
                 </div>          
             </Link>   
-            <Link to={props.location + '/'  + props.postName}>
+            <Link to={props.url}>
                 <h2 className={classes.title_news}>{props.title}</h2>            
                 {/* <p className={globalClasses.author}>{props.author}</p> */}
                 <p className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/> {props.date}</p>            

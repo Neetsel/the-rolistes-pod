@@ -20,7 +20,7 @@ const Posts = props => {
     let sizePodcast = 1;    
     let posts = <Spinner />;
     let key = 0;
-    let location = useLocation();    
+    let location = useLocation();  
 
     const searchPost = ( posts, pageTitle ) => {
 
@@ -162,7 +162,7 @@ const Posts = props => {
                         article= {news["content:encoded"][0]}
                         date= {news["pubDate"][0]}
                         postName={news["wp:post_name"][0]}
-                        location = {location["pathname"]}/>            
+                        url = {news.url}/>            
                     ));
                 break;
 
@@ -179,7 +179,7 @@ const Posts = props => {
                         article= {gondo["content:encoded"][0]}
                         date= {gondo["pubDate"][0]}
                         postName={gondo["wp:post_name"][0]}
-                        location = {location["pathname"]}/>            
+                        url = {gondo.url}/>            
                     ));
                 break;
             
@@ -195,7 +195,7 @@ const Posts = props => {
                         title= {podcast["title"]}
                         content= {podcast["content:encoded"][0]}
                         postName={podcast["wp:post_name"][0]}
-                        location = {location["pathname"]}/>           
+                        url = {podcast.url}/>           
                     ));
                 break;
             
@@ -247,11 +247,9 @@ const Posts = props => {
                 <Aux>
                     <ComingSoon latestComingSoon={latestComingSoon} />                    
                     <LatestPodcast 
-                    podcast={latestPodcast} 
-                    location = {location["pathname"]}/> 
+                    podcast={latestPodcast} /> 
                     <LatestNews 
-                    news={latestNews} 
-                    location = {location["pathname"]}/> 
+                    news={latestNews}/> 
                 </Aux>                                                          
                 break;
 
@@ -260,7 +258,7 @@ const Posts = props => {
 
                 posts = <RecentPosts
                     recentPosts={recentPosts}
-                    location = {location["pathname"]}/>;
+                    url = {recentPosts.url}/>;
                 break;
 
             case "RECOMMENDED":
@@ -275,7 +273,7 @@ const Posts = props => {
                 const recommendedPosts= searchRecommendedPosts(props.podcast[key],props.podcast).slice(0, 6);
                 posts = <RecommendedPosts
                     recommendedPosts={recommendedPosts}
-                    location = {location["pathname"]}/>;                
+                    url = {recommendedPosts.url}/>;                
                 break;
     
     

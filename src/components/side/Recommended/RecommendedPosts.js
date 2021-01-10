@@ -15,7 +15,7 @@ const RecommendedPosts = (props) => {
 
     recommendedPosts = relatedPosts.map (post => {
         return <Col xs={6} md={4} lg={6} className={classes.cell} key={post["id"]}>
-            <Link to={post.location + 'news/' + post["wp:post_name"][0]}>
+            <Link to={post.url}>
                 <img src={post.cover} alt="Cover Episode"/>
                 <h3 className={[globalClasses.section_title, globalClasses.section_title_side].join(' ')}>{post["title"]}</h3>    
             </Link>
