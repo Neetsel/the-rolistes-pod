@@ -31,6 +31,8 @@ const fetchPostsSuccess = (state, action) => {
         gondo: action.gondo,
         introGondo: action.introGondo,        
         comingSoon: action.comingSoon,
+        about: action.about,
+        theTeam: action.theTeam,
         loading: false,
         loaded: true
     });

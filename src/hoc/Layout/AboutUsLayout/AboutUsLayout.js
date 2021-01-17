@@ -15,15 +15,11 @@ const AboutUsLayout = (props) => (
                     
                     <Posts 
                         {...props} 
-                        type="INTROGONDO"/>  
-                    
-                    <Posts 
-                        {...props} 
-                        type="INTROGONDO"/>  
+                        type="ABOUT"/>  
 
                     <Posts 
                         {...props} 
-                        type="INTROGONDO"/>  
+                        type="THETEAM"/>  
                 </Col>
             </Row>
         </Container>

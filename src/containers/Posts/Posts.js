@@ -224,6 +224,31 @@ const Posts = props => {
                         date= {introGondo[0]["pubDate"][0]}/>;
                 break;
 
+            case "ABOUT":
+                const about= props.about;
+                posts =                          
+                    <FullPost 
+                        key= {about[0].id}
+                        cover={about[0].cover}
+                        author= {about[0]["dc:creator"][0]}
+                        title= {about[0]["title"]}
+                        content= {about[0]["content:encoded"][0]}
+                        date= {about[0]["pubDate"][0]}/>;
+                break;
+
+            case "THETEAM":
+                const theTeam= props.theTeam;
+                posts = theTeam.map ( post => (                               
+                    <FullPost 
+                        key= {post.id}
+                        cover={post.cover}
+                        author= {post["dc:creator"][0]}
+                        title= {post["title"]}
+                        content= {post["content:encoded"][0]}
+                        date= {post["pubDate"][0]}/>       
+                    ));    
+                break;
+
             case "FULLPODCAST":
                 key = searchPost(props.podcast, props.pageTitle);
                 const podcast= props.podcast;                               
@@ -275,9 +300,6 @@ const Posts = props => {
                     recommendedPosts={recommendedPosts}
                     url = {recommendedPosts.url}/>;                
                 break;
-    
-    
-                   
         }        
     }
 
