@@ -9,6 +9,8 @@ const initialState = {
     gondo:[],
     introGondo:[],
     comingSoon:[],
+    about: [],
+    theTeam: [],
     loading: false,
     loaded: false,
     currentPageNews: 1,

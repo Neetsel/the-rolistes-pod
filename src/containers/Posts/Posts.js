@@ -214,14 +214,14 @@ const Posts = props => {
 
             case "INTROGONDO":
                 const introGondo= props.introGondo;
-                // posts =                          
-                //     <FullPost 
-                //         key= {introGondo[0].id}
-                //         cover={introGondo[0].cover}
-                //         author= {introGondo[0]["dc:creator"][0]}
-                //         title= {introGondo[0]["title"]}
-                //         content= {introGondo[0]["content:encoded"][0]}
-                //         date= {introGondo[0]["pubDate"][0]}/>;
+                posts =                          
+                    <FullPost 
+                        key= {introGondo[0].id}
+                        cover={introGondo[0].cover}
+                        author= {introGondo[0]["dc:creator"][0]}
+                        title= {introGondo[0]["title"]}
+                        content= {introGondo[0]["content:encoded"][0]}
+                        date= {introGondo[0]["pubDate"][0]}/>;
                 break;
 
             case "FULLPODCAST":
@@ -295,6 +295,8 @@ const mapStateToProps = state => {
         gondo: state.posts.gondo,
         introGondo: state.posts.introGondo,
         comingSoon: state.posts.comingSoon,
+        about: state.posts.about,
+        theTeam: state.posts.theTeam,
         loading: state.posts.loading,
         loaded: state.posts.loaded,
         currentCategoryPodcast: state.posts.currentCategoryPodcast

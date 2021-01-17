@@ -9,7 +9,7 @@ export const fetchPostsStart = () => {
     }
 };
 
-export const fetchPostsSuccess = (posts, news, podcast, gondo, introGondo, comingSoon) => {
+export const fetchPostsSuccess = (posts, news, podcast, gondo, introGondo, comingSoon, about, theTeam) => {
     return {
         type: actionTypes.FETCH_POSTS_SUCCESS,
         posts: posts,
@@ -18,6 +18,8 @@ export const fetchPostsSuccess = (posts, news, podcast, gondo, introGondo, comin
         gondo: gondo,
         introGondo: introGondo,
         comingSoon: comingSoon,
+        about: about,
+        theTeam: theTeam,
         loaded: true
     }
 };
@@ -141,6 +143,8 @@ export const fetchPosts = () => {
             const fetchedPodcast = [];
             const fetchedGondo = [];
             const fetchedIntroGondo = [];
+            const fetchedAbout = [];
+            const fetchedTheTeam = [];
             const fetchedComingSoon = [];
 
             parser.parseString(
@@ -215,17 +219,12 @@ export const fetchPosts = () => {
 
                                     case "paris-gondo": 
                                         const excerptGondo= getExcerpt(fetchedPosts[key]["content:encoded"][0], 40);
+                                        const gondoURL= getURL(fetchedPosts[key], "news");
                                         fetchedGondo.push({
                                         ...fetchedPosts[key],
                                         cover: attachmentURL,
+                                        url: gondoURL,
                                         excerpt: excerptGondo,
-                                        id:key                                                
-                                        });
-                                        break;
-
-                                    case "intro-gondo": 
-                                        fetchedIntroGondo.push({
-                                        ...fetchedPosts[key],
                                         id:key                                                
                                         });
                                         break;
@@ -238,9 +237,43 @@ export const fetchPosts = () => {
                                         break;
                                 }
                             }                                    
+                        }
+                        else if(fetchedPosts[key]["category"] && fetchedPosts[key]["wp:status"][0] === "private")
+                        {
+
+                            for (let i=0; i < fetchedPosts[key]["category"].length; i++) {
+                                
+                                switch(fetchedPosts[key]["category"][i]["$"]["nicename"]){
+
+                                    case "paris-gondo-introduction": 
+                                        fetchedIntroGondo.push({
+                                        ...fetchedPosts[key],
+                                        id:key                                                
+                                        });
+                                        break;
+
+                                    case "about": 
+                                        fetchedAbout.push({
+                                        ...fetchedPosts[key],
+                                        id:key                                                
+                                        });
+                                        break;
+
+                                    case "the-team": 
+                                        fetchedTheTeam.push({
+                                        ...fetchedPosts[key],
+                                        id:key                                                
+                                        });
+                                        break;                                    
+                                }
+                            }
                         }                            
                     }
                 
+                    console.log(fetchedIntroGondo);
+                    console.log(fetchedAbout);
+                    console.log(fetchedTheTeam);
+
                     fetchedPodcast.sort((a,b)=>{
                         return new Date(b["pubDate"][0]) - new Date(a["pubDate"][0]) 
                     });
@@ -264,7 +297,7 @@ export const fetchPosts = () => {
                 }
             )
             
-            dispatch(fetchPostsSuccess(fetchedPosts, fetchedNews, fetchedPodcast, fetchedGondo, fetchedIntroGondo, fetchedComingSoon));    
+            dispatch(fetchPostsSuccess(fetchedPosts, fetchedNews, fetchedPodcast, fetchedGondo, fetchedIntroGondo, fetchedComingSoon, fetchedAbout, fetchedTheTeam));    
         })
         .catch(error => {
             console.log(error);

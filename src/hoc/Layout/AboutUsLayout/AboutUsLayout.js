@@ -2,13 +2,30 @@ import React from 'react';
 import Aux from '../../Auxiliary/Auxiliary';
 import Article from '../../../components/Post/Post';
 import classes from './AboutUsLayout.module.css';
-import { Container } from 'react-bootstrap';
+import Posts from '../../../containers/Posts/Posts';
+import { Col, Container, Row } from 'react-bootstrap';
 import Footer from '../../../components/Footer/Footer';
+import globalClasses from '../../../App.module.css';
 
 const AboutUsLayout = (props) => (
     <Aux>
         <Container>
+            <Row>                                           
+                <Col xs={12} className={[globalClasses.no_padding_right,globalClasses.no_padding_smallscreen].join(' ')} >                    
+                    
+                    <Posts 
+                        {...props} 
+                        type="INTROGONDO"/>  
+                    
+                    <Posts 
+                        {...props} 
+                        type="INTROGONDO"/>  
 
+                    <Posts 
+                        {...props} 
+                        type="INTROGONDO"/>  
+                </Col>
+            </Row>
         </Container>
         <Footer/>        
     </Aux>
