@@ -14,6 +14,7 @@ import { Row } from 'react-bootstrap';
 import { useLocation } from 'react-router-dom';
 import ComingSoon from '../../components/ComingSoon/ComingSoon';
 import Aux from '../../hoc/Auxiliary/Auxiliary';
+import bannerImg from '../../assets/images/rollinKunzArt/Banner.jpg';
 
 const Posts = props => {
 
@@ -270,7 +271,8 @@ const Posts = props => {
 
                 posts = 
                 <Aux>
-                    <ComingSoon latestComingSoon={latestComingSoon} />                    
+                    <ComingSoon latestComingSoon={latestComingSoon} />
+                    {/* <img src={bannerImg} alt="banner" />  */}
                     <LatestPodcast 
                     podcast={latestPodcast} /> 
                     <LatestNews 

@@ -16,7 +16,7 @@ const ComingSoon = (props) => (
                     <img src={kunzImg} alt="" className={classes.kunz_img} />                    
                 </Col> */}
                 <Col xs={12}>
-                    <h2>{props.latestComingSoon["title"]}</h2>
+                    <h2>Coming Soon - {props.latestComingSoon["title"]}</h2>
                     <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/> {props.latestComingSoon["pubDate"][0]}</div>
                     <Row>
                         <Col>
