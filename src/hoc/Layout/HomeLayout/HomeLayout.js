@@ -10,7 +10,7 @@ import bannerImg from '../../../assets/images/rollinKunzArt/Banner.jpg';
 const HomeLayout = (props) => (
     <Aux>
         <Container>  
-            <img src={bannerImg} alt="banner" className={classes.banner}/>                    
+            {/* <img src={bannerImg} alt="banner" className={classes.banner}/>                     */}
             <Posts {...props} type="LATEST" />                
         </Container>        
         <Footer/>        

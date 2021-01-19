@@ -6,6 +6,7 @@ import globalClasses from '../../App.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 import kunzImg from '../../assets/images/rollinKunzArt/RollinKunz_Astro.png';
+import bannerImg from '../../assets/images/rollinKunzArt/Banner.jpg';
 
 const ComingSoon = (props) => (
     <Aux>
@@ -17,9 +18,10 @@ const ComingSoon = (props) => (
                 </Col> */}
                 <Col xs={12}>
                     <h2>Coming Soon - {props.latestComingSoon["title"]}</h2>
-                    <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/> {props.latestComingSoon["pubDate"][0]}</div>
+                    {/* <div className={globalClasses.date}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/> {props.latestComingSoon["pubDate"][0]}</div> */}
                     <Row>
                         <Col>
+                            <br/>
                             <div dangerouslySetInnerHTML={{ __html: props.latestComingSoon["content:encoded"][0] }}/>
                         </Col>
                     </Row>    
@@ -28,6 +30,8 @@ const ComingSoon = (props) => (
             </Row>
                 
         </div>
+        
+        <img src={bannerImg} alt="banner" className={classes.banner}/>        
                 
     </Aux>
 )

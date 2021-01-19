@@ -272,7 +272,6 @@ const Posts = props => {
                 posts = 
                 <Aux>
                     <ComingSoon latestComingSoon={latestComingSoon} />
-                    {/* <img src={bannerImg} alt="banner" />  */}
                     <LatestPodcast 
                     podcast={latestPodcast} /> 
                     <LatestNews 

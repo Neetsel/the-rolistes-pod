@@ -17,3 +17,10 @@
     max-width:200px;
     margin-bottom: 1.5rem;
 }
+
+.banner {
+    border-radius: 0 0 5px 5px;
+    margin-top: 15px;
+    margin-bottom: -5px;
+
+}
