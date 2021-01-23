@@ -1,2 +1,0 @@
-(this["webpackJsonpthe-rolistes-pod"]=this["webpackJsonpthe-rolistes-pod"]||[]).push([[10],{180:function(e,t,n){e.exports={banner:"HomeLayout_banner__2Mx5I"}},201:function(e,t,n){"use strict";n.r(t);var a=n(0),r=n.n(a),s=n(24),l=(n(175),n(180),n(166)),o=n(162),c=n(165);n(177);t.default=function(e){return r.a.createElement(s.a,null,r.a.createElement(o.a,null,r.a.createElement(c.a,Object.assign({},e,{type:"LATEST"}))),r.a.createElement(l.a,null))}}}]);
-//# sourceMappingURL=10.23e52d1d.chunk.js.map
