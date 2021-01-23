@@ -1,8 +1,8 @@
-.fullPost{
+.aboutPost{
     padding-bottom: 15px;
 }
 
-.fullPost img{
+.aboutPost img{
     max-width: 100% !important;
     height: auto !important;
     display:block;

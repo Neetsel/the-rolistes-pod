@@ -14,7 +14,7 @@ const AboutPost = (props) => {
             <div className={globalClasses.item_box_left} >               
                 <h1 className={[globalClasses.section_title, globalClasses.section_title_article].join(' ')}>{props.title}</h1>                    
                 {/* <p>{props.author}</p> */}
-                <div dangerouslySetInnerHTML={{ __html: props.content }} className={classes.fullPost}/>     
+                <div dangerouslySetInnerHTML={{ __html: props.content }} className={classes.aboutPost}/>     
             </div>                                   
         </Aux>
     );

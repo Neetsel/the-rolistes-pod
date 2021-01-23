@@ -260,8 +260,11 @@ export const fetchPosts = () => {
                                         break;
 
                                     case "the-team": 
+                                        const attachmentURL= getAttachmentURL(fetchedAttachment , fetchedPosts[key]);
+                                       
                                         fetchedTheTeam.push({
                                         ...fetchedPosts[key],
+                                        cover: attachmentURL,
                                         id:key                                                
                                         });
                                         break;                                    

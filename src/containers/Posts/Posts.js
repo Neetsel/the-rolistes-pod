@@ -229,7 +229,7 @@ const Posts = props => {
                 break;
 
             case "ABOUT":
-                const about= props.about;
+                const about= props.about;                
                 posts =                          
                     <AboutPost 
                         key= {about[0].id}

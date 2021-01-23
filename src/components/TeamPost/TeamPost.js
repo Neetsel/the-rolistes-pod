@@ -1,19 +1,24 @@
-import React from 'react'
-import { Col } from 'react-bootstrap';
+import React from 'react';
 import Aux from '../../hoc/Auxiliary/Auxiliary';
 import classes from './TeamPost.module.css';
 import globalClasses from '../../App.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
+import { Col, Row } from 'react-bootstrap';
 
 const TeamPost = (props) => {
 
     return (
         
-        <Aux>
+        <Aux> 
             <div className={globalClasses.item_box_left} >               
-                <h1 className={[globalClasses.section_title, globalClasses.section_title_article].join(' ')}>{props.title}</h1>                    
-                <div dangerouslySetInnerHTML={{ __html: props.content }} className={classes.fullPost}/>     
+                <h1 className={[globalClasses.section_title, globalClasses.section_title_article].join(' ')}>{props.title}</h1>  
+                <Row>
+                    <Col xs={12} md={4}>
+                        <img src={props.cover} alt=""/>
+                    </Col>
+                    <Col xs={12} md={8}>                        
+                        <div dangerouslySetInnerHTML={{ __html: props.content }} className={classes.teamPost}/>  
+                    </Col>
+                </Row>                   
             </div>                                   
         </Aux>
     );
