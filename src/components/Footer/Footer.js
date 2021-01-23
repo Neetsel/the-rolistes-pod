@@ -3,8 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Aux from '../../hoc/Auxiliary/Auxiliary';
-import classes from './Footer.module.css'
-import Contact from './Contact/Contact';
+import classes from './Footer.module.css';
 import Follow from './Follow/Follow';
 import Support from './Support/Support';
 
@@ -31,15 +30,12 @@ const Footer = (props) => {
             <footer>
                 <Container className={classes.footer}>
                     <Row>
-                        <Col lg={4} xs={12}>
+                        <Col md={6} xs={12}>
                             <Follow/>
                         </Col>                             
-                        <Col lg={4} md={6} xs={12}>
+                        <Col  md={6} xs={12}>
                             <Support/>
                         </Col>
-                        <Col lg={4} md={6} xs={12}>
-                            <Contact/>
-                        </Col>                                           
                     </Row>                    
                 </Container>
 

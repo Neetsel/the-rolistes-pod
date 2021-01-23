@@ -1,7 +1,5 @@
 import React from 'react';
 import Aux from '../../Auxiliary/Auxiliary';
-import Article from '../../../components/Post/Post';
-import classes from './AboutUsLayout.module.css';
 import Posts from '../../../containers/Posts/Posts';
 import { Col, Container, Row } from 'react-bootstrap';
 import Footer from '../../../components/Footer/Footer';

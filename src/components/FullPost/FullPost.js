@@ -1,5 +1,4 @@
 import React from 'react'
-import { Col } from 'react-bootstrap';
 import Aux from '../../hoc/Auxiliary/Auxiliary';
 import classes from './FullPost.module.css';
 import globalClasses from '../../App.module.css';
@@ -14,7 +13,6 @@ const FullPost = (props) => {
       
     const transformYoutubeLinks = (text) => {
         if (!text) return text;
-        const self = this;
         
         const linkreg = /(?:)<a([^>]+)>(.+?)<\/a>/g;
         const fullreg = /(https?:\/\/)?(www\.)?(youtube\.com\/watch\?v=|youtu\.be\/)([^& \n<]+)(?:[^ \n<]+)?/g;
@@ -34,17 +32,17 @@ const FullPost = (props) => {
             }
         
             // now go through the matches one by one
-            for (var i=0; i < match.length; i++) {
-            // get the key out of the match using the second regex
-            let matchParts = match[i].split(regex);
-            // replace the full match with the embedded youtube code
-            resultHtml = resultHtml.replace(match[i], createYoutubeEmbed(matchParts[1]));
+            for (var j=0; j < match.length; j++) {
+                // get the key out of the match using the second regex
+                let matchParts = match[j].split(regex);
+                // replace the full match with the embedded youtube code
+                resultHtml = resultHtml.replace(match[j], createYoutubeEmbed(matchParts[1]));
             }
         
             // ok now put our links back where the placeholders were.
             if (matchlinks && matchlinks.length > 0) {
-                for (var i=0; i < matchlinks.length; i++) {
-                    resultHtml = resultHtml.replace("#placeholder" + i + "#", matchlinks[i]);
+                for (var k=0; k < matchlinks.length; k++) {
+                    resultHtml = resultHtml.replace("#placeholder" + k + "#", matchlinks[k]);
                 }
             }
         }

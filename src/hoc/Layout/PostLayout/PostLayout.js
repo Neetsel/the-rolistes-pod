@@ -34,9 +34,6 @@ const PostLayout = (props) => {
                                 <Follow /> 
                             </Col>                  
                             <Col xs={12} className={globalClasses.no_padding_smallscreen}>
-                                <Contact />
-                            </Col>  
-                            <Col xs={12} className={globalClasses.no_padding_smallscreen}>
                                 <Support />
                             </Col>  
                             <Col xs={12} className={globalClasses.no_padding_smallscreen}>

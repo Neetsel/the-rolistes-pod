@@ -8,12 +8,7 @@ import globalClasses from '../../App.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 
-const PodcastTile = (props) => {
-
-    const tempDate = new Date(props.date);  
-    const year = tempDate.getFullYear();
-    const month = tempDate.getMonth()+1;
-    const day = tempDate.getDate() ;
+const PodcastTile = (props) => { 
 
     return (
         <Aux>

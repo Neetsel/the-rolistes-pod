@@ -1,10 +1,7 @@
-import React from 'react'
-import { Col } from 'react-bootstrap';
+import React from 'react';
 import Aux from '../../hoc/Auxiliary/Auxiliary';
 import classes from './AboutPost.module.css';
 import globalClasses from '../../App.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 
 const AboutPost = (props) => {
 

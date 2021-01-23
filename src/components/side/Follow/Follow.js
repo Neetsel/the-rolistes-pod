@@ -1,5 +1,5 @@
-import { faApple, faFacebookF, faInstagram, faItunes, faSpotify, faTiktok, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { faPodcast } from '@fortawesome/free-solid-svg-icons';
+import { faItunesNote, faFacebookF, faInstagram, faSpotify, faTiktok, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faPodcast, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import classes from './Follow.module.css'
@@ -50,7 +50,7 @@ const Follow = (props) => {
                         </Col>
 
                         <Col xs={3}>
-                            <a href="https://podcasts.apple.com/us/podcast/the-rolistes-podcast/id1043891191" className={classes.SideLink}><span><FontAwesomeIcon icon={faApple} aria-hidden="true"/></span></a>
+                            <a href="https://podcasts.apple.com/us/podcast/the-rolistes-podcast/id1043891191" className={classes.SideLink}><span><FontAwesomeIcon icon={faItunesNote} aria-hidden="true"/></span></a>
                         </Col>
 
                         <Col xs={3}>
@@ -60,6 +60,25 @@ const Follow = (props) => {
                         <Col xs={3}>
                             <a href="http://www.stitcher.com/podcast/the-rolistes-podcast" className={classes.SideLink}><span><FontAwesomeIcon icon={faPodcast} aria-hidden="true"/></span></a>
                         </Col>
+                    </Row>
+                </Row>
+                <Row>
+                    <Col xs={12}>
+                        <h3 className={classes.side_title}>Contact Us</h3>
+                    </Col>
+                    <Row className={classes.side_icons}>
+                        <Col xs={3}>
+                            <a href="mailto:rolistespod@gmail.com" className={classes.SideLink}><span><FontAwesomeIcon icon={faEnvelope} aria-hidden="true"/></span></a>
+                        </Col>
+
+                        <Col xs={3}>
+                            <a href="https://twitter.com/rolistespod" className={classes.SideLink}><span><FontAwesomeIcon icon={faTwitter} aria-hidden="true"/></span></a>
+                        </Col>
+
+                        <Col xs={3}>
+                            <a href="https://www.facebook.com/Rolistespod/" className={classes.SideLink}><span><FontAwesomeIcon icon={faFacebookF} aria-hidden="true"/></span></a>
+                        </Col>     
+                                   
                     </Row>
                 </Row>
             </div>                    

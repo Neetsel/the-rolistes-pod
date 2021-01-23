@@ -1,5 +1,5 @@
-import { faApple, faFacebookF, faInstagram, faItunes, faSpotify, faTiktok, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { faPodcast } from '@fortawesome/free-solid-svg-icons';
+import { faItunesNote, faFacebookF, faInstagram, faSpotify, faTiktok, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faPodcast, faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import classes from './Follow.module.css'
@@ -21,7 +21,7 @@ const Follow = (props) => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col lg={12} sm={6} xs={12}>
+                    <Col xs={12}>
                         <h3>Follow</h3>
                     
                         <Row>
@@ -44,7 +44,7 @@ const Follow = (props) => {
                     </Col>
                     
                 
-                    <Col lg={12} sm={6} xs={12}>
+                    <Col xs={12}>
                         <h3>Listen</h3>                    
                         <Row>
                             <Col xs={3}>
@@ -52,7 +52,7 @@ const Follow = (props) => {
                             </Col>
 
                             <Col xs={3}>
-                                <a href="https://podcasts.apple.com/us/podcast/the-rolistes-podcast/id1043891191" className={classes.FooterLink}><span><FontAwesomeIcon icon={faApple} aria-hidden="true"/></span></a>
+                                <a href="https://podcasts.apple.com/us/podcast/the-rolistes-podcast/id1043891191" className={classes.FooterLink}><span><FontAwesomeIcon icon={faItunesNote} aria-hidden="true"/></span></a>
                             </Col>
 
                             <Col xs={3}>
@@ -61,6 +61,22 @@ const Follow = (props) => {
 
                             <Col xs={3}>
                                 <a href="http://www.stitcher.com/podcast/the-rolistes-podcast" className={classes.FooterLink}><span><FontAwesomeIcon icon={faPodcast} aria-hidden="true"/></span></a>
+                            </Col>
+                        </Row>
+                    </Col>
+                    <Col xs={12}>
+                        <h3>Contact Us</h3>                    
+                        <Row>
+                            <Col xs={3}>
+                                <a href="mailto:rolistespod@gmail.com" className={classes.FooterLink}><span><FontAwesomeIcon icon={faEnvelope} aria-hidden="true"/></span></a>
+                            </Col>
+
+                            <Col xs={3}>
+                                <a href="https://twitter.com/rolistespod" className={classes.FooterLink}><span><FontAwesomeIcon icon={faTwitter} aria-hidden="true"/></span></a>
+                            </Col>
+
+                            <Col xs={3}>
+                                <a href="https://www.facebook.com/Rolistespod/" className={classes.FooterLink}><span><FontAwesomeIcon icon={faFacebookF} aria-hidden="true"/></span></a>
                             </Col>
                         </Row>
                     </Col>
