@@ -6,7 +6,7 @@ import globalClasses from '../../App.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 
-const Post = (props) => {
+const FullPost = (props) => {
 
     const createYoutubeEmbed = (key) => {
         return '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + key + '" frameborder="0" allowfullscreen></iframe><br/>';
@@ -66,4 +66,4 @@ const Post = (props) => {
     );
 }
 
-export default Post;
+export default FullPost;

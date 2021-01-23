@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import Post from '../../components/Post/Post';
 import PodcastTile from '../../components/PodcastTile/PodcastTile';
 import FullPost from '../../components/FullPost/FullPost';
+import AboutPost from '../../components/AboutPost/AboutPost';
+import TeamPost from '../../components/TeamPost/TeamPost';
 import LatestNews from '../../components/Latest/LatestNews/LatestNews';
 import LatestPodcast from '../../components/Latest/LatestPodcast/LatestPodcast';
 import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
@@ -15,6 +17,7 @@ import { useLocation } from 'react-router-dom';
 import ComingSoon from '../../components/ComingSoon/ComingSoon';
 import Aux from '../../hoc/Auxiliary/Auxiliary';
 import bannerImg from '../../assets/images/rollinKunzArt/Banner.jpg';
+import Banner from '../../components/UI/Banner/Banner';
 
 const Posts = props => {
 
@@ -228,7 +231,7 @@ const Posts = props => {
             case "ABOUT":
                 const about= props.about;
                 posts =                          
-                    <FullPost 
+                    <AboutPost 
                         key= {about[0].id}
                         cover={about[0].cover}
                         author= {about[0]["dc:creator"][0]}
@@ -240,7 +243,7 @@ const Posts = props => {
             case "THETEAM":
                 const theTeam= props.theTeam;
                 posts = theTeam.map ( post => (                               
-                    <FullPost 
+                    <TeamPost 
                         key= {post.id}
                         cover={post.cover}
                         author= {post["dc:creator"][0]}
@@ -272,6 +275,7 @@ const Posts = props => {
                 posts = 
                 <Aux>
                     <ComingSoon latestComingSoon={latestComingSoon} />
+                    <Banner/>
                     <LatestPodcast 
                     podcast={latestPodcast} /> 
                     <LatestNews 

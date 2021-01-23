@@ -6,7 +6,7 @@ import globalClasses from '../../App.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 import kunzImg from '../../assets/images/rollinKunzArt/RollinKunz_Astro.png';
-import bannerImg from '../../assets/images/rollinKunzArt/Banner.jpg';
+
 
 const ComingSoon = (props) => (
     <Aux>
@@ -29,9 +29,7 @@ const ComingSoon = (props) => (
 
             </Row>
                 
-        </div>
-        
-        <img src={bannerImg} alt="banner" className={classes.banner}/>        
+        </div>     
                 
     </Aux>
 )
