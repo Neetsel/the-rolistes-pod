@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c4178b6896eecce61dd400b84ab488c2",
+    "revision": "7ecfe425bfcc38087599c5324ae7d4c9",
     "url": "/the-rolistes-pod/index.html"
   },
   {
-    "revision": "fe061292e5432f8ac963",
-    "url": "/the-rolistes-pod/static/css/0.9b196453.chunk.css"
+    "revision": "87228831fb656180fad4",
+    "url": "/the-rolistes-pod/static/css/0.bc6f4296.chunk.css"
   },
   {
     "revision": "3c61103a40db85747126",
@@ -24,12 +24,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-rolistes-pod/static/css/8.84d8d7ed.chunk.css"
   },
   {
-    "revision": "feb71a0534297a7489a0",
-    "url": "/the-rolistes-pod/static/css/main.79bd017e.chunk.css"
+    "revision": "1c7fb216aade98f28266",
+    "url": "/the-rolistes-pod/static/css/main.7b1876e2.chunk.css"
   },
   {
-    "revision": "fe061292e5432f8ac963",
-    "url": "/the-rolistes-pod/static/js/0.a2847f0f.chunk.js"
+    "revision": "87228831fb656180fad4",
+    "url": "/the-rolistes-pod/static/js/0.d1518a02.chunk.js"
   },
   {
     "revision": "db8c05ff629cd710f963",
@@ -68,16 +68,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-rolistes-pod/static/js/8.5f4d774f.chunk.js"
   },
   {
-    "revision": "cacd80c51feaebfab0bb",
-    "url": "/the-rolistes-pod/static/js/9.5991b15f.chunk.js"
+    "revision": "7e264d93836e55b67d54",
+    "url": "/the-rolistes-pod/static/js/9.fe210dcc.chunk.js"
   },
   {
-    "revision": "feb71a0534297a7489a0",
-    "url": "/the-rolistes-pod/static/js/main.a634683c.chunk.js"
+    "revision": "1c7fb216aade98f28266",
+    "url": "/the-rolistes-pod/static/js/main.37608ff2.chunk.js"
   },
   {
-    "revision": "b12187c6583936e4da65",
-    "url": "/the-rolistes-pod/static/js/runtime-main.a00d091b.js"
+    "revision": "0606d031133aeb020ac1",
+    "url": "/the-rolistes-pod/static/js/runtime-main.e75db6d0.js"
   },
   {
     "revision": "ad45030b1073fe50974b0c6d34f2a6ad",
@@ -136,7 +136,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-rolistes-pod/static/media/paypal-button.4cc1a483.png"
   },
   {
-    "revision": "4fdc827e32ae52db4a34436be310f117",
-    "url": "/the-rolistes-pod/static/media/therolistespodcast.4fdc827e.xml"
+    "revision": "fe00031a6135e340fa0cf5d7ca6d1845",
+    "url": "/the-rolistes-pod/static/media/therolistespodcast.fe00031a.xml"
   }
 ]);
