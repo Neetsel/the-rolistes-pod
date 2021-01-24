@@ -15,9 +15,12 @@ const AboutUsLayout = (props) => (
                         {...props} 
                         type="ABOUT"/>  
 
+                <div className={globalClasses.item_box_left} >               
+                    <h1 className={[globalClasses.section_title, globalClasses.section_title_article].join(' ')}>The Team</h1>                 
                     <Posts 
                         {...props} 
                         type="THETEAM"/>  
+                </div>
                 </Col>
             </Row>
         </Container>

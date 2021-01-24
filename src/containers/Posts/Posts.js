@@ -284,7 +284,7 @@ const Posts = props => {
                 break;
 
             case "RECENT":
-                const recentPosts= searchLatest(props.podcast, 6);                            
+                const recentPosts= searchLatest(props.podcast, 3);                            
 
                 posts = <RecentPosts
                     recentPosts={recentPosts}
@@ -300,7 +300,7 @@ const Posts = props => {
                     key = searchPost(props.news, props.pageTitle);
                 }         
                 
-                const recommendedPosts= searchRecommendedPosts(props.podcast[key],props.podcast).slice(0, 6);
+                const recommendedPosts= searchRecommendedPosts(props.podcast[key],props.podcast).slice(0, 4);
                 posts = <RecommendedPosts
                     recommendedPosts={recommendedPosts}
                     url = {recommendedPosts.url}/>;                

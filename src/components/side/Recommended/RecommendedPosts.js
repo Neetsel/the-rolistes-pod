@@ -19,6 +19,8 @@ const RecommendedPosts = (props) => {
                 <div className={globalClasses.img_color_animate}>  
                     <img src={post.cover} alt="Cover Episode"/>
                 </div>  
+            </Link>
+            <Link to={post.url}>
                 <h3 className={[globalClasses.section_title, globalClasses.section_title_side, , globalClasses.section_title_Reco].join(' ')}>{post["title"]}</h3>    
             </Link>
         </Col>;   
@@ -27,7 +29,7 @@ const RecommendedPosts = (props) => {
     return (
         <Aux>
             <div className={globalClasses.item_box_right}>
-                <h2 className={globalClasses.section_title}>Recommended</h2>
+                <h2 className={globalClasses.section_title}>Recommended Podcasts</h2>
                 <Row>
                     {recommendedPosts}
                 </Row>         
