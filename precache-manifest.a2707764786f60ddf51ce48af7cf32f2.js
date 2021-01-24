@@ -1,47 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2662afef927b8cedd7137bc39e2a1ddf",
+    "revision": "c4178b6896eecce61dd400b84ab488c2",
     "url": "/the-rolistes-pod/index.html"
   },
   {
-    "revision": "b1838f0053014780603c",
-    "url": "/the-rolistes-pod/static/css/0.08faebda.chunk.css"
+    "revision": "fe061292e5432f8ac963",
+    "url": "/the-rolistes-pod/static/css/0.9b196453.chunk.css"
   },
   {
-    "revision": "22161603c7bc5fc16043",
-    "url": "/the-rolistes-pod/static/css/5.a5a5a3dc.chunk.css"
+    "revision": "3c61103a40db85747126",
+    "url": "/the-rolistes-pod/static/css/5.7601dcf6.chunk.css"
   },
   {
-    "revision": "285f1b5348978655abcc",
-    "url": "/the-rolistes-pod/static/css/6.a4f25718.chunk.css"
+    "revision": "330cfa124cf7391c980a",
+    "url": "/the-rolistes-pod/static/css/6.0135fa8d.chunk.css"
   },
   {
-    "revision": "772b3f41d3a20a079e2e",
-    "url": "/the-rolistes-pod/static/css/7.70dde555.chunk.css"
+    "revision": "14db159f15548ae9faa0",
+    "url": "/the-rolistes-pod/static/css/7.505c563f.chunk.css"
   },
   {
-    "revision": "04e0d9bbb0851187f457",
+    "revision": "3ad3a3181845969b3dee",
     "url": "/the-rolistes-pod/static/css/8.84d8d7ed.chunk.css"
   },
   {
-    "revision": "92572e145cec84a568b1",
-    "url": "/the-rolistes-pod/static/css/main.369223a8.chunk.css"
+    "revision": "feb71a0534297a7489a0",
+    "url": "/the-rolistes-pod/static/css/main.79bd017e.chunk.css"
   },
   {
-    "revision": "b1838f0053014780603c",
-    "url": "/the-rolistes-pod/static/js/0.69fafa98.chunk.js"
+    "revision": "fe061292e5432f8ac963",
+    "url": "/the-rolistes-pod/static/js/0.a2847f0f.chunk.js"
   },
   {
-    "revision": "773106834f0f3c5e4450",
-    "url": "/the-rolistes-pod/static/js/1.b816c579.chunk.js"
+    "revision": "db8c05ff629cd710f963",
+    "url": "/the-rolistes-pod/static/js/1.1b447b03.chunk.js"
   },
   {
     "revision": "5b6a3f1ca6e193597e4d49c7a42851aa",
-    "url": "/the-rolistes-pod/static/js/1.b816c579.chunk.js.LICENSE.txt"
+    "url": "/the-rolistes-pod/static/js/1.1b447b03.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "da4d0c3a84f6cd65d002",
-    "url": "/the-rolistes-pod/static/js/10.d56f846f.chunk.js"
+    "revision": "6fef3ba5327f72c17321",
+    "url": "/the-rolistes-pod/static/js/10.3ab39d7b.chunk.js"
   },
   {
     "revision": "c2f7b492b0ebd8db4080",
@@ -52,32 +52,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-rolistes-pod/static/js/4.fae2d930.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22161603c7bc5fc16043",
-    "url": "/the-rolistes-pod/static/js/5.8b260a12.chunk.js"
+    "revision": "3c61103a40db85747126",
+    "url": "/the-rolistes-pod/static/js/5.903caefb.chunk.js"
   },
   {
-    "revision": "285f1b5348978655abcc",
-    "url": "/the-rolistes-pod/static/js/6.96e76fb8.chunk.js"
+    "revision": "330cfa124cf7391c980a",
+    "url": "/the-rolistes-pod/static/js/6.96ddb570.chunk.js"
   },
   {
-    "revision": "772b3f41d3a20a079e2e",
-    "url": "/the-rolistes-pod/static/js/7.d1193e11.chunk.js"
+    "revision": "14db159f15548ae9faa0",
+    "url": "/the-rolistes-pod/static/js/7.64768b52.chunk.js"
   },
   {
-    "revision": "04e0d9bbb0851187f457",
-    "url": "/the-rolistes-pod/static/js/8.39604774.chunk.js"
+    "revision": "3ad3a3181845969b3dee",
+    "url": "/the-rolistes-pod/static/js/8.5f4d774f.chunk.js"
   },
   {
-    "revision": "82fb211272e9679ffa55",
-    "url": "/the-rolistes-pod/static/js/9.c21a6a86.chunk.js"
+    "revision": "cacd80c51feaebfab0bb",
+    "url": "/the-rolistes-pod/static/js/9.5991b15f.chunk.js"
   },
   {
-    "revision": "92572e145cec84a568b1",
-    "url": "/the-rolistes-pod/static/js/main.e7ad9e0e.chunk.js"
+    "revision": "feb71a0534297a7489a0",
+    "url": "/the-rolistes-pod/static/js/main.a634683c.chunk.js"
   },
   {
-    "revision": "4bbff411e34531e5a521",
-    "url": "/the-rolistes-pod/static/js/runtime-main.9fa6670b.js"
+    "revision": "b12187c6583936e4da65",
+    "url": "/the-rolistes-pod/static/js/runtime-main.a00d091b.js"
   },
   {
     "revision": "ad45030b1073fe50974b0c6d34f2a6ad",
