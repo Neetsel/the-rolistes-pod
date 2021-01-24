@@ -16,8 +16,10 @@ const RecommendedPosts = (props) => {
     recommendedPosts = relatedPosts.map (post => {
         return <Col xs={6} md={4} lg={6} className={classes.cell} key={post["id"]}>
             <Link to={post.url}>
-                <img src={post.cover} alt="Cover Episode"/>
-                <h3 className={[globalClasses.section_title, globalClasses.section_title_side].join(' ')}>{post["title"]}</h3>    
+                <div className={globalClasses.img_color_animate}>  
+                    <img src={post.cover} alt="Cover Episode"/>
+                </div>  
+                <h3 className={[globalClasses.section_title, globalClasses.section_title_side, , globalClasses.section_title_Reco].join(' ')}>{post["title"]}</h3>    
             </Link>
         </Col>;   
     });    

@@ -5,7 +5,6 @@ import classes from './NewsLayout.module.css';
 import PaginationList from '../../../components/UI/PaginationList/PaginationList';
 import { Col, Container, Row } from 'react-bootstrap';
 import Follow from '../../../components/side/Follow/Follow';
-import Contact from '../../../components/side/Contact/Contact';
 import Support from '../../../components/side/Support/Support';
 import Footer from '../../../components/Footer/Footer';
 import * as actions from '../../../store/actions/index';

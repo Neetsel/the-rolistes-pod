@@ -17,9 +17,11 @@ const RecentPosts = (props) => {
         return <Col xs={12} className={classes.cell} key={post["id"]}>
             <Link  to={post.url}>
                 <div className={classes.post_recent}>
-                    <img src={post.cover} alt="Episode Cover" className={classes.recent_img}/>              
+                    <div className={globalClasses.img_color_animate}>  
+                        <img src={post.cover} alt="Episode Cover" className={classes.recent_img}/>              
+                    </div>
                     <div className={globalClasses.date_article}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/> {post["pubDate"][0]}</div>
-                    <h3 className={[globalClasses.section_title, globalClasses.section_title_side].join(' ')}>{post["title"]}</h3>      
+                    <h3 className={[globalClasses.section_title, globalClasses.section_title_side, globalClasses.section_title_Reco].join(' ')}>{post["title"]}</h3>      
                 </div>
             </Link>    
         </Col>;
