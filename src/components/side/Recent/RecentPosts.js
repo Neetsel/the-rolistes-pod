@@ -17,16 +17,16 @@ const RecentPosts = (props) => {
         return <Col xs={12} className={classes.cell} key={post["id"]}>
             <div className={classes.post_recent}>
                 <aside className={[classes.aside, classes.aside_1].join(' ')}>
-                    <Link  to={post.url}>
-                            <div className={globalClasses.img_color_animate}>  
-                                <img src={post.cover} alt="Episode Cover" className={classes.recent_img}/>              
-                            </div>
+                    <Link to={post.url}>
+                        <div className={globalClasses.img_color_animate}>  
+                            <img src={post.cover} alt="Episode Cover" className={classes.recent_img}/>              
+                        </div>
                     </Link> 
                 </aside>
                 <aside className={[classes.aside, classes.aside_2].join(' ')}>
-                    <Link  to={post.url}>
-                            <div className={[globalClasses.date_article, classes.date_recent].join(' ')}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/> {post["pubDate"][0]}</div>
-                            <h3 className={[globalClasses.section_title, globalClasses.section_title_side, globalClasses.section_title_Reco].join(' ')}>{post["title"]}</h3>      
+                    <Link to={post.url}>
+                        <div className={[globalClasses.date_article, classes.date_recent].join(' ')}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/> {post["pubDate"][0]}</div>
+                        <h3 className={[globalClasses.section_title, globalClasses.section_title_side, globalClasses.section_title_Reco].join(' ')}>{post["title"]}</h3>      
                     </Link>  
                 </aside>                  
             </div>
