@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress.com" created="2021-01-24 14:51"-->
+<!-- generator="WordPress.com" created="2021-01-27 15:45"-->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>The Rolistes Podcast</title>
 	<link>http://rolistespod.com</link>
 	<description>Your proudly London-based tabletop RPG podcasts !</description>
-	<pubDate>Sun, 24 Jan 2021 14:51:02 +0000</pubDate>
+	<pubDate>Wed, 27 Jan 2021 15:45:09 +0000</pubDate>
 	<language></language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://wordpress.com/</wp:base_site_url>
@@ -43,6 +43,7 @@
 	<wp:author><wp:author_id>10959152</wp:author_id><wp:author_login><![CDATA[jonathanpay]]></wp:author_login><wp:author_email><![CDATA[jonathan@holisticemail.com]]></wp:author_email><wp:author_display_name><![CDATA[Jonathan Pay]]></wp:author_display_name><wp:author_first_name><![CDATA[Jonathan]]></wp:author_first_name><wp:author_last_name><![CDATA[Pay]]></wp:author_last_name></wp:author>
 	<wp:author><wp:author_id>175445653</wp:author_id><wp:author_login><![CDATA[andycdlrc]]></wp:author_login><wp:author_email><![CDATA[a.deal2063@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[andycdlrc]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 	<wp:author><wp:author_id>37368470</wp:author_id><wp:author_login><![CDATA[miramanga]]></wp:author_login><wp:author_email><![CDATA[miramanga@btinternet.com]]></wp:author_email><wp:author_display_name><![CDATA[miramanga]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+	<wp:author><wp:author_id>30956970</wp:author_id><wp:author_login><![CDATA[yoanhernalesteen]]></wp:author_login><wp:author_email><![CDATA[yoan.hernalesteen@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[yoanhernalesteen]]></wp:author_display_name><wp:author_first_name><![CDATA[Yoan]]></wp:author_first_name><wp:author_last_name><![CDATA[Hernalesteen]]></wp:author_last_name></wp:author>
 
 	<wp:category><wp:term_id>256</wp:term_id><wp:category_nicename>about</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[About]]></wp:cat_name>
 </wp:category>
@@ -214,6 +215,8 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 </wp:tag>
 	<wp:tag><wp:term_id>485003823</wp:term_id><wp:tag_slug>asztali-szerepjatek</wp:tag_slug><wp:tag_name><![CDATA[Asztali Szerepjáték]]></wp:tag_name>
 </wp:tag>
+	<wp:tag><wp:term_id>4330</wp:term_id><wp:tag_slug>australia</wp:tag_slug><wp:tag_name><![CDATA[Australia]]></wp:tag_name>
+</wp:tag>
 	<wp:tag><wp:term_id>36585</wp:term_id><wp:tag_slug>australian</wp:tag_slug><wp:tag_name><![CDATA[Australian]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>1849</wp:term_id><wp:tag_slug>austria</wp:tag_slug><wp:tag_name><![CDATA[Austria]]></wp:tag_name>
@@ -299,6 +302,8 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 	<wp:tag><wp:term_id>422973</wp:term_id><wp:tag_slug>call-of-cthulhu</wp:tag_slug><wp:tag_name><![CDATA[Call of Cthulhu]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>24293</wp:term_id><wp:tag_slug>camille</wp:tag_slug><wp:tag_name><![CDATA[Camille]]></wp:tag_name>
+</wp:tag>
+	<wp:tag><wp:term_id>2443</wp:term_id><wp:tag_slug>canada</wp:tag_slug><wp:tag_name><![CDATA[Canada]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>50499</wp:term_id><wp:tag_slug>candy</wp:tag_slug><wp:tag_name><![CDATA[Candy]]></wp:tag_name>
 </wp:tag>
@@ -518,6 +523,8 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 </wp:tag>
 	<wp:tag><wp:term_id>1009955</wp:term_id><wp:tag_slug>dragon-wings</wp:tag_slug><wp:tag_name><![CDATA[Dragon Wings]]></wp:tag_name>
 </wp:tag>
+	<wp:tag><wp:term_id>712988752</wp:term_id><wp:tag_slug>dragonelvish</wp:tag_slug><wp:tag_name><![CDATA[DragonElvish]]></wp:tag_name>
+</wp:tag>
 	<wp:tag><wp:term_id>28364531</wp:term_id><wp:tag_slug>dragonmeet</wp:tag_slug><wp:tag_name><![CDATA[Dragonmeet]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>550513773</wp:term_id><wp:tag_slug>dragonmeet-2016</wp:tag_slug><wp:tag_name><![CDATA[Dragonmeet 2016]]></wp:tag_name>
@@ -537,6 +544,8 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 	<wp:tag><wp:term_id>589752391</wp:term_id><wp:tag_slug>dragons-conquer-america</wp:tag_slug><wp:tag_name><![CDATA[Dragons Conquer America]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>644538816</wp:term_id><wp:tag_slug>dragons-conquer-europe</wp:tag_slug><wp:tag_name><![CDATA[Dragons Conquer Europe]]></wp:tag_name>
+</wp:tag>
+	<wp:tag><wp:term_id>712989538</wp:term_id><wp:tag_slug>dreadful-realms</wp:tag_slug><wp:tag_name><![CDATA[Dreadful Realms]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>923815</wp:term_id><wp:tag_slug>dungeon-crawl-classics</wp:tag_slug><wp:tag_name><![CDATA[Dungeon Crawl Classics]]></wp:tag_name>
 </wp:tag>
@@ -614,6 +623,8 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 </wp:tag>
 	<wp:tag><wp:term_id>37306563</wp:term_id><wp:tag_slug>fellow-podcasts</wp:tag_slug><wp:tag_name><![CDATA[Fellow Podcasts]]></wp:tag_name>
 </wp:tag>
+	<wp:tag><wp:term_id>685740644</wp:term_id><wp:tag_slug>festival-draconis</wp:tag_slug><wp:tag_name><![CDATA[Festival Draconis]]></wp:tag_name>
+</wp:tag>
 	<wp:tag><wp:term_id>1314</wp:term_id><wp:tag_slug>film-reviews</wp:tag_slug><wp:tag_name><![CDATA[Film Reviews]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>85930</wp:term_id><wp:tag_slug>film-studies</wp:tag_slug><wp:tag_name><![CDATA[Film Studies]]></wp:tag_name>
@@ -638,6 +649,8 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 </wp:tag>
 	<wp:tag><wp:term_id>14452</wp:term_id><wp:tag_slug>francais</wp:tag_slug><wp:tag_name><![CDATA[Francais]]></wp:tag_name>
 </wp:tag>
+	<wp:tag><wp:term_id>4704</wp:term_id><wp:tag_slug>france</wp:tag_slug><wp:tag_name><![CDATA[France]]></wp:tag_name>
+</wp:tag>
 	<wp:tag><wp:term_id>39969095</wp:term_id><wp:tag_slug>franks-cafe</wp:tag_slug><wp:tag_name><![CDATA[Frank's Café]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>167050147</wp:term_id><wp:tag_slug>frederic-weil</wp:tag_slug><wp:tag_name><![CDATA[Frederic Weil]]></wp:tag_name>
@@ -647,6 +660,8 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 	<wp:tag><wp:term_id>9179139</wp:term_id><wp:tag_slug>french-baking</wp:tag_slug><wp:tag_name><![CDATA[french baking]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>432482</wp:term_id><wp:tag_slug>french-cinema</wp:tag_slug><wp:tag_name><![CDATA[French Cinema]]></wp:tag_name>
+</wp:tag>
+	<wp:tag><wp:term_id>712872093</wp:term_id><wp:tag_slug>french-paragon</wp:tag_slug><wp:tag_name><![CDATA[French Paragon]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>48026</wp:term_id><wp:tag_slug>friki</wp:tag_slug><wp:tag_name><![CDATA[Friki]]></wp:tag_name>
 </wp:tag>
@@ -684,7 +699,11 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 </wp:tag>
 	<wp:tag><wp:term_id>67643895</wp:term_id><wp:tag_slug>gms-magazine</wp:tag_slug><wp:tag_name><![CDATA[GMS Magazine]]></wp:tag_name>
 </wp:tag>
+	<wp:tag><wp:term_id>712872108</wp:term_id><wp:tag_slug>gnome-archiviste</wp:tag_slug><wp:tag_name><![CDATA[Gnome Archiviste]]></wp:tag_name>
+</wp:tag>
 	<wp:tag><wp:term_id>29831872</wp:term_id><wp:tag_slug>gnome-stew</wp:tag_slug><wp:tag_name><![CDATA[Gnome Stew]]></wp:tag_name>
+</wp:tag>
+	<wp:tag><wp:term_id>425192</wp:term_id><wp:tag_slug>goblins</wp:tag_slug><wp:tag_name><![CDATA[Goblins]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>18598771</wp:term_id><wp:tag_slug>goddess-test</wp:tag_slug><wp:tag_name><![CDATA[Goddess Test]]></wp:tag_name>
 </wp:tag>
@@ -706,6 +725,8 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 </wp:tag>
 	<wp:tag><wp:term_id>409518420</wp:term_id><wp:tag_slug>guildes-eldorado</wp:tag_slug><wp:tag_name><![CDATA[Guildes: Eldorado]]></wp:tag_name>
 </wp:tag>
+	<wp:tag><wp:term_id>712816185</wp:term_id><wp:tag_slug>guillaume-jentey</wp:tag_slug><wp:tag_name><![CDATA[Guillaume Jentey]]></wp:tag_name>
+</wp:tag>
 	<wp:tag><wp:term_id>663479</wp:term_id><wp:tag_slug>gully</wp:tag_slug><wp:tag_name><![CDATA[Gully]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>696887852</wp:term_id><wp:tag_slug>guylene-le-mignot</wp:tag_slug><wp:tag_name><![CDATA[Guylène Le Mignot]]></wp:tag_name>
@@ -718,11 +739,17 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 </wp:tag>
 	<wp:tag><wp:term_id>688699469</wp:term_id><wp:tag_slug>hanno-ziegler</wp:tag_slug><wp:tag_name><![CDATA[Hanno Ziegler]]></wp:tag_name>
 </wp:tag>
+	<wp:tag><wp:term_id>462715</wp:term_id><wp:tag_slug>hanukkah</wp:tag_slug><wp:tag_name><![CDATA[Hanukkah]]></wp:tag_name>
+</wp:tag>
+	<wp:tag><wp:term_id>313970328</wp:term_id><wp:tag_slug>hanukkah-goblins</wp:tag_slug><wp:tag_name><![CDATA[Hanukkah Goblins]]></wp:tag_name>
+</wp:tag>
 	<wp:tag><wp:term_id>429109187</wp:term_id><wp:tag_slug>haqadosch</wp:tag_slug><wp:tag_name><![CDATA[Haqadosch]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>600212660</wp:term_id><wp:tag_slug>harlem-unbound</wp:tag_slug><wp:tag_name><![CDATA[Harlem Unbound]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>642726</wp:term_id><wp:tag_slug>harold-ramis</wp:tag_slug><wp:tag_name><![CDATA[Harold Ramis]]></wp:tag_name>
+</wp:tag>
+	<wp:tag><wp:term_id>900250</wp:term_id><wp:tag_slug>harpy</wp:tag_slug><wp:tag_name><![CDATA[Harpy]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>701021127</wp:term_id><wp:tag_slug>haunted-west</wp:tag_slug><wp:tag_name><![CDATA[Haunted West]]></wp:tag_name>
 </wp:tag>
@@ -840,6 +867,8 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 </wp:tag>
 	<wp:tag><wp:term_id>8392818</wp:term_id><wp:tag_slug>josh-fox</wp:tag_slug><wp:tag_name><![CDATA[Josh Fox]]></wp:tag_name>
 </wp:tag>
+	<wp:tag><wp:term_id>12717</wp:term_id><wp:tag_slug>judaism</wp:tag_slug><wp:tag_name><![CDATA[Judaism]]></wp:tag_name>
+</wp:tag>
 	<wp:tag><wp:term_id>891325</wp:term_id><wp:tag_slug>juego-de-rol</wp:tag_slug><wp:tag_name><![CDATA[Juego de rol]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>127313039</wp:term_id><wp:tag_slug>jugador-de-rol</wp:tag_slug><wp:tag_name><![CDATA[Jugador de rol]]></wp:tag_name>
@@ -922,9 +951,13 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 </wp:tag>
 	<wp:tag><wp:term_id>1259120</wp:term_id><wp:tag_slug>legend-of-the-five-rings</wp:tag_slug><wp:tag_name><![CDATA[Legend Of The Five Rings]]></wp:tag_name>
 </wp:tag>
+	<wp:tag><wp:term_id>712872066</wp:term_id><wp:tag_slug>les-aventureux</wp:tag_slug><wp:tag_name><![CDATA[Les Aventureux]]></wp:tag_name>
+</wp:tag>
 	<wp:tag><wp:term_id>161157</wp:term_id><wp:tag_slug>lewisham</wp:tag_slug><wp:tag_name><![CDATA[Lewisham]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>7682794</wp:term_id><wp:tag_slug>liam-obrien</wp:tag_slug><wp:tag_name><![CDATA[Liam O'Brien]]></wp:tag_name>
+</wp:tag>
+	<wp:tag><wp:term_id>581367651</wp:term_id><wp:tag_slug>liberation-industries</wp:tag_slug><wp:tag_name><![CDATA[Liberation Industries]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>58805680</wp:term_id><wp:tag_slug>light-bringers</wp:tag_slug><wp:tag_name><![CDATA[Light Bringers]]></wp:tag_name>
 </wp:tag>
@@ -964,6 +997,8 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 </wp:tag>
 	<wp:tag><wp:term_id>97773</wp:term_id><wp:tag_slug>lord-of-the-rings</wp:tag_slug><wp:tag_name><![CDATA[Lord of the Rings]]></wp:tag_name>
 </wp:tag>
+	<wp:tag><wp:term_id>712989523</wp:term_id><wp:tag_slug>lore-evans</wp:tag_slug><wp:tag_name><![CDATA[Lore Evans]]></wp:tag_name>
+</wp:tag>
 	<wp:tag><wp:term_id>24710321</wp:term_id><wp:tag_slug>lotfp</wp:tag_slug><wp:tag_name><![CDATA[LotFP]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>5332</wp:term_id><wp:tag_slug>lotr</wp:tag_slug><wp:tag_name><![CDATA[LOTR]]></wp:tag_name>
@@ -981,6 +1016,8 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 	<wp:tag><wp:term_id>81758</wp:term_id><wp:tag_slug>lyon</wp:tag_slug><wp:tag_name><![CDATA[Lyon]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>59669</wp:term_id><wp:tag_slug>mms</wp:tag_slug><wp:tag_name><![CDATA[M&amp;Ms]]></wp:tag_name>
+</wp:tag>
+	<wp:tag><wp:term_id>548991663</wp:term_id><wp:tag_slug>macchiato-monsters</wp:tag_slug><wp:tag_name><![CDATA[Macchiato Monsters]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>50250</wp:term_id><wp:tag_slug>madeleine</wp:tag_slug><wp:tag_name><![CDATA[madeleine]]></wp:tag_name>
 </wp:tag>
@@ -1011,6 +1048,8 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 	<wp:tag><wp:term_id>2764554</wp:term_id><wp:tag_slug>matthew-mercer</wp:tag_slug><wp:tag_name><![CDATA[Matthew Mercer]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>17443016</wp:term_id><wp:tag_slug>mattias-johnsson</wp:tag_slug><wp:tag_name><![CDATA[Mattias Johnsson]]></wp:tag_name>
+</wp:tag>
+	<wp:tag><wp:term_id>712990199</wp:term_id><wp:tag_slug>max-fefer</wp:tag_slug><wp:tag_name><![CDATA[Max Fefer]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>608055521</wp:term_id><wp:tag_slug>maze-arcana</wp:tag_slug><wp:tag_name><![CDATA[Maze Arcana]]></wp:tag_name>
 </wp:tag>
@@ -1058,6 +1097,8 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 </wp:tag>
 	<wp:tag><wp:term_id>28755</wp:term_id><wp:tag_slug>monica-bellucci</wp:tag_slug><wp:tag_name><![CDATA[Monica Bellucci]]></wp:tag_name>
 </wp:tag>
+	<wp:tag><wp:term_id>712988754</wp:term_id><wp:tag_slug>mononc-marc</wp:tag_slug><wp:tag_name><![CDATA[Mononc&#039; Marc]]></wp:tag_name>
+</wp:tag>
 	<wp:tag><wp:term_id>2766240</wp:term_id><wp:tag_slug>monte-cook</wp:tag_slug><wp:tag_name><![CDATA[Monte Cook]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>105494219</wp:term_id><wp:tag_slug>monte-cook-games</wp:tag_slug><wp:tag_name><![CDATA[Monte Cook Games]]></wp:tag_name>
@@ -1081,6 +1122,8 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 	<wp:tag><wp:term_id>81930</wp:term_id><wp:tag_slug>my-little-pony</wp:tag_slug><wp:tag_name><![CDATA[My Little Pony]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>83731559</wp:term_id><wp:tag_slug>mythic-games</wp:tag_slug><wp:tag_name><![CDATA[Mythic Games]]></wp:tag_name>
+</wp:tag>
+	<wp:tag><wp:term_id>66597520</wp:term_id><wp:tag_slug>naiyo</wp:tag_slug><wp:tag_name><![CDATA[Naiyo]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>1110948</wp:term_id><wp:tag_slug>nala</wp:tag_slug><wp:tag_name><![CDATA[Nala]]></wp:tag_name>
 </wp:tag>
@@ -1160,9 +1203,13 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 </wp:tag>
 	<wp:tag><wp:term_id>15273731</wp:term_id><wp:tag_slug>oniros</wp:tag_slug><wp:tag_name><![CDATA[Oniros]]></wp:tag_name>
 </wp:tag>
+	<wp:tag><wp:term_id>607429</wp:term_id><wp:tag_slug>online-conventions</wp:tag_slug><wp:tag_name><![CDATA[Online Conventions]]></wp:tag_name>
+</wp:tag>
 	<wp:tag><wp:term_id>103267370</wp:term_id><wp:tag_slug>onyx-path-publishing</wp:tag_slug><wp:tag_name><![CDATA[Onyx Path Publishing]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>895004</wp:term_id><wp:tag_slug>operation-condor</wp:tag_slug><wp:tag_name><![CDATA[Operation Condor]]></wp:tag_name>
+</wp:tag>
+	<wp:tag><wp:term_id>712872096</wp:term_id><wp:tag_slug>oreinidia</wp:tag_slug><wp:tag_name><![CDATA[Oreinidia]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>698491166</wp:term_id><wp:tag_slug>otisclues</wp:tag_slug><wp:tag_name><![CDATA[OtisClues]]></wp:tag_name>
 </wp:tag>
@@ -1173,6 +1220,8 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 	<wp:tag><wp:term_id>705558968</wp:term_id><wp:tag_slug>paco-g-jaen</wp:tag_slug><wp:tag_name><![CDATA[Paco G Jaen]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>20264259</wp:term_id><wp:tag_slug>paco-jaen</wp:tag_slug><wp:tag_name><![CDATA[Paco Jaen]]></wp:tag_name>
+</wp:tag>
+	<wp:tag><wp:term_id>712939109</wp:term_id><wp:tag_slug>paddy-hutchinson</wp:tag_slug><wp:tag_name><![CDATA[Paddy Hutchinson]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>44003</wp:term_id><wp:tag_slug>paganism</wp:tag_slug><wp:tag_name><![CDATA[Paganism]]></wp:tag_name>
 </wp:tag>
@@ -1215,6 +1264,8 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 	<wp:tag><wp:term_id>693424357</wp:term_id><wp:tag_slug>penance-rpg</wp:tag_slug><wp:tag_name><![CDATA[Penance RPG]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>429109194</wp:term_id><wp:tag_slug>persephelia</wp:tag_slug><wp:tag_name><![CDATA[Persephelia]]></wp:tag_name>
+</wp:tag>
+	<wp:tag><wp:term_id>5514</wp:term_id><wp:tag_slug>perth</wp:tag_slug><wp:tag_name><![CDATA[Perth]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>711553251</wp:term_id><wp:tag_slug>peter-petrusha</wp:tag_slug><wp:tag_name><![CDATA[Peter Petrusha]]></wp:tag_name>
 </wp:tag>
@@ -1314,6 +1365,8 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 </wp:tag>
 	<wp:tag><wp:term_id>3984</wp:term_id><wp:tag_slug>rollenspiel</wp:tag_slug><wp:tag_name><![CDATA[Rollenspiel]]></wp:tag_name>
 </wp:tag>
+	<wp:tag><wp:term_id>712988058</wp:term_id><wp:tag_slug>rollinkunz</wp:tag_slug><wp:tag_name><![CDATA[ROLLINKUNZ]]></wp:tag_name>
+</wp:tag>
 	<wp:tag><wp:term_id>119923</wp:term_id><wp:tag_slug>rollspel</wp:tag_slug><wp:tag_name><![CDATA[Rollspel]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>9444445</wp:term_id><wp:tag_slug>roolipelaaja</wp:tag_slug><wp:tag_name><![CDATA[Roolipelaaja]]></wp:tag_name>
@@ -1394,6 +1447,8 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 </wp:tag>
 	<wp:tag><wp:term_id>116327378</wp:term_id><wp:tag_slug>sean-hunt</wp:tag_slug><wp:tag_name><![CDATA[Sean Hunt]]></wp:tag_name>
 </wp:tag>
+	<wp:tag><wp:term_id>1436256</wp:term_id><wp:tag_slug>season-06</wp:tag_slug><wp:tag_name><![CDATA[Season 06]]></wp:tag_name>
+</wp:tag>
 	<wp:tag><wp:term_id>304238</wp:term_id><wp:tag_slug>season-finale</wp:tag_slug><wp:tag_name><![CDATA[Season Finale]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>684303392</wp:term_id><wp:tag_slug>senda-linaugh</wp:tag_slug><wp:tag_name><![CDATA[Senda Linaugh]]></wp:tag_name>
@@ -1414,9 +1469,13 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 </wp:tag>
 	<wp:tag><wp:term_id>541589893</wp:term_id><wp:tag_slug>siroz-team</wp:tag_slug><wp:tag_name><![CDATA[Siroz Team]]></wp:tag_name>
 </wp:tag>
+	<wp:tag><wp:term_id>24411220</wp:term_id><wp:tag_slug>so-frenchy</wp:tag_slug><wp:tag_name><![CDATA[So Frenchy]]></wp:tag_name>
+</wp:tag>
 	<wp:tag><wp:term_id>1542496</wp:term_id><wp:tag_slug>solomon-kane</wp:tag_slug><wp:tag_name><![CDATA[Solomon Kane]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>372661699</wp:term_id><wp:tag_slug>sombre-terre</wp:tag_slug><wp:tag_name><![CDATA[Sombre Terre]]></wp:tag_name>
+</wp:tag>
+	<wp:tag><wp:term_id>712816190</wp:term_id><wp:tag_slug>sonja-conan-vs-the-ninjas</wp:tag_slug><wp:tag_name><![CDATA[Sonja &amp; Conan vs the Ninjas]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>6231</wp:term_id><wp:tag_slug>south-africa</wp:tag_slug><wp:tag_name><![CDATA[South Africa]]></wp:tag_name>
 </wp:tag>
@@ -1488,6 +1547,8 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 </wp:tag>
 	<wp:tag><wp:term_id>474658652</wp:term_id><wp:tag_slug>tails-of-equestria</wp:tag_slug><wp:tag_name><![CDATA[Tails of Equestria]]></wp:tag_name>
 </wp:tag>
+	<wp:tag><wp:term_id>58815</wp:term_id><wp:tag_slug>tales</wp:tag_slug><wp:tag_name><![CDATA[Tales]]></wp:tag_name>
+</wp:tag>
 	<wp:tag><wp:term_id>712812093</wp:term_id><wp:tag_slug>tales-of-blood-stone</wp:tag_slug><wp:tag_name><![CDATA[Tales of Blood &amp; Stone]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>32144649</wp:term_id><wp:tag_slug>taliesin-jaffe</wp:tag_slug><wp:tag_name><![CDATA[Taliesin Jaffe]]></wp:tag_name>
@@ -1507,6 +1568,8 @@ An unusual way to practice your language skills maybe?]]></wp:category_descripti
 	<wp:tag><wp:term_id>690052253</wp:term_id><wp:tag_slug>the-d20-future-show</wp:tag_slug><wp:tag_name><![CDATA[The D20 Future Show]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>26512714</wp:term_id><wp:tag_slug>the-dice-tower</wp:tag_slug><wp:tag_name><![CDATA[The Dice Tower]]></wp:tag_name>
+</wp:tag>
+	<wp:tag><wp:term_id>712988062</wp:term_id><wp:tag_slug>the-dungenerator</wp:tag_slug><wp:tag_name><![CDATA[The Dungenerator]]></wp:tag_name>
 </wp:tag>
 	<wp:tag><wp:term_id>18623835</wp:term_id><wp:tag_slug>the-extraordinary-adventures-of-baron-munchausen</wp:tag_slug><wp:tag_name><![CDATA[The Extraordinary Adventures of Baron Munchausen]]></wp:tag_name>
 </wp:tag>
@@ -21192,6 +21255,7 @@ audio/mpeg
 		<category domain="post_tag" nicename="dakota"><![CDATA[Dakota]]></category>
 		<category domain="post_tag" nicename="film-studies"><![CDATA[Film Studies]]></category>
 		<category domain="post_tag" nicename="french-cinema"><![CDATA[French Cinema]]></category>
+		<category domain="post_tag" nicename="halloween"><![CDATA[Halloween]]></category>
 		<category domain="post_tag" nicename="le-pacte-des-loups"><![CDATA[Le Pacte des Loups]]></category>
 		<category domain="post_tag" nicename="mark-dacascos"><![CDATA[Mark Dacascos]]></category>
 		<category domain="post_tag" nicename="monica-bellucci"><![CDATA[Monica Bellucci]]></category>
@@ -21199,6 +21263,7 @@ audio/mpeg
 		<category domain="category" nicename="podcast"><![CDATA[Podcast]]></category>
 		<category domain="post_tag" nicename="rpga-film-studies"><![CDATA[RPGA Film Studies]]></category>
 		<category domain="post_tag" nicename="samuel-le-bihan"><![CDATA[Samuel Le Bihan]]></category>
+		<category domain="post_tag" nicename="so-frenchy"><![CDATA[So Frenchy]]></category>
 		<category domain="post_tag" nicename="tanner"><![CDATA[Tanner]]></category>
 		<category domain="post_tag" nicename="vincent-cassel"><![CDATA[Vincent Cassel]]></category>
 		<wp:postmeta>
@@ -24776,7 +24841,7 @@ https://youtu.be/K14tBUyb9cA
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul><li>“<a href="https://www.drivethrurpg.com/product/150933/Fantaji-Universal-RolePlaying-Game?term=fantaji&amp;test_epoch=0?affiliate_id=518710"><b>Fantaji Universal Role-Playing Game</b></a>” by <a href="http://www.drivethrurpg.com/browse/pub/3725/Anthropos-Games?affiliate_id=518710"><b>Anthropos Games</b></a></li><li>“<a href="https://www.drivethrurpg.com/product/143518/Monster-of-the-Week?affiliate_id=518710"><b>Monster of the Week</b></a>” by <a href="http://www.drivethrurpg.com/browse/pub/2152/Evil-Hat-Productions-LLC?affiliate_id=518710"><b>Evil Hat Productions</b></a></li><li>“<a href="https://www.drivethrurpg.com/product/83854/Dread&amp;affiliate_id=1289000"><b>Dread</b></a>” by <a href="http://www.drivethrurpg.com/browse/pub/3394/The-Impossible-Dream&amp;affiliate_id=1289000"><b>The Impossible Dream</b></a></li><li>“<a href="https://www.drivethrurpg.com/browse.php?filters=44544_0_0_0_0&amp;affiliate_id=1289000"><b>Dungeon Crawl Classics</b></a>” by <a href="http://www.drivethrurpg.com/browse/pub/36/Goodman-Games"><b>Goodman Games</b></a></li><li>“<a href="https://en.wikipedia.org/wiki/Star_Wars:_The_Roleplaying_Game"><b>Star Wars – The Roleplaying Game</b></a>” by <a href="https://en.wikipedia.org/wiki/West_End_Games"><b>West End Games</b></a> and its “<a href="http://starwars.wikia.com/wiki/The_DarkStryder_Campaign"><b>Darkstryder Campaign</b></a>”</li><li>“<a href="https://www.amazon.com/Curse-Strahd-Dungeons-Sourcebook-Supplement/dp/0786965983/ref=sr_1_1?ie=UTF8&amp;qid=1532358411&amp;sr=8-1&amp;keywords=curse+of+strahd"><b>Curse of Stradh</b></a>” by <a href="https://www.amazon.com/Wizards-RPG-Team/e/B009KAKQIC/ref=dp_byline_cont_book_1"><b>Wizards of the Coast</b></a>.</li></ul>
+<ul><li>“<a href="https://www.drivethrurpg.com/product/150933/Fantaji-Universal-RolePlaying-Game?term=fantaji&amp;test_epoch=0?affiliate_id=518710"><b>Fantaji Universal Role-Playing Game</b></a>” by&nbsp;<a href="http://www.drivethrurpg.com/browse/pub/3725/Anthropos-Games?affiliate_id=518710"><b>Anthropos Games</b></a></li><li>“<a href="https://www.drivethrurpg.com/product/143518/Monster-of-the-Week?affiliate_id=518710"><b>Monster of the Week</b></a>” by&nbsp;<a href="http://www.drivethrurpg.com/browse/pub/2152/Evil-Hat-Productions-LLC?affiliate_id=518710"><b>Evil Hat Productions</b></a></li><li>“<a href="https://www.drivethrurpg.com/product/83854/Dread&amp;affiliate_id=1289000"><b>Dread</b></a>” by&nbsp;<a href="http://www.drivethrurpg.com/browse/pub/3394/The-Impossible-Dream&amp;affiliate_id=1289000"><b>The Impossible Dream</b></a></li><li>“<a href="https://www.drivethrurpg.com/browse.php?filters=44544_0_0_0_0&amp;affiliate_id=1289000"><b>Dungeon Crawl Classics</b></a>” by&nbsp;<a href="http://www.drivethrurpg.com/browse/pub/36/Goodman-Games"><b>Goodman Games</b></a></li><li>“<a href="https://en.wikipedia.org/wiki/Star_Wars:_The_Roleplaying_Game"><b>Star Wars – The Roleplaying Game</b></a>” by&nbsp;<a href="https://en.wikipedia.org/wiki/West_End_Games"><b>West End Games</b></a> and its “<a href="http://starwars.wikia.com/wiki/The_DarkStryder_Campaign"><b>Darkstryder Campaign</b></a>”</li><li>“<a href="https://www.amazon.com/Curse-Strahd-Dungeons-Sourcebook-Supplement/dp/0786965983/ref=sr_1_1?ie=UTF8&amp;qid=1532358411&amp;sr=8-1&amp;keywords=curse+of+strahd"><b>Curse of Stradh</b></a>” by&nbsp;<a href="https://www.amazon.com/Wizards-RPG-Team/e/B009KAKQIC/ref=dp_byline_cont_book_1"><b>Wizards of the Coast</b></a>.</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
@@ -24851,6 +24916,7 @@ https://youtu.be/K14tBUyb9cA
 		<category domain="post_tag" nicename="post-apo"><![CDATA[Post-Apo]]></category>
 		<category domain="post_tag" nicename="post-apocalyptic-movie"><![CDATA[Post-Apocalyptic Movie]]></category>
 		<category domain="post_tag" nicename="scott-brown"><![CDATA[Scott Brown]]></category>
+		<category domain="post_tag" nicename="so-frenchy"><![CDATA[So Frenchy]]></category>
 		<category domain="post_tag" nicename="the-broadswords"><![CDATA[The Broadswords]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_thumbnail_id</wp:meta_key>
@@ -39876,6 +39942,7 @@ audio/mpeg
 		<category domain="post_tag" nicename="expats"><![CDATA[Expats]]></category>
 		<category domain="post_tag" nicename="fandoms"><![CDATA[Fandoms]]></category>
 		<category domain="post_tag" nicename="flgs"><![CDATA[FLGS]]></category>
+		<category domain="post_tag" nicename="france"><![CDATA[France]]></category>
 		<category domain="post_tag" nicename="friki"><![CDATA[Friki]]></category>
 		<category domain="post_tag" nicename="game-shop"><![CDATA[game shop]]></category>
 		<category domain="post_tag" nicename="geek"><![CDATA[Geek]]></category>
@@ -39900,6 +39967,7 @@ audio/mpeg
 		<category domain="post_tag" nicename="ropettaja"><![CDATA[Ropettaja]]></category>
 		<category domain="post_tag" nicename="rpg-de-mesa"><![CDATA[RPG de Mesa]]></category>
 		<category domain="post_tag" nicename="shop"><![CDATA[shop]]></category>
+		<category domain="post_tag" nicename="so-frenchy"><![CDATA[So Frenchy]]></category>
 		<category domain="post_tag" nicename="stolna-igra-uloga"><![CDATA[Stolna Igra Uloga]]></category>
 		<category domain="post_tag" nicename="tabletop-rpg"><![CDATA[Tabletop RPG]]></category>
 		<category domain="post_tag" nicename="taz"><![CDATA[Taz]]></category>
@@ -41526,7 +41594,7 @@ audio/mpeg
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>**********************************************************</p>
+<p>*****************</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -41824,7 +41892,6 @@ https://youtu.be/nlPFuFRmtZE
 		<category domain="post_tag" nicename="roolipeli"><![CDATA[Roolipeli]]></category>
 		<category domain="post_tag" nicename="ropettaja"><![CDATA[Ropettaja]]></category>
 		<category domain="post_tag" nicename="rpg-de-mesa"><![CDATA[RPG de Mesa]]></category>
-		<category domain="post_tag" nicename="ruper-greyling"><![CDATA[Ruper Greyling]]></category>
 		<category domain="post_tag" nicename="rupert-greyling"><![CDATA[Rupert Greyling]]></category>
 		<category domain="post_tag" nicename="sara-thompson"><![CDATA[Sara Thompson]]></category>
 		<category domain="post_tag" nicename="stolna-igra-uloga"><![CDATA[Stolna Igra Uloga]]></category>
@@ -44102,6 +44169,7 @@ audio/mpeg
 		<category domain="post_tag" nicename="geek"><![CDATA[Geek]]></category>
 		<category domain="post_tag" nicename="gioco-di-ruolo"><![CDATA[Gioco di Ruolo]]></category>
 		<category domain="post_tag" nicename="gry-fabularne"><![CDATA[Gry Fabularne]]></category>
+		<category domain="post_tag" nicename="guillaume-jentey"><![CDATA[Guillaume Jentey]]></category>
 		<category domain="post_tag" nicename="immigrants"><![CDATA[Immigrants]]></category>
 		<category domain="post_tag" nicename="%ed%85%8c%ec%9d%b4%eb%b8%94%ed%83%91-%eb%a1%a4%ed%94%8c%eb%a0%88%ec%9e%89-%ea%b2%8c%ec%9e%84"><![CDATA[테이블탑 롤플레잉 게임]]></category>
 		<category domain="post_tag" nicename="jeu-de-role"><![CDATA[Jeu de rôle]]></category>
@@ -44110,6 +44178,7 @@ audio/mpeg
 		<category domain="post_tag" nicename="juego-de-rol"><![CDATA[Juego de rol]]></category>
 		<category domain="post_tag" nicename="jugador-de-rol"><![CDATA[Jugador de rol]]></category>
 		<category domain="post_tag" nicename="london"><![CDATA[London]]></category>
+		<category domain="post_tag" nicename="macchiato-monsters"><![CDATA[Macchiato Monsters]]></category>
 		<category domain="post_tag" nicename="pen-and-paper"><![CDATA[Pen and Paper]]></category>
 		<category domain="post_tag" nicename="pnp"><![CDATA[PnP]]></category>
 		<category domain="category" nicename="podcast"><![CDATA[Podcast]]></category>
@@ -44120,6 +44189,8 @@ audio/mpeg
 		<category domain="post_tag" nicename="roolipeli"><![CDATA[Roolipeli]]></category>
 		<category domain="post_tag" nicename="ropettaja"><![CDATA[Ropettaja]]></category>
 		<category domain="post_tag" nicename="rpg-de-mesa"><![CDATA[RPG de Mesa]]></category>
+		<category domain="post_tag" nicename="so-frenchy"><![CDATA[So Frenchy]]></category>
+		<category domain="post_tag" nicename="sonja-conan-vs-the-ninjas"><![CDATA[Sonja &amp; Conan vs the Ninjas]]></category>
 		<category domain="post_tag" nicename="stolna-igra-uloga"><![CDATA[Stolna Igra Uloga]]></category>
 		<category domain="post_tag" nicename="tabletop-rpg"><![CDATA[Tabletop RPG]]></category>
 		<category domain="post_tag" nicename="united-kingdom"><![CDATA[United Kingdom]]></category>
@@ -49326,6 +49397,7 @@ audio/mpeg
 		<category domain="post_tag" nicename="roolipeli"><![CDATA[Roolipeli]]></category>
 		<category domain="post_tag" nicename="ropettaja"><![CDATA[Ropettaja]]></category>
 		<category domain="post_tag" nicename="rpg-de-mesa"><![CDATA[RPG de Mesa]]></category>
+		<category domain="post_tag" nicename="so-frenchy"><![CDATA[So Frenchy]]></category>
 		<category domain="post_tag" nicename="stolna-igra-uloga"><![CDATA[Stolna Igra Uloga]]></category>
 		<category domain="post_tag" nicename="tabletop-rpg"><![CDATA[Tabletop RPG]]></category>
 		<category domain="category" nicename="the-rolistes-podcast"><![CDATA[The Rolistes Podcast]]></category>
@@ -53228,181 +53300,6 @@ https://youtu.be/f_NuPQmeZo4
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Café Rolistes 128 - John Dodd from Dragonmeet</title>
-		<link>http://rolistespod.com/?p=5382</link>
-		<pubDate></pubDate>
-		<dc:creator>kalum666</dc:creator>
-		<guid isPermaLink="false">http://rolistespod.com/?p=5382</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>[audio src="xx"] Listen, subscribe &amp; review on <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>,&nbsp;<strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>,&nbsp;<strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong>.<br>You can also <strong><a href="http://xx">download this episode</a></strong>.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Don't forget to join our <strong><a rel="noreferrer noopener" href="http://eepurl.com/gJCUVX" target="_blank">newsletter</a> </strong>if you don't want to miss any of our content.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Please also subscribe to&nbsp;<strong><a href="https://www.youtube.com/playlist?list=PL2fGTs_dddRzqemJDagJOe_j_bLk2-ZlL">The Rolistes Youtube Channel</a></strong>, click the "Like" button and write comments.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:embed {"url":"https:\/\/youtu.be\/GV3Dkt_xV-0","type":"rich","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
-<figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-https://youtu.be/GV3Dkt_xV-0
-</div></figure>
-<!-- /wp:embed -->
-
-<!-- wp:paragraph -->
-<p>Follow us on&nbsp;<strong><a href="https://www.twitch.tv/rolistespod">Twitch</a></strong>&nbsp;and contribute LIVE with your questions via the chat.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":5} -->
-<h5>You can find John at: </h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>https://twitter.com/AutomaticDodd </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":5} -->
-<h5>Dragonmeet: </h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>https://twitter.com/Dragonmeet <br>https://www.dragonmeet.co.uk/ <br>https://www.facebook.com/dragonmeetconvention </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":5} -->
-<h5>Many episodes of The Rolistes were recorded at Dragonmeet and you can find them all here: </h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>https://rolistespod.com/tag/dragonmeet/</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3>Support The Rolistes</h3>
-<!-- /wp:heading -->
-
-<!-- wp:heading {"level":5} -->
-<h5>Find out about my own game "Paris Gondo - The Life-Saving Magic of Inventorying" at:</h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p><a href="https://www.youtube.com/redirect?q=https%3A%2F%2Frolistespod.com%2F2020%2F05%2F15%2Fannouncing-paris-gondo-the-life-saving-magic-of-inventorying%2F&amp;redir_token=tAxz9JvQs_tAihUX2PJJBfQ9EOZ8MTU5MTkwNzU0OEAxNTkxODIxMTQ4&amp;event=video_description&amp;v=CHZUBwI4vtc">https://rolistespod.com/2020/05/15/an...</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Don't forget to sign up for our <a href="http://eepurl.com/gJCUVX"><strong>newsletter</strong></a>!</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":5} -->
-<h5>Find and support our many shows</h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Listen, rate or review the show on&nbsp;<strong><a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798">Podchaser</a></strong>,&nbsp;<strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>,&nbsp;<strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>,&nbsp;<strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong>&nbsp;or&nbsp;<a href="http://www.stitcher.com/podcast/the-rolistes-podcast"><strong>Stitcher</strong></a><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">.</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Please consider contributing to my&nbsp;<strong><a href="https://www.patreon.com/RolistesPod">Patreon</a></strong>, making a modest donation via&nbsp;<a href="https://www.paypal.me/rolistespod/"><strong>Paypal</strong></a>&nbsp;or even support your show at no extra cost via your purchases on&nbsp;<a href="http://www.drivethrurpg.com/browse.php?affiliate_id=1289000"><strong>DriveThru RPG</strong></a>.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><a href="Subscribe hereEmail Us! Twitter / Instagram / Tik Tok / Facebook">Newsletter: Subscribe <strong><a href="http://eepurl.com/gJCUVX">here</a></strong><br><a href="mailto:Rolistespod@gmail.com"><strong>Email Us!</strong></a><br><a href="https://twitter.com/rolistespod"><strong>Twitter</strong></a> / <a href="https://www.instagram.com/rolistespod"><strong>Instagram</strong></a> / <a href="https://www.tiktok.com/@rolistespod?lang=en"><strong>Tik Tok</strong></a> / <a href="https://www.facebook.com/Rolistespod"><strong>Facebook</strong></a></a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>The Rolistes Podcast by Kalum is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":5} -->
-<h5><strong>Logo</strong></h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>The Rolistes Podcast brand new logo by Rollin Kunz. Please check his excellent work at&nbsp;<strong><a href="https://www.rollinkunz.com/">https://www.rollinkunz.com</a></strong>.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><strong><a href="https://www.teepublic.com/user/rolistespod">Merchandising, including t-shirts</a></strong>, with the logo and more cool “The Rolistes Podcast” art by Rolin Kunz is available via our&nbsp;<strong><a href="https://www.teepublic.com/user/rolistespod">TeePublic store</a></strong>.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":5} -->
-<h5><strong>Music</strong></h5>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Theme song: "Playtime" by Jahzzar<br>Available for free download at&nbsp;<a href="http://freemusicarchive.org/">http://freemusicarchive.org/</a></p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>5382</wp:post_id>
-		<wp:post_date>2021-01-22 18:38:16</wp:post_date>
-		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name></wp:post_name>
-		<wp:status>draft</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="post_tag" nicename="asztali-szerepjatek"><![CDATA[Asztali Szerepjáték]]></category>
-		<category domain="post_tag" nicename="%e3%83%86%e3%83%bc%e3%83%96%e3%83%ab%e3%83%88%e3%83%bc%e3%82%afrpg"><![CDATA[テーブルトークRPG]]></category>
-		<category domain="post_tag" nicename="bordrollespil"><![CDATA[Bordrollespil]]></category>
-		<category domain="post_tag" nicename="british"><![CDATA[British]]></category>
-		<category domain="category" nicename="cafe-rolistes"><![CDATA[Café Rolistes]]></category>
-		<category domain="post_tag" nicename="expats"><![CDATA[Expats]]></category>
-		<category domain="post_tag" nicename="fandoms"><![CDATA[Fandoms]]></category>
-		<category domain="post_tag" nicename="friki"><![CDATA[Friki]]></category>
-		<category domain="post_tag" nicename="geek"><![CDATA[Geek]]></category>
-		<category domain="post_tag" nicename="gioco-di-ruolo"><![CDATA[Gioco di Ruolo]]></category>
-		<category domain="post_tag" nicename="gry-fabularne"><![CDATA[Gry Fabularne]]></category>
-		<category domain="post_tag" nicename="immigrants"><![CDATA[Immigrants]]></category>
-		<category domain="post_tag" nicename="%ed%85%8c%ec%9d%b4%eb%b8%94%ed%83%91-%eb%a1%a4%ed%94%8c%eb%a0%88%ec%9e%89-%ea%b2%8c%ec%9e%84"><![CDATA[테이블탑 롤플레잉 게임]]></category>
-		<category domain="post_tag" nicename="jeu-de-role"><![CDATA[Jeu de rôle]]></category>
-		<category domain="post_tag" nicename="joc-de-rol"><![CDATA[Joc de Rol]]></category>
-		<category domain="post_tag" nicename="jogo-de-interpretacao"><![CDATA[Jogo de Interpretação]]></category>
-		<category domain="post_tag" nicename="juego-de-rol"><![CDATA[Juego de rol]]></category>
-		<category domain="post_tag" nicename="jugador-de-rol"><![CDATA[Jugador de rol]]></category>
-		<category domain="post_tag" nicename="london"><![CDATA[London]]></category>
-		<category domain="post_tag" nicename="pen-and-paper"><![CDATA[Pen and Paper]]></category>
-		<category domain="post_tag" nicename="pnp"><![CDATA[PnP]]></category>
-		<category domain="category" nicename="podcast"><![CDATA[Podcast]]></category>
-		<category domain="post_tag" nicename="rollenspel"><![CDATA[Rollenspel]]></category>
-		<category domain="post_tag" nicename="rollenspiel"><![CDATA[Rollenspiel]]></category>
-		<category domain="post_tag" nicename="rollspel"><![CDATA[Rollspel]]></category>
-		<category domain="post_tag" nicename="roolipelaaja"><![CDATA[Roolipelaaja]]></category>
-		<category domain="post_tag" nicename="roolipeli"><![CDATA[Roolipeli]]></category>
-		<category domain="post_tag" nicename="ropettaja"><![CDATA[Ropettaja]]></category>
-		<category domain="post_tag" nicename="rpg-de-mesa"><![CDATA[RPG de Mesa]]></category>
-		<category domain="post_tag" nicename="stolna-igra-uloga"><![CDATA[Stolna Igra Uloga]]></category>
-		<category domain="post_tag" nicename="tabletop-rpg"><![CDATA[Tabletop RPG]]></category>
-		<category domain="post_tag" nicename="united-kingdom"><![CDATA[United Kingdom]]></category>
-		<category domain="post_tag" nicename="%e6%a1%8c%e4%b8%8a%e8%a7%92%e8%89%b2%e6%89%ae%e6%bc%94%e9%81%8a%e6%88%b2"><![CDATA[桌上角色扮演遊戲]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_last_editor_used_jetpack</wp:meta_key>
-			<wp:meta_value><![CDATA[block-editor]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_oembed_9ccbcda94536a2e44208b06615999320</wp:meta_key>
-			<wp:meta_value><![CDATA[<div class="embed-twitter"><a class="twitter-timeline" data-width="500" data-height="750" data-dnt="true" href="https://twitter.com/AutomaticDodd?ref_src=twsrc%5Etfw">Tweets by AutomaticDodd</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_oembed_time_9ccbcda94536a2e44208b06615999320</wp:meta_key>
-			<wp:meta_value><![CDATA[1611340587]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_oembed_360288f693cc9ff413e70edacee5881c</wp:meta_key>
-			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Café Rolistes_Palette_128</title>
 		<link>http://rolistespod.com/cafe-rolistes_palette_128/</link>
 		<pubDate>Fri, 22 Jan 2021 21:28:41 +0000</pubDate>
@@ -53713,6 +53610,37 @@ https://youtu.be/GV3Dkt_xV-0
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>Café Rolistes_Palette_138</title>
+		<link>http://rolistespod.com/cafe-rolistes_palette_138/</link>
+		<pubDate>Fri, 22 Jan 2021 21:29:03 +0000</pubDate>
+		<dc:creator>kalum666</dc:creator>
+		<guid isPermaLink="false">http://rolistespod.files.wordpress.com/2021/01/cafe-rolistes_palette_138.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>5396</wp:post_id>
+		<wp:post_date>2021-01-22 21:29:03</wp:post_date>
+		<wp:post_date_gmt>2021-01-22 21:29:03</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>cafe-rolistes_palette_138</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>https://rolistespod.files.wordpress.com/2021/01/cafe-rolistes_palette_138.jpg</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[/home/wpcom/public_html/wp-content/blogs.dir/222/93652782/files/2021/01/cafe-rolistes_palette_138.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:6:{s:5:"width";i:450;s:6:"height";i:450;s:4:"file";s:101:"/home/wpcom/public_html/wp-content/blogs.dir/222/93652782/files/2021/01/cafe-rolistes_palette_138.jpg";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:8:"filesize";i:131319;}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>Film Studies – Black Cat, White Cat (Ida &#038; Zare vs the Gangsters)</title>
 		<link>http://rolistespod.com/?p=5198</link>
 		<pubDate>Mon, 08 Feb 2021 01:00:00 +0000</pubDate>
@@ -53877,12 +53805,12 @@ https://youtu.be/GV3Dkt_xV-0
 	<item>
 		<title>Café Rolistes 119 - Zaire Lanier from The Bone Herder Comics</title>
 		<link>http://rolistespod.com/?p=5215</link>
-		<pubDate>Mon, 25 Jan 2021 01:00:00 +0000</pubDate>
+		<pubDate>Mon, 01 Feb 2021 01:00:00 +0000</pubDate>
 		<dc:creator>kalum666</dc:creator>
 		<guid isPermaLink="false">http://rolistespod.com/?p=5215</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>[audio src="https://archive.org/download/cafe-rolistes-119-2020.07.13/Caf%C3%A9%20Rolistes_119_2020.07.13.mp3"] Listen, subscribe &amp; review on <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>, <strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>, <strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong>.<br>You can also <strong><a href="https://archive.org/download/cafe-rolistes-119-2020.07.13/Caf%C3%A9%20Rolistes_119_2020.07.13.mp3">download this episode</a></strong>.</p>
+<p>[audio src="https://archive.org/download/cafe-rolistes-119-2020.07.13/Caf%C3%A9%20Rolistes_119_2020.07.13.mp3"] Listen, subscribe &amp; review on <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>,&nbsp;<strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>,&nbsp;<strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong>.<br>You can also <strong><a href="https://archive.org/download/cafe-rolistes-119-2020.07.13/Caf%C3%A9%20Rolistes_119_2020.07.13.mp3">download this episode</a></strong>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -53976,8 +53904,8 @@ https://youtu.be/XSFFN0PRaEc
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>5215</wp:post_id>
-		<wp:post_date>2021-01-25 01:00:00</wp:post_date>
-		<wp:post_date_gmt>2021-01-25 01:00:00</wp:post_date_gmt>
+		<wp:post_date>2021-02-01 01:00:00</wp:post_date>
+		<wp:post_date_gmt>2021-02-01 01:00:00</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
 		<wp:post_name>cafe-rolistes-119-zaire-lanier-from-the-bone-herder-comics</wp:post_name>
@@ -54977,33 +54905,33 @@ https://youtu.be/4q1XsaHT384
 	</item>
 	<item>
 		<title>&quot;Déjà Vu&quot; at CyberConv 2.0 (Part Two)</title>
-		<link>http://rolistespod.com/?p=5340</link>
-		<pubDate></pubDate>
+		<link>http://rolistespod.com/2021/01/25/deja-vu-at-cyberconv-2-0-part-two/</link>
+		<pubDate>Mon, 25 Jan 2021 11:12:18 +0000</pubDate>
 		<dc:creator>kalum666</dc:creator>
 		<guid isPermaLink="false">http://rolistespod.com/?p=5340</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p><br></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":5359,"sizeSlug":"medium","linkDestination":"media"} -->
+		<content:encoded><![CDATA[<!-- wp:image {"align":"center","id":5359,"sizeSlug":"medium","linkDestination":"media"} -->
 <div class="wp-block-image"><figure class="aligncenter size-medium"><a href="https://rolistespod.files.wordpress.com/2021/01/the-rolistes-podcast_episode-45-part-2_ld.jpg"><img src="https://rolistespod.files.wordpress.com/2021/01/the-rolistes-podcast_episode-45-part-2_ld.jpg?w=300" alt="" class="wp-image-5359" /></a></figure></div>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>[audio src="https://archive.org/download/the-rolistes-podcast-episode-45-part-1-2019.12.21/The%20Rolistes%20Podcast_Episode%2045_Part%201_2019.12.21.mp3"]Listen, subscribe &amp; review on&nbsp;<strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>,&nbsp;<strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>&nbsp;or&nbsp;<strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong>. Sign up to our&nbsp;<strong><a rel="noreferrer noopener" href="http://eepurl.com/gJCUVX" target="_blank">newsletter</a></strong>!</p>
+<p>[audio src="https://archive.org/download/the-rolistes-podcast-episode-45-part-2-2021.01.25/The%20Rolistes%20Podcast_Episode%2045_Part%202_2021.01.25.mp3"]Listen, subscribe &amp; review on <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>, <strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong> or <strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong>. Sign up to our <strong><a rel="noreferrer noopener" href="http://eepurl.com/gJCUVX" target="_blank">newsletter</a></strong>!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Welcome to CyberConv'!</p>
+<p>We are about to leave CyberConv' 2.0...</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>xxx</p>
+<p>...but we have still a couple of cool interviews for you to discover as we all wait for announcements about CyberConv' 3.0.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please meet:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul><li><a href="https://twitter.com/FrenchParagon"><strong>French Paragon</strong></a> from Switzerland, author of <a href="https://www.plaisirvaleurdhistoire.com/shop/jeux-de-role/30-oreinidia-jeu-de-role.html"><strong>Oreinidia</strong></a>, who is currently studying in Australia at the University of Perth where he played with the <a href="https://www.facebook.com/groups/qubgs"><strong>Queensland University Games Society (QUGS)</strong></a>;</li><li>Nicolas aka Naiyo from team of <a href="http://harpy.gg/"><strong>Harpy.gg</strong></a> who created <a href="https://tales.harpy.gg/"><strong>Tales</strong></a>. This is a browser-based app supporting asynchronous text-based roleplaying;</li><li>Philippe Gamache aka the <strong><a href="https://www.gnomearchiviste.ca/en/">Gnôme Archiviste</a></strong>, from Quebec in Canada, who is a game publisher, as well as part of the crew of "Les Aventureux" actual play and <a href="https://www.facebook.com/FestivalDraconis/"><strong>Festival Draconis</strong></a>, a convention which will take place online in 2021.</li></ul>
+<ul><li><a href="https://twitter.com/FrenchParagon"><strong>French Paragon</strong></a> from Switzerland, author of <a href="https://www.plaisirvaleurdhistoire.com/shop/jeux-de-role/30-oreinidia-jeu-de-role.html"><strong>Oreinidia</strong></a>, who is currently studying in Australia at the University of Perth where he played with the <a href="https://www.facebook.com/groups/qubgs"><strong>Queensland University Games Society (QUGS)</strong></a>;<br></li><li>Nicolas aka Naiyo from the <a href="http://harpy.gg/"><strong>Harpy.gg</strong></a> team who created <a href="https://tales.harpy.gg/"><strong>Tales</strong></a>, a browser-based app supporting asynchronous text-based roleplaying;<br></li><li>Philippe Gamache aka the <strong><a href="https://www.gnomearchiviste.ca/en/">Gnôme Archiviste</a></strong>, from Quebec in Canada, who is a game publisher, as well as a founder of "<a href="https://www.lesaventureux.com/"><strong>Les Aventureux</strong></a>" actual play and <a href="https://www.facebook.com/FestivalDraconis/"><strong>Festival Draconis</strong></a>, a convention which will take place online in 2021.</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
@@ -55027,7 +54955,7 @@ https://youtu.be/4q1XsaHT384
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Listen, rate or review the show on <strong><a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798">Podchaser</a></strong>, <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>, <strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>, <strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong>&nbsp;or <a href="http://www.stitcher.com/podcast/the-rolistes-podcast"><strong>Stitcher</strong></a><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">.</a>&nbsp;You can also&nbsp;<strong><a href="https://archive.org/download/the-rolistes-podcast-episode-45-part-1-2019.12.21/The%20Rolistes%20Podcast_Episode%2045_Part%201_2019.12.21.mp3">download the episode</a></strong>.</p>
+<p>Listen, rate or review the show on <strong><a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798">Podchaser</a></strong>, <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>, <strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong> or <a href="http://www.stitcher.com/podcast/the-rolistes-podcast"><strong>Stitcher</strong></a><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">.</a> You can also <strong><a href="https://archive.org/download/the-rolistes-podcast-episode-45-part-2-2021.01.25/The%20Rolistes%20Podcast_Episode%2045_Part%202_2021.01.25.mp3">download the episode</a></strong>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -55067,7 +54995,7 @@ https://youtu.be/4q1XsaHT384
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>"<a href="https://www.plaisirvaleurdhistoire.com/shop/jeux-de-role/30-oreinidia-jeu-de-role.html"><strong>Oreinidia</strong></a>" by Laurent Valentin Jospin aka Paragon for Plaisir d'Histoires<br>"<a href="https://losing-games.itch.io/mausritter?ac=6hKcoR9Jch"><strong>Mausritter</strong></a>" by <a href="https://twitter.com/isaacwilliams"><strong>Isaac Williams</strong></a> for <a href="https://losing-games.itch.io/?ac=6hKcoR9Jch"><strong>Losing Games</strong></a><br>"<a href="https://quorganism.itch.io/the-salt-traders?ac=6hKcoR9Jch"><strong>The Salt Traders</strong></a>" by <a href="https://quorganism.itch.io/?ac=6hKcoR9Jch"><strong>Paddy Hutchinson</strong></a></p>
+<p>"<a href="https://www.plaisirvaleurdhistoire.com/shop/jeux-de-role/30-oreinidia-jeu-de-role.html"><strong>Oreinidia</strong></a>" by Laurent Valentin Jospin aka Paragon for Plaisir d'Histoires<br>"<a href="https://losing-games.itch.io/mausritter?ac=6hKcoR9Jch"><strong>Mausritter</strong></a>" by <a href="https://twitter.com/isaacwilliams"><strong>Isaac Williams</strong></a> for <a href="https://losing-games.itch.io/?ac=6hKcoR9Jch"><strong>Losing Games</strong></a><br>"<a href="https://quorganism.itch.io/the-salt-traders?ac=6hKcoR9Jch"><strong>The Salt Traders</strong></a>" by <a href="https://quorganism.itch.io/?ac=6hKcoR9Jch"><strong>Paddy Hutchinson</strong></a><br>"<a href="https://rolistespod.com/2020/05/15/announcing-paris-gondo-the-life-saving-magic-of-inventorying/"><strong>Paris Gondo - The Life-Saving Magic of Inventorying</strong></a>" by Kalum for The Rolistes Publishing<br>"<a href="https://oliverdarkshire.itch.io/level-zero?ac=6hKcoR9Jch"><strong>Level Zero</strong></a>" by <a href="https://oliverdarkshire.itch.io/?ac=6hKcoR9Jch"><strong>Oliver Darkshire</strong></a><br>"<a href="https://www.gnomearchiviste.ca/en/mousquetaires-de-lombre.html"><strong>Mousquetaires de l'Ombre - Le jeu de Cape et d'E.T.</strong></a>" by <a href="http://www.legrog.org/editeurs/phenix-edition"><strong>Phénix Edition</strong></a><br>"<a href="https://www.drivethrurpg.com/product/297015/Bamboo-n-Bones--Livre-de-regles&amp;affiliate_id=1289000"><strong>Bamboo n' Bones</strong></a>" by <a href="https://www.drivethrurpg.com/advanced_search_result.php?author=Alexandre%20Coulombe&amp;affiliate_id=1289000"><strong>Alexandre Coulombe</strong></a> &amp;&nbsp;<a href="https://www.drivethrurpg.com/advanced_search_result.php?author=Philippe%20Gamache&amp;affiliate_id=1289000"><strong>Philippe Gamache</strong></a> for <a href="https://www.drivethrurpg.com/browse/pub/15294/Gnome-Archiviste&amp;affiliate_id=1289000"><strong>Gnome Archiviste</strong></a><br></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
@@ -55075,7 +55003,7 @@ https://youtu.be/4q1XsaHT384
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><a href="https://www.youtube.com/playlist?list=PLmuGcY4w_g_EVYR0hq6NhV2toRWJ_Fkue"><strong>CyberConv' "Radio Libre"</strong></a> which included an <a href="https://youtu.be/JzzRMKn4m-4"><strong>interview about Tales</strong></a><br><a href="https://www.facebook.com/FestivalDraconis/"><strong>Festival Draconis</strong></a>, a Quebec-based convention which will take place online in 2021<br>"<a href="https://www.lesaventureux.com/"><strong>Les Aventureux</strong></a>" streamed TTRPG actual play and community<br>"<a href="https://youtube.com/playlist?list=PLmuGcY4w_g_HWp1XPg_0pZKhLNHBiZW5H"><strong>Les Table-Rondes</strong></a>" series of panels hosted as part of CyberConv' 2.0</p>
+<p><a href="https://www.youtube.com/playlist?list=PLmuGcY4w_g_EVYR0hq6NhV2toRWJ_Fkue"><strong>CyberConv' "Radio Libre"</strong></a> which included an <a href="https://youtu.be/JzzRMKn4m-4"><strong>interview about Tales</strong></a><br><a href="https://www.facebook.com/FestivalDraconis/"><strong>Festival Draconis</strong></a>, a Quebec-based convention which will take place online in 2021<br>"<a href="https://www.lesaventureux.com/"><strong>Les Aventureux</strong></a>" streamed TTRPG actual play and community<br>"<a href="https://youtube.com/playlist?list=PLmuGcY4w_g_HWp1XPg_0pZKhLNHBiZW5H"><strong>Les Table-Rondes</strong></a>" series of panels hosted as part of CyberConv' 2.0<br>"<a href="https://axolotl-jdr.itch.io/outils-jdr-accessible?ac=6hKcoR9Jch"><strong>Les Outils d'accessibilité pour le JdR</strong></a>" published by <a href="https://axolotl-jdr.itch.io/?ac=6hKcoR9Jch"><strong>Axolotl</strong></a> following CyberConv'<br>"<a href="https://docs.google.com/document/d/1ZFSXz-Yva1KZAsP7NblCdkoiQ6RcjxSV2gj98eXusJs/edit?fbclid=IwAR2zOEb6_LnDjXQ5kbKX-xj8wIUAftTRx5QmUDjychX3jYYXBAvJ3cb7u_8"><strong>Accessibility in Tabletop Resources</strong></a>" by <a href="https://linktr.ee/dreamwisp"><strong>Jennifer Kretchmer</strong></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
@@ -55083,11 +55011,222 @@ https://youtu.be/4q1XsaHT384
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><a href="https://www.facebook.com/groups/qubgs"><strong>Queensland University Games Society (QUGS)</strong></a>, gaming club in Perth<br><a href="https://www.meetup.com/en-AU/PerthRPG/"><strong>Perth RPG Meetup Group</strong></a>, gaming club in Perth<br><a href="https://quorganism.itch.io/?ac=6hKcoR9Jch"><strong>Paddy Hutchinson</strong></a>, Australian game designer<br><a href="http://www.rolistes-de-londres.org/"><strong>Guilde des Rolistes Francophones de Londres</strong></a>, TTRPG club in London<br><a href="https://www.facebook.com/search/top?q=cercle%20r%C3%B4liste%20de%20shangha%C3%AF"><strong>Cercle Rôliste de Shanghai</strong></a>, and <a href="https://www.facebook.com/groups/cerclerolistesaigon"><strong>Cercle Rôliste de Saigon</strong></a> TTRPG clubs in China<br><a href="https://twitter.com/mparpaillon"><strong>Michel Parpaillon</strong></a>, founder of <a href="https://tales.harpy.gg/"><strong>Tales</strong></a><br><br></p>
+<p><a href="https://www.facebook.com/groups/qubgs"><strong>Queensland University Games Society (QUGS)</strong></a>, gaming club in Perth<br><a href="https://www.meetup.com/en-AU/PerthRPG/"><strong>Perth RPG Meetup Group</strong></a>, gaming club in Perth<br><a href="https://quorganism.itch.io/?ac=6hKcoR9Jch"><strong>Paddy Hutchinson</strong></a>, Australian game designer<br><a href="http://www.rolistes-de-londres.org/"><strong>Guilde des Rolistes Francophones de Londres</strong></a>, TTRPG club in London<br><a href="https://www.facebook.com/search/top?q=cercle%20r%C3%B4liste%20de%20shangha%C3%AF"><strong>Cercle Rôliste de Shanghai</strong></a>, and <a href="https://www.facebook.com/groups/cerclerolistesaigon"><strong>Cercle Rôliste de Saigon</strong></a> TTRPG clubs in China<br><a href="https://twitter.com/mparpaillon"><strong>Michel Parpaillon</strong></a>, founder of <a href="https://tales.harpy.gg/"><strong>Tales</strong></a><br></p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>5340</wp:post_id>
-		<wp:post_date>2021-01-23 22:49:39</wp:post_date>
+		<wp:post_date>2021-01-25 11:12:18</wp:post_date>
+		<wp:post_date_gmt>2021-01-25 11:12:18</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>deja-vu-at-cyberconv-2-0-part-two</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="cyberconv"><![CDATA[#CyberConv]]></category>
+		<category domain="post_tag" nicename="asztali-szerepjatek"><![CDATA[Asztali Szerepjáték]]></category>
+		<category domain="post_tag" nicename="australia"><![CDATA[Australia]]></category>
+		<category domain="post_tag" nicename="%e3%83%86%e3%83%bc%e3%83%96%e3%83%ab%e3%83%88%e3%83%bc%e3%82%afrpg"><![CDATA[テーブルトークRPG]]></category>
+		<category domain="post_tag" nicename="bordrollespil"><![CDATA[Bordrollespil]]></category>
+		<category domain="post_tag" nicename="british"><![CDATA[British]]></category>
+		<category domain="post_tag" nicename="conventions"><![CDATA[Conventions]]></category>
+		<category domain="post_tag" nicename="cyberconv"><![CDATA[CyberConv]]></category>
+		<category domain="post_tag" nicename="cyberconv2-0"><![CDATA[CyberConv2.0]]></category>
+		<category domain="post_tag" nicename="expats"><![CDATA[Expats]]></category>
+		<category domain="post_tag" nicename="fandoms"><![CDATA[Fandoms]]></category>
+		<category domain="post_tag" nicename="festival-draconis"><![CDATA[Festival Draconis]]></category>
+		<category domain="post_tag" nicename="french-paragon"><![CDATA[French Paragon]]></category>
+		<category domain="post_tag" nicename="friki"><![CDATA[Friki]]></category>
+		<category domain="post_tag" nicename="gaming-conventions"><![CDATA[Gaming Conventions]]></category>
+		<category domain="post_tag" nicename="geek"><![CDATA[Geek]]></category>
+		<category domain="post_tag" nicename="gioco-di-ruolo"><![CDATA[Gioco di Ruolo]]></category>
+		<category domain="post_tag" nicename="gnome-archiviste"><![CDATA[Gnome Archiviste]]></category>
+		<category domain="post_tag" nicename="gry-fabularne"><![CDATA[Gry Fabularne]]></category>
+		<category domain="post_tag" nicename="harpy"><![CDATA[Harpy]]></category>
+		<category domain="post_tag" nicename="immigrants"><![CDATA[Immigrants]]></category>
+		<category domain="post_tag" nicename="%ed%85%8c%ec%9d%b4%eb%b8%94%ed%83%91-%eb%a1%a4%ed%94%8c%eb%a0%88%ec%9e%89-%ea%b2%8c%ec%9e%84"><![CDATA[테이블탑 롤플레잉 게임]]></category>
+		<category domain="post_tag" nicename="jeu-de-role"><![CDATA[Jeu de rôle]]></category>
+		<category domain="post_tag" nicename="joc-de-rol"><![CDATA[Joc de Rol]]></category>
+		<category domain="post_tag" nicename="jogo-de-interpretacao"><![CDATA[Jogo de Interpretação]]></category>
+		<category domain="post_tag" nicename="juego-de-rol"><![CDATA[Juego de rol]]></category>
+		<category domain="post_tag" nicename="jugador-de-rol"><![CDATA[Jugador de rol]]></category>
+		<category domain="post_tag" nicename="les-aventureux"><![CDATA[Les Aventureux]]></category>
+		<category domain="post_tag" nicename="london"><![CDATA[London]]></category>
+		<category domain="post_tag" nicename="naiyo"><![CDATA[Naiyo]]></category>
+		<category domain="post_tag" nicename="online-conventions"><![CDATA[Online Conventions]]></category>
+		<category domain="post_tag" nicename="pen-and-paper"><![CDATA[Pen and Paper]]></category>
+		<category domain="post_tag" nicename="perth"><![CDATA[Perth]]></category>
+		<category domain="post_tag" nicename="pnp"><![CDATA[PnP]]></category>
+		<category domain="category" nicename="podcast"><![CDATA[Podcast]]></category>
+		<category domain="post_tag" nicename="rollenspel"><![CDATA[Rollenspel]]></category>
+		<category domain="post_tag" nicename="rollenspiel"><![CDATA[Rollenspiel]]></category>
+		<category domain="post_tag" nicename="rollspel"><![CDATA[Rollspel]]></category>
+		<category domain="post_tag" nicename="roolipelaaja"><![CDATA[Roolipelaaja]]></category>
+		<category domain="post_tag" nicename="roolipeli"><![CDATA[Roolipeli]]></category>
+		<category domain="post_tag" nicename="ropettaja"><![CDATA[Ropettaja]]></category>
+		<category domain="post_tag" nicename="rpg-de-mesa"><![CDATA[RPG de Mesa]]></category>
+		<category domain="post_tag" nicename="season-06"><![CDATA[Season 06]]></category>
+		<category domain="post_tag" nicename="so-frenchy"><![CDATA[So Frenchy]]></category>
+		<category domain="post_tag" nicename="stolna-igra-uloga"><![CDATA[Stolna Igra Uloga]]></category>
+		<category domain="post_tag" nicename="tabletop-rpg"><![CDATA[Tabletop RPG]]></category>
+		<category domain="post_tag" nicename="tales"><![CDATA[Tales]]></category>
+		<category domain="category" nicename="the-rolistes-podcast"><![CDATA[The Rolistes Podcast]]></category>
+		<category domain="post_tag" nicename="united-kingdom"><![CDATA[United Kingdom]]></category>
+		<category domain="post_tag" nicename="%e6%a1%8c%e4%b8%8a%e8%a7%92%e8%89%b2%e6%89%ae%e6%bc%94%e9%81%8a%e6%88%b2"><![CDATA[桌上角色扮演遊戲]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[5359]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_last_editor_used_jetpack</wp:meta_key>
+			<wp:meta_value><![CDATA[block-editor]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>enclosure</wp:meta_key>
+			<wp:meta_value><![CDATA[https://archive.org/download/the-rolistes-podcast-episode-45-part-2-2021.01.25/The%20Rolistes%20Podcast_Episode%2045_Part%202_2021.01.25.mp3
+48139333
+audio/mpeg
+]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_publicize_job_id</wp:meta_key>
+			<wp:meta_value><![CDATA[53877918990]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_publicize_done_external</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{s:7:"twitter";a:1:{i:11622706;s:58:"https://twitter.com/rolistespod/status/1353661973213409281";}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_publicize_done_11560013</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wpas_done_11622706</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>publicize_twitter_user</wp:meta_key>
+			<wp:meta_value><![CDATA[rolistespod]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>timeline_notification</wp:meta_key>
+			<wp:meta_value><![CDATA[1611573139]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Café Rolistes 128 - John Dodd from Dragonmeet</title>
+		<link>http://rolistespod.com/?p=5382</link>
+		<pubDate></pubDate>
+		<dc:creator>kalum666</dc:creator>
+		<guid isPermaLink="false">http://rolistespod.com/?p=5382</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>[audio src="xx"] Listen, subscribe &amp; review on <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>,&nbsp;<strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>,&nbsp;<strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong>.<br>You can also <strong><a href="http://xx">download this episode</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Don't forget to join our <strong><a rel="noreferrer noopener" href="http://eepurl.com/gJCUVX" target="_blank">newsletter</a> </strong>if you don't want to miss any of our content.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please also subscribe to&nbsp;<strong><a href="https://www.youtube.com/playlist?list=PL2fGTs_dddRzqemJDagJOe_j_bLk2-ZlL">The Rolistes Youtube Channel</a></strong>, click the "Like" button and write comments.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:embed {"url":"https:\/\/youtu.be\/GV3Dkt_xV-0","type":"rich","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+<figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+https://youtu.be/GV3Dkt_xV-0
+</div></figure>
+<!-- /wp:embed -->
+
+<!-- wp:paragraph -->
+<p>Follow us on&nbsp;<strong><a href="https://www.twitch.tv/rolistespod">Twitch</a></strong>&nbsp;and contribute LIVE with your questions via the chat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>You can find John at: </h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://twitter.com/AutomaticDodd </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Dragonmeet: </h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://twitter.com/Dragonmeet <br>https://www.dragonmeet.co.uk/ <br>https://www.facebook.com/dragonmeetconvention </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Many episodes of The Rolistes were recorded at Dragonmeet and you can find them all here: </h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://rolistespod.com/tag/dragonmeet/</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Support The Rolistes</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Find out about my own game "Paris Gondo - The Life-Saving Magic of Inventorying" at:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><a href="https://www.youtube.com/redirect?q=https%3A%2F%2Frolistespod.com%2F2020%2F05%2F15%2Fannouncing-paris-gondo-the-life-saving-magic-of-inventorying%2F&amp;redir_token=tAxz9JvQs_tAihUX2PJJBfQ9EOZ8MTU5MTkwNzU0OEAxNTkxODIxMTQ4&amp;event=video_description&amp;v=CHZUBwI4vtc">https://rolistespod.com/2020/05/15/an...</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Don't forget to sign up for our <a href="http://eepurl.com/gJCUVX"><strong>newsletter</strong></a>!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Find and support our many shows</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Listen, rate or review the show on&nbsp;<strong><a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798">Podchaser</a></strong>,&nbsp;<strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>,&nbsp;<strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>,&nbsp;<strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong>&nbsp;or&nbsp;<a href="http://www.stitcher.com/podcast/the-rolistes-podcast"><strong>Stitcher</strong></a><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">.</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please consider contributing to my&nbsp;<strong><a href="https://www.patreon.com/RolistesPod">Patreon</a></strong>, making a modest donation via&nbsp;<a href="https://www.paypal.me/rolistespod/"><strong>Paypal</strong></a>&nbsp;or even support your show at no extra cost via your purchases on&nbsp;<a href="http://www.drivethrurpg.com/browse.php?affiliate_id=1289000"><strong>DriveThru RPG</strong></a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="Subscribe&nbsp;hereEmail Us! Twitter / Instagram / Tik Tok / Facebook">Newsletter: Subscribe&nbsp;<strong></strong></a><strong><a href="http://eepurl.com/gJCUVX">here</a></strong><br><a href="mailto:Rolistespod@gmail.com"><strong>Email Us!</strong></a><br><a href="https://twitter.com/rolistespod"><strong>Twitter</strong></a> / <a href="https://www.instagram.com/rolistespod"><strong>Instagram</strong></a> / <a href="https://www.tiktok.com/@rolistespod?lang=en"><strong>Tik Tok</strong></a> / <a href="https://www.facebook.com/Rolistespod"><strong>Facebook</strong></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Podcast by Kalum is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5><strong>Logo</strong></h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Podcast brand new logo by Rollin Kunz. Please check his excellent work at&nbsp;<strong><a href="https://www.rollinkunz.com/">https://www.rollinkunz.com</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong><a href="https://www.teepublic.com/user/rolistespod">Merchandising, including t-shirts</a></strong>, with the logo and more cool “The Rolistes Podcast” art by Rolin Kunz is available via our&nbsp;<strong><a href="https://www.teepublic.com/user/rolistespod">TeePublic store</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5><strong>Music</strong></h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Theme song: "Playtime" by Jahzzar<br>Available for free download at&nbsp;<a href="http://freemusicarchive.org/">http://freemusicarchive.org/</a></p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>5382</wp:post_id>
+		<wp:post_date>2021-01-26 16:20:23</wp:post_date>
 		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
@@ -55102,8 +55241,7 @@ https://youtu.be/4q1XsaHT384
 		<category domain="post_tag" nicename="%e3%83%86%e3%83%bc%e3%83%96%e3%83%ab%e3%83%88%e3%83%bc%e3%82%afrpg"><![CDATA[テーブルトークRPG]]></category>
 		<category domain="post_tag" nicename="bordrollespil"><![CDATA[Bordrollespil]]></category>
 		<category domain="post_tag" nicename="british"><![CDATA[British]]></category>
-		<category domain="post_tag" nicename="cyberconv"><![CDATA[CyberConv]]></category>
-		<category domain="post_tag" nicename="cyberconv2-0"><![CDATA[CyberConv2.0]]></category>
+		<category domain="category" nicename="cafe-rolistes"><![CDATA[Café Rolistes]]></category>
 		<category domain="post_tag" nicename="expats"><![CDATA[Expats]]></category>
 		<category domain="post_tag" nicename="fandoms"><![CDATA[Fandoms]]></category>
 		<category domain="post_tag" nicename="friki"><![CDATA[Friki]]></category>
@@ -55130,47 +55268,27 @@ https://youtu.be/4q1XsaHT384
 		<category domain="post_tag" nicename="rpg-de-mesa"><![CDATA[RPG de Mesa]]></category>
 		<category domain="post_tag" nicename="stolna-igra-uloga"><![CDATA[Stolna Igra Uloga]]></category>
 		<category domain="post_tag" nicename="tabletop-rpg"><![CDATA[Tabletop RPG]]></category>
-		<category domain="category" nicename="the-rolistes-podcast"><![CDATA[The Rolistes Podcast]]></category>
 		<category domain="post_tag" nicename="united-kingdom"><![CDATA[United Kingdom]]></category>
 		<category domain="post_tag" nicename="%e6%a1%8c%e4%b8%8a%e8%a7%92%e8%89%b2%e6%89%ae%e6%bc%94%e9%81%8a%e6%88%b2"><![CDATA[桌上角色扮演遊戲]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[5359]]></wp:meta_value>
+			<wp:meta_value><![CDATA[5386]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_last_editor_used_jetpack</wp:meta_key>
 			<wp:meta_value><![CDATA[block-editor]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Café Rolistes_Palette_138</title>
-		<link>http://rolistespod.com/cafe-rolistes_palette_138/</link>
-		<pubDate>Fri, 22 Jan 2021 21:29:03 +0000</pubDate>
-		<dc:creator>kalum666</dc:creator>
-		<guid isPermaLink="false">http://rolistespod.files.wordpress.com/2021/01/cafe-rolistes_palette_138.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>5396</wp:post_id>
-		<wp:post_date>2021-01-22 21:29:03</wp:post_date>
-		<wp:post_date_gmt>2021-01-22 21:29:03</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>cafe-rolistes_palette_138</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>https://rolistespod.files.wordpress.com/2021/01/cafe-rolistes_palette_138.jpg</wp:attachment_url>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[/home/wpcom/public_html/wp-content/blogs.dir/222/93652782/files/2021/01/cafe-rolistes_palette_138.jpg]]></wp:meta_value>
+			<wp:meta_key>_oembed_9ccbcda94536a2e44208b06615999320</wp:meta_key>
+			<wp:meta_value><![CDATA[<div class="embed-twitter"><a class="twitter-timeline" data-width="500" data-height="750" data-dnt="true" href="https://twitter.com/AutomaticDodd?ref_src=twsrc%5Etfw">Tweets by AutomaticDodd</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:6:{s:5:"width";i:450;s:6:"height";i:450;s:4:"file";s:101:"/home/wpcom/public_html/wp-content/blogs.dir/222/93652782/files/2021/01/cafe-rolistes_palette_138.jpg";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:8:"filesize";i:131319;}]]></wp:meta_value>
+			<wp:meta_key>_oembed_time_9ccbcda94536a2e44208b06615999320</wp:meta_key>
+			<wp:meta_value><![CDATA[1611340587]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_360288f693cc9ff413e70edacee5881c</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -55263,6 +55381,1555 @@ https://youtu.be/4q1XsaHT384
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
 			<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1824;s:6:"height";i:1824;s:4:"file";s:108:"/home/wpcom/public_html/wp-content/blogs.dir/222/93652782/files/2021/01/2021.01.24_persephelia_01_square.jpg";s:5:"sizes";a:0:{}s:10:"image_meta";a:14:{s:8:"aperture";s:1:"2";s:6:"credit";s:0:"";s:6:"camera";s:7:"Pixel 4";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1600682401";s:9:"copyright";s:0:"";s:12:"focal_length";s:4:"2.47";s:3:"iso";s:3:"326";s:13:"shutter_speed";s:8:"0.013165";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}s:8:"latitude";d:51.488275;s:9:"longitude";d:-0.07199166666666668;}s:8:"filesize";i:588755;}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Café Rolistes 129 - Rupert Greyling from The Goblin&#039;s Chest &#038; &quot;The Hidden Lands&quot; RPG</title>
+		<link>http://rolistespod.com/?p=5424</link>
+		<pubDate></pubDate>
+		<dc:creator>kalum666</dc:creator>
+		<guid isPermaLink="false">http://rolistespod.com/?p=5424</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>[audio src="xx"] Listen, subscribe &amp; review on <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>,&nbsp;<strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>,&nbsp;<strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong>.<br>You can also <strong><a href="http://xx">download this episode</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Don't forget to join our <strong><a rel="noreferrer noopener" href="http://eepurl.com/gJCUVX" target="_blank">newsletter</a> </strong>if you don't want to miss any of our content.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please also subscribe to&nbsp;<strong><a href="https://www.youtube.com/playlist?list=PL2fGTs_dddRzqemJDagJOe_j_bLk2-ZlL">The Rolistes Youtube Channel</a></strong>, click the "Like" button and write comments.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:embed {"url":"https:\/\/youtu.be\/E2AWFcjcLzc","type":"rich","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+<figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+https://youtu.be/E2AWFcjcLzc
+</div></figure>
+<!-- /wp:embed -->
+
+<!-- wp:paragraph -->
+<p>Follow us on&nbsp;<strong><a href="https://www.twitch.tv/rolistespod">Twitch</a></strong>&nbsp;and contribute LIVE with your questions via the chat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>You can find Rupert at: </h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://twitter.com/thegoblinschest </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>The Goblin's Chest: </h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://www.thegoblinschest.com/ <br>https://www.facebook.com/TheGoblinsChestFantasyAdventureWorkshops/ </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>The Hidden Lands: </h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://www.thegoblinschest.com/public-events </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Rupert also joined me on a couple panels that you can find here: </h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://rolistespod.com/tag/rupert-greyling/</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Support The Rolistes</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Find out about my own game "Paris Gondo - The Life-Saving Magic of Inventorying" at:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><a href="https://www.youtube.com/redirect?q=https%3A%2F%2Frolistespod.com%2F2020%2F05%2F15%2Fannouncing-paris-gondo-the-life-saving-magic-of-inventorying%2F&amp;redir_token=tAxz9JvQs_tAihUX2PJJBfQ9EOZ8MTU5MTkwNzU0OEAxNTkxODIxMTQ4&amp;event=video_description&amp;v=CHZUBwI4vtc">https://rolistespod.com/2020/05/15/an...</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Don't forget to sign up for our <a href="http://eepurl.com/gJCUVX"><strong>newsletter</strong></a>!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Find and support our many shows</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Listen, rate or review the show on&nbsp;<strong><a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798">Podchaser</a></strong>,&nbsp;<strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>,&nbsp;<strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>,&nbsp;<strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong>&nbsp;or&nbsp;<a href="http://www.stitcher.com/podcast/the-rolistes-podcast"><strong>Stitcher</strong></a><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">.</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please consider contributing to my&nbsp;<strong><a href="https://www.patreon.com/RolistesPod">Patreon</a></strong>, making a modest donation via&nbsp;<a href="https://www.paypal.me/rolistespod/"><strong>Paypal</strong></a>&nbsp;or even support your show at no extra cost via your purchases on&nbsp;<a href="http://www.drivethrurpg.com/browse.php?affiliate_id=1289000"><strong>DriveThru RPG</strong></a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Newsletter: Subscribe&nbsp;<strong><a href="http://eepurl.com/gJCUVX">here</a></strong><br><a href="mailto:Rolistespod@gmail.com"><strong>Email Us!</strong></a><br><a href="https://twitter.com/rolistespod"><strong>Twitter</strong></a> / <a href="https://www.instagram.com/rolistespod"><strong>Instagram</strong></a> / <a href="https://www.tiktok.com/@rolistespod?lang=en"><strong>Tik Tok</strong></a> / <a href="https://www.facebook.com/Rolistespod"><strong>Facebook</strong></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Podcast by Kalum is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5><strong>Logo</strong></h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Podcast brand new logo by Rollin Kunz. Please check his excellent work at&nbsp;<strong><a href="https://www.rollinkunz.com/">https://www.rollinkunz.com</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong><a href="https://www.teepublic.com/user/rolistespod">Merchandising, including t-shirts</a></strong>, with the logo and more cool “The Rolistes Podcast” art by Rolin Kunz is available via our&nbsp;<strong><a href="https://www.teepublic.com/user/rolistespod">TeePublic store</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5><strong>Music</strong></h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Theme song: "Playtime" by Jahzzar<br>Available for free download at&nbsp;<a href="http://freemusicarchive.org/">http://freemusicarchive.org/</a></p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>5424</wp:post_id>
+		<wp:post_date>2021-01-26 16:12:44</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="asztali-szerepjatek"><![CDATA[Asztali Szerepjáték]]></category>
+		<category domain="post_tag" nicename="%e3%83%86%e3%83%bc%e3%83%96%e3%83%ab%e3%83%88%e3%83%bc%e3%82%afrpg"><![CDATA[テーブルトークRPG]]></category>
+		<category domain="post_tag" nicename="bordrollespil"><![CDATA[Bordrollespil]]></category>
+		<category domain="post_tag" nicename="british"><![CDATA[British]]></category>
+		<category domain="category" nicename="cafe-rolistes"><![CDATA[Café Rolistes]]></category>
+		<category domain="post_tag" nicename="expats"><![CDATA[Expats]]></category>
+		<category domain="post_tag" nicename="fandoms"><![CDATA[Fandoms]]></category>
+		<category domain="post_tag" nicename="friki"><![CDATA[Friki]]></category>
+		<category domain="post_tag" nicename="geek"><![CDATA[Geek]]></category>
+		<category domain="post_tag" nicename="gioco-di-ruolo"><![CDATA[Gioco di Ruolo]]></category>
+		<category domain="post_tag" nicename="gry-fabularne"><![CDATA[Gry Fabularne]]></category>
+		<category domain="post_tag" nicename="immigrants"><![CDATA[Immigrants]]></category>
+		<category domain="post_tag" nicename="%ed%85%8c%ec%9d%b4%eb%b8%94%ed%83%91-%eb%a1%a4%ed%94%8c%eb%a0%88%ec%9e%89-%ea%b2%8c%ec%9e%84"><![CDATA[테이블탑 롤플레잉 게임]]></category>
+		<category domain="post_tag" nicename="jeu-de-role"><![CDATA[Jeu de rôle]]></category>
+		<category domain="post_tag" nicename="joc-de-rol"><![CDATA[Joc de Rol]]></category>
+		<category domain="post_tag" nicename="jogo-de-interpretacao"><![CDATA[Jogo de Interpretação]]></category>
+		<category domain="post_tag" nicename="juego-de-rol"><![CDATA[Juego de rol]]></category>
+		<category domain="post_tag" nicename="jugador-de-rol"><![CDATA[Jugador de rol]]></category>
+		<category domain="post_tag" nicename="london"><![CDATA[London]]></category>
+		<category domain="post_tag" nicename="pen-and-paper"><![CDATA[Pen and Paper]]></category>
+		<category domain="post_tag" nicename="playing-with-children"><![CDATA[Playing with Children]]></category>
+		<category domain="post_tag" nicename="pnp"><![CDATA[PnP]]></category>
+		<category domain="category" nicename="podcast"><![CDATA[Podcast]]></category>
+		<category domain="post_tag" nicename="rollenspel"><![CDATA[Rollenspel]]></category>
+		<category domain="post_tag" nicename="rollenspiel"><![CDATA[Rollenspiel]]></category>
+		<category domain="post_tag" nicename="rollspel"><![CDATA[Rollspel]]></category>
+		<category domain="post_tag" nicename="roolipelaaja"><![CDATA[Roolipelaaja]]></category>
+		<category domain="post_tag" nicename="roolipeli"><![CDATA[Roolipeli]]></category>
+		<category domain="post_tag" nicename="ropettaja"><![CDATA[Ropettaja]]></category>
+		<category domain="post_tag" nicename="rpg-de-mesa"><![CDATA[RPG de Mesa]]></category>
+		<category domain="post_tag" nicename="rupert-greyling"><![CDATA[Rupert Greyling]]></category>
+		<category domain="post_tag" nicename="stolna-igra-uloga"><![CDATA[Stolna Igra Uloga]]></category>
+		<category domain="post_tag" nicename="tabletop-rpg"><![CDATA[Tabletop RPG]]></category>
+		<category domain="post_tag" nicename="united-kingdom"><![CDATA[United Kingdom]]></category>
+		<category domain="post_tag" nicename="%e6%a1%8c%e4%b8%8a%e8%a7%92%e8%89%b2%e6%89%ae%e6%bc%94%e9%81%8a%e6%88%b2"><![CDATA[桌上角色扮演遊戲]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[5387]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_last_editor_used_jetpack</wp:meta_key>
+			<wp:meta_value><![CDATA[block-editor]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_139fc19c8ec5a6bb24fe9fc7a1d9dd54</wp:meta_key>
+			<wp:meta_value><![CDATA[<div class="embed-twitter"><a class="twitter-timeline" data-width="500" data-height="750" data-dnt="true" href="https://twitter.com/thegoblinschest?ref_src=twsrc%5Etfw">Tweets by thegoblinschest</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_time_139fc19c8ec5a6bb24fe9fc7a1d9dd54</wp:meta_key>
+			<wp:meta_value><![CDATA[1611676375]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_9c2811c5bc895579f10bd6e55fb61e78</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_4122e0b43f06805bec23c22611bd536b</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Café Rolistes 130 - Paddy Hutchinson from Liberation Industries</title>
+		<link>http://rolistespod.com/?p=5431</link>
+		<pubDate></pubDate>
+		<dc:creator>kalum666</dc:creator>
+		<guid isPermaLink="false">http://rolistespod.com/?p=5431</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>[audio src="xx"] Listen, subscribe &amp; review on <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>,&nbsp;<strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>,&nbsp;<strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong>.<br>You can also <strong><a href="http://xx">download this episode</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Don't forget to join our <strong><a rel="noreferrer noopener" href="http://eepurl.com/gJCUVX" target="_blank">newsletter</a> </strong>if you don't want to miss any of our content.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please also subscribe to&nbsp;<strong><a href="https://www.youtube.com/playlist?list=PL2fGTs_dddRzqemJDagJOe_j_bLk2-ZlL">The Rolistes Youtube Channel</a></strong>, click the "Like" button and write comments.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:embed {"url":"https:\/\/youtu.be\/Ao-Y7S66j7I","type":"rich","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+<figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+https://youtu.be/Ao-Y7S66j7I
+</div></figure>
+<!-- /wp:embed -->
+
+<!-- wp:paragraph -->
+<p>Follow us on&nbsp;<strong><a href="https://www.twitch.tv/rolistespod">Twitch</a></strong>&nbsp;and contribute LIVE with your questions via the chat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>You can find Paddy at: </h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://twitter.com/PaddyHutcho <br>https://quorganism.itch.io/?ac=6hKcoR9Jch</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Liberation Industries: </h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://liberationindustries.net/ </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Sid Icarus | Talking About Better Games | GDO 2020:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://www.youtube.com/watch?v=kclVeuCQEzY </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>ArcanaCon: </h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://www.arcanacon.org/ https://twitter.com/arcanacon </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Game Dunk Online: </h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://twitter.com/gamedunk_online</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Support The Rolistes</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Find out about my own game "Paris Gondo - The Life-Saving Magic of Inventorying" at:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><a href="https://www.youtube.com/redirect?q=https%3A%2F%2Frolistespod.com%2F2020%2F05%2F15%2Fannouncing-paris-gondo-the-life-saving-magic-of-inventorying%2F&amp;redir_token=tAxz9JvQs_tAihUX2PJJBfQ9EOZ8MTU5MTkwNzU0OEAxNTkxODIxMTQ4&amp;event=video_description&amp;v=CHZUBwI4vtc">https://rolistespod.com/2020/05/15/an...</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Don't forget to sign up for our <a href="http://eepurl.com/gJCUVX"><strong>newsletter</strong></a>!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Find and support our many shows</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Listen, rate or review the show on&nbsp;<strong><a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798">Podchaser</a></strong>,&nbsp;<strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>,&nbsp;<strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>,&nbsp;<strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong>&nbsp;or&nbsp;<a href="http://www.stitcher.com/podcast/the-rolistes-podcast"><strong>Stitcher</strong></a><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">.</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please consider contributing to my&nbsp;<strong><a href="https://www.patreon.com/RolistesPod">Patreon</a></strong>, making a modest donation via&nbsp;<a href="https://www.paypal.me/rolistespod/"><strong>Paypal</strong></a>&nbsp;or even support your show at no extra cost via your purchases on&nbsp;<a href="http://www.drivethrurpg.com/browse.php?affiliate_id=1289000"><strong>DriveThru RPG</strong></a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Newsletter: Subscribe&nbsp;<strong><a href="http://eepurl.com/gJCUVX">here</a></strong><br><a href="mailto:Rolistespod@gmail.com"><strong>Email Us!</strong></a><br><a href="https://twitter.com/rolistespod"><strong>Twitter</strong></a> / <a href="https://www.instagram.com/rolistespod"><strong>Instagram</strong></a> / <a href="https://www.tiktok.com/@rolistespod?lang=en"><strong>Tik Tok</strong></a> / <a href="https://www.facebook.com/Rolistespod"><strong>Facebook</strong></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Podcast by Kalum is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5><strong>Logo</strong></h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Podcast brand new logo by Rollin Kunz. Please check his excellent work at&nbsp;<strong><a href="https://www.rollinkunz.com/">https://www.rollinkunz.com</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong><a href="https://www.teepublic.com/user/rolistespod">Merchandising, including t-shirts</a></strong>, with the logo and more cool “The Rolistes Podcast” art by Rolin Kunz is available via our&nbsp;<strong><a href="https://www.teepublic.com/user/rolistespod">TeePublic store</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5><strong>Music</strong></h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Theme song: "Playtime" by Jahzzar<br>Available for free download at&nbsp;<a href="http://freemusicarchive.org/">http://freemusicarchive.org/</a></p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>5431</wp:post_id>
+		<wp:post_date>2021-01-26 16:57:34</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="asztali-szerepjatek"><![CDATA[Asztali Szerepjáték]]></category>
+		<category domain="post_tag" nicename="australia"><![CDATA[Australia]]></category>
+		<category domain="post_tag" nicename="%e3%83%86%e3%83%bc%e3%83%96%e3%83%ab%e3%83%88%e3%83%bc%e3%82%afrpg"><![CDATA[テーブルトークRPG]]></category>
+		<category domain="post_tag" nicename="bordrollespil"><![CDATA[Bordrollespil]]></category>
+		<category domain="post_tag" nicename="british"><![CDATA[British]]></category>
+		<category domain="category" nicename="cafe-rolistes"><![CDATA[Café Rolistes]]></category>
+		<category domain="post_tag" nicename="expats"><![CDATA[Expats]]></category>
+		<category domain="post_tag" nicename="fandoms"><![CDATA[Fandoms]]></category>
+		<category domain="post_tag" nicename="friki"><![CDATA[Friki]]></category>
+		<category domain="post_tag" nicename="geek"><![CDATA[Geek]]></category>
+		<category domain="post_tag" nicename="gioco-di-ruolo"><![CDATA[Gioco di Ruolo]]></category>
+		<category domain="post_tag" nicename="gry-fabularne"><![CDATA[Gry Fabularne]]></category>
+		<category domain="post_tag" nicename="immigrants"><![CDATA[Immigrants]]></category>
+		<category domain="post_tag" nicename="%ed%85%8c%ec%9d%b4%eb%b8%94%ed%83%91-%eb%a1%a4%ed%94%8c%eb%a0%88%ec%9e%89-%ea%b2%8c%ec%9e%84"><![CDATA[테이블탑 롤플레잉 게임]]></category>
+		<category domain="post_tag" nicename="jeu-de-role"><![CDATA[Jeu de rôle]]></category>
+		<category domain="post_tag" nicename="joc-de-rol"><![CDATA[Joc de Rol]]></category>
+		<category domain="post_tag" nicename="jogo-de-interpretacao"><![CDATA[Jogo de Interpretação]]></category>
+		<category domain="post_tag" nicename="juego-de-rol"><![CDATA[Juego de rol]]></category>
+		<category domain="post_tag" nicename="jugador-de-rol"><![CDATA[Jugador de rol]]></category>
+		<category domain="post_tag" nicename="liberation-industries"><![CDATA[Liberation Industries]]></category>
+		<category domain="post_tag" nicename="london"><![CDATA[London]]></category>
+		<category domain="post_tag" nicename="paddy-hutchinson"><![CDATA[Paddy Hutchinson]]></category>
+		<category domain="post_tag" nicename="pen-and-paper"><![CDATA[Pen and Paper]]></category>
+		<category domain="post_tag" nicename="pnp"><![CDATA[PnP]]></category>
+		<category domain="category" nicename="podcast"><![CDATA[Podcast]]></category>
+		<category domain="post_tag" nicename="rollenspel"><![CDATA[Rollenspel]]></category>
+		<category domain="post_tag" nicename="rollenspiel"><![CDATA[Rollenspiel]]></category>
+		<category domain="post_tag" nicename="rollspel"><![CDATA[Rollspel]]></category>
+		<category domain="post_tag" nicename="roolipelaaja"><![CDATA[Roolipelaaja]]></category>
+		<category domain="post_tag" nicename="roolipeli"><![CDATA[Roolipeli]]></category>
+		<category domain="post_tag" nicename="ropettaja"><![CDATA[Ropettaja]]></category>
+		<category domain="post_tag" nicename="rpg-de-mesa"><![CDATA[RPG de Mesa]]></category>
+		<category domain="post_tag" nicename="stolna-igra-uloga"><![CDATA[Stolna Igra Uloga]]></category>
+		<category domain="post_tag" nicename="tabletop-rpg"><![CDATA[Tabletop RPG]]></category>
+		<category domain="post_tag" nicename="united-kingdom"><![CDATA[United Kingdom]]></category>
+		<category domain="post_tag" nicename="%e6%a1%8c%e4%b8%8a%e8%a7%92%e8%89%b2%e6%89%ae%e6%bc%94%e9%81%8a%e6%88%b2"><![CDATA[桌上角色扮演遊戲]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[5388]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_last_editor_used_jetpack</wp:meta_key>
+			<wp:meta_value><![CDATA[block-editor]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_ac169ab17544fc15d58bd5ec7e2c3002</wp:meta_key>
+			<wp:meta_value><![CDATA[<div class="embed-twitter"><a class="twitter-timeline" data-width="500" data-height="750" data-dnt="true" href="https://twitter.com/gamedunk_online?ref_src=twsrc%5Etfw">Tweets by gamedunk_online</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_time_ac169ab17544fc15d58bd5ec7e2c3002</wp:meta_key>
+			<wp:meta_value><![CDATA[1611679352]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_4bdf7fcebf6ff673bc6d433722bda313</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>TEMPLATE_Café Rolistes</title>
+		<link>http://rolistespod.com/?p=5432</link>
+		<pubDate></pubDate>
+		<dc:creator>kalum666</dc:creator>
+		<guid isPermaLink="false">http://rolistespod.com/?p=5432</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>[audio src="xx"] Listen, subscribe &amp; review on <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>,&nbsp;<strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>, <a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798"><strong>Podchaser</strong></a> and <a href="https://www.stitcher.com/show/the-rolistes-podcast/"><strong>Stitcher</strong></a>.<br>You can also <strong><a href="http://xx/">download this episode</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Don't forget to join our <strong><a rel="noreferrer noopener" href="http://eepurl.com/gJCUVX" target="_blank">newsletter</a> </strong>if you don't want to miss any of our content.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please also subscribe to&nbsp;<strong><a href="https://www.youtube.com/playlist?list=PL2fGTs_dddRzqemJDagJOe_j_bLk2-ZlL">The Rolistes Youtube Channel</a></strong>, click the "Like" button and write comments.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:embed {"url":"https:\/\/youtu.be\/eq7KDfszVlM","type":"rich","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+<figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+https://youtu.be/eq7KDfszVlM
+</div></figure>
+<!-- /wp:embed -->
+
+<!-- wp:paragraph -->
+<p>Follow us on&nbsp;<strong><a href="https://www.twitch.tv/rolistespod">Twitch</a></strong>&nbsp;and contribute LIVE with your questions via the chat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>INSERT EPISODE LINKS</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Support The Rolistes</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Find out about my own game "Paris Gondo - The Life-Saving Magic of Inventorying" at:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><a href="https://rolistespod.com/2020/05/15/announcing-paris-gondo-the-life-saving-magic-of-inventorying/">https://rolistespod.com/2020/05/15/an...</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Don't forget to sign up for our <a href="http://eepurl.com/gJCUVX"><strong>newsletter</strong></a>!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Find and support our many shows</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Listen, rate or review the show on <strong><a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798">Podchaser</a></strong>, <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a> </strong>and<strong> <a href="https://www.stitcher.com/show/the-rolistes-podcast/"><strong>Stitcher</strong></a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please consider contributing to my&nbsp;<strong><a href="https://www.patreon.com/RolistesPod">Patreon</a></strong>, making a modest donation via&nbsp;<a href="https://www.paypal.me/rolistespod/"><strong>Paypal</strong></a>&nbsp;or even support your show at no extra cost via your purchases on&nbsp;<a href="http://www.drivethrurpg.com/browse.php?affiliate_id=1289000"><strong>DriveThru RPG</strong></a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Newsletter: Subscribe&nbsp;<strong><a href="http://eepurl.com/gJCUVX">here</a></strong><br><a href="mailto:Rolistespod@gmail.com"><strong>Email Us!</strong></a><br><a href="https://twitter.com/rolistespod"><strong>Twitter</strong></a> / <a href="https://www.instagram.com/rolistespod"><strong>Instagram</strong></a> / <a href="https://www.tiktok.com/@rolistespod?lang=en"><strong>Tik Tok</strong></a> / <a href="https://www.facebook.com/Rolistespod"><strong>Facebook</strong></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Podcast by Kalum is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5><strong>Logo</strong></h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Podcast brand new logo by Rollin Kunz. Please check his excellent work at&nbsp;<strong><a href="https://www.rollinkunz.com/">https://www.rollinkunz.com</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong><a href="https://www.teepublic.com/user/rolistespod">Merchandising, including t-shirts</a></strong>, with the logo and more cool “The Rolistes Podcast” art by Rolin Kunz is available via our&nbsp;<strong><a href="https://www.teepublic.com/user/rolistespod">TeePublic store</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5><strong>Music</strong></h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Theme song: "Playtime" by Jahzzar<br>Available for free download at&nbsp;<a href="http://freemusicarchive.org/">http://freemusicarchive.org/</a></p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>5432</wp:post_id>
+		<wp:post_date>2021-01-27 14:54:56</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="asztali-szerepjatek"><![CDATA[Asztali Szerepjáték]]></category>
+		<category domain="post_tag" nicename="%e3%83%86%e3%83%bc%e3%83%96%e3%83%ab%e3%83%88%e3%83%bc%e3%82%afrpg"><![CDATA[テーブルトークRPG]]></category>
+		<category domain="post_tag" nicename="bordrollespil"><![CDATA[Bordrollespil]]></category>
+		<category domain="post_tag" nicename="british"><![CDATA[British]]></category>
+		<category domain="category" nicename="cafe-rolistes"><![CDATA[Café Rolistes]]></category>
+		<category domain="post_tag" nicename="expats"><![CDATA[Expats]]></category>
+		<category domain="post_tag" nicename="fandoms"><![CDATA[Fandoms]]></category>
+		<category domain="post_tag" nicename="friki"><![CDATA[Friki]]></category>
+		<category domain="post_tag" nicename="geek"><![CDATA[Geek]]></category>
+		<category domain="post_tag" nicename="gioco-di-ruolo"><![CDATA[Gioco di Ruolo]]></category>
+		<category domain="post_tag" nicename="gry-fabularne"><![CDATA[Gry Fabularne]]></category>
+		<category domain="post_tag" nicename="immigrants"><![CDATA[Immigrants]]></category>
+		<category domain="post_tag" nicename="%ed%85%8c%ec%9d%b4%eb%b8%94%ed%83%91-%eb%a1%a4%ed%94%8c%eb%a0%88%ec%9e%89-%ea%b2%8c%ec%9e%84"><![CDATA[테이블탑 롤플레잉 게임]]></category>
+		<category domain="post_tag" nicename="jeu-de-role"><![CDATA[Jeu de rôle]]></category>
+		<category domain="post_tag" nicename="joc-de-rol"><![CDATA[Joc de Rol]]></category>
+		<category domain="post_tag" nicename="jogo-de-interpretacao"><![CDATA[Jogo de Interpretação]]></category>
+		<category domain="post_tag" nicename="juego-de-rol"><![CDATA[Juego de rol]]></category>
+		<category domain="post_tag" nicename="jugador-de-rol"><![CDATA[Jugador de rol]]></category>
+		<category domain="post_tag" nicename="london"><![CDATA[London]]></category>
+		<category domain="post_tag" nicename="pen-and-paper"><![CDATA[Pen and Paper]]></category>
+		<category domain="post_tag" nicename="pnp"><![CDATA[PnP]]></category>
+		<category domain="category" nicename="podcast"><![CDATA[Podcast]]></category>
+		<category domain="post_tag" nicename="rollenspel"><![CDATA[Rollenspel]]></category>
+		<category domain="post_tag" nicename="rollenspiel"><![CDATA[Rollenspiel]]></category>
+		<category domain="post_tag" nicename="rollspel"><![CDATA[Rollspel]]></category>
+		<category domain="post_tag" nicename="roolipelaaja"><![CDATA[Roolipelaaja]]></category>
+		<category domain="post_tag" nicename="roolipeli"><![CDATA[Roolipeli]]></category>
+		<category domain="post_tag" nicename="ropettaja"><![CDATA[Ropettaja]]></category>
+		<category domain="post_tag" nicename="rpg-de-mesa"><![CDATA[RPG de Mesa]]></category>
+		<category domain="post_tag" nicename="stolna-igra-uloga"><![CDATA[Stolna Igra Uloga]]></category>
+		<category domain="post_tag" nicename="tabletop-rpg"><![CDATA[Tabletop RPG]]></category>
+		<category domain="post_tag" nicename="united-kingdom"><![CDATA[United Kingdom]]></category>
+		<category domain="post_tag" nicename="%e6%a1%8c%e4%b8%8a%e8%a7%92%e8%89%b2%e6%89%ae%e6%bc%94%e9%81%8a%e6%88%b2"><![CDATA[桌上角色扮演遊戲]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_last_editor_used_jetpack</wp:meta_key>
+			<wp:meta_value><![CDATA[block-editor]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Café Rolistes 131 - ROLLINKUNZ from &quot;The Dungenerator&quot;</title>
+		<link>http://rolistespod.com/?p=5439</link>
+		<pubDate></pubDate>
+		<dc:creator>kalum666</dc:creator>
+		<guid isPermaLink="false">http://rolistespod.com/?p=5439</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>[audio src="xx"] Listen, subscribe &amp; review on <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>,&nbsp;<strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>, <a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798"><strong>Podchaser</strong></a> and <a href="https://www.stitcher.com/show/the-rolistes-podcast/"><strong>Stitcher</strong></a>.<br>You can also <strong><a href="http://xx">download this episode</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Don't forget to join our <strong><a rel="noreferrer noopener" href="http://eepurl.com/gJCUVX" target="_blank">newsletter</a> </strong>if you don't want to miss any of our content.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please also subscribe to&nbsp;<strong><a href="https://www.youtube.com/playlist?list=PL2fGTs_dddRzqemJDagJOe_j_bLk2-ZlL">The Rolistes Youtube Channel</a></strong>, click the "Like" button and write comments.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:embed {"url":"https:\/\/youtu.be\/5s1pp9wTXy8","type":"rich","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+<figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+https://youtu.be/5s1pp9wTXy8
+</div></figure>
+<!-- /wp:embed -->
+
+<!-- wp:paragraph -->
+<p>Follow us on&nbsp;<strong><a href="https://www.twitch.tv/rolistespod">Twitch</a></strong>&nbsp;and contribute LIVE with your questions via the chat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>You can find ROLLINKUNZ at:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://twitter.com/ROLLINKUNZ<br>http://instagram.com/rollinkunz<br>https://t.co/AYH3IXMpia?amp=1</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>The Dungenerator</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://www.kickstarter.com/projects/rollinkunz/the-dungenerator</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Fragnarok</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://www.drivethrurpg.com/product/325447/FRAGNAROK&amp;affiliate_id=1289000</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>The Rolistes TeePublic Store (featuring a LOT of art by ROLLINKUNZ):</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://www.teepublic.com/en-gb/user/rolistespod/</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Bodie Hartley</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://www.instagram.com/bodieh/<br>https://www.slowquest.com/</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Dark Wizard Berseker</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://www.instagram.com/darkwizard_berserker/</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Direquest</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://www.instagram.com/direquest/</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Skullfungus</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://www.instagram.com/skullfungus/</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Support The Rolistes</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Find out about my own game "Paris Gondo - The Life-Saving Magic of Inventorying" at:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><a href="https://rolistespod.com/2020/05/15/announcing-paris-gondo-the-life-saving-magic-of-inventorying/">https://rolistespod.com/2020/05/15/an...</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Don't forget to sign up for our <a href="http://eepurl.com/gJCUVX"><strong>newsletter</strong></a>!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Find and support our many shows</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Listen, rate or review the show on <strong><a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798">Podchaser</a></strong>, <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a> </strong>and<strong> <a href="https://www.stitcher.com/show/the-rolistes-podcast/"><strong>Stitcher</strong></a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please consider contributing to my&nbsp;<strong><a href="https://www.patreon.com/RolistesPod">Patreon</a></strong>, making a modest donation via&nbsp;<a href="https://www.paypal.me/rolistespod/"><strong>Paypal</strong></a>&nbsp;or even support your show at no extra cost via your purchases on&nbsp;<a href="http://www.drivethrurpg.com/browse.php?affiliate_id=1289000"><strong>DriveThru RPG</strong></a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Newsletter: Subscribe&nbsp;<strong><a href="http://eepurl.com/gJCUVX">here</a></strong><br><a href="mailto:Rolistespod@gmail.com"><strong>Email Us!</strong></a><br><a href="https://twitter.com/rolistespod"><strong>Twitter</strong></a> / <a href="https://www.instagram.com/rolistespod"><strong>Instagram</strong></a> / <a href="https://www.tiktok.com/@rolistespod?lang=en"><strong>Tik Tok</strong></a> / <a href="https://www.facebook.com/Rolistespod"><strong>Facebook</strong></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Podcast by Kalum is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5><strong>Logo</strong></h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Podcast brand new logo by Rollin Kunz. Please check his excellent work at&nbsp;<strong><a href="https://www.rollinkunz.com/">https://www.rollinkunz.com</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong><a href="https://www.teepublic.com/user/rolistespod">Merchandising, including t-shirts</a></strong>, with the logo and more cool “The Rolistes Podcast” art by Rolin Kunz is available via our&nbsp;<strong><a href="https://www.teepublic.com/user/rolistespod">TeePublic store</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5><strong>Music</strong></h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Theme song: "Playtime" by Jahzzar<br>Available for free download at&nbsp;<a href="http://freemusicarchive.org/">http://freemusicarchive.org/</a></p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>5439</wp:post_id>
+		<wp:post_date>2021-01-27 14:55:18</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="asztali-szerepjatek"><![CDATA[Asztali Szerepjáték]]></category>
+		<category domain="post_tag" nicename="%e3%83%86%e3%83%bc%e3%83%96%e3%83%ab%e3%83%88%e3%83%bc%e3%82%afrpg"><![CDATA[テーブルトークRPG]]></category>
+		<category domain="post_tag" nicename="bordrollespil"><![CDATA[Bordrollespil]]></category>
+		<category domain="post_tag" nicename="british"><![CDATA[British]]></category>
+		<category domain="category" nicename="cafe-rolistes"><![CDATA[Café Rolistes]]></category>
+		<category domain="post_tag" nicename="expats"><![CDATA[Expats]]></category>
+		<category domain="post_tag" nicename="fandoms"><![CDATA[Fandoms]]></category>
+		<category domain="post_tag" nicename="friki"><![CDATA[Friki]]></category>
+		<category domain="post_tag" nicename="geek"><![CDATA[Geek]]></category>
+		<category domain="post_tag" nicename="gioco-di-ruolo"><![CDATA[Gioco di Ruolo]]></category>
+		<category domain="post_tag" nicename="gry-fabularne"><![CDATA[Gry Fabularne]]></category>
+		<category domain="post_tag" nicename="immigrants"><![CDATA[Immigrants]]></category>
+		<category domain="post_tag" nicename="%ed%85%8c%ec%9d%b4%eb%b8%94%ed%83%91-%eb%a1%a4%ed%94%8c%eb%a0%88%ec%9e%89-%ea%b2%8c%ec%9e%84"><![CDATA[테이블탑 롤플레잉 게임]]></category>
+		<category domain="post_tag" nicename="jeu-de-role"><![CDATA[Jeu de rôle]]></category>
+		<category domain="post_tag" nicename="joc-de-rol"><![CDATA[Joc de Rol]]></category>
+		<category domain="post_tag" nicename="jogo-de-interpretacao"><![CDATA[Jogo de Interpretação]]></category>
+		<category domain="post_tag" nicename="juego-de-rol"><![CDATA[Juego de rol]]></category>
+		<category domain="post_tag" nicename="jugador-de-rol"><![CDATA[Jugador de rol]]></category>
+		<category domain="post_tag" nicename="london"><![CDATA[London]]></category>
+		<category domain="post_tag" nicename="pen-and-paper"><![CDATA[Pen and Paper]]></category>
+		<category domain="post_tag" nicename="pnp"><![CDATA[PnP]]></category>
+		<category domain="category" nicename="podcast"><![CDATA[Podcast]]></category>
+		<category domain="post_tag" nicename="rollenspel"><![CDATA[Rollenspel]]></category>
+		<category domain="post_tag" nicename="rollenspiel"><![CDATA[Rollenspiel]]></category>
+		<category domain="post_tag" nicename="rollinkunz"><![CDATA[ROLLINKUNZ]]></category>
+		<category domain="post_tag" nicename="rollspel"><![CDATA[Rollspel]]></category>
+		<category domain="post_tag" nicename="roolipelaaja"><![CDATA[Roolipelaaja]]></category>
+		<category domain="post_tag" nicename="roolipeli"><![CDATA[Roolipeli]]></category>
+		<category domain="post_tag" nicename="ropettaja"><![CDATA[Ropettaja]]></category>
+		<category domain="post_tag" nicename="rpg-de-mesa"><![CDATA[RPG de Mesa]]></category>
+		<category domain="post_tag" nicename="stolna-igra-uloga"><![CDATA[Stolna Igra Uloga]]></category>
+		<category domain="post_tag" nicename="tabletop-rpg"><![CDATA[Tabletop RPG]]></category>
+		<category domain="post_tag" nicename="the-dungenerator"><![CDATA[The Dungenerator]]></category>
+		<category domain="post_tag" nicename="united-kingdom"><![CDATA[United Kingdom]]></category>
+		<category domain="post_tag" nicename="%e6%a1%8c%e4%b8%8a%e8%a7%92%e8%89%b2%e6%89%ae%e6%bc%94%e9%81%8a%e6%88%b2"><![CDATA[桌上角色扮演遊戲]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[5389]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_last_editor_used_jetpack</wp:meta_key>
+			<wp:meta_value><![CDATA[block-editor]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_c58c56000f70ca069bca9d8160b4ef36</wp:meta_key>
+			<wp:meta_value><![CDATA[<div class="embed-kickstarter"><iframe title="The DUNGENERATOR" src="https://www.kickstarter.com/projects/rollinkunz/the-dungenerator/widget/video.html" height="281.25" width="500" frameborder="0" scrolling="no"></iframe></div>]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_time_c58c56000f70ca069bca9d8160b4ef36</wp:meta_key>
+			<wp:meta_value><![CDATA[1611755869]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_5e82e46c01771c8dbf93f4e5d9a80e1b</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_376ab643688f966801317dcaab0fc677</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_0e248a4b5c0bc136ec7714ca557526f0</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_276d7b6946888dbf3a1103638684e03f</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_1a92e1f16ddb0e4104c65a0c9d5c25f4</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Café Rolistes 132 - CyberConv&#039; with Mononc&#039; Marc &#038; DragonElvish</title>
+		<link>http://rolistespod.com/?p=5443</link>
+		<pubDate></pubDate>
+		<dc:creator>kalum666</dc:creator>
+		<guid isPermaLink="false">http://rolistespod.com/?p=5443</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>[audio src="xx"] Listen, subscribe &amp; review on <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>,&nbsp;<strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>, <a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798"><strong>Podchaser</strong></a> and <a href="https://www.stitcher.com/show/the-rolistes-podcast/"><strong>Stitcher</strong></a>.<br>You can also <strong><a href="http://xx/">download this episode</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Don't forget to join our <strong><a rel="noreferrer noopener" href="http://eepurl.com/gJCUVX" target="_blank">newsletter</a> </strong>if you don't want to miss any of our content.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please also subscribe to&nbsp;<strong><a href="https://www.youtube.com/playlist?list=PL2fGTs_dddRzqemJDagJOe_j_bLk2-ZlL">The Rolistes Youtube Channel</a></strong>, click the "Like" button and write comments.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:embed {"url":"https:\/\/youtu.be\/pNgD2eTKB0o","type":"rich","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+<figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+https://youtu.be/pNgD2eTKB0o
+</div></figure>
+<!-- /wp:embed -->
+
+<!-- wp:paragraph -->
+<p>Follow us on&nbsp;<strong><a href="https://www.twitch.tv/rolistespod">Twitch</a></strong>&nbsp;and contribute LIVE with your questions via the chat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>You can find Mononc' Marc at: </h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://twitter.com/MononcMarc </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>You can find Dragon at: </h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://twitter.com/DragonElvish </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>CyberConv: </h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://cyberconv.com/ </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Bundle CyberConv </h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://cyberconv.com/contribution/ </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Les Aventureux: </h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://twitter.com/lesaventureux <br>https://www.twitch.tv/lesaventureux </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Festival Draconis: </h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://warhorn.net/events/festival-draconis-2020 </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Dragonmeet: </h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://www.dragonmeet.co.uk/</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Support The Rolistes</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Find out about my own game "Paris Gondo - The Life-Saving Magic of Inventorying" at:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><a href="https://www.youtube.com/redirect?q=https%3A%2F%2Frolistespod.com%2F2020%2F05%2F15%2Fannouncing-paris-gondo-the-life-saving-magic-of-inventorying%2F&amp;redir_token=tAxz9JvQs_tAihUX2PJJBfQ9EOZ8MTU5MTkwNzU0OEAxNTkxODIxMTQ4&amp;event=video_description&amp;v=CHZUBwI4vtc">https://rolistespod.com/2020/05/15/an...</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Don't forget to sign up for our <a href="http://eepurl.com/gJCUVX"><strong>newsletter</strong></a>!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Find and support our many shows</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Listen, rate or review the show on&nbsp;<strong><a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798">Podchaser</a></strong>,&nbsp;<strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>,&nbsp;<strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>,&nbsp;<strong><a href="https://t.co/GGyHVo3NvT">Google Podcasts</a></strong>&nbsp;or&nbsp;<a href="http://www.stitcher.com/podcast/the-rolistes-podcast"><strong>Stitcher</strong></a><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">.</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please consider contributing to my&nbsp;<strong><a href="https://www.patreon.com/RolistesPod">Patreon</a></strong>, making a modest donation via&nbsp;<a href="https://www.paypal.me/rolistespod/"><strong>Paypal</strong></a>&nbsp;or even support your show at no extra cost via your purchases on&nbsp;<a href="http://www.drivethrurpg.com/browse.php?affiliate_id=1289000"><strong>DriveThru RPG</strong></a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Newsletter: Subscribe&nbsp;<strong><a href="http://eepurl.com/gJCUVX">here</a></strong><br><a href="mailto:Rolistespod@gmail.com"><strong>Email Us!</strong></a><br><a href="https://twitter.com/rolistespod"><strong>Twitter</strong></a> / <a href="https://www.instagram.com/rolistespod"><strong>Instagram</strong></a> / <a href="https://www.tiktok.com/@rolistespod?lang=en"><strong>Tik Tok</strong></a> / <a href="https://www.facebook.com/Rolistespod"><strong>Facebook</strong></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Podcast by Kalum is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5><strong>Logo</strong></h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Podcast brand new logo by Rollin Kunz. Please check his excellent work at&nbsp;<strong><a href="https://www.rollinkunz.com/">https://www.rollinkunz.com</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong><a href="https://www.teepublic.com/user/rolistespod">Merchandising, including t-shirts</a></strong>, with the logo and more cool “The Rolistes Podcast” art by Rolin Kunz is available via our&nbsp;<strong><a href="https://www.teepublic.com/user/rolistespod">TeePublic store</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5><strong>Music</strong></h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Theme song: "Playtime" by Jahzzar<br>Available for free download at&nbsp;<a href="http://freemusicarchive.org/">http://freemusicarchive.org/</a></p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>5443</wp:post_id>
+		<wp:post_date>2021-01-27 14:31:07</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="asztali-szerepjatek"><![CDATA[Asztali Szerepjáték]]></category>
+		<category domain="post_tag" nicename="%e3%83%86%e3%83%bc%e3%83%96%e3%83%ab%e3%83%88%e3%83%bc%e3%82%afrpg"><![CDATA[テーブルトークRPG]]></category>
+		<category domain="post_tag" nicename="bordrollespil"><![CDATA[Bordrollespil]]></category>
+		<category domain="post_tag" nicename="british"><![CDATA[British]]></category>
+		<category domain="category" nicename="cafe-rolistes"><![CDATA[Café Rolistes]]></category>
+		<category domain="post_tag" nicename="canada"><![CDATA[Canada]]></category>
+		<category domain="post_tag" nicename="cyberconv"><![CDATA[CyberConv]]></category>
+		<category domain="post_tag" nicename="cyberconv2-0"><![CDATA[CyberConv2.0]]></category>
+		<category domain="post_tag" nicename="dragonelvish"><![CDATA[DragonElvish]]></category>
+		<category domain="post_tag" nicename="expats"><![CDATA[Expats]]></category>
+		<category domain="post_tag" nicename="fandoms"><![CDATA[Fandoms]]></category>
+		<category domain="post_tag" nicename="friki"><![CDATA[Friki]]></category>
+		<category domain="post_tag" nicename="geek"><![CDATA[Geek]]></category>
+		<category domain="post_tag" nicename="gioco-di-ruolo"><![CDATA[Gioco di Ruolo]]></category>
+		<category domain="post_tag" nicename="gry-fabularne"><![CDATA[Gry Fabularne]]></category>
+		<category domain="post_tag" nicename="immigrants"><![CDATA[Immigrants]]></category>
+		<category domain="post_tag" nicename="%ed%85%8c%ec%9d%b4%eb%b8%94%ed%83%91-%eb%a1%a4%ed%94%8c%eb%a0%88%ec%9e%89-%ea%b2%8c%ec%9e%84"><![CDATA[테이블탑 롤플레잉 게임]]></category>
+		<category domain="post_tag" nicename="jeu-de-role"><![CDATA[Jeu de rôle]]></category>
+		<category domain="post_tag" nicename="joc-de-rol"><![CDATA[Joc de Rol]]></category>
+		<category domain="post_tag" nicename="jogo-de-interpretacao"><![CDATA[Jogo de Interpretação]]></category>
+		<category domain="post_tag" nicename="juego-de-rol"><![CDATA[Juego de rol]]></category>
+		<category domain="post_tag" nicename="jugador-de-rol"><![CDATA[Jugador de rol]]></category>
+		<category domain="post_tag" nicename="les-aventureux"><![CDATA[Les Aventureux]]></category>
+		<category domain="post_tag" nicename="london"><![CDATA[London]]></category>
+		<category domain="post_tag" nicename="mononc-marc"><![CDATA[Mononc&#039; Marc]]></category>
+		<category domain="post_tag" nicename="pen-and-paper"><![CDATA[Pen and Paper]]></category>
+		<category domain="post_tag" nicename="pnp"><![CDATA[PnP]]></category>
+		<category domain="category" nicename="podcast"><![CDATA[Podcast]]></category>
+		<category domain="post_tag" nicename="rollenspel"><![CDATA[Rollenspel]]></category>
+		<category domain="post_tag" nicename="rollenspiel"><![CDATA[Rollenspiel]]></category>
+		<category domain="post_tag" nicename="rollspel"><![CDATA[Rollspel]]></category>
+		<category domain="post_tag" nicename="roolipelaaja"><![CDATA[Roolipelaaja]]></category>
+		<category domain="post_tag" nicename="roolipeli"><![CDATA[Roolipeli]]></category>
+		<category domain="post_tag" nicename="ropettaja"><![CDATA[Ropettaja]]></category>
+		<category domain="post_tag" nicename="rpg-de-mesa"><![CDATA[RPG de Mesa]]></category>
+		<category domain="post_tag" nicename="stolna-igra-uloga"><![CDATA[Stolna Igra Uloga]]></category>
+		<category domain="post_tag" nicename="tabletop-rpg"><![CDATA[Tabletop RPG]]></category>
+		<category domain="post_tag" nicename="united-kingdom"><![CDATA[United Kingdom]]></category>
+		<category domain="post_tag" nicename="%e6%a1%8c%e4%b8%8a%e8%a7%92%e8%89%b2%e6%89%ae%e6%bc%94%e9%81%8a%e6%88%b2"><![CDATA[桌上角色扮演遊戲]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[5390]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_last_editor_used_jetpack</wp:meta_key>
+			<wp:meta_value><![CDATA[block-editor]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_a19ea73cae328d5745b49e6e06304e1f</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_f6a63feb4078fffe0a243e30d3f6756f</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_898e55ef269bdb06aa65ae155b4439e0</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_237daf1ed9ef9441d5f171e29f9b7a3b</wp:meta_key>
+			<wp:meta_value><![CDATA[<div class="embed-twitter"><a class="twitter-timeline" data-width="500" data-height="750" data-dnt="true" href="https://twitter.com/MononcMarc?ref_src=twsrc%5Etfw">Tweets by MononcMarc</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_time_237daf1ed9ef9441d5f171e29f9b7a3b</wp:meta_key>
+			<wp:meta_value><![CDATA[1611757090]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_8c408b2e0ab864cc70b1e3d72d761701</wp:meta_key>
+			<wp:meta_value><![CDATA[<div class="embed-twitter"><a class="twitter-timeline" data-width="500" data-height="750" data-dnt="true" href="https://twitter.com/DragonElvish?ref_src=twsrc%5Etfw">Tweets by DragonElvish</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_time_8c408b2e0ab864cc70b1e3d72d761701</wp:meta_key>
+			<wp:meta_value><![CDATA[1611757091]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_9a5ce05c9fff6d1c1884d4abb9464215</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Café Rolistes 133 - &quot;Dreadful Realms&quot; with Lore Evans &#038; Jessica Marcrum</title>
+		<link>http://rolistespod.com/?p=5447</link>
+		<pubDate></pubDate>
+		<dc:creator>kalum666</dc:creator>
+		<guid isPermaLink="false">http://rolistespod.com/?p=5447</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>[audio src="xx"] Listen, subscribe &amp; review on <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>,&nbsp;<strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>, <a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798"><strong>Podchaser</strong></a> and <a href="https://www.stitcher.com/show/the-rolistes-podcast/"><strong>Stitcher</strong></a>.<br>You can also <strong><a href="http://xx/">download this episode</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Don't forget to join our <strong><a rel="noreferrer noopener" href="http://eepurl.com/gJCUVX" target="_blank">newsletter</a> </strong>if you don't want to miss any of our content.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please also subscribe to&nbsp;<strong><a href="https://www.youtube.com/playlist?list=PL2fGTs_dddRzqemJDagJOe_j_bLk2-ZlL">The Rolistes Youtube Channel</a></strong>, click the "Like" button and write comments.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:embed {"url":"https:\/\/youtu.be\/cotdHIK9fvo","type":"rich","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+<figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+https://youtu.be/cotdHIK9fvo
+</div></figure>
+<!-- /wp:embed -->
+
+<!-- wp:paragraph -->
+<p>Follow us on&nbsp;<strong><a href="https://www.twitch.tv/rolistespod">Twitch</a></strong>&nbsp;and contribute LIVE with your questions via the chat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Check the "Dreadful Realms" Kickstarer:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://www.kickstarter.com/projects/exstasisgames/dreadful-realms-caverns-of-the-wise-minister-0</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>You can find Lore Evans at:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://twitter.com/crit_lore<br>https://www.drivethrurpg.com/browse.php?artist=Liz%20Gist&amp;affiliate_id=1289000<br>https://www.dmsguild.com/browse.php?artist=Liz%20Gist&amp;affiliate_id=1289000</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>You can find Jessica Marcrum at:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://twitter.com/Miss_Jess03<br>https://www.drivethrurpg.com/browse.php?author=Jessica%20Marcrum&amp;affiliate_id=1289000<br>https://www.dmsguild.com/browse.php?author=Jessica%20Marcrum&amp;affiliate_id=1289000</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Dreadful Realms Live Play by Jessica:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://youtu.be/OTG3dvaw77k</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Across the Planes: The Feywild:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://www.dmsguild.com/product/337218/Across-the-Planes&amp;affiliate_id=1289000</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Support The Rolistes</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Find out about my own game "Paris Gondo - The Life-Saving Magic of Inventorying" at:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><a href="https://rolistespod.com/2020/05/15/announcing-paris-gondo-the-life-saving-magic-of-inventorying/">https://rolistespod.com/2020/05/15/an...</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Don't forget to sign up for our <a href="http://eepurl.com/gJCUVX"><strong>newsletter</strong></a>!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Find and support our many shows</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Listen, rate or review the show on <strong><a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798">Podchaser</a></strong>, <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a> </strong>and<strong> <a href="https://www.stitcher.com/show/the-rolistes-podcast/"><strong>Stitcher</strong></a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please consider contributing to my&nbsp;<strong><a href="https://www.patreon.com/RolistesPod">Patreon</a></strong>, making a modest donation via&nbsp;<a href="https://www.paypal.me/rolistespod/"><strong>Paypal</strong></a>&nbsp;or even support your show at no extra cost via your purchases on&nbsp;<a href="http://www.drivethrurpg.com/browse.php?affiliate_id=1289000"><strong>DriveThru RPG</strong></a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Newsletter: Subscribe&nbsp;<strong><a href="http://eepurl.com/gJCUVX">here</a></strong><br><a href="mailto:Rolistespod@gmail.com"><strong>Email Us!</strong></a><br><a href="https://twitter.com/rolistespod"><strong>Twitter</strong></a> / <a href="https://www.instagram.com/rolistespod"><strong>Instagram</strong></a> / <a href="https://www.tiktok.com/@rolistespod?lang=en"><strong>Tik Tok</strong></a> / <a href="https://www.facebook.com/Rolistespod"><strong>Facebook</strong></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Podcast by Kalum is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5><strong>Logo</strong></h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Podcast brand new logo by Rollin Kunz. Please check his excellent work at&nbsp;<strong><a href="https://www.rollinkunz.com/">https://www.rollinkunz.com</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong><a href="https://www.teepublic.com/user/rolistespod">Merchandising, including t-shirts</a></strong>, with the logo and more cool “The Rolistes Podcast” art by Rolin Kunz is available via our&nbsp;<strong><a href="https://www.teepublic.com/user/rolistespod">TeePublic store</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5><strong>Music</strong></h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Theme song: "Playtime" by Jahzzar<br>Available for free download at&nbsp;<a href="http://freemusicarchive.org/">http://freemusicarchive.org/</a></p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>5447</wp:post_id>
+		<wp:post_date>2021-01-27 14:56:08</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="asztali-szerepjatek"><![CDATA[Asztali Szerepjáték]]></category>
+		<category domain="post_tag" nicename="%e3%83%86%e3%83%bc%e3%83%96%e3%83%ab%e3%83%88%e3%83%bc%e3%82%afrpg"><![CDATA[テーブルトークRPG]]></category>
+		<category domain="post_tag" nicename="bordrollespil"><![CDATA[Bordrollespil]]></category>
+		<category domain="post_tag" nicename="british"><![CDATA[British]]></category>
+		<category domain="category" nicename="cafe-rolistes"><![CDATA[Café Rolistes]]></category>
+		<category domain="post_tag" nicename="dreadful-realms"><![CDATA[Dreadful Realms]]></category>
+		<category domain="post_tag" nicename="expats"><![CDATA[Expats]]></category>
+		<category domain="post_tag" nicename="fandoms"><![CDATA[Fandoms]]></category>
+		<category domain="post_tag" nicename="friki"><![CDATA[Friki]]></category>
+		<category domain="post_tag" nicename="geek"><![CDATA[Geek]]></category>
+		<category domain="post_tag" nicename="gioco-di-ruolo"><![CDATA[Gioco di Ruolo]]></category>
+		<category domain="post_tag" nicename="gry-fabularne"><![CDATA[Gry Fabularne]]></category>
+		<category domain="post_tag" nicename="immigrants"><![CDATA[Immigrants]]></category>
+		<category domain="post_tag" nicename="%ed%85%8c%ec%9d%b4%eb%b8%94%ed%83%91-%eb%a1%a4%ed%94%8c%eb%a0%88%ec%9e%89-%ea%b2%8c%ec%9e%84"><![CDATA[테이블탑 롤플레잉 게임]]></category>
+		<category domain="post_tag" nicename="jessica-marcrum"><![CDATA[Jessica Marcrum]]></category>
+		<category domain="post_tag" nicename="jeu-de-role"><![CDATA[Jeu de rôle]]></category>
+		<category domain="post_tag" nicename="joc-de-rol"><![CDATA[Joc de Rol]]></category>
+		<category domain="post_tag" nicename="jogo-de-interpretacao"><![CDATA[Jogo de Interpretação]]></category>
+		<category domain="post_tag" nicename="juego-de-rol"><![CDATA[Juego de rol]]></category>
+		<category domain="post_tag" nicename="jugador-de-rol"><![CDATA[Jugador de rol]]></category>
+		<category domain="post_tag" nicename="london"><![CDATA[London]]></category>
+		<category domain="post_tag" nicename="lore-evans"><![CDATA[Lore Evans]]></category>
+		<category domain="post_tag" nicename="pen-and-paper"><![CDATA[Pen and Paper]]></category>
+		<category domain="post_tag" nicename="pnp"><![CDATA[PnP]]></category>
+		<category domain="category" nicename="podcast"><![CDATA[Podcast]]></category>
+		<category domain="post_tag" nicename="rollenspel"><![CDATA[Rollenspel]]></category>
+		<category domain="post_tag" nicename="rollenspiel"><![CDATA[Rollenspiel]]></category>
+		<category domain="post_tag" nicename="rollspel"><![CDATA[Rollspel]]></category>
+		<category domain="post_tag" nicename="roolipelaaja"><![CDATA[Roolipelaaja]]></category>
+		<category domain="post_tag" nicename="roolipeli"><![CDATA[Roolipeli]]></category>
+		<category domain="post_tag" nicename="ropettaja"><![CDATA[Ropettaja]]></category>
+		<category domain="post_tag" nicename="rpg-de-mesa"><![CDATA[RPG de Mesa]]></category>
+		<category domain="post_tag" nicename="stolna-igra-uloga"><![CDATA[Stolna Igra Uloga]]></category>
+		<category domain="post_tag" nicename="tabletop-rpg"><![CDATA[Tabletop RPG]]></category>
+		<category domain="post_tag" nicename="united-kingdom"><![CDATA[United Kingdom]]></category>
+		<category domain="post_tag" nicename="%e6%a1%8c%e4%b8%8a%e8%a7%92%e8%89%b2%e6%89%ae%e6%bc%94%e9%81%8a%e6%88%b2"><![CDATA[桌上角色扮演遊戲]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[5391]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_last_editor_used_jetpack</wp:meta_key>
+			<wp:meta_value><![CDATA[block-editor]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_8e31808c682adc4a0fd8309de9297000</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_7ee8167215e9dd4efbf871fd13b541c1</wp:meta_key>
+			<wp:meta_value><![CDATA[<div class="embed-kickstarter"><iframe title="Dreadful Realms: Caverns of the Wise Minister" src="https://www.kickstarter.com/projects/exstasisgames/dreadful-realms-caverns-of-the-wise-minister-0/widget/video.html" height="281.25" width="500" frameborder="0" scrolling="no"></iframe></div>]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_time_7ee8167215e9dd4efbf871fd13b541c1</wp:meta_key>
+			<wp:meta_value><![CDATA[1611758133]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Café Rolistes 134 - Max Fefer from &quot;Hanukkah Goblins&quot;</title>
+		<link>http://rolistespod.com/?p=5452</link>
+		<pubDate></pubDate>
+		<dc:creator>kalum666</dc:creator>
+		<guid isPermaLink="false">http://rolistespod.com/?p=5452</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>[audio src="xx"] Listen, subscribe &amp; review on <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>,&nbsp;<strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>, <a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798"><strong>Podchaser</strong></a> and <a href="https://www.stitcher.com/show/the-rolistes-podcast/"><strong>Stitcher</strong></a>.<br>You can also <strong><a href="http://xx/">download this episode</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Don't forget to join our <strong><a rel="noreferrer noopener" href="http://eepurl.com/gJCUVX" target="_blank">newsletter</a> </strong>if you don't want to miss any of our content.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please also subscribe to&nbsp;<strong><a href="https://www.youtube.com/playlist?list=PL2fGTs_dddRzqemJDagJOe_j_bLk2-ZlL">The Rolistes Youtube Channel</a></strong>, click the "Like" button and write comments.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:embed {"url":"https:\/\/youtu.be\/3mSTq8TDqXs","type":"rich","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+<figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+https://youtu.be/3mSTq8TDqXs
+</div></figure>
+<!-- /wp:embed -->
+
+<!-- wp:paragraph -->
+<p>Follow us on&nbsp;<strong><a href="https://www.twitch.tv/rolistespod">Twitch</a></strong>&nbsp;and contribute LIVE with your questions via the chat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Buy "Hanukkah Goblins" at:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://hydroforge.itch.io/hanukkahgoblins?ac=6hKcoR9Jch</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>You can find Max Fefer at:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://twitter.com/HydroForge<br>https://hydroforge.itch.io/?ac=6hKcoR9Jch</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Jerusalem Post article about "Hannukah Goblins":</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://www.jpost.com/israel-news/culture/a-new-game-lets-you-play-hanukkah-goblins-and-shoot-jelly-doughnuts-651560</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Doikayt - A Jewish TTRPG Anthology:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://metagame.itch.io/doikayt?ac=6hKcoR9Jch</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Mud - A Golem Memoir:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://www.kickstarter.com/projects/turtlebun/mud-a-golem-memoir</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Joann Sfar:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>https://en.wikipedia.org/wiki/Joann_Sfar</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Support The Rolistes</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Find out about my own game "Paris Gondo - The Life-Saving Magic of Inventorying" at:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><a href="https://rolistespod.com/2020/05/15/announcing-paris-gondo-the-life-saving-magic-of-inventorying/">https://rolistespod.com/2020/05/15/an...</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Don't forget to sign up for our <a href="http://eepurl.com/gJCUVX"><strong>newsletter</strong></a>!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Find and support our many shows</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Listen, rate or review the show on&nbsp;<strong><a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798">Podchaser</a></strong>,&nbsp;<strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a> </strong>and<strong> <a href="https://www.stitcher.com/show/the-rolistes-podcast/"><strong>Stitcher</strong></a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please consider contributing to my&nbsp;<strong><a href="https://www.patreon.com/RolistesPod">Patreon</a></strong>, making a modest donation via&nbsp;<a href="https://www.paypal.me/rolistespod/"><strong>Paypal</strong></a>&nbsp;or even support your show at no extra cost via your purchases on&nbsp;<a href="http://www.drivethrurpg.com/browse.php?affiliate_id=1289000"><strong>DriveThru RPG</strong></a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Newsletter: Subscribe&nbsp;<strong><a href="http://eepurl.com/gJCUVX">here</a></strong><br><a href="mailto:Rolistespod@gmail.com"><strong>Email Us!</strong></a><br><a href="https://twitter.com/rolistespod"><strong>Twitter</strong></a> / <a href="https://www.instagram.com/rolistespod"><strong>Instagram</strong></a> / <a href="https://www.tiktok.com/@rolistespod?lang=en"><strong>Tik Tok</strong></a> / <a href="https://www.facebook.com/Rolistespod"><strong>Facebook</strong></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Podcast by Kalum is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5><strong>Logo</strong></h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Podcast brand new logo by Rollin Kunz. Please check his excellent work at&nbsp;<strong><a href="https://www.rollinkunz.com/">https://www.rollinkunz.com</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong><a href="https://www.teepublic.com/user/rolistespod">Merchandising, including t-shirts</a></strong>, with the logo and more cool “The Rolistes Podcast” art by Rolin Kunz is available via our&nbsp;<strong><a href="https://www.teepublic.com/user/rolistespod">TeePublic store</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5><strong>Music</strong></h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Theme song: "Playtime" by Jahzzar<br>Available for free download at&nbsp;<a href="http://freemusicarchive.org/">http://freemusicarchive.org/</a></p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>5452</wp:post_id>
+		<wp:post_date>2021-01-27 15:23:33</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="asztali-szerepjatek"><![CDATA[Asztali Szerepjáték]]></category>
+		<category domain="post_tag" nicename="%e3%83%86%e3%83%bc%e3%83%96%e3%83%ab%e3%83%88%e3%83%bc%e3%82%afrpg"><![CDATA[テーブルトークRPG]]></category>
+		<category domain="post_tag" nicename="bordrollespil"><![CDATA[Bordrollespil]]></category>
+		<category domain="post_tag" nicename="british"><![CDATA[British]]></category>
+		<category domain="category" nicename="cafe-rolistes"><![CDATA[Café Rolistes]]></category>
+		<category domain="post_tag" nicename="expats"><![CDATA[Expats]]></category>
+		<category domain="post_tag" nicename="fandoms"><![CDATA[Fandoms]]></category>
+		<category domain="post_tag" nicename="friki"><![CDATA[Friki]]></category>
+		<category domain="post_tag" nicename="geek"><![CDATA[Geek]]></category>
+		<category domain="post_tag" nicename="gioco-di-ruolo"><![CDATA[Gioco di Ruolo]]></category>
+		<category domain="post_tag" nicename="goblins"><![CDATA[Goblins]]></category>
+		<category domain="post_tag" nicename="gry-fabularne"><![CDATA[Gry Fabularne]]></category>
+		<category domain="post_tag" nicename="hanukkah"><![CDATA[Hanukkah]]></category>
+		<category domain="post_tag" nicename="hanukkah-goblins"><![CDATA[Hanukkah Goblins]]></category>
+		<category domain="post_tag" nicename="immigrants"><![CDATA[Immigrants]]></category>
+		<category domain="post_tag" nicename="%ed%85%8c%ec%9d%b4%eb%b8%94%ed%83%91-%eb%a1%a4%ed%94%8c%eb%a0%88%ec%9e%89-%ea%b2%8c%ec%9e%84"><![CDATA[테이블탑 롤플레잉 게임]]></category>
+		<category domain="post_tag" nicename="jeu-de-role"><![CDATA[Jeu de rôle]]></category>
+		<category domain="post_tag" nicename="joc-de-rol"><![CDATA[Joc de Rol]]></category>
+		<category domain="post_tag" nicename="jogo-de-interpretacao"><![CDATA[Jogo de Interpretação]]></category>
+		<category domain="post_tag" nicename="judaism"><![CDATA[Judaism]]></category>
+		<category domain="post_tag" nicename="juego-de-rol"><![CDATA[Juego de rol]]></category>
+		<category domain="post_tag" nicename="jugador-de-rol"><![CDATA[Jugador de rol]]></category>
+		<category domain="post_tag" nicename="london"><![CDATA[London]]></category>
+		<category domain="post_tag" nicename="max-fefer"><![CDATA[Max Fefer]]></category>
+		<category domain="post_tag" nicename="pen-and-paper"><![CDATA[Pen and Paper]]></category>
+		<category domain="post_tag" nicename="pnp"><![CDATA[PnP]]></category>
+		<category domain="category" nicename="podcast"><![CDATA[Podcast]]></category>
+		<category domain="post_tag" nicename="rollenspel"><![CDATA[Rollenspel]]></category>
+		<category domain="post_tag" nicename="rollenspiel"><![CDATA[Rollenspiel]]></category>
+		<category domain="post_tag" nicename="rollspel"><![CDATA[Rollspel]]></category>
+		<category domain="post_tag" nicename="roolipelaaja"><![CDATA[Roolipelaaja]]></category>
+		<category domain="post_tag" nicename="roolipeli"><![CDATA[Roolipeli]]></category>
+		<category domain="post_tag" nicename="ropettaja"><![CDATA[Ropettaja]]></category>
+		<category domain="post_tag" nicename="rpg-de-mesa"><![CDATA[RPG de Mesa]]></category>
+		<category domain="post_tag" nicename="stolna-igra-uloga"><![CDATA[Stolna Igra Uloga]]></category>
+		<category domain="post_tag" nicename="tabletop-rpg"><![CDATA[Tabletop RPG]]></category>
+		<category domain="post_tag" nicename="united-kingdom"><![CDATA[United Kingdom]]></category>
+		<category domain="post_tag" nicename="%e6%a1%8c%e4%b8%8a%e8%a7%92%e8%89%b2%e6%89%ae%e6%bc%94%e9%81%8a%e6%88%b2"><![CDATA[桌上角色扮演遊戲]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[5392]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_last_editor_used_jetpack</wp:meta_key>
+			<wp:meta_value><![CDATA[block-editor]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_4b15c392d940ad9f6cf57a3f91e68a53</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_87aa864338bf97330050ec4951f98520</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_2a4f0f6f912ec6c1851bdda36f8b17c8</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_f2459ada049d09edc6552ab777cabff8</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_cade7cedc9e57263ffd92f76a0c29726</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_376452f5ce369a1b805d6ea0002ed872</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_oembed_23b9dcd6001ab02fe822db25e12c2b7f</wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Café Rolistes 135 - Marx Shepherd from San Jenaro Co-Op</title>
+		<link>http://rolistespod.com/?p=5456</link>
+		<pubDate></pubDate>
+		<dc:creator>kalum666</dc:creator>
+		<guid isPermaLink="false">http://rolistespod.com/?p=5456</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>[audio src="xx"] Listen, subscribe &amp; review on <strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a></strong>,&nbsp;<strong><a href="https://open.spotify.com/show/6WC5wywaLMEhnO7JWIuxom">Spotify</a></strong>, <a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798"><strong>Podchaser</strong></a> and <a href="https://www.stitcher.com/show/the-rolistes-podcast/"><strong>Stitcher</strong></a>.<br>You can also <strong><a href="http://xx/">download this episode</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Don't forget to join our <strong><a rel="noreferrer noopener" href="http://eepurl.com/gJCUVX" target="_blank">newsletter</a> </strong>if you don't want to miss any of our content.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please also subscribe to&nbsp;<strong><a href="https://www.youtube.com/playlist?list=PL2fGTs_dddRzqemJDagJOe_j_bLk2-ZlL">The Rolistes Youtube Channel</a></strong>, click the "Like" button and write comments.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:embed {"url":"https:\/\/youtu.be\/7EHGkCT_CPY","type":"rich","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+<figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+https://youtu.be/7EHGkCT_CPY
+</div></figure>
+<!-- /wp:embed -->
+
+<!-- wp:paragraph -->
+<p>Follow us on&nbsp;<strong><a href="https://www.twitch.tv/rolistespod">Twitch</a></strong>&nbsp;and contribute LIVE with your questions via the chat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>INSERT EPISODE LINKS</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>Support The Rolistes</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Find out about my own game "Paris Gondo - The Life-Saving Magic of Inventorying" at:</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><a href="https://rolistespod.com/2020/05/15/announcing-paris-gondo-the-life-saving-magic-of-inventorying/">https://rolistespod.com/2020/05/15/an...</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Don't forget to sign up for our <a href="http://eepurl.com/gJCUVX"><strong>newsletter</strong></a>!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5>Find and support our many shows</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Listen, rate or review the show on&nbsp;<strong><a href="https://www.podchaser.com/podcasts/the-rolistes-podcast-425798">Podchaser</a></strong>,&nbsp;<strong><a href="https://itunes.apple.com/gb/podcast/...t/id1043891191">Apple Podcasts</a> </strong>and<strong> <a href="https://www.stitcher.com/show/the-rolistes-podcast/"><strong>Stitcher</strong></a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Please consider contributing to my&nbsp;<strong><a href="https://www.patreon.com/RolistesPod">Patreon</a></strong>, making a modest donation via&nbsp;<a href="https://www.paypal.me/rolistespod/"><strong>Paypal</strong></a>&nbsp;or even support your show at no extra cost via your purchases on&nbsp;<a href="http://www.drivethrurpg.com/browse.php?affiliate_id=1289000"><strong>DriveThru RPG</strong></a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Newsletter: Subscribe&nbsp;<strong><a href="http://eepurl.com/gJCUVX">here</a></strong><br><a href="mailto:Rolistespod@gmail.com"><strong>Email Us!</strong></a><br><a href="https://twitter.com/rolistespod"><strong>Twitter</strong></a> / <a href="https://www.instagram.com/rolistespod"><strong>Instagram</strong></a> / <a href="https://www.tiktok.com/@rolistespod?lang=en"><strong>Tik Tok</strong></a> / <a href="https://www.facebook.com/Rolistespod"><strong>Facebook</strong></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Podcast by Kalum is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5><strong>Logo</strong></h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The Rolistes Podcast brand new logo by Rollin Kunz. Please check his excellent work at&nbsp;<strong><a href="https://www.rollinkunz.com/">https://www.rollinkunz.com</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong><a href="https://www.teepublic.com/user/rolistespod">Merchandising, including t-shirts</a></strong>, with the logo and more cool “The Rolistes Podcast” art by Rolin Kunz is available via our&nbsp;<strong><a href="https://www.teepublic.com/user/rolistespod">TeePublic store</a></strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5} -->
+<h5><strong>Music</strong></h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Theme song: "Playtime" by Jahzzar<br>Available for free download at&nbsp;<a href="http://freemusicarchive.org/">http://freemusicarchive.org/</a></p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>5456</wp:post_id>
+		<wp:post_date>2021-01-27 15:30:40</wp:post_date>
+		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name></wp:post_name>
+		<wp:status>draft</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="asztali-szerepjatek"><![CDATA[Asztali Szerepjáték]]></category>
+		<category domain="post_tag" nicename="%e3%83%86%e3%83%bc%e3%83%96%e3%83%ab%e3%83%88%e3%83%bc%e3%82%afrpg"><![CDATA[テーブルトークRPG]]></category>
+		<category domain="post_tag" nicename="bordrollespil"><![CDATA[Bordrollespil]]></category>
+		<category domain="post_tag" nicename="british"><![CDATA[British]]></category>
+		<category domain="category" nicename="cafe-rolistes"><![CDATA[Café Rolistes]]></category>
+		<category domain="post_tag" nicename="expats"><![CDATA[Expats]]></category>
+		<category domain="post_tag" nicename="fandoms"><![CDATA[Fandoms]]></category>
+		<category domain="post_tag" nicename="friki"><![CDATA[Friki]]></category>
+		<category domain="post_tag" nicename="geek"><![CDATA[Geek]]></category>
+		<category domain="post_tag" nicename="gioco-di-ruolo"><![CDATA[Gioco di Ruolo]]></category>
+		<category domain="post_tag" nicename="gry-fabularne"><![CDATA[Gry Fabularne]]></category>
+		<category domain="post_tag" nicename="immigrants"><![CDATA[Immigrants]]></category>
+		<category domain="post_tag" nicename="%ed%85%8c%ec%9d%b4%eb%b8%94%ed%83%91-%eb%a1%a4%ed%94%8c%eb%a0%88%ec%9e%89-%ea%b2%8c%ec%9e%84"><![CDATA[테이블탑 롤플레잉 게임]]></category>
+		<category domain="post_tag" nicename="jeu-de-role"><![CDATA[Jeu de rôle]]></category>
+		<category domain="post_tag" nicename="joc-de-rol"><![CDATA[Joc de Rol]]></category>
+		<category domain="post_tag" nicename="jogo-de-interpretacao"><![CDATA[Jogo de Interpretação]]></category>
+		<category domain="post_tag" nicename="juego-de-rol"><![CDATA[Juego de rol]]></category>
+		<category domain="post_tag" nicename="jugador-de-rol"><![CDATA[Jugador de rol]]></category>
+		<category domain="post_tag" nicename="london"><![CDATA[London]]></category>
+		<category domain="post_tag" nicename="pen-and-paper"><![CDATA[Pen and Paper]]></category>
+		<category domain="post_tag" nicename="pnp"><![CDATA[PnP]]></category>
+		<category domain="category" nicename="podcast"><![CDATA[Podcast]]></category>
+		<category domain="post_tag" nicename="rollenspel"><![CDATA[Rollenspel]]></category>
+		<category domain="post_tag" nicename="rollenspiel"><![CDATA[Rollenspiel]]></category>
+		<category domain="post_tag" nicename="rollspel"><![CDATA[Rollspel]]></category>
+		<category domain="post_tag" nicename="roolipelaaja"><![CDATA[Roolipelaaja]]></category>
+		<category domain="post_tag" nicename="roolipeli"><![CDATA[Roolipeli]]></category>
+		<category domain="post_tag" nicename="ropettaja"><![CDATA[Ropettaja]]></category>
+		<category domain="post_tag" nicename="rpg-de-mesa"><![CDATA[RPG de Mesa]]></category>
+		<category domain="post_tag" nicename="stolna-igra-uloga"><![CDATA[Stolna Igra Uloga]]></category>
+		<category domain="post_tag" nicename="tabletop-rpg"><![CDATA[Tabletop RPG]]></category>
+		<category domain="post_tag" nicename="united-kingdom"><![CDATA[United Kingdom]]></category>
+		<category domain="post_tag" nicename="%e6%a1%8c%e4%b8%8a%e8%a7%92%e8%89%b2%e6%89%ae%e6%bc%94%e9%81%8a%e6%88%b2"><![CDATA[桌上角色扮演遊戲]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_last_editor_used_jetpack</wp:meta_key>
+			<wp:meta_value><![CDATA[block-editor]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>
