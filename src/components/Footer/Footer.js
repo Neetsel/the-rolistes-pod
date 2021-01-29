@@ -30,10 +30,10 @@ const Footer = (props) => {
             <footer>
                 <Container className={classes.footer}>
                     <Row>
-                        <Col md={6} xs={12}>
+                        <Col xs={12}>
                             <Follow/>
                         </Col>                             
-                        <Col  md={6} xs={12}>
+                        <Col  xs={12}>
                             <Support/>
                         </Col>
                     </Row>                    

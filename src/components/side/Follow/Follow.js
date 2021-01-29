@@ -71,13 +71,13 @@ const Follow = (props) => {
                             <a href="mailto:rolistespod@gmail.com" className={classes.SideLink}><span><FontAwesomeIcon icon={faEnvelope} aria-hidden="true"/></span></a>
                         </Col>
 
-                        <Col xs={3}>
+                        {/* <Col xs={3}>
                             <a href="https://twitter.com/rolistespod" className={classes.SideLink}><span><FontAwesomeIcon icon={faTwitter} aria-hidden="true"/></span></a>
                         </Col>
 
                         <Col xs={3}>
                             <a href="https://www.facebook.com/Rolistespod/" className={classes.SideLink}><span><FontAwesomeIcon icon={faFacebookF} aria-hidden="true"/></span></a>
-                        </Col>     
+                        </Col>      */}
                                    
                     </Row>
                 </Row>

@@ -3,13 +3,25 @@
 }
 
 .fullPost img{
-    max-width: 100% !important;
+    max-width: 80% !important;    
     height: auto !important;
     display:block;
-    margin-bottom: 15px;
+    margin: 0 auto 15px;
 }
 
 audio{
 	width:100%;
-	margin-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 992px){
+	.fullPost img{
+        max-width: 70% !important;
+    }
+}
+
+@media screen and (max-width: 768px){
+	.fullPost img{
+        max-width: 100% !important;
+    }
 }

@@ -15,12 +15,19 @@ const Support = (props) => {
 
                     <div className={globalClasses.item_box_footer}>
                         <h2 className={globalClasses.section_title_footer}>Support Us</h2>
-                        <a href="https://www.patreon.com/RolistesPod" className={classes.supportLink}><img src={patreonButton} alt="Support me on Patreon" aria-hidden="true"/></a>
-                              
-                        <a href="https://www.paypal.com/paypalme/rolistespod/" className={classes.supportLink}><img src={paypalButton}  alt="Donate with Paypal" aria-hidden="true"/></a>
-                       
-                        <a href="https://www.paypal.com/paypalme/rolistespod/" className={classes.supportLink}><img src={DriveThruRPGButton}  alt="Donate with Paypal" aria-hidden="true"/></a>
-                       
+                        <Row>
+                            <Col xs={12} md={4} lg={4}>
+                                <a href="https://www.patreon.com/RolistesPod" className={classes.supportLink}><img src={patreonButton} alt="Support me on Patreon" aria-hidden="true"/></a>
+                            </Col>
+
+                            <Col xs={12} md={4} lg={4}>
+                                <a href="https://www.paypal.com/paypalme/rolistespod/" className={classes.supportLink}><img src={paypalButton}  alt="Donate with Paypal" aria-hidden="true"/></a>
+                            </Col>
+
+                            <Col xs={12} md={4} lg={4}>
+                                <a href="https://www.paypal.com/paypalme/rolistespod/" className={classes.supportLink}><img src={DriveThruRPGButton}  alt="Donate with Paypal" aria-hidden="true"/></a>
+                            </Col>
+                        </Row>                   
                     </div>
                 </Col>               
             </Row>    

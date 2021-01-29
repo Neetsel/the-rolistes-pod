@@ -21,7 +21,7 @@ const Follow = (props) => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col xs={12}>
+                    <Col md={4} xs={12}>
                         <h3>Follow</h3>
                     
                         <Row>
@@ -43,8 +43,10 @@ const Follow = (props) => {
                         </Row>
                     </Col>
                     
+                    <Col md={1}>
+                    </Col>
                 
-                    <Col xs={12}>
+                    <Col md={4} xs={12}>
                         <h3>Listen</h3>                    
                         <Row>
                             <Col xs={3}>
@@ -64,20 +66,24 @@ const Follow = (props) => {
                             </Col>
                         </Row>
                     </Col>
-                    <Col xs={12}>
+
+                    <Col md={1}>
+                    </Col>
+                    
+                    <Col md={2} xs={12}>
                         <h3>Contact Us</h3>                    
                         <Row>
                             <Col xs={3}>
                                 <a href="mailto:rolistespod@gmail.com" className={classes.FooterLink}><span><FontAwesomeIcon icon={faEnvelope} aria-hidden="true"/></span></a>
                             </Col>
 
-                            <Col xs={3}>
+                            {/* <Col xs={3}>
                                 <a href="https://twitter.com/rolistespod" className={classes.FooterLink}><span><FontAwesomeIcon icon={faTwitter} aria-hidden="true"/></span></a>
                             </Col>
 
                             <Col xs={3}>
                                 <a href="https://www.facebook.com/Rolistespod/" className={classes.FooterLink}><span><FontAwesomeIcon icon={faFacebookF} aria-hidden="true"/></span></a>
-                            </Col>
+                            </Col> */}
                         </Row>
                     </Col>
                 </Row>

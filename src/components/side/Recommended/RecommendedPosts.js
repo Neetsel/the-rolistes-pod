@@ -14,7 +14,7 @@ const RecommendedPosts = (props) => {
     const relatedPosts = props.recommendedPosts;
 
     recommendedPosts = relatedPosts.map (post => {
-        return <Col xs={6} md={4} lg={6} className={classes.cell} key={post["id"]}>
+        return <Col xs={6} md={6} lg={6} className={classes.cell} key={post["id"]}>
             <Link to={post.url}>
                 <div className={globalClasses.img_color_animate}>  
                     <img src={post.cover} alt="Cover Episode"/>
