@@ -183,6 +183,8 @@ img {
     border-radius: 2px;
 }
 
+
+
 .item_box_left{
     margin:15px 0 0;
     padding:1rem 1rem 0;
@@ -230,6 +232,10 @@ img {
 
 	.item_box_right{
 		margin:15px 0 0 0;
+	}
+
+	.item_box_hide_mobile{
+		display:none;
 	}
 }
 
