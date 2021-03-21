@@ -4,6 +4,7 @@ import classes from './FullPost.module.css';
 import globalClasses from '../../App.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
+import { Helmet } from 'react-helmet';
 
 const FullPost = (props) => {
 
@@ -52,14 +53,24 @@ const FullPost = (props) => {
 
     const htmlContent = transformYoutubeLinks(props.content);
 
+    let classIMG = [classes.fullPost,classes.fullPostNotPodcast].join(' ');
+
+    if(props.type==="PODCAST"){
+        classIMG = [classes.fullPost,classes.fullPostPodcast].join(' ');
+    }
+
     return (
         
         <Aux>
+            <Helmet>
+                <title>{props.title}</title>
+                <meta name="description" content=""/>
+            </Helmet>
             <div className={globalClasses.item_box_left} >               
                 <h1 className={[globalClasses.section_title, globalClasses.section_title_article].join(' ')}>{props.title}</h1>                    
-                {/* <p>{props.author}</p> */}
-                <div className={globalClasses.date_article}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/> {props.date}</div>
-                <div dangerouslySetInnerHTML={{ __html: htmlContent }} className={classes.fullPost}/>     
+
+                {props.type==="INTROGONDO" ? <p/> : <div className={globalClasses.date_article}><FontAwesomeIcon icon={faCalendarAlt} aria-hidden="true"/> {props.date}</div>}
+                <div dangerouslySetInnerHTML={{ __html: htmlContent }} className={classIMG}/>     
             </div>                                   
         </Aux>
     );

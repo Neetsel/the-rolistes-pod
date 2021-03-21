@@ -4,19 +4,27 @@ import Button from '../../../components/UI/Button/Button';
 import classes from './PodcastLayout.module.css';
 import { Col, Container, Row } from 'react-bootstrap';
 import Posts from '../../../containers/Posts/Posts';
+import Ads from '../../../components/UI/Ads/Ads';
 import Footer from '../../../components/Footer/Footer';
 import PaginationList from '../../../components/UI/PaginationList/PaginationList';
 import * as actions from '../../../store/actions/index';
 import { connect } from 'react-redux';
 import globalClasses from '../../../App.module.css';
 import { useState } from 'react';
+import { Helmet } from 'react-helmet';
+import { useParams } from 'react-router-dom';
 
 const PodcastLayout = (props) => {
+
+    // let { categoryId } = useParams();
+    const search = props.location.search;
+    const params = new URLSearchParams(search);
+    const categoryId = params.get("cat");
 
     const postPerPage = 24;
     const indexOfLastPost = props.currentPagePodcast * postPerPage;
     const indexOfFirstPost = indexOfLastPost - postPerPage;
-    
+
     const btnType = "filter"; 
     const [btnState, setBtnState] = useState({
         allIsDisabled: true,
@@ -25,12 +33,69 @@ const PodcastLayout = (props) => {
         cafeRolistesIsDisabled: false,
         filmStudiesIsDisabled: false
     });
-    
-    // need to convert this with use effect
 
     useEffect(() => {
+
+        let category = "";
+
+        switch(categoryId){        
+            case 'the-rolistes-podcast':
+                category = categoryId;
+                setBtnState({
+                    allIsDisabled: false,
+                    rolistesPodIsDisabled: true,
+                    rolistesPresentIsDisabled: false,
+                    cafeRolistesIsDisabled: false,
+                    filmStudiesIsDisabled: false
+                });
+                break;
+    
+            case 'the-rolistes-present':
+                category = categoryId;
+                setBtnState({
+                    allIsDisabled: false,
+                    rolistesPodIsDisabled: false,
+                    rolistesPresentIsDisabled: true,
+                    cafeRolistesIsDisabled: false,
+                    filmStudiesIsDisabled: false
+                });
+                break;
+            
+            case 'cafe-rolistes':
+                category = categoryId;
+                setBtnState({
+                    allIsDisabled: false,
+                    rolistesPodIsDisabled: false,
+                    rolistesPresentIsDisabled: false,
+                    cafeRolistesIsDisabled: true,
+                    filmStudiesIsDisabled: false
+                });
+                break;
+    
+            case 'film-studies':
+                category = categoryId;
+                setBtnState({
+                    allIsDisabled: false,
+                    rolistesPodIsDisabled: false,
+                    rolistesPresentIsDisabled: false,
+                    cafeRolistesIsDisabled: false,
+                    filmStudiesIsDisabled: true
+                });
+                break;
+    
+            default:
+                category = "podcast";
+                setBtnState({
+                    allIsDisabled: true,
+                    rolistesPodIsDisabled: false,
+                    rolistesPresentIsDisabled: false,
+                    cafeRolistesIsDisabled: false,
+                    filmStudiesIsDisabled: false
+                });
+        }
+
         props.onSetCurrentPagePodcast(1);
-        props.onSetCurrentCategoryPodcast("podcast");
+        props.onSetCurrentCategoryPodcast(category);
         window.scrollTo(0, 0);
       }, [])
 
@@ -102,8 +167,13 @@ const PodcastLayout = (props) => {
  
     return (
         <Aux>
-            <Container className={globalClasses.no_padding_smallscreen} >
-                <div className={globalClasses.item_box}>
+            <Helmet>
+                <title>The Rolistes Podcast - Podcasts</title>
+                <meta name="description" content=""/>
+            </Helmet>
+            <Container>
+                <Ads/>
+                <div className={[globalClasses.item_box, globalClasses.no_padding_smallscreen].join(' ')}>
                     <h1 className={[globalClasses.section_title, globalClasses.section_title_podcast].join(' ')}>Podcast</h1>
                     <div className={classes.filters}>
                         <Button btnType={btnType} disabled={btnState.allIsDisabled} clicked ={filterAll}>ALL</Button>

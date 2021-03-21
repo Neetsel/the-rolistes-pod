@@ -79,7 +79,6 @@ const getAttachmentURL = (attachments, postMeta) => {
         }
     }
 
-    // return "https://static8.depositphotos.com/1051435/932/i/950/depositphotos_9327706-stock-photo-happy-clown.jpg";
     return "";
 }
 
@@ -100,6 +99,25 @@ const getURL = (post, category) => {
             return '/' + year + '/' + month + '/' + day + '/' + postName;        
     }
      return "";
+}
+
+const replaceOldURL = (post) => {
+    
+    const baseURL='/the-rolistes-pod';
+
+    let str= post;
+    let newStr= str.replace(/\[audio/,'<audio controls');
+    newStr= newStr.replace(/mp3\"\]/,'mp3"></audio><br>');    
+    newStr = newStr.replaceAll('<a href="https://rolistespod.com/category/film-studies/', '<a href="' + baseURL + '/podcast?cat=film-studies');
+    newStr = newStr.replaceAll('<a href="https://rolistespod.com/category/the-rolistes-present/', '<a href="' + baseURL + '/podcast?cat=the-rolistes-present');
+    newStr = newStr.replaceAll('<a href="https://rolistespod.com/category/cafe-rolistes/', '<a href="' + baseURL + '/podcast?cat=cafe-rolistes');
+    newStr = newStr.replaceAll('<a href="https://rolistespod.com/category/the-rolistes-podcast/', '<a href="' + baseURL + '/podcast?cat=the-rolistes-podcast');
+    newStr = newStr.replaceAll('<a href="https://rolistespod.com/category/podcast/', '<a href="' + baseURL + '/podcas?cat=all');
+    newStr = newStr.replaceAll('<a href="https://rolistespod.com/category/news/', '<a href="' + baseURL + '/news');
+    newStr = newStr.replaceAll('<a href="https://rolistespod.com/category/paris_gondo/', '<a href="' + baseURL + '/paris_gondo');
+    newStr = newStr.replaceAll('<a href="https://rolistespod.com', '<a href="' + baseURL);
+
+    return newStr;                        
 }
 
 const getExcerpt = (content, wordLimit) => {
@@ -173,11 +191,8 @@ export const fetchPosts = () => {
                         const publishDate = new Date(fetchedPosts[key]["pubDate"][0]);                       
 
                         fetchedPosts[key]["pubDate"][0] = publishDate.toDateString();;
-
-                        let str= fetchedPosts[key]["content:encoded"][0];
-                        let newStr= str.replace(/\[audio/,'<audio controls');
-                        newStr= newStr.replace(/mp3\"\]/,'mp3"></audio><br>');
-                        
+                       
+                        const newStr = replaceOldURL(fetchedPosts[key]["content:encoded"][0]);
                         fetchedPosts[key]["content:encoded"][0] = newStr;                        
                         
                         if(fetchedPosts[key]["category"] && (
@@ -187,8 +202,7 @@ export const fetchPosts = () => {
                             )
                         ){           
 
-                            const attachmentURL= getAttachmentURL(fetchedAttachment , fetchedPosts[key]);
-                            
+                            const attachmentURL= getAttachmentURL(fetchedAttachment , fetchedPosts[key]);                            
                             
                             for (let i=0; i < fetchedPosts[key]["category"].length; i++) {
                                 
@@ -273,10 +287,6 @@ export const fetchPosts = () => {
                         }                            
                     }
                 
-                    console.log(fetchedIntroGondo);
-                    console.log(fetchedAbout);
-                    console.log(fetchedTheTeam);
-
                     fetchedPodcast.sort((a,b)=>{
                         return new Date(b["pubDate"][0]) - new Date(a["pubDate"][0]) 
                     });

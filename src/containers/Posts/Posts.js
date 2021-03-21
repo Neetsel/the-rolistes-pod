@@ -8,6 +8,7 @@ import LatestNews from '../../components/Latest/LatestNews/LatestNews';
 import LatestPodcast from '../../components/Latest/LatestPodcast/LatestPodcast';
 import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
 import RecommendedPosts from '../../components/side/Recommended/RecommendedPosts';
+import Ads from '../../components/UI/Ads/Ads';
 import RecentPosts from '../../components/side/Recent/RecentPosts';
 import * as actions from '../../store/actions/index';
 import { connect } from 'react-redux';
@@ -83,6 +84,54 @@ const Posts = props => {
         return postsFromCategory
     }
 
+    const getValueCategory = (relatedCategory) => {
+
+        let valueCategory = 1;
+
+        for(let i=0;i<props.catValue0.length;i++){
+
+            if(props.catValue0[i]===relatedCategory){
+                valueCategory = 0;
+                return valueCategory;                
+            }
+        }
+        
+        for(let i=0;i<props.catValue2.length;i++){
+
+            if(props.catValue2[i]===relatedCategory){
+                valueCategory = 2;
+                return valueCategory;                
+            }
+        } 
+
+        for(let i=0;i<props.catValue3.length;i++){
+
+            if(props.catValue3[i]===relatedCategory){
+                valueCategory = 3;
+                console.log(props.catValue3[i]);
+                return valueCategory;                
+            }
+        } 
+
+        for(let i=0;i<props.catValue4.length;i++){
+
+            if(props.catValue4[i]===relatedCategory){
+                valueCategory = 4;            
+                return valueCategory;                
+            }
+        } 
+
+        for(let i=0;i<props.catValue5.length;i++){
+
+            if(props.catValue5[i]===relatedCategory){
+                valueCategory = 5;
+                return valueCategory;                
+            }
+        } 
+
+        return valueCategory;
+    }
+
     const searchRecommendedPosts = (postToRead, posts) => {
 
         const RecommendedPodcast = [];
@@ -96,7 +145,8 @@ const Posts = props => {
                     for (let k=0; k < posts[i]["category"].length; k++) {
                         
                         if(postToRead["category"][j]["$"]["nicename"]===posts[i]["category"][k]["$"]["nicename"]){                      
-                            amountMatchCategories += 1;                    
+                            const valueCategory = getValueCategory(posts[i]["category"][k]["$"]["nicename"]);      
+                            amountMatchCategories += valueCategory;                    
                         }
                     }
                 }
@@ -203,18 +253,19 @@ const Posts = props => {
                     ));
                 break;
             
-            case "FULLNEWS":
-                key = searchPost(props.news, props.pageTitle);
-                const news= props.news;
-                posts =                          
-                    <FullPost 
-                        key= {news[key].id}
-                        cover={news[key].cover}
-                        author= {news[key]["dc:creator"][0]}
-                        title= {news[key]["title"]}
-                        content= {news[key]["content:encoded"][0]}
-                        date= {news[key]["pubDate"][0]}/>;
-                break;
+            // case "FULLNEWS":
+            //     key = searchPost(props.news, props.pageTitle);
+            //     const news= props.news;
+            //     posts =                          
+            //         <FullPost 
+            //             key= {news[key].id}
+            //             cover={news[key].cover}
+            //             author= {news[key]["dc:creator"][0]}
+            //             title= {news[key]["title"]}
+            //             content= {news[key]["content:encoded"][0]}
+            //             date= {news[key]["pubDate"][0]}
+            //             type="NEWS"/>;
+            //     break;
 
             case "INTROGONDO":
                 const introGondo= props.introGondo;
@@ -225,7 +276,8 @@ const Posts = props => {
                         author= {introGondo[0]["dc:creator"][0]}
                         title= {introGondo[0]["title"]}
                         content= {introGondo[0]["content:encoded"][0]}
-                        date= {introGondo[0]["pubDate"][0]}/>;
+                        date= {introGondo[0]["pubDate"][0]}
+                        type="INTROGONDO"/>;
                 break;
 
             case "ABOUT":
@@ -253,17 +305,33 @@ const Posts = props => {
                     ));    
                 break;
 
-            case "FULLPODCAST":
+            case "FULLPOST":
+                
                 key = searchPost(props.podcast, props.pageTitle);
-                const podcast= props.podcast;                               
-                posts =                          
-                <FullPost 
-                    key= {podcast[key].id}
-                    cover={podcast[key].cover}
-                    author= {podcast[key]["dc:creator"][0]}
-                    date= {podcast[key]["pubDate"][0]}
-                    title= {podcast[key]["title"]}
-                    content= {podcast[key]["content:encoded"][0]}/>;                                 
+                if(key >=0){
+                    const podcast= props.podcast;                               
+                    posts =                          
+                    <FullPost 
+                        key= {podcast[key].id}
+                        cover={podcast[key].cover}
+                        author= {podcast[key]["dc:creator"][0]}
+                        date= {podcast[key]["pubDate"][0]}
+                        title= {podcast[key]["title"]}
+                        content= {podcast[key]["content:encoded"][0]}
+                        type="PODCAST"/>;  
+                }else{
+                    key = searchPost(props.news, props.pageTitle);
+                    const news= props.news;
+                    posts =                          
+                        <FullPost 
+                            key= {news[key].id}
+                            cover={news[key].cover}
+                            author= {news[key]["dc:creator"][0]}
+                            title= {news[key]["title"]}
+                            content= {news[key]["content:encoded"][0]}
+                            date= {news[key]["pubDate"][0]}
+                            type="NEWS"/>;
+                }                                                                   
                 break;
 
             case "LATEST":
@@ -278,6 +346,7 @@ const Posts = props => {
                     <Banner/>
                     <LatestPodcast 
                     podcast={latestPodcast} /> 
+                    <Ads/>
                     <LatestNews 
                     news={latestNews}/> 
                 </Aux>                                                          
@@ -293,14 +362,17 @@ const Posts = props => {
 
             case "RECOMMENDED":
                 
-                if(props.postType==="FULLPODCAST") {
-                    key = searchPost(props.podcast, props.pageTitle);                
+                let recommendedPosts= [];
+                key = searchPost(props.podcast, props.pageTitle);  
+
+                if(key>=0) {
+                    recommendedPosts= searchRecommendedPosts(props.podcast[key],props.podcast).slice(0, 2);                             
                 } 
                 else {
                     key = searchPost(props.news, props.pageTitle);
+                    recommendedPosts= searchRecommendedPosts(props.news[key],props.podcast).slice(0, 2);                           
                 }         
                 
-                const recommendedPosts= searchRecommendedPosts(props.podcast[key],props.podcast).slice(0, 2);
                 posts = <RecommendedPosts
                     recommendedPosts={recommendedPosts}
                     url = {recommendedPosts.url}/>;                
@@ -326,7 +398,12 @@ const mapStateToProps = state => {
         theTeam: state.posts.theTeam,
         loading: state.posts.loading,
         loaded: state.posts.loaded,
-        currentCategoryPodcast: state.posts.currentCategoryPodcast
+        currentCategoryPodcast: state.posts.currentCategoryPodcast,
+        catValue0: state.global.catValue0,
+        catValue2: state.global.catValue2,
+        catValue3: state.global.catValue3,
+        catValue4: state.global.catValue4,
+        catValue5: state.global.catValue5
     };
 };
 

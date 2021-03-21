@@ -5,7 +5,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Aux from '../../hoc/Auxiliary/Auxiliary';
 import classes from './Footer.module.css';
 import Follow from './Follow/Follow';
+import Watch from './Watch/Watch';
+import Listen from './Listen/Listen';
+import Contact from './Contact/Contact';
 import Support from './Support/Support';
+import Subscribe from './Subscribe/Subscribe';
 
 const Footer = (props) => {
 
@@ -28,15 +32,29 @@ const Footer = (props) => {
     return (
         <Aux>
             <footer>
-                <Container className={classes.footer}>
+                <Container className={classes.footer}>                
                     <Row>
-                        <Col xs={12}>
-                            <Follow/>
+                        <Col xs={12} lg={7}>                                                     
+                            <Listen/>                                                      
+                        </Col>
+                        <Col xs={6} lg={true}>
+                            <Watch/>                              
                         </Col>                             
-                        <Col  xs={12}>
+                        <Col xs={6} lg={true}>
+                            <Follow/>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xs={12} lg={7}>                                                        
                             <Support/>
                         </Col>
-                    </Row>                    
+                        <Col xs={6} lg={true}>
+                            <Contact/>
+                        </Col>                             
+                        <Col xs={6} lg={true}>
+                            <Subscribe/>
+                        </Col>
+                    </Row>   
                 </Container>
 
                 <div id="dynamicFooter">
